@@ -16,23 +16,27 @@ def get(package_id, download_location):
     package_found = False
     for line in urllib2.urlopen(PACKAGE_SERVER + 'urls.tsv'):
         if line.strip() and not line.startswith('#'):
-            iid, upstream_url, checksum = line.split('\t')
-            if iid.strip() == package_id.strip():
+            iid, upstream_url, checksum, alternate_url = line.split('\t')
+            if iid == package_id.strip():
                 package_found = True
                 # I worry about this being unreliable. TODO: add target filename column?
                 pkg_name = urlparse(upstream_url).path.split('/')[-1]
                 storage_path = os.path.join(download_location, pkg_name)
-                url = PACKAGE_SERVER + checksum
+                if alternate_url.strip():
+                    url = alternate_url
+                else:
+                    url = PACKAGE_SERVER + checksum
                 urllib.urlretrieve(url, storage_path)
                 download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
-                if checksum.strip() != download_checksum:
-                    print 'Checksum does not match, something seems to be wrong.\n'
-                    print checksum, '\t(expected)'
-                    print download_checksum, '\t(downloaded)'
+                if checksum != download_checksum:
+                    print ('Checksum does not match, something seems to be wrong.\n'
+                           '{expected}\t(expected)\n{actual}\t(downloaded)').format(
+                               expected=checksum,
+                               actual=download_checksum)
                 else:
-                    print 'Download sucessfull for %s.' % (pkg_name)
+                    print 'Download successful for %s.' % (pkg_name)
     if not package_found:
-        print 'Package (%s) could not be found in this servive.' % (package_id)
+        print 'Package (%s) could not be found in this server.' % (package_id)
 
 if __name__ == '__main__':
     get()

@@ -21,7 +21,7 @@ with open(sys.argv[1], 'r') as handle:
             continue
 
         data = line.split('\t')
-        (id, url, sha, alt_url) = data[0:4]
+        (id, platform, arch, url, sha, alt_url) = data[0:6]
         print """<tr><td>{sha}</td><td><a href="{sha}">Link</a></td><td>{id}</td></tr>""".format(sha=sha, url=url, id=id)
         if os.path.exists(sha) or alt_url.strip():
             log.info("URL exists %s", url)

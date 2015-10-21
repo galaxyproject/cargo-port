@@ -18,8 +18,9 @@ def get(package_id, download_location):
         if not line.strip() or line.startswith('#'):
             continue
 
-        iid, upstream_url, checksum, alternate_url = line.split('\t')
-        if iid == package_id.strip():
+        iid, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
+        # TODO: check platform/architecture, failover to all if available?
+        if iid == package_id.strip() and platform == 'src':
             package_found = True
             # I worry about this being unreliable. TODO: add target filename column?
             pkg_name = urlparse(upstream_url).path.split('/')[-1]

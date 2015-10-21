@@ -1,4 +1,5 @@
 # Id	Upstream url	sha256sum	Alternate Url
+example_redirect	http://mbio-serv2.mbioekol.lu.se/ARAGORN/Downloads/aragorn1.2.36.tgz	ab06032589e45aa002f8616333568e9ab11034b3a675f922421e5f1c3e95e7b5	http://mbio-serv2.mbioekol.lu.se/ARAGORN/Downloads/aragorn1.2.36.tgz
 abyss_1_9_0	https://github.com/bcgsc/abyss/releases/download/1.9.0/abyss-1.9.0.tar.gz	1030fcea4bfae942789deefd3a4ffb30653143e02eb6a74c7e4087bb4bf18a14	
 aragorn_1_2_36	http://mbio-serv2.mbioekol.lu.se/ARAGORN/Downloads/aragorn1.2.36.tgz	ab06032589e45aa002f8616333568e9ab11034b3a675f922421e5f1c3e95e7b5	
 art_2014_11_03	http://www.niehs.nih.gov/research/resources/assets/docs/artsrcvanillaicecream031114linuxtgz.tgz	31f172ac5953ec32e4ae7787b2aa25e62d55b086647ac1e3e6298bbe39e89645	

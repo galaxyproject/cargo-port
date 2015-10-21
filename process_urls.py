@@ -20,10 +20,10 @@ with open(sys.argv[1], 'r') as handle:
         if line.startswith('#'):
             continue
 
-        data = line.strip().split('\t')
-        (id, url, sha) = data[0:3]
+        data = line.split('\t')
+        (id, url, sha, alt_url) = data[0:4]
         print """<tr><td>{sha}</td><td><a href="{sha}">Link</a></td><td>{id}</td></tr>""".format(sha=sha, url=url, id=id)
-        if os.path.exists(sha):
+        if os.path.exists(sha) or alt_url.strip():
             log.info("URL exists %s", url)
         else:
             log.info("URL missing, downloading %s to %s", url, sha)

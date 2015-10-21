@@ -9,10 +9,11 @@ log = logging.getLogger()
 
 with open(sys.argv[1], 'r') as handle:
     print """<!DOCTYPE html><html><head><title>Galaxy Package
-    Cache</title></head><body><h1>About</h1><p>This package cache serves to
+    Cache</title></head><body><h1>Galaxy Package Cache</h1><p>This package cache serves to
     preserve packages permanently. Please see our <a
     href="https://github/...">Github Repository</a> for more
-    information.</p><h1>Cached
+    information. You can use the following command to download packages from this repository:
+    <pre>curl --silent https://raw.githubusercontent.com/bgruening/gsl/master/gsl.py | python - --package_id augustus_3_1</pre></p><h1>Cached
     URLs</h1><table><thead><tr><th>sha256sum</th><th>URL</th><th>Comment</th></tr></thead><tbody>"""
     retcode = 0
     for line in handle:
@@ -20,9 +21,8 @@ with open(sys.argv[1], 'r') as handle:
             continue
 
         data = line.strip().split('\t')
-        (sha, url) = data[0:2]
-        comment = data[2] if len(data) > 2 else ""
-        print """<tr><td>{sha}</td><td><a href="{sha}">Link</a></td><td>{comment}</td></tr>""".format(sha=sha, url=url, comment=comment)
+        (id, url, sha) = data[0:3]
+        print """<tr><td>{sha}</td><td><a href="{sha}">Link</a></td><td>{id}</td></tr>""".format(sha=sha, url=url, id=id)
         if os.path.exists(sha):
             log.info("URL exists %s", url)
         else:

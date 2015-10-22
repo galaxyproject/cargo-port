@@ -49,7 +49,7 @@ Encode-Locale-1.03	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Enco
 Exception-Class-1.39	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Exception-Class-1.39.tar.gz	819c756a69a6d1e31f396eca6a508b07b0a522a035b904cd1d432353cc362083	
 Exporter-5.70	src	all	https://cpan.metacpan.org/authors/id/T/TO/TODDR/Exporter-5.70.tar.gz	836a2f397b59f7194f4787235aeb0c7ac0c232bd6fc39be45b77e65a1a19e122	
 Exporter-Tiny-0.042	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Exporter-Tiny-0.042.tar.gz	8f1622c5ebbfbcd519ead81df7917e48cb16cc527b1c46737b0459c3908a023f	
-FCGI-0.67	src	all	http://search.cpan.org/CPAN/authors/id/S/SK/SKIMO/FCGI-0.67.tar.gz-->	08bf8afe1985b17d2375e8dc98ac86cab0daf017ccd5281157abdbb7e19273fd	
+FCGI-0.67	src	all	http://search.cpan.org/CPAN/authors/id/S/SK/SKIMO/FCGI-0.67.tar.gz	08bf8afe1985b17d2375e8dc98ac86cab0daf017ccd5281157abdbb7e19273fd	
 File-Listing-6.04	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz	1e0050fcd6789a2179ec0db282bf1e90fb92be35d1171588bd9c47d52d959cf5	
 File-Next-1.12	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/File-Next-1.12.tar.gz	cc3afd8eaf6294aba93b8152a269cc36a9df707c6dc2c149aaa04dabd869e60a	
 File-Path-2.09	src	all	https://cpan.metacpan.org/authors/id/D/DL/DLAND/File-Path-2.09.tar.gz	d1e0b5b7f93cc4133e2fc206a34e00dd868886b7ed850d799ccee824d25a225e	
@@ -153,7 +153,7 @@ annotate_1.40.0	src	all	https://github.com/bgruening/download_store/raw/master/D
 annotate_1.44.0	src	all	https://depot.galaxyproject.org/package/noarch/annotate_1.44.0.tar.gz	c191767f5876f8e44a82779749237e91f1e99b3dc6b8e93fe7a8c3e43d91b3ca	
 annotate_1.46.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/annotate_1.46.1.tar.gz	a687835e735c74ce1a19127758626986c6bd495cda5be7b17dfd4318ac5640f7	
 aragorn_1_2_36	src	all	http://mbio-serv2.mbioekol.lu.se/ARAGORN/Downloads/aragorn1.2.36.tgz	ab06032589e45aa002f8616333568e9ab11034b3a675f922421e5f1c3e95e7b5	
-argcomplete-0.8.9	src	all	https://pypi.python.org/packages/source/a/argcomplete/argcomplete-0.8.9.tar.gz#md5=02861a1bd74943edc48741c06e125b6a	98f04fa2ca22479459d8ba04583dca653a41c2d7a57648ba7f3b4d7e19ea82be	
+argcomplete-0.8.9	src	all	https://pypi.python.org/packages/source/a/argcomplete/argcomplete-0.8.9.tar.gz	98f04fa2ca22479459d8ba04583dca653a41c2d7a57648ba7f3b4d7e19ea82be	
 argh-0.26.1	src	all	https://pypi.python.org/packages/source/a/argh/argh-0.26.1.tar.gz	06a7442cb9130fb8806fe336000fcf20edf1f2f8ad205e7b62cec118505510db	
 argparse_1.0.1	src	all	https://depot.galaxyproject.org/package/noarch/argparse_1.0.1.tar.gz	061dd0df56fa5b055641201cecdb207e7e6e3a9bacdae56800bf1bc1f86de80e	
 art_2014_11_03	src	all	http://www.niehs.nih.gov/research/resources/assets/docs/artsrcvanillaicecream031114linuxtgz.tgz	31f172ac5953ec32e4ae7787b2aa25e62d55b086647ac1e3e6298bbe39e89645	
@@ -166,7 +166,7 @@ barrnap_0_2	src	all	http://www.vicbioinformatics.com/barrnap-0.2.tar.gz	b664b68c
 barrnap_0_3	src	all	http://www.vicbioinformatics.com/barrnap-0.3.tar.gz	f99a808a3b304748fff0394e4e048a8efb0a52ee309b6a4f7296e3e2cf05ce69	
 barrnap_0_7	src	all	https://github.com/tseemann/barrnap/archive/0.7.tar.gz	ef2173e250f06cca7569c03404c9d4ab6a908ef7643e28901fbe9a732d20c09b	
 base64enc_0.1-2	src	all	https://depot.galaxyproject.org/package/noarch/base64enc_0.1-2.tar.gz	05fed8fde229fce48f5b9cd34f3bf92f2ca63d6038ba7cb9d37a2904e83e4b34	
-bcbio-gff-0.6.2	src	all	https://pypi.python.org/packages/source/b/bcbio-gff/bcbio-gff-0.6.2.tar.gz#md5#d5aae8b125cdad4291f15bec20cfb0ef	c682dc46a90e9fdb124ab5723797a5f71b2e3534542ceff9f6572b64b9814e68	
+bcbio-gff-0.6.2	src	all	https://pypi.python.org/packages/source/b/bcbio-gff/bcbio-gff-0.6.2.tar.gz	c682dc46a90e9fdb124ab5723797a5f71b2e3534542ceff9f6572b64b9814e68	
 bcftools_1_2	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/bcftools/bcftools-1.2-Linux-x86_64.tgz	724ee7c3be16df44fa2b41adbe1358cdcf2830face99e897a4a77bbd6baa57d8	
 bedtools_2_19	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.19.1/bedtools-2.19.1.tar.gz	17253439e8191cb51a8bffba640c580e09ba158d3a0c66649e53d23ee3e50f77	
 bedtools_2_20	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.20.1/bedtools-2.20.1.tar.gz	b5401810f8b12b683575f0119521dda64ff2f0a59faa308357405c4ae4e328d3	
@@ -270,7 +270,7 @@ genefilter_1.50.0	src	all	https://github.com/bgruening/download_store/raw/master
 geneplotter_1.46.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/geneplotter_1.46.0.tar.gz	ba930931a39ffbe5aa243b0886844921afdf7028ab904fd50aa4edcb63e1d257	
 gengetopt_2_22_6	src	all	ftp://ftp.gnu.org/gnu/gengetopt/gengetopt-2.22.6.tar.gz	30b05a88604d71ef2a42a2ef26cd26df242b41f5b011ad03083143a31d9b01f7	
 getopt_1.20.0	src	all	https://depot.galaxyproject.org/package/noarch/getopt_1.20.0.tar.gz	f920baa2a0ef7082155c8b666851af0c77534af8b2ca0cd067e7d56fdf3ec501	
-gffutils-0.8.4rc1	src	all	https://pypi.python.org/packages/source/g/gffutils/gffutils-0.8.4rc1.tar.gz#md5=9d46b3dfac35ad812df2448f20c5e8cc	63d3ec216bb395ff8d9f9033f8aa83f82130e4ef229273e37beb1034580da666	
+gffutils-0.8.4rc1	src	all	https://pypi.python.org/packages/source/g/gffutils/gffutils-0.8.4rc1.tar.gz	63d3ec216bb395ff8d9f9033f8aa83f82130e4ef229273e37beb1034580da666	
 ggplot2_0.9.3.1	src	all	https://github.com/bgruening/download_store/raw/master/gatk2_R_deps/ggplot2_0.9.3.1.tar.gz	b4c97404fd44571f9980712af963949ed204b5d4e639d97df9ba9a17423a6601	
 ggplot2_1.0.0	src	all	https://depot.galaxyproject.org/package/noarch/ggplot2_1.0.0.tar.gz	e6effb8065f030903c760ee238c8890ce85e462fe3c12a5521a983fcd1ed198d	
 ggplot2_1.0.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/ggplot2_1.0.1.tar.gz	40248e6b31307787e44e45d806e7a33095844a9bbe864cc7583dd311b19c241d	
@@ -309,7 +309,7 @@ iterators_1.0.7	src	all	https://depot.galaxyproject.org/package/noarch/iterators
 jbrowse_1_11_6	src	all	http://jbrowse.org/wordpress/wp-content/plugins/download-monitor/download.php?id=99&amp;fmt=.zip	4beb1bf53d1843a96e326b71f814c0d55081a63b7204bf75e9c28b8b0e93cf4b	
 jellyfish_1_1_11	src	all	http://www.cbcb.umd.edu/software/jellyfish/jellyfish-1.1.11.tar.gz	496645d96b08ba35db1f856d857a159798c73cbc1eccb852ef1b253d1678c8e2	
 kbproto_1_0_6	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/kbproto-1.0.6.tar.bz2	037cac0aeb80c4fccf44bf736d791fccb2ff7fd34c558ef8f03ac60b61085479	
-khmer-2.0	src	all	https://pypi.python.org/packages/source/k/khmer/khmer-2.0.tar.gz#md5=1f610abd021254e21b082179a100cd39	6a8c6809b50adaf2d7d7307eefcca173f4b536329562530400fb1c88a12e6071	
+khmer-2.0	src	all	https://pypi.python.org/packages/source/k/khmer/khmer-2.0.tar.gz	6a8c6809b50adaf2d7d7307eefcca173f4b536329562530400fb1c88a12e6071	
 kraken_0_10_5	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/kraken/kraken-0.10.5-beta-Linux-x86_64.tar.gz	091fb2bfa6e834921f4cc404ef828181d51408f4413ed189b65f777db4295115	
 krona_2_5	src	all	https://depot.galaxyproject.org/package/source/KronaTools-2.5.tar	0a0f04949b153df7ec0a06192278c138cd3215ede3dec36063a3a5708f07fa8a	
 labeling_0.2	src	all	https://github.com/bgruening/download_store/raw/master/gatk2_R_deps/labeling_0.2.tar.gz	8aaa7f8b91923088da4e47ae42620fadcff7f2bc566064c63d138e2145e38aa4	
@@ -387,7 +387,7 @@ pcre_8_34	src	all	http://downloads.sourceforge.net/project/pcre/pcre/8.34/pcre-8
 pear_0_9_6	linux	x64	http://sco.h-its.org/exelixis/web/software/pear/files/pear-0.9.6-bin-64.tar.gz	1b3f621745f6ad786b0b20100a730d0d1e1feb018a7a7bcff5557a4925349e49	
 perl-5.20.2	src	all	https://cpan.metacpan.org/authors/id/S/SH/SHAY/perl-5.20.2.tar.gz	b1a43992a717d506095856d370550caa11dba8132a4fdaa186a1ae7e1fbd9b9d	
 perl_5_18	src	all	http://www.cpan.org/src/5.0/perl-5.18.1.tar.gz	655e11a8ffba8853efcdce568a142c232600ed120ac24aaebb4e6efe74e85b2b	
-permute_0.8-4	src	all	https://depot.galaxyproject.org/package/noarch/permute_0.8-4.tar.gz	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	
+permute_0.8-4	src	all	https://depot.galaxyproject.org/package/noarch/permute_0.8-4.tar.gz	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	
 picard_1_126_0	src	all	https://github.com/broadinstitute/picard/releases/download/1.126/picard-tools-1.126.zip	62d51d05d995c5d4330607d0b0a9a98474ebbbaa34813519bb0a1cd339b923dc	
 picard_1_136	src	all	https://github.com/broadinstitute/picard/releases/download/1.136/picard-tools-1.136.zip	1881182b986ddf4aa3151e7e0c2b14c5ff49bc04376578cd6d854d77624fd5d3	
 picard_1_56_0	src	all	http://downloads.sourceforge.net/project/picard/picard-tools/1.56/picard-tools-1.56.zip	236e082e70218166bef4c128b0e2bd3347a7c4b76b63aa7353e098d0609f44aa	
@@ -467,7 +467,7 @@ segemehl_0_2_0	src	all	http://www.bioinf.uni-leipzig.de/Software/segemehl/segeme
 sendmailR_1.2-1	src	all	https://depot.galaxyproject.org/package/noarch/sendmailR_1.2-1.tar.gz	04feb08c6c763d9c58b2db24b1222febe01e28974eac4fe87670be6fb9bff17c	
 sicer_1_1	src	all	http://home.gwu.edu/~wpeng/SICER_V1.1.tgz	1749c1e382629376f1d9db12978b9733fd5d9b9a896a2d127194c42b600c84c9	
 simplejson-3.7.3	src	all	https://pypi.python.org/packages/source/s/simplejson/simplejson-3.7.3.tar.gz	63d7f7b14a20f29f74325a69e6db45925eaf6e3a003eab46c0234fd050a8c93f	
-six-1.9.0	src	all	https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5#476881ef4012262dfc8adc645ee786c4	e24052411fc4fbd1f672635537c3fc2330d9481b18c0317695b46259512c91d5	
+six-1.9.0	src	all	https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz	e24052411fc4fbd1f672635537c3fc2330d9481b18c0317695b46259512c91d5	
 snow_0.3-13	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/snow_0.3-13.tar.gz	ceb6af66f8c988a7606c4ba2d7ccf84c14bca6c376f8d9133089296607c14bc1	
 snpeff_3_4	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v3_4_core.zip	57769d7cc21e2c93891de7250a09e9715383d392e5cffb6e55359148bb8c9b0c	
 snpeff_3_6	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v3_6_core.zip	56acd33a7dd201381022c2ecbac07fe367e8d297acf8c5833df1e2e5facf27c2	
@@ -504,7 +504,7 @@ unzip_6_0	src	all	http://downloads.sourceforge.net/project/infozip/UnZip%206.x%2
 vcflib_8a5602bf07	src	all	http://depot.galaxyproject.org/package/linux/x86_64/vcflib/vcflib-8a5602bf07-Linux-x86_64.tgz	3f1d08c8d75cad7d8debdda63371e3358dd1d45a535e8cf1d5f8223ad75a7935	
 vcftools_0_1_11	src	all	http://downloads.sourceforge.net/project/vcftools/vcftools_0.1.11.tar.gz	81b98c8bc93e366e2f0b14eb78e2736ae1c790176939eef88dbf0546ab952aab	
 vcftools_0_1_12b	src	all	http://downloads.sourceforge.net/project/vcftools/vcftools_0.1.12b.tar.gz	9d2324512e9f1237d5cece74ba63965eb43643e9eada8685afe8217760a20a91	
-vegan_2.3-0	src	all	https://depot.galaxyproject.org/package/noarch/vegan_2.3-0.tar.gz	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	
+vegan_2.3-0	src	all	https://depot.galaxyproject.org/package/noarch/vegan_2.3-0.tar.gz	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	
 velvet_1_2_10	src	all	https://github.com/dzerbino/velvet/archive/d430f1ade319af582dc7bb6886ea904abd6337bd.zip	a23a27339282c6215d7f8735e59d07ad855e3819b217bc75f9fa2aeeefacfb1f	
 vienna_rna_1_8	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.8.5.tar.gz	f4e2d94beaf77165e8321758e4ab0ad1c5d49879cefa12e48b07d09ed2d0ecf9	
 vienna_rna_2_1	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/ViennaRNA/ViennaRNA-2.1.8-Linux-x86_64.tar.gz	60eab3d236c44a1f2796cc7098a651384ca39c61754f4d589d3076ddbf110e23	

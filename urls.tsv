@@ -320,7 +320,7 @@ lastz_1_02_00	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/la
 latticeExtra_0.6-26	src	all	https://depot.galaxyproject.org/package/noarch/latticeExtra_0.6-26.tar.gz	0d1410f279d515a99c102824cc11ad2b024c86ee6af982cb45ea55739e06a09b	
 lattice_0.20-29	src	all	https://depot.galaxyproject.org/package/noarch/lattice_0.20-29.tar.gz	3a69b35d0d56ec3fec35acab6187ebda3d836f6b08ae93246ec8f83c03c7e646	
 lattice_0.20-30	src	all	https://depot.galaxyproject.org/package/noarch/lattice_0.20-30.tar.gz	528ce0a6378334de47e11a1a7efe0f4b3b1c8b44ec8e3f0720bd9e5b122d2881	
-lattice_0.20-31	src	all	https://depot.galaxyproject.org/package/noarch/lattice_0.20-31.tar.gz	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	
+lattice_0.20-31	src	all	https://depot.galaxyproject.org/package/noarch/lattice_0.20-31.tar.gz	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	
 lattice_0.20-33	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/lattice_0.20-33.tar.gz	8f46260a14364d945c7b74587cdb54986f36303588dd14010a33d15dba085931	
 libcurl_7_35	src	all	http://curl.haxx.se/download/curl-7.35.0.tar.gz	917d118fc5d61e9dd1538d6519bd93bbebf2e866882419781c2e0fdb2bc42121	
 libffi_3_0	src	all	ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz	1dddde1400c3bcb7749d398071af88c3e4754058d2d4c0b3696c2f82dc5cf11c	

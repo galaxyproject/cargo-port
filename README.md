@@ -1,5 +1,7 @@
 # Community Package Cache
 
+[![Build Status](https://travis-ci.org/erasche/community-package-cache.svg)](https://travis-ci.org/erasche/community-package-cache)
+
 Because upstream is unreliable and URLs are mutable.
 
 ## Contributing

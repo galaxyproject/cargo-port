@@ -6,7 +6,7 @@ log = logging.getLogger()
 
 
 with open(sys.argv[1], 'r') as handle:
-    print '# ' + '\t'.join(['Id', 'Platform', 'Architecture', 'Upstream url', 'sha256sum', 'Alternate Url']),
+    print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream url', 'sha256sum', 'Alternate Url']),
     retcode = 0
     res = {}
     warnings = []

@@ -13,18 +13,18 @@ with open(sys.argv[1], 'r') as handle:
 
         try:
             data = line.split('\t')
-            if len(data) == 5:
-                log.error("[%s] Line less than 6 columns", lineno)
+            if len(data) == 6:
+                log.error("[%s] Line less than 7 columns. Most columns have 2 tabs of trailing whitespace", lineno)
                 retcode = 1
 
-            if len(data) != 6:
-                log.error("[%s] %s columns != 6 columns", len(data), lineno)
+            if len(data) != 7:
+                log.error("[%s] %s columns != 7 columns", len(data), lineno)
                 retcode = 1
 
-            keys = ['id', 'platform', 'arch', 'url', 'sha', 'alt_url']
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'alt_url']
             ld = {k: v for (k, v) in zip(keys, data)}
 
-            for x in keys[0:5]:
+            for x in keys[0:6]:
                 if ld.get(x, '').strip() == '':
                     log.error("[%s] Empty %s", lineno, x)
                     retcode = 1

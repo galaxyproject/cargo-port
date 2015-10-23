@@ -43,11 +43,12 @@ with open(sys.argv[1], 'r') as handle:
                 log.error("[%s] Bad checksum %s", lineno, ld['sha'])
                 retcode = 1
 
-            if ld['id'] in identifier:
-                log.error("[%s] Identifier is not unique: '%s'", lineno, ld['id'])
+            platform_id = (ld['id'], ld['platform'], ld['arch'])
+            if platform_id in identifier:
+                log.error("[%s] Identifier is not unique: '%s'", lineno, platform_id)
                 retcode = 1
             else:
-                identifier.add( ld['id'] )
+                identifier.add(platform_id)
 
         except:
             log.error("[%s] Line not tabbed properly", lineno)

@@ -43,7 +43,7 @@ with open(sys.argv[1], 'r') as handle:
                 log.error("[%s] Bad checksum %s", lineno, ld['sha'])
                 retcode = 1
 
-            platform_id = (ld['id'], ld['platform'], ld['arch'])
+            platform_id = (ld['id'], ld['version'], ld['platform'], ld['arch'])
             if platform_id in identifiers:
                 log.error("[%s] identifier is not unique: '%s'", lineno, platform_id)
                 retcode = 1

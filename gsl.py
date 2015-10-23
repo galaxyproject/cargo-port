@@ -18,7 +18,7 @@ def get(package_id, download_location):
         if not line.strip() or line.startswith('#'):
             continue
 
-        iid, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
+        iid, version, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
         # TODO: check platform/architecture, failover to all if available?
         if iid == package_id.strip() and platform == 'src':
             package_found = True

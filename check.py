@@ -7,7 +7,7 @@ log = logging.getLogger()
 
 with open(sys.argv[1], 'r') as handle:
     retcode = 0
-    identifier = set()
+    identifiers = set()
 
     for lineno, line in enumerate(handle):
         if line.startswith('#'):
@@ -44,11 +44,11 @@ with open(sys.argv[1], 'r') as handle:
                 retcode = 1
 
             platform_id = (ld['id'], ld['platform'], ld['arch'])
-            if platform_id in identifier:
-                log.error("[%s] Identifier is not unique: '%s'", lineno, platform_id)
+            if platform_id in identifiers:
+                log.error("[%s] identifier is not unique: '%s'", lineno, platform_id)
                 retcode = 1
             else:
-                identifier.add(platform_id)
+                identifiers.add(platform_id)
 
         except:
             log.error("[%s] Line not tabbed properly", lineno)

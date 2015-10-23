@@ -21,10 +21,10 @@ with open(sys.argv[1], 'r') as handle:
                 log.error("[%s] %s columns != 6 columns", len(data), lineno)
                 retcode = 1
 
-            keys = ['id', 'platform', 'arch', 'url', 'sha', 'alt_url']
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'alt_url']
             ld = {k: v for (k, v) in zip(keys, data)}
 
-            for x in keys[0:5]:
+            for x in keys[0:6]:
                 if ld.get(x, '').strip() == '':
                     log.error("[%s] Empty %s", lineno, x)
                     retcode = 1

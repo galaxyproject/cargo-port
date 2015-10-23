@@ -7,6 +7,8 @@ log = logging.getLogger()
 
 with open(sys.argv[1], 'r') as handle:
     retcode = 0
+    identifiers = set()
+
     for lineno, line in enumerate(handle):
         if line.startswith('#'):
             continue
@@ -40,6 +42,13 @@ with open(sys.argv[1], 'r') as handle:
             if len(ld['sha']) != 64:
                 log.error("[%s] Bad checksum %s", lineno, ld['sha'])
                 retcode = 1
+
+            platform_id = (ld['id'], ld['version'], ld['platform'], ld['arch'])
+            if platform_id in identifiers:
+                log.error("[%s] identifier is not unique: '%s'", lineno, platform_id)
+                retcode = 1
+            else:
+                identifiers.add(platform_id)
 
         except:
             log.error("[%s] Line not tabbed properly", lineno)

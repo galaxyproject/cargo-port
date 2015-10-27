@@ -27,7 +27,7 @@ with open(sys.argv[1], 'r') as handle:
             log.info("URL exists %s", url)
         else:
             log.info("URL missing, downloading %s to %s", url, sha)
-            subprocess.check_call(['wget', url, '-O', sha])
+            subprocess.check_call(['wget', '--no-check-certificate', url, '-O', sha])
 
             with open(os.path.join('%s.sha256sum' % sha), 'w') as handle:
                 handle.write("%s  %s" % (sha, sha))

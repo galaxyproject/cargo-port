@@ -147,7 +147,7 @@ with open(sys.argv[1], 'r') as handle:
 
             # Check sha256sum of download
             try:
-                subprocess.check_call(['sha256sum', '-c', '%s.sha256sum' % sha])
+                subprocess.check_output(['sha256sum', '-c', '%s.sha256sum' % sha])
             except subprocess.CalledProcessError, cpe:
                 log.error("File has bad hash! Refusing to serve this to end users.")
                 xunit.error(nice_name, "Sha256sumError", str(cpe))

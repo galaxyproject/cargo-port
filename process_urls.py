@@ -60,8 +60,7 @@ HTML_ROW_TPL ="""
 """
 
 class XUnitReportBuilder(object):
-    XUNIT_TPL = """
-    <?xml version="1.0" encoding="UTF-8"?>
+    XUNIT_TPL = """<?xml version="1.0" encoding="UTF-8"?>
     <testsuite name="cpc" tests="{total}" errors="{errors}" failures="{failures}" skip="{skips}">
         {test_cases}
     </testsuite>

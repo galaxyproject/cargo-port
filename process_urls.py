@@ -24,10 +24,16 @@ HTML_TPL_HEAD = """
         <p>
             This package cache serves to preserve packages permanently. Please
             see our <a href="https://github/erasche/community-package-cache">Github Repository</a>
-            for more information. You can use the following command to download
+            for more information.
+        </p>
+        <h3>How to Use This</h3>
+        <p>
+            You can use the following command to download
             packages from this repository:
 
-            <pre>curl --silent https://raw.githubusercontent.com/bgruening/gsl/master/gsl.py | python - --package_id augustus_3_1</pre>
+            <pre>curl --silent https://raw.githubusercontent.com/erasche/community-package-cache/master/gsl.py | python - --package_id augustus_3_1</pre>
+        </p>
+        <p>
         </p>
         <h1>Cached URLs</h1>
         <table class="table table-striped">
@@ -84,12 +90,12 @@ class XUnitReportBuilder(object):
 
     def error(self, test_name, errorName, errorMessage):
         self.xunit_data['total'] += 1
-        self.__add_test(test_name, error=self.ERROR_TPL.format(
+        self.__add_test(test_name, errors=self.ERROR_TPL.format(
             errorName=errorName, errorMessage=errorMessage))
 
     def failure(self, test_name, errorName, errorMessage):
         self.xunit_data['total'] += 1
-        self.__add_test(test_name, error=self.ERROR_TPL.format(
+        self.__add_test(test_name, errors=self.ERROR_TPL.format(
             errorName=errorName, errorMessage=errorMessage))
 
     def skip(self, test_name):

@@ -131,7 +131,7 @@ with open(sys.argv[1], 'r') as handle:
         )
 
         if os.path.exists(sha) or alt_url.strip():
-            log.info("URL exists %s", url)
+            # log.info("URL exists %s", url)
             xunit.skip(nice_name)
         else:
             log.info("URL missing, downloading %s to %s", url, sha)

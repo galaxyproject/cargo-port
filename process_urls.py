@@ -23,7 +23,7 @@ HTML_TPL_HEAD = """
         <h1>Galaxy Package Cache</h1>
         <p>
             This package cache serves to preserve packages permanently. Please
-            see our <a href="https://github/erasche/community-package-cache">Github Repository</a>
+            see our <a href="https://github.com/erasche/community-package-cache">Github Repository</a>
             for more information.
         </p>
         <h3>How to Use This</h3>

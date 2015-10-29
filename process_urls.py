@@ -99,6 +99,7 @@ class XUnitReportBuilder(object):
 
     def skip(self, test_name):
         self.xunit_data['skips'] += 1
+        self.xunit_data['total'] += 1
         self.__add_test(test_name, errors="")
 
     def __add_test(self, name, errors):
@@ -145,7 +146,7 @@ with open(sys.argv[1], 'r') as handle:
         print HTML_ROW_TPL.format(
             **kwd
         )
-        if os.path.exists(sha) and os.path.getsize(sha) == 0:
+        if os.path.exists(sha) and os.path.getsmize(sha) == 0:
             log.error("Empty download, removing %s %s", url, sha)
 
         if os.path.exists(sha) or len(alt_url.strip()):

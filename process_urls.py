@@ -148,8 +148,11 @@ with open(sys.argv[1], 'r') as handle:
         )
         if os.path.exists(sha) and os.path.getsize(sha) == 0:
             log.error("Empty download, removing %s %s", url, sha)
+            os.unlink(sha)
+            if os.path.exists(sha + '.sha256sum'):
+                os.unlink(sha + '.sha256sum')
 
-        if os.path.exists(sha) or len(alt_url.strip()):
+        if os.path.exists(sha):
             log.info("URL exists %s", url)
             xunit.skip(nice_name)
         else:

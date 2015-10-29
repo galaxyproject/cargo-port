@@ -119,9 +119,16 @@ def verify_file(sha):
         os.unlink(sha)
         return str(cpe)
 
-def download_url(url):
+def download_url(url, size=None):
     try:
-        subprocess.check_call(['wget', '--no-check-certificate', '--quiet', url, '-O', sha])
+        # (ulimit -f 34; curl --max-filesize 34714 $URL -L -o tmp)
+        args = ['curl', '-k', '--max-time', '360']
+
+        if size is not None:
+            args += ['--max-filesize', size]
+
+        args += [url, '-o', sha]
+        subprocess.check_call(args)
     except subprocess.CalledProcessError, cpe:
         log.error("File not found")
         return str(cpe)

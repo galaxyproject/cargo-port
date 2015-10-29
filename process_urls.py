@@ -126,6 +126,14 @@ def download_url(url):
         log.error("File not found")
         return str(cpe)
 
+def cleanup_file(sha):
+    try:
+        os.unlink(sha)
+        if os.path.exists(sha + '.sha256sum'):
+            os.unlink(sha + '.sha256sum')
+    except Exception, e:
+        log.error("Unable to remove files: %s", str(e))
+
 
 with open(sys.argv[1], 'r') as handle:
     print HTML_TPL_HEAD
@@ -148,9 +156,7 @@ with open(sys.argv[1], 'r') as handle:
         )
         if os.path.exists(sha) and os.path.getsize(sha) == 0:
             log.error("Empty download, removing %s %s", url, sha)
-            os.unlink(sha)
-            if os.path.exists(sha + '.sha256sum'):
-                os.unlink(sha + '.sha256sum')
+            cleanup_file(sha)
 
         if os.path.exists(sha):
             log.info("URL exists %s", url)
@@ -161,6 +167,7 @@ with open(sys.argv[1], 'r') as handle:
             err = download_url(url)
             if err is not None:
                 xunit.failure(nice_name, "DownloadError", err)
+                cleanup_file(sha)
                 continue
 
             with open(os.path.join('%s.sha256sum' % sha), 'w') as handle:
@@ -170,6 +177,7 @@ with open(sys.argv[1], 'r') as handle:
             err = verify_file(sha)
             if err is not None:
                 xunit.error(nice_name, "Sha256sumError", err)
+                cleanup_file(sha)
                 continue
 
             xunit.ok(nice_name)

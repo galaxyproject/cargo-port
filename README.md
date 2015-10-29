@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/erasche/community-package-cache.svg)](https://travis-ci.org/erasche/community-package-cache)
 
-This project should adress the problem of unreliable URLs by proxying an ID to
+This project should address the problem of unreliable URLs by proxying an ID to
 a URL. The ID is your stable token you can rely on and the corresponded URL is
 maintained by a community.
 

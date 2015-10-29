@@ -7,6 +7,21 @@ logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
 
+def yield_packages(handle):
+    """Copy this between python scripts"""
+    for lineno, line in enumerate(handle):
+        if line.startswith('#'):
+            continue
+        try:
+            data = line.split('\t')
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
+                    'alt_url', 'comment']
+            ld = {k: v for (k, v) in zip(keys, data)}
+            yield ld, lineno, line
+        except Exception, e:
+            log.error(str(e))
+
+
 HTML_TPL_HEAD = """
 <!DOCTYPE html>
 <html>
@@ -119,7 +134,7 @@ def verify_file(sha):
         os.unlink(sha)
         return str(cpe)
 
-def download_url(url, size=None):
+def download_url(url, sha, size=None):
     try:
         # (ulimit -f 34; curl --max-filesize 34714 $URL -L -o tmp)
         args = ['curl', '-k', '--max-time', '360']
@@ -148,43 +163,40 @@ with open(sys.argv[1], 'r') as handle:
     test_cases = []
     xunit = XUnitReportBuilder()
 
-    for line in handle:
-        if line.startswith('#'):
-            continue
-
+    for ld, lineno, line in yield_packages(handle):
         data = line.split('\t')
-        (id, version, platform, arch, url, sha, alt_url) = data[0:7]
-        nice_name = '{id}@{version}_{platform}-{arch}'.format(**locals())
+        # (id, version, platform, arch, url, sha, alt_url) = data[0:7]
+        nice_name = '{id}@{version}_{platform}-{arch}'.format(**ld)
 
-        kwd = dict(**locals())
-        kwd['url'] = alt_url if len(alt_url.strip()) > 0 else url
+        kwd = dict(**ld)
+        kwd['url'] = ld['alt_url'] if len(ld['alt_url'].strip()) > 0 else ld['url']
         print HTML_ROW_TPL.format(
             **kwd
         )
-        if os.path.exists(sha) and os.path.getsize(sha) == 0:
-            log.error("Empty download, removing %s %s", url, sha)
-            cleanup_file(sha)
+        if os.path.exists(ld['sha']) and os.path.getsize(ld['sha']) == 0:
+            log.error("Empty download, removing %s %s", ld['url'], ld['sha'])
+            cleanup_file(ld['sha'])
 
-        if os.path.exists(sha):
-            log.info("URL exists %s", url)
+        if os.path.exists(ld['sha']):
+            log.info("URL exists %s", ld['url'])
             xunit.skip(nice_name)
         else:
-            log.info("URL missing, downloading %s to %s", url, sha)
+            log.info("URL missing, downloading %s to %s", ld['url'], ld['sha'])
 
-            err = download_url(url)
+            err = download_url(ld['url'], ld['sha'], size=ld['size'])
             if err is not None:
                 xunit.failure(nice_name, "DownloadError", err)
-                cleanup_file(sha)
+                cleanup_file(ld['sha'])
                 continue
 
-            with open(os.path.join('%s.sha256sum' % sha), 'w') as handle:
-                handle.write("%s  %s" % (sha, sha))
+            with open(os.path.join('%s.sha256sum' % ld['sha']), 'w') as handle:
+                handle.write("%s  %s" % (ld['sha'], ld['sha']))
 
             # Check sha256sum of download
-            err = verify_file(sha)
+            err = verify_file(ld['sha'])
             if err is not None:
                 xunit.error(nice_name, "Sha256sumError", err)
-                cleanup_file(sha)
+                cleanup_file(ld['sha'])
                 continue
 
             xunit.ok(nice_name)

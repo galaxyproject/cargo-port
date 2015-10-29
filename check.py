@@ -5,27 +5,29 @@ logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
 
-with open(sys.argv[1], 'r') as handle:
-    retcode = 0
-    identifiers = set()
-
+def yield_packages(handle):
+    """Copy this between python scripts"""
     for lineno, line in enumerate(handle):
         if line.startswith('#'):
             continue
-
         try:
             data = line.split('\t')
-            if len(data) == 6:
-                log.error("[%s] Line less than 7 columns. Most columns have 2 tabs of trailing whitespace", lineno)
-                retcode = 1
-
-            if len(data) != 7:
-                log.error("[%s] %s columns != 7 columns", len(data), lineno)
-                retcode = 1
-
-            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'alt_url']
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
+                    'alt_url', 'comment']
             ld = {k: v for (k, v) in zip(keys, data)}
+            yield ld, lineno, line
+        except Exception, e:
+            log.error(str(e))
 
+
+with open(sys.argv[1], 'r') as handle:
+    retcode = 0
+    identifiers = set()
+    keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
+            'alt_url', 'comment']
+
+    for ld, lineno, line in yield_packages(handle):
+        try:
             for x in keys[0:6]:
                 if ld.get(x, '').strip() == '':
                     log.error("[%s] Empty %s", lineno, x)

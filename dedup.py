@@ -5,22 +5,34 @@ logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
 
+def yield_packages(handle):
+    """Copy this between python scripts"""
+    for lineno, line in enumerate(handle):
+        if line.startswith('#'):
+            continue
+        try:
+            data = line.split('\t')
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
+                    'alt_url', 'comment']
+            ld = {k: v for (k, v) in zip(keys, data)}
+            yield ld, lineno, line
+        except Exception, e:
+            log.error(str(e))
+
+
+
 with open(sys.argv[1], 'r') as handle:
+
     print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream url', 'sha256sum', 'Alternate Url']),
     retcode = 0
     res = {}
     warnings = []
-    for line in handle:
-        if line.startswith('#'):
-            continue
+    for ld, lineno, line in yield_packages(handle):
 
-        data = line.split('\t')
-        id = data[0]
+        if ld['id'] not in res:
+            res[ld['id']] = []
 
-        if id not in res:
-            res[id] = []
-
-        res[id].append(data)
+        res[ld['id']].append(ld)
 
     for x in res:
         print '\t'.join(res[x][0]),

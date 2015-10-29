@@ -130,7 +130,7 @@ with open(sys.argv[1], 'r') as handle:
             **kwd
         )
 
-        if os.path.exists(sha) or alt_url.strip():
+        if os.path.exists(sha) or len(alt_url.strip()):
             # log.info("URL exists %s", url)
             xunit.skip(nice_name)
         else:
@@ -155,6 +155,9 @@ with open(sys.argv[1], 'r') as handle:
                 continue
 
             xunit.ok(nice_name)
+
+        if os.path.exists(sha):
+            log.info("%s\t%s", nice_name, os.path.getsize(sha))
 
     with open('report.xml', 'w') as xunit_handle:
         xunit_handle.write(xunit.serialize())

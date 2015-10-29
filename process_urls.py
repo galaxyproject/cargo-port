@@ -146,7 +146,7 @@ with open(sys.argv[1], 'r') as handle:
         print HTML_ROW_TPL.format(
             **kwd
         )
-        if os.path.exists(sha) and os.path.getsmize(sha) == 0:
+        if os.path.exists(sha) and os.path.getsize(sha) == 0:
             log.error("Empty download, removing %s %s", url, sha)
 
         if os.path.exists(sha) or len(alt_url.strip()):

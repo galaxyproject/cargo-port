@@ -110,6 +110,22 @@ class XUnitReportBuilder(object):
         return self.XUNIT_TPL.format(**self.xunit_data)
 
 
+def verify_file(sha):
+    try:
+        subprocess.check_output(['sha256sum', '-c', '%s.sha256sum' % sha])
+    except subprocess.CalledProcessError, cpe:
+        log.error("File has bad hash! Refusing to serve this to end users.")
+        os.unlink(sha)
+        return str(cpe)
+
+def download_url(url):
+    try:
+        subprocess.check_call(['wget', '--no-check-certificate', '--quiet', url, '-O', sha])
+    except subprocess.CalledProcessError, cpe:
+        log.error("File not found")
+        return str(cpe)
+
+
 with open(sys.argv[1], 'r') as handle:
     print HTML_TPL_HEAD
     retcode = 0
@@ -137,29 +153,22 @@ with open(sys.argv[1], 'r') as handle:
             xunit.skip(nice_name)
         else:
             log.info("URL missing, downloading %s to %s", url, sha)
-            try:
-                subprocess.check_call(['wget', '--no-check-certificate', '--quiet', url, '-O', sha])
-            except subprocess.CalledProcessError, cpe:
-                log.error("File not found")
-                xunit.failure(nice_name, "DownloadError", str(cpe))
+
+            err = download_url(url)
+            if err is not None:
+                xunit.failure(nice_name, "DownloadError", err)
                 continue
 
             with open(os.path.join('%s.sha256sum' % sha), 'w') as handle:
                 handle.write("%s  %s" % (sha, sha))
 
             # Check sha256sum of download
-            try:
-                subprocess.check_output(['sha256sum', '-c', '%s.sha256sum' % sha])
-            except subprocess.CalledProcessError, cpe:
-                log.error("File has bad hash! Refusing to serve this to end users.")
-                xunit.error(nice_name, "Sha256sumError", str(cpe))
-                os.unlink(sha)
+            err = verify_file(sha)
+            if err is not None:
+                xunit.error(nice_name, "Sha256sumError", err)
                 continue
 
             xunit.ok(nice_name)
-
-        if os.path.exists(sha):
-            log.info("%s\t%s", nice_name, os.path.getsize(sha))
 
     with open('report.xml', 'w') as xunit_handle:
         xunit_handle.write(xunit.serialize())

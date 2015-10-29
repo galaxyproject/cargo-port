@@ -150,7 +150,7 @@ with open(sys.argv[1], 'r') as handle:
             log.error("Empty download, removing %s %s", url, sha)
 
         if os.path.exists(sha) or len(alt_url.strip()):
-            # log.info("URL exists %s", url)
+            log.info("URL exists %s", url)
             xunit.skip(nice_name)
         else:
             log.info("URL missing, downloading %s to %s", url, sha)

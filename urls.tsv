@@ -27,7 +27,6 @@ Biostrings	2.34.1	src	all	https://depot.galaxyproject.org/package/noarch/Biostri
 Biostrings	2.36.4	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/Biostrings_2.36.4.tar.gz	4f00970da40fd7d188250d52f5a30f3b5c5b549bdd9b68ec191e5c4e405fe20c	
 CGI.pm	3.43	src	all	http://search.cpan.org/CPAN/authors/id/L/LD/LDS/CGI.pm-3.43.tar.gz	e4607fa45691ccf5daac68c273a10c4bfca31d119a1a6d9e2e2742a97b2cb3b4	
 CGI.pm	3.49	src	all	http://cpan.metacpan.org/authors/id/L/LD/LDS/CGI.pm-3.49.tar.gz	4a136457d0387f96b8f084c5e4c2d92e87df0cfde9fe57d504569f9a39837fca	
-Cairo	1.5-8	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/Cairo_1.5-8.tar.gz	bcc95d95efdce39afea0a3d83d00b83006457977888d1eaee76b4659d2f258dd	
 Capture-Tiny	0.30	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Capture-Tiny-0.30.tar.gz	a3b4e55278757e77d50df0b1a79f42e6e8354b7d41db806da39bf161bee63aea	
 Carp	1.36	src	all	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Carp-1.36.tar.gz	dcc789935126461c80df0653f98c1d8d0b936dcc3d04174287cb02767eca123c	
 Class-Data-Inheritable	0.08	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Class-Data-Inheritable-0.08.tar.gz	9967feceea15227e442ec818723163eb6d73b8947e31f16ab806f6e2391af14a	
@@ -167,7 +166,7 @@ barrnap	0_3	src	all	http://www.vicbioinformatics.com/barrnap-0.3.tar.gz	f99a808a
 barrnap	0_7	src	all	https://github.com/tseemann/barrnap/archive/0.7.tar.gz	ef2173e250f06cca7569c03404c9d4ab6a908ef7643e28901fbe9a732d20c09b	
 base64enc	0.1-2	src	all	https://depot.galaxyproject.org/package/noarch/base64enc_0.1-2.tar.gz	05fed8fde229fce48f5b9cd34f3bf92f2ca63d6038ba7cb9d37a2904e83e4b34	
 bcbio-gff	0.6.2	src	all	https://pypi.python.org/packages/source/b/bcbio-gff/bcbio-gff-0.6.2.tar.gz	c682dc46a90e9fdb124ab5723797a5f71b2e3534542ceff9f6572b64b9814e68	
-bcftools	1_2	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/bcftools/bcftools-1.2-Linux-x86_64.tgz	724ee7c3be16df44fa2b41adbe1358cdcf2830face99e897a4a77bbd6baa57d8	
+bcftools	1_2	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/bcftools/bcftools-1.2-Linux-x86_64.tgz	82d36151aebe1785c283ab0a98bf7e1714e11ee82ff5efc032fc18a33136975b	
 bedtools	2_19	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.19.1/bedtools-2.19.1.tar.gz	17253439e8191cb51a8bffba640c580e09ba158d3a0c66649e53d23ee3e50f77	
 bedtools	2_20	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.20.1/bedtools-2.20.1.tar.gz	b5401810f8b12b683575f0119521dda64ff2f0a59faa308357405c4ae4e328d3	
 bedtools	2_22	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.22.1/bedtools-2.22.1.tar.gz	43ab5da6b41350bbef78ea2ee5be0609fb02d76b920a3301b687a39af7017233	
@@ -196,8 +195,9 @@ bx-python	0.7.2	src	all	https://pypi.python.org/packages/source/b/bx-python/bx-p
 bx_python	0_7	src	all	https://pypi.python.org/packages/source/b/bx-python/bx-python-0.7.1.tar.gz	9ff7b5354de03c463da6d245d3256a41966e718a16f4021b7f8d4861305c9ea1	
 bzlib	1_0	src	all	http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz	a2848f34fcd5d6cf47def00461fcb528a0484d8edef8208d6d2e2909dc61d9cd	
 caTools	1.17.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/caTools_1.17.1.tar.gz	d32a73febf00930355cc00f3e4e71357412e0f163faae6a4bf7f552cacfe9af4	
-cairo	1_12_14	src	all	http://depot.galaxyproject.org/package/source/cairo/cairo-1.12.14.tar.bz2	7d7060c2180b95e0d0e0a840499df48de3571e37ca6bef51325377fe7ca28ae6	
+cairo	1_12_14	src	all	http://depot.galaxyproject.org/package/source/cairo/cairo-1.12.14.tar.bz2	700df574b953dac1b974bfde869a8dc1af011b7cb73080d7ca7b7dec3e68ce69	
 cairo	1_14_2	src	all	https://github.com/bgruening/download_store/raw/master/cairo/cairo-1.14.2.tar.bz2	0772ce92cabbcc18d4c699430d7eb89e56d5c0659de64e92cb88ec1496e8e18e	
+cairo	1.5-8	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/Cairo_1.5-8.tar.gz	bcc95d95efdce39afea0a3d83d00b83006457977888d1eaee76b4659d2f258dd	
 ccat	3_0	src	all	http://cmb.gis.a-star.edu.sg/ChIPSeq/tools/CCAT3.0.tar.gz	d8944465c8327bec22eb41059ba73f780fcdcedf4470507bfdae5a54c59a9b07	
 cd_hit_auxtools	0_5_2012_03_07_fix_dan	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/cd-hit-auxtools/cd-hit-auxtools-0.5-2012-03-07-fix-dan-gh-0.0.1-Darwin-x86_64.tgz	121ef7ff503b6745b4b137344ba2179d5cd68d0373ce90a889fea571a4fe679c	
 checkmate	1.5.1	src	all	https://depot.galaxyproject.org/package/noarch/checkmate_1.5.1.tar.gz	0f837be7b92ccc7e2ed6930f342cfaab0213d2df2b82052a4788c8a399bd9c04	
@@ -282,8 +282,8 @@ gnu_coreutils	8_22	src	all	https://github.com/bgruening/download_store/raw/maste
 gnu_grep	2_14	src	all	https://github.com/bgruening/download_store/raw/master/GNU/grep-2.14.tar.bz2	abff7acabf664fc7c25a29c9ae8b3b5b44a84e95a553810f275019e568f7c6e3	
 gnu_parallel	20131122	src	all	ftp://ftp.gnu.org/gnu/parallel/parallel-20131122.tar.bz2	ef5e0af618cd71c2a2d96ab3aa800ca44e6fab830092176db4b3468b747e29d0	
 gnu_sed	4_2_2_sandbox	src	all	http://ftp.gnu.org/gnu/sed/sed-4.2.2.tar.gz	fea0a94d4b605894f3e2d5572e3f96e4413bcad3a085aae7367c2cf07908b2ff	
-gnuplot	4_6	src	all	http://downloads.sourceforge.net/project/gnuplot/gnuplot/4.6.6/gnuplot-4.6.6.tar.gz	ab339be7847d30a8acfd616f27b5021bfde0999b7bf2d68400fbe62c53106e21	
-gnuplot_py	1_8	src	all	http://downloads.sourceforge.net/project/gnuplot-py/Gnuplot-py/1.8/gnuplot-py-1.8.tar.gz	1f19596fd09045f22225afbfec11fa91b9ad1d95b9f48406362f517d4f130274	
+gnuplot	4_6	src	all	http://downloads.sourceforge.net/project/gnuplot/gnuplot/4.6.6/gnuplot-4.6.6.tar.gz	1f19596fd09045f22225afbfec11fa91b9ad1d95b9f48406362f517d4f130274	
+gnuplot_py	1_8	src	all	http://downloads.sourceforge.net/project/gnuplot-py/Gnuplot-py/1.8/gnuplot-py-1.8.tar.gz	ab339be7847d30a8acfd616f27b5021bfde0999b7bf2d68400fbe62c53106e21	
 gplots	2.14.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/gplots_2.14.2.tar.gz	8cb2ef4309f44eb049f0a8761d3b2aaf636e0ec2323942ec0c27fd8b4912abf9	
 graphicsmagick	1_3	src	all	http://sourceforge.net/projects/graphicsmagick/files/graphicsmagick/1.3.18/GraphicsMagick-1.3.18.tar.gz	c7335428fd932cfb25383dd581ffc8d65131ce623864374847d5e4f4654c0b68	
 graphicsmagick	1_3_20	src	all	http://sourceforge.net/projects/graphicsmagick/files/graphicsmagick/1.3.20/GraphicsMagick-1.3.20.tar.gz	0f7463318f5d9a4b429655dd43642a7a93dae561360637093182fbf5ac4fdc88	
@@ -293,7 +293,7 @@ gtable	0.1.2	src	all	https://depot.galaxyproject.org/package/noarch/gtable_0.1.2
 gtools	3.4.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/gtools_3.4.1.tar.gz	fa2b8351223369a13f4e922f13e8c836459a9522c775a455afd5e2b18941bb34	
 hdf5	1_8_12	src	all	https://github.com/bgruening/download_store/raw/master/hdf5/hdf5-1.8.12.tar.gz	b5cccea850096962b5fd9e96f22c4f47d2379224bb41130d9bc038bb6c37dfcb	
 hisat	0_1_6	darwin	x64	https://depot.galaxyproject.org/package/darwin/x86_64/hisat/hisat-0.1.6-beta-OSX_x86_64.tgz	80cb2ab3d58889abf4c25a7fe1e92e39273259fb706f71b9f3ec2bf181495248	
-hisat	2_0	darwin	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-OSX_x86_64.zip	12ce17a34d3c3e5f546e6204a49aeb65c860c42fce7ac2a77c6c0b690d934fbf	
+hisat	2_0	darwin	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-OSX_x86_64.zip	a71f5b5af05c942b8311805a98d2aeaec4b882b5876ea67a810fe46d544741b4	
 hmmer	3_1b1	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b1/hmmer-3.1b1.tar.gz	246f5e32545d3a5706d065d8413fc8fc5445e779a97019e98ba319e5ef9dc1d8	
 hmmer	3_1b2	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b2/hmmer-3.1b2.tar.gz	dd16edf4385c1df072c9e2f58c16ee1872d855a018a2ee6894205277017b5536	
 homer	4_2	src	all	http://biowhat.ucsd.edu/homer/homer.v4.2.zip	e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	
@@ -301,8 +301,8 @@ htseq	0_6	src	all	https://pypi.python.org/packages/source/H/HTSeq/HTSeq-0.6.1.ta
 hwriter	1.3.2	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/hwriter_1.3.2.tar.gz	6b3531d2e7a239be9d6e3a1aa3256b2745eb68aa0bdffd2076d36552d0d7322b	
 igraph	0.7.1	src	all	https://github.com/bgruening/download_store/raw/master/monocle/igraph_0.7.1.tar.gz	07cfd3273c3b091d9cdc189bd8fe4153888771baeaa3b65a0c0671293f186bdb	
 imaging	1_1_7	src	all	http://effbot.org/downloads/Imaging-1.1.7.tar.gz	895bc7c2498c8e1f9b99938f1a40dc86b3f149741f105cf7c7bd2e0725405211	
-infernal	1_1	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1.tar.gz	8891822c7935bdfb4fc9a28e6a563584a0564c17745a54984ef3242af704b3f8	
-infernal	1_1rc4	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1rc4.tar.gz	d1f2f70e952e8a8a9ba3bae8a7b45666049dddca3bfc5e1fb9e8e845e0ed995b	
+infernal	1_1	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1.tar.gz	d1f2f70e952e8a8a9ba3bae8a7b45666049dddca3bfc5e1fb9e8e845e0ed995b	
+infernal	1_1rc4	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1rc4.tar.gz	8891822c7935bdfb4fc9a28e6a563584a0564c17745a54984ef3242af704b3f8	
 inputproto	2_2	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/inputproto-2.2.tar.bz2	de7516ab25c299740da46c0f1af02f1831c5aa93b7283f512c0f35edaac2bcb0	
 irlba	1.0.3	src	all	https://github.com/bgruening/download_store/raw/master/monocle/irlba_1.0.3.tar.gz	deaf82b5670f91bc65a0ff31a2f03c540e210539251c5e0e10b2a707d3ac5ec0	
 iterators	1.0.7	src	all	https://depot.galaxyproject.org/package/noarch/iterators_1.0.7.tar.gz	1bf74e5a5603b2b2d3deecb801ca1796e2b2c3f08c488c497725c5cb205798ff	
@@ -378,7 +378,7 @@ octave	3_8	src	all	ftp://ftp.gnu.org/gnu/octave/octave-3.8.1.tar.gz	ead2c481eac9
 openbabel	2_3	src	all	http://downloads.sourceforge.net/project/openbabel/openbabel/2.3.2/openbabel-2.3.2.tar.gz	4eaca26679aa6cc85ebf96af19191472ac63ca442c36b0427b369c3a25705188	
 openms	2_0	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/openms/openms-2.0-Linux-x86_64.tar.gz	924c25ec4e6704b831ef6173126b629a831fd44c7bbc456acf3dfc7702939202	
 openms	2_0_dev	src	all	https://github.com/OpenMS/OpenMS/archive/develop.tar.gz	6c7bdabe66ea68ba109c8eb05192611084f73b00b4d44234f7458c8df775f547	
-openms	2_0_master	src	all	https://github.com/OpenMS/contrib/archive/master.tar.gz	fd911aee59295033464598f32839b401372a5918a9034629667723fc0e889d55	
+openms	2_0_master	src	all	https://github.com/OpenMS/contrib/archive/master.tar.gz	6c7bdabe66ea68ba109c8eb05192611084f73b00b4d44234f7458c8df775f547	
 openssl	1_0	src	all	https://www.openssl.org/source/openssl-1.0.2a.tar.gz	6707b149d485b849d3c313dc5a73d3441fb0d18b4111f2289b488d0b0667269c	
 pandas	0_14	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.14.1.tar.gz	8d36f69e63f4c36999d142d60e476a6359c77069ad0ed1e4aa16a7005884dd21	
 parent	0.232	src	all	https://cpan.metacpan.org/authors/id/C/CO/CORION/parent-0.232.tar.gz	1f8f5c928fd6699a25ead67c23e1159482e7088ce684fbc084b3bcef115e1fc3	
@@ -412,11 +412,11 @@ python	3_4	src	all	https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tgz	8b74
 qt	4_8	src	all	http://download.qt-project.org/official_releases/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz	8b14dd91b52862e09b8e6a963507b74bc2580787d171feda197badfa7034032c	
 qt	5_1	src	all	http://download.qt-project.org/official_releases/qt/5.1/5.1.1/single/qt-everywhere-opensource-src-5.1.1.tar.gz	4c05742db52325e96b1d610a2388140dcc1e3d03d93faea2b2d3791015b186f6	
 r	2_11_0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-2.11.0-Darwin-x86_64.tgz	69b00985c84e6633cc2e518914436ce55666cc10d1edf15ee442758d9f8d5219	
-r	2_15_0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-2.15.0-Darwin-x86_64.tgz	83b5b3177302015b0895f781ee319bf1b1551875d1dc11f12c86521c50c24b75	
+r	2_15_0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-2.15.0-Darwin-x86_64.tgz	d26e4d62b9b01cdd058ae94413dc26a738f4074b38022ca1312a5f1a6837a279	
 r	3_0_1	src	all	http://cran.ms.unimelb.edu.au/src/base/R-3/R-3.0.1.tar.gz	af90488af3141103b211dc81b6f17d1f0faf4f17684c579a32dfeb25d0d87134	
 r	3_0_2	src	all	http://cran.ms.unimelb.edu.au/src/base/R-3/R-3.0.2.tar.gz	956e05ad60447955049285420b5a48e0526aa4db676fd9eadb4bcfb7ccdc024b	
-r	3_0_3	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-3.0.3-Darwin-x86_64.tgz	d26e4d62b9b01cdd058ae94413dc26a738f4074b38022ca1312a5f1a6837a279	
-r	3_1_0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-3.1.0-Darwin-x86_64.tgz	35d29d8e0ab4c860b1c4b436e7b690811ea9a3b879093bdb3555ac3e2b1bbcde	
+r	3_0_3	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-3.0.3-Darwin-x86_64.tgz	35d29d8e0ab4c860b1c4b436e7b690811ea9a3b879093bdb3555ac3e2b1bbcde	
+r	3_1_0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-3.1.0-Darwin-x86_64.tgz	121ef7ff503b6745b4b137344ba2179d5cd68d0373ce90a889fea571a4fe679c	
 r	3_1_1	src	all	http://cran.rstudio.com/src/base/R-3/R-3.1.1.tar.gz	ce5c4d5e34414ce8f1ec2d5642861435fa1ddc4cd89bd336172bbe25a62c7a19	
 r	3_1_2	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/R/R-3.1.2-Linux-x84_64.tgz	586dde39d6821bcc5079004450f5d19f836a26d4554083c7add3933f071451e0	
 r	3_2_0	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/R/R-3.2.0-Linux-x84_64.tgz	69b00985c84e6633cc2e518914436ce55666cc10d1edf15ee442758d9f8d5219	
@@ -436,7 +436,7 @@ rmap	2_05	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/rmap/r
 rnacode	0_3	src	all	http://github.com/downloads/wash/rnacode/RNAcode-0.3.tar.gz	86c600a07ecd04d243fd6eb3c6cc5b20fd6159f34f69423e7391c0ce8f311048	
 rnashapes	2_1_6	darwin	all	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6-osx.tar.gz	a55854b1989d6646aa77fd88b50c1499e53fe739c640601f034830b56bad080e	
 rnastar	2_4_0d	src	all	https://github.com/alexdobin/STAR/archive/STAR_2.4.0d.tar.gz	b6b368092e91cca135145b631832048d7f508ee8bf8cbd52ffdcb04a413b593f	
-rnastructure	5_7	src	all	http://depot.galaxyproject.org/package/source/RNAstructure-5.7.tgz	700df574b953dac1b974bfde869a8dc1af011b7cb73080d7ca7b7dec3e68ce69	
+rnastructure	5_7	src	all	http://depot.galaxyproject.org/package/source/RNAstructure-5.7.tgz	7d7060c2180b95e0d0e0a840499df48de3571e37ca6bef51325377fe7ca28ae6	
 rpart	4.1-10	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/rpart_4.1-10.tar.gz	c5ddaed288d38118876a94c7aa5000dce0070b8d736dba12de64a9cb04dc2d85	
 rpy2	2_3_6	src	all	https://pypi.python.org/packages/source/r/rpy2/rpy2-2.3.6.tar.gz	a834e54ed6b98e71ef674f96628ab68e17f614db5b6246a9560048493a69f81c	
 rpy	1_0_3	src	all	http://depot.galaxyproject.org/package/source/rpy-1.0.3.tar.gz	53a84ad4d3ef4d7e950d11f61021e8de199bb94381340dd0466d6c1fa33cbcae	

@@ -14,7 +14,7 @@ PACKAGE_SERVER = 'https://depot.galaxyproject.org/software/'
 
 def yield_packages(handle):
     """Copy this between python scripts"""
-    for line in enumerate(handle):
+    for line in handle:
         if line.startswith('#'):
             continue
         try:

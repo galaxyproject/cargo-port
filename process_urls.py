@@ -9,7 +9,7 @@ log = logging.getLogger()
 
 def yield_packages(handle):
     """Copy this between python scripts"""
-    for line in enumerate(handle):
+    for line in handle:
         if line.startswith('#'):
             continue
         try:
@@ -136,7 +136,7 @@ def verify_file(sha):
 def download_url(url, sha, size=None):
     try:
         # (ulimit -f 34; curl --max-filesize 34714 $URL -L -o tmp)
-        args = ['curl', '-k', '--max-time', '360']
+        args = ['curl', '-L', '-k', '--max-time', '360']
 
         if size is not None:
             args += ['--max-filesize', size]

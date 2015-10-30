@@ -3,23 +3,10 @@ import os
 import sys
 import subprocess
 import logging
+import gsl.utils
+from gsl.utils import yield_packages
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
-
-
-def yield_packages(handle):
-    """Copy this between python scripts"""
-    for line in handle:
-        if line.startswith('#'):
-            continue
-        try:
-            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
-                    'alt_url', 'comment']
-            ld = {k: v for (k, v) in zip(keys, line.split('\t'))}
-            yield ld
-        except Exception, e:
-            log.error(str(e))
-
 
 HTML_TPL_HEAD = """
 <!DOCTYPE html>
@@ -155,52 +142,54 @@ def cleanup_file(sha):
     except Exception, e:
         log.error("Unable to remove files: %s", str(e))
 
+@click.command()
+@click.argument('galaxy_package_file')
+def main(galaxy_package_file):
+    with open(galaxy_package_file, 'r') as handle:
+        print HTML_TPL_HEAD
+        retcode = 0
+        test_cases = []
+        xunit = XUnitReportBuilder()
 
-with open(sys.argv[1], 'r') as handle:
-    print HTML_TPL_HEAD
-    retcode = 0
-    test_cases = []
-    xunit = XUnitReportBuilder()
+        for ld in yield_packages(handle):
+            # (id, version, platform, arch, url, sha, alt_url) = data[0:7]
+            nice_name = '{id}@{version}_{platform}-{arch}'.format(**ld)
 
-    for ld in yield_packages(handle):
-        # (id, version, platform, arch, url, sha, alt_url) = data[0:7]
-        nice_name = '{id}@{version}_{platform}-{arch}'.format(**ld)
-
-        kwd = dict(**ld)
-        kwd['url'] = ld['alt_url'] if len(ld['alt_url'].strip()) > 0 else ld['url']
-        print HTML_ROW_TPL.format(
-            **kwd
-        )
-        if os.path.exists(ld['sha']) and os.path.getsize(ld['sha']) == 0:
-            log.error("Empty download, removing %s %s", ld['url'], ld['sha'])
-            cleanup_file(ld['sha'])
-
-        if os.path.exists(ld['sha']):
-            log.info("URL exists %s", ld['url'])
-            xunit.skip(nice_name)
-        else:
-            log.info("URL missing, downloading %s to %s", ld['url'], ld['sha'])
-
-            err = download_url(ld['url'], ld['sha'], size=ld['size'])
-            if err is not None:
-                xunit.failure(nice_name, "DownloadError", err)
+            kwd = dict(**ld)
+            kwd['url'] = ld['alt_url'] if len(ld['alt_url'].strip()) > 0 else ld['url']
+            print HTML_ROW_TPL.format(
+                **kwd
+            )
+            if os.path.exists(ld['sha']) and os.path.getsize(ld['sha']) == 0:
+                log.error("Empty download, removing %s %s", ld['url'], ld['sha'])
                 cleanup_file(ld['sha'])
-                continue
 
-            with open(os.path.join('%s.sha256sum' % ld['sha']), 'w') as handle:
-                handle.write("%s  %s" % (ld['sha'], ld['sha']))
+            if os.path.exists(ld['sha']):
+                log.info("URL exists %s", ld['url'])
+                xunit.skip(nice_name)
+            else:
+                log.info("URL missing, downloading %s to %s", ld['url'], ld['sha'])
 
-            # Check sha256sum of download
-            err = verify_file(ld['sha'])
-            if err is not None:
-                xunit.error(nice_name, "Sha256sumError", err)
-                cleanup_file(ld['sha'])
-                continue
+                err = download_url(ld['url'], ld['sha'], size=ld['size'])
+                if err is not None:
+                    xunit.failure(nice_name, "DownloadError", err)
+                    cleanup_file(ld['sha'])
+                    continue
 
-            xunit.ok(nice_name)
+                with open(os.path.join('%s.sha256sum' % ld['sha']), 'w') as handle:
+                    handle.write("%s  %s" % (ld['sha'], ld['sha']))
 
-    with open('report.xml', 'w') as xunit_handle:
-        xunit_handle.write(xunit.serialize())
+                # Check sha256sum of download
+                err = verify_file(ld['sha'])
+                if err is not None:
+                    xunit.error(nice_name, "Sha256sumError", err)
+                    cleanup_file(ld['sha'])
+                    continue
 
-    print "</tbody></table></div></body></html>"
-    sys.exit(retcode)
+                xunit.ok(nice_name)
+
+        with open('report.xml', 'w') as xunit_handle:
+            xunit_handle.write(xunit.serialize())
+
+        print "</tbody></table></div></body></html>"
+        sys.exit(retcode)

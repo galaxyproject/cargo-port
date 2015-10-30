@@ -23,6 +23,7 @@ BiocGenerics	0.8.0	src	all	https://github.com/bgruening/download_store/raw/maste
 BiocParallel	1.0.0	src	all	http://bioarchive.galaxyproject.org/BiocParallel_1.0.0.tar.gz	92cd14cda4a094e8f9421a3bbe7ad6709a462106bc04a8fd59f2574c2651533d	42617		
 BiocParallel	1.0.3	src	all	https://depot.galaxyproject.org/package/noarch/BiocParallel_1.0.3.tar.gz	339c7c8285637afafa0f3ca3d429ef002df5da1653490984cd64662f7cabf71f	385141		
 BiocParallel	1.2.20	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/BiocParallel_1.2.20.tar.gz	b537ff2f7a46982b5897805c40cba63846acfdf855530c3c0c36d57276fb456a	640046		
+BiocParallel	1.5.0	src	all	https://bioarchive.galaxyproject.org/BiocParallel_1.5.0.tar.gz	7b39359cd3ce94bb33403cbbcbdc0c7cab23f9e1b2109c6aef2cfde9cdc89b78	63612
 Biostrings	2.34.1	src	all	https://depot.galaxyproject.org/package/noarch/Biostrings_2.34.1.tar.gz	b00af8f8eb1dbafa4e0ab25b571fa0a9484376c761b4de949eb6bbb7d41bd0cd	12729319		
 Biostrings	2.36.4	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/Biostrings_2.36.4.tar.gz	4f00970da40fd7d188250d52f5a30f3b5c5b549bdd9b68ec191e5c4e405fe20c	12732350		
 CGI.pm	3.43	src	all	http://search.cpan.org/CPAN/authors/id/L/LD/LDS/CGI.pm-3.43.tar.gz	e4607fa45691ccf5daac68c273a10c4bfca31d119a1a6d9e2e2742a97b2cb3b4	240359		
@@ -79,6 +80,7 @@ Heap-Simple	0.13	src	all	https://cpan.metacpan.org/authors/id/T/TH/THOSPEL/Heap-
 Heap-Simple-XS	0.1	src	all	https://github.com/bgruening/download_store/raw/master/HeapSimpleXS/Heap-Simple-XS-0.10.tar.gz	ddd7f1f845db60855271bf8276a67b110d8960b16c4482c5c449b0a6b0636ac3	331361		
 Hmisc	3.14-6	src	all	https://depot.galaxyproject.org/package/noarch/Hmisc_3.14-6.tar.gz	fe26b57a356832dc098be6edca0ffd1ad5766dee9b6a0989c113d4fee3a9255b	611348		
 Hmisc	3.16-0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Hmisc_3.16-0.tar.gz	4edc3903da63e25d747f34c33abf3e4e9a1f250580bbbab39fb192469738a30d	629536		
+Hmisc	3.17-0	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/Hmisc_3.17-0.tar.gz	9ce6156bc91df9209b8a44633e857f9abe0da053fe225ff1e6c1cb7b03f27558	635966
 IO-HTML	1.001	src	all	http://search.cpan.org/CPAN/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz	ea78d2d743794adc028bc9589538eb867174b4e165d7d8b5f63486e6b828e7e0	19375		
 IO-String	1.08	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/IO-String-1.08.tar.gz	2a3f4ad8442d9070780e58ef43722d19d1ee21a803bf7c8206877a10482de5a0	7480		
 IRanges	1.18.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/IRanges_1.18.2.tar.gz	897b65330f4932a23ca96c722e67fff1106d44578e1f80967f4570b93f1e27a6	694849		
@@ -110,11 +112,13 @@ RcppArmadillo	0.3.900.0	src	all	https://github.com/bgruening/download_store/raw/
 RcppArmadillo	0.4.000.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_2_10/RcppArmadillo_0.4.000.2.tar.gz	0da41345c2fe05b9737a653313dcd9fcb235cdcaff541d63156575ac2ce4cd8e	892941		
 RcppArmadillo	0.5.400.2.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/RcppArmadillo_0.5.400.2.0.tar.gz	243372ae74e610b921210e54a3aecc2d4bf8b400a3ca766116cdc7d8943847b7	971013		
 RcppArmadillo	0.5.500.2.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/RcppArmadillo_0.5.500.2.0.tar.gz	f30155fdd4745b4c9a548a25a30b6ae5fe3e3f6cf4136ac485a75c90555934a0	974638		
+RcppArmadillo	0.6.100.0.0	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/RcppArmadillo_0.6.100.0.0.tar.gz	5bd5cd0790fb2ba54b4b4b48c61cba3e61ab6cc77cb0d61281c3a3af059420db	981341
 Rcpp	0.10.4	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/Rcpp_0.10.4.tar.gz	d0d043e4b5cd78aaf8095d14ca4bd54238144794df6c6180b9e20cb855343e91	2397813		
 Rcpp	0.11.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_2_10/Rcpp_0.11.0.tar.gz	5b093de76f177b5ebe03ce27e00e3d0a15e7a8e34e2c72b5e423588aebd0d91e	1998844		
 Rcpp	0.11.3	src	all	https://depot.galaxyproject.org/package/noarch/Rcpp_0.11.3.tar.gz	0abeaeb109f4964f098e22a569a6f72cffb5aeed9d8e67db2ba6628c6a4a124c	2169583		
 Rcpp	0.11.4	src	all	https://github.com/bgruening/download_store/raw/master/monocle/Rcpp_0.11.4.tar.gz	c6c1d56f2e252f6014160d5657f6ffeed76c2919951dc232036dedc54c06252b	2327033		
 Rcpp	0.12.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Rcpp_0.12.0.tar.gz	68782050f5252c4246f1b5b335105eccf4c804d57a0cd41eb63a300f7e0241a0	2297548		
+Rcpp	0.12.1	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/Rcpp_0.12.1.tar.gz	559c0d61c4e58f605c2871320f8fe9a4fa19d4fd85b67c235d7a452b6720214b	2366386
 Rsamtools	1.18.2	src	all	https://depot.galaxyproject.org/package/noarch/Rsamtools_1.18.2.tar.gz	c845acbc05ff87a12aec1162fe687dda1a043d3e2efa5c08902c006b1ef5f4a6	2969724		
 Rsamtools	1.20.4	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/Rsamtools_1.20.4.tar.gz	f40b05115978c23bd45923fc35b61454b7d01b1309d0380d271014c9c27f68c5	2977256		
 S4Vectors	0.4.0	src	all	http://bioarchive.galaxyproject.org/S4Vectors_0.4.0.tar.gz	4944c5241897a0b1271da90d4a2d56fa13c24da50aa4508500f5cd06f57954d5	119983		
@@ -395,6 +399,7 @@ pil	1_1_7	src	all	https://github.com/bgruening/download_store/raw/master/pil/Ima
 piranha	1_2_1	src	all	http://smithlabresearch.org/downloads/piranha-1.2.1.tar.gz	1b805946a71f67f0ab31facee504ba4e90c92c2d69622c7392026671526f12d2	0		Disappeared completely
 pixman	0_32_4	src	all	http://cairographics.org/releases/pixman-0.32.4.tar.gz	80c7ed420e8a3ae749800241e6347c3d55681296cab71384be7969cd9e657e84	817407		
 pixman	0_32_6	src	all	http://cairographics.org/releases/pixman-0.32.6.tar.gz	3dfed13b8060eadabf0a4945c7045b7793cc7e3e910e748a8bb0f0dc3e794904	816702		
+plotrix	3.6	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/plotrix_3.6.tar.gz	4544c2e95666ccf3896d764b07185b462830bc26cd277c1e051b10f8159ac67e	225539
 plyr	1.8	src	all	https://github.com/bgruening/download_store/raw/master/gatk2_R_deps/plyr_1.8.tar.gz	0bd6861af241e6c5ce777ef3f1b0eb72b31cc026669a68f6250b8ecfadf71a66	384462		
 plyr	1.8.1	src	all	https://depot.galaxyproject.org/package/noarch/plyr_1.8.1.tar.gz	95393c61e7c066450ab76eb667e28e763c04a0afb9d6e4d3b397ba93efb04a38	393233		
 plyr	1.8.3	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/plyr_1.8.3.tar.gz	f31afae9b1998dcf806d9ec82474fac49837082e310a2c6e3ee3cbcb55ff641b	392337		
@@ -479,6 +484,7 @@ sqlite	3_8_3	src	all	https://github.com/bgruening/download_store/raw/master/sqli
 squid	1_9g	src	all	http://selab.janelia.org/software/squid/squid.tar.gz	302f42e8794aa4dbcfa0996c14fb7a70a7c4397fc45c2bbd2748055460d8dca7	301432		
 statmod	1.4.21	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/statmod_1.4.21.tar.gz	aa996fe93f0bd5635d40783039eb868811a9238e83e0a5a7da8617a17082148d	56227		
 stringi	0.5-5	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/stringi_0.5-5.tar.gz	1cd67b64f287aac9e8fd95dd4a0cab829e0fb7870fd264ede281be0b65ce7ca0	3639183		
+stringi	1.0-1	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/stringi_1.0-1.tar.gz	e748e4f0f9cb642fd1ed0d663d5999ebd9b9d11edafb6b2ef79e6b6d4641a3d1	3643002
 stringr	0.6.2	src	all	https://depot.galaxyproject.org/package/noarch/stringr_0.6.2.tar.gz	c3fc9c71d060ad592d2cfc51c36ab2f8e5f8cf9a25dfe42c637447dd416b6737	20636		
 stringr	1.0.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/stringr_1.0.0.tar.gz	f8267db85b83c0fc8904009719c93296934775b0d6890c996ec779ec5336df4a	34880		
 stringtie	0_97	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/stringtie/stringtie-0.97-Darwin-x86_64.tgz	53dfa6d2fadf7bd548b9932f1dd3e1c40f84c3e2877a801af5cd9059024fe577	247106		

@@ -6,24 +6,12 @@ import click
 import os
 import hashlib
 import logging
+import gsl.utils
+from gsl.utils import yield_packages
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
 PACKAGE_SERVER = 'https://depot.galaxyproject.org/software/'
-
-
-def yield_packages(handle):
-    """Copy this between python scripts"""
-    for line in handle:
-        if line.startswith('#'):
-            continue
-        try:
-            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
-                    'alt_url', 'comment']
-            ld = {k: v for (k, v) in zip(keys, line.split('\t'))}
-            yield ld
-        except Exception, e:
-            log.error(str(e))
 
 
 @click.command()

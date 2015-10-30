@@ -1,0 +1,4 @@
+*[0123456789abcdef]
+*.pyc
+*.sha256sum
+build

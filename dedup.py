@@ -7,15 +7,14 @@ log = logging.getLogger()
 
 def yield_packages(handle):
     """Copy this between python scripts"""
-    for lineno, line in enumerate(handle):
+    for line in enumerate(handle):
         if line.startswith('#'):
             continue
         try:
-            data = line.split('\t')
             keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
                     'alt_url', 'comment']
-            ld = {k: v for (k, v) in zip(keys, data)}
-            yield ld, lineno, line
+            ld = {k: v for (k, v) in zip(keys, line.split('\t'))}
+            yield ld
         except Exception, e:
             log.error(str(e))
 
@@ -27,7 +26,7 @@ with open(sys.argv[1], 'r') as handle:
     retcode = 0
     res = {}
     warnings = []
-    for ld, lineno, line in yield_packages(handle):
+    for ld in yield_packages(handle):
 
         if ld['id'] not in res:
             res[ld['id']] = []

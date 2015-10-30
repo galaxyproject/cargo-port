@@ -5,7 +5,6 @@ import urllib2
 import click
 import os
 import hashlib
-import StringIO
 import logging
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
@@ -15,15 +14,14 @@ PACKAGE_SERVER = 'https://depot.galaxyproject.org/software/'
 
 def yield_packages(handle):
     """Copy this between python scripts"""
-    for lineno, line in enumerate(handle):
+    for line in enumerate(handle):
         if line.startswith('#'):
             continue
         try:
-            data = line.split('\t')
             keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
                     'alt_url', 'comment']
-            ld = {k: v for (k, v) in zip(keys, data)}
-            yield ld, lineno, line
+            ld = {k: v for (k, v) in zip(keys, line.split('\t'))}
+            yield ld
         except Exception, e:
             log.error(str(e))
 
@@ -34,7 +32,7 @@ def yield_packages(handle):
               help='Location for the downloaded file')
 def get(package_id, download_location):
     package_found = False
-    for ld, lineno, line in yield_packages(
+    for ld in yield_packages(
         urllib2.urlopen(PACKAGE_SERVER + 'urls.tsv')):
         # TODO: check platform/architecture, failover to all if available?
         # iid, version, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')

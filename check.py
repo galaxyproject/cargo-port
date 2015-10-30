@@ -14,8 +14,10 @@ def yield_packages(handle):
             data = line.split('\t')
             keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
                     'alt_url', 'comment']
+            if len(data) != len(keys):
+                log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(keys))
             ld = {k: v for (k, v) in zip(keys, data)}
-            yield ld, lineno, line
+            yield ld, lineno, line, retcode
         except Exception, e:
             log.error(str(e))
 
@@ -26,7 +28,9 @@ with open(sys.argv[1], 'r') as handle:
     keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
             'alt_url', 'comment']
 
-    for ld, lineno, line in yield_packages(handle):
+    for ld, lineno, line, extraret in yield_packages(handle):
+        if extraret > 0:
+            retcode = extraret
         try:
             for x in keys[0:6]:
                 if ld.get(x, '').strip() == '':

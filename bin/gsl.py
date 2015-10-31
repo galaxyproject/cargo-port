@@ -6,7 +6,6 @@ import click
 import os
 import hashlib
 import logging
-import gsl.utils
 from gsl.utils import yield_packages
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
@@ -20,8 +19,7 @@ PACKAGE_SERVER = 'https://depot.galaxyproject.org/software/'
               help='Location for the downloaded file')
 def get(package_id, download_location):
     package_found = False
-    for ld in yield_packages(
-        urllib2.urlopen(PACKAGE_SERVER + 'urls.tsv')):
+    for ld in yield_packages(urllib2.urlopen(PACKAGE_SERVER + 'urls.tsv')):
         # TODO: check platform/architecture, failover to all if available?
         # iid, version, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
         if ld['id'] == package_id.strip() and ld['platform']== 'src':

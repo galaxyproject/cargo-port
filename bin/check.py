@@ -2,8 +2,7 @@
 import sys
 import logging
 import click
-import gsl.utils
-from gsl.utils import yield_packages2
+from gsl.utils import yield_packages
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
@@ -17,7 +16,7 @@ def main(galaxy_package_file):
         keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
                 'alt_url', 'comment']
 
-        for ld, lineno, line, extraret in yield_packages2(handle,retcode):
+        for ld, lineno, line, extraret in yield_packages(handle, retcode=retcode, meta=True):
             if extraret > 0:
                 retcode = extraret
             try:

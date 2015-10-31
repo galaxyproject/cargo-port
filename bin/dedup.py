@@ -2,7 +2,6 @@
 import sys
 import logging
 import click
-import gsl.utils
 from gsl.utils import yield_packages
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
@@ -18,7 +17,6 @@ def main(galaxy_package_file):
         print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream url', 'sha256sum', 'Alternate Url']),
         retcode = 0
         res = {}
-        warnings = []
         for ld in yield_packages(handle):
 
             if ld['id'] not in res:

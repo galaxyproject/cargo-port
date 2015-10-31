@@ -3,7 +3,7 @@ import os
 import sys
 import subprocess
 import logging
-import gsl.utils
+import click
 from gsl.utils import yield_packages
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
@@ -148,7 +148,6 @@ def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
         print HTML_TPL_HEAD
         retcode = 0
-        test_cases = []
         xunit = XUnitReportBuilder()
 
         for ld in yield_packages(handle):

@@ -67,6 +67,7 @@ GenomicRanges	1.18.4	src	all	https://depot.galaxyproject.org/package/noarch/Geno
 GenomicRanges	1.20.5	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/GenomicRanges_1.20.5.tar.gz	bfae3233e7f48e1c16308ba7717006319cb29ffadbc9aff8d5cc4fb3441061ba	910878		
 GenomicRanges	1.20.6	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/GenomicRanges_1.20.6.tar.gz	9d2bedd17a73864406d0284ddea2d28aef84c7c969b6924d8be2285d96f14e13	912300		
 Gviz	1.10.3	src	all	https://depot.galaxyproject.org/package/noarch/Gviz_1.10.3.tar.gz	c64a80d616a65aaec94e7edf6ccac56b13faf33984eace087e1992c3f1a70013	2547071		
+HOMER	4.2	src	all	http://homer.salk.edu/homer/data/software/homer.v4.2.zip	a52aebb3435e40f1fed7551cbf112b59cf33327692994943814869442398a459	225916		including annotation data
 HSMMSingleCell	1.0.0	src	all	https://github.com/bgruening/download_store/raw/master/monocle/HSMMSingleCell_1.0.0.tar.gz	b34dbfd2d70d6f5ea98451c74d5780ca80d32b6b60de1690a50768d0fa942f14	34073074		
 HTML-Parser	3.71	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/HTML-Parser-3.71.tar.gz	be918b3749d3ff93627f72ee4b825683332ecb4c81c67a3a8d72b0435ffbd802	90368		
 HTML-Tagset	3.2	src	all	http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz	adb17dac9e36cd011f5243881c9739417fd102fce760f8de4e9be4c7131108e2	8150		

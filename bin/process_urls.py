@@ -3,10 +3,29 @@ import os
 import sys
 import subprocess
 import logging
-import click
-from gsl.utils import yield_packages
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
+
+
+def yield_packages(handle, meta=False, retcode=None):
+    for lineno, line in enumerate(handle):
+        if line.startswith('#'):
+            continue
+        try:
+            data = line.split('\t')
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
+                    'alt_url', 'comment']
+            if len(data) != len(keys):
+                log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(keys))
+
+            ld = {k: v for (k, v) in zip(keys, line.split('\t'))}
+
+            if meta:
+                yield ld, lineno, line, retcode
+            else:
+                yield ld
+        except Exception, e:
+            log.error(str(e))
 
 HTML_TPL_HEAD = """
 <!DOCTYPE html>
@@ -142,8 +161,6 @@ def cleanup_file(sha):
     except Exception, e:
         log.error("Unable to remove files: %s", str(e))
 
-@click.command()
-@click.argument('galaxy_package_file')
 def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
         print HTML_TPL_HEAD
@@ -192,3 +209,6 @@ def main(galaxy_package_file):
 
         print "</tbody></table></div></body></html>"
         sys.exit(retcode)
+
+if __name__ == '__main__':
+    main(sys.argv[1])

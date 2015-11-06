@@ -503,6 +503,7 @@ tiff	4_0_3	src	all	ftp://ftp.remotesensing.org/pub/libtiff/tiff-4.0.3.tar.gz	ea1
 tophat2	2_0_9	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/tophat/tophat-2.0.9.OSX_x86_64.tar.gz	3be594a6a97c82d3dc779909203226f7741fa0b298bd1d7a6a0d1e2e5d3b4c48	1994750		
 tophat	1_4_0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/tophat/tophat-1.4.0.OSX_x86_64.tar.gz	8db73bb41016f42fc5b7edf0c4c9ede3baa1c7126d935f54190e2db5b14855ef	1850224		
 tophat	2_0_14	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/tophat/tophat-2.0.14-Linux-x86_64.tar.gz	3eb415d861748257e7561b54abcb10a97d0d9e29d7aaea5be17e95c7dbd4765d	9007404		
+tophat	2.0.14	darwin	x64	https://ccb.jhu.edu/software/tophat/downloads/tophat-2.0.14.OSX_x86_64.tar.gz	aa57a2f40b0813b4404d3b462db0ad54f93f6a2e71a826541dd15e04cda75d09	2082317		
 tpp	4_8_0	src	all	https://depot.galaxyproject.org/package/linux/x86_64/tpp/tpp-4.8.0-Linux-x86_64.tar.gz	d2b99b22c18091124b41c4ef13315b8fafc2a3451b43e2794122806d96a97a7f	140512782		
 transtermhp	2_09	src	all	http://transterm.cbcb.umd.edu/transterm_hp_v2.09.zip	b636db1c0fe9731cc760d8f3639209d07f7f35309d83013cc9f9e40798ce8be0	1827662		
 trnascan	1_3_1	src	all	http://lowelab.ucsc.edu/software/tRNAscan-SE.tar.gz	862924d869453d1c111ba02f47d4cd86c7d6896ff5ec9e975f1858682282f316	740960		

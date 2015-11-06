@@ -190,6 +190,7 @@ bowtie	0_12_7	darwin	x32	http://depot.galaxyproject.org/package/darwin/i386/bowt
 bowtie	1_0_0	src	all	http://downloads.sourceforge.net/project/bowtie-bio/bowtie/1.0.0/bowtie-1.0.0-src.zip	51e434a78e053301f82ae56f4e94f71f97b19f7175324777a7305c8f88c5bac5	7710572		
 bowtie	2_2_4	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/bowtie2/bowtie2-2.2.4-macos-x86_64.tgz	5b18596a44138203a5b75f5ab172c79f8c4117101f9f89ff1d4f39934a81f92a	9262936		
 bowtie	2_2_5	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/bowtie2/bowtie2-2.2.5-Linux-x86_64.tar.gz	be99a1a2249c8f7097a89244b15e078b0a3489e136284a0dd876978db0a9024a	10822964		
+bowtie	2.2.5	darwin	x64	http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.2.5/bowtie2-2.2.5-macos-x86_64.zip	0f142477738accc73276f3e47877d54a64b6f7ac7911d0609b662adcd15374a0	9269076
 brew	1.0-6	src	all	https://depot.galaxyproject.org/package/noarch/brew_1.0-6.tar.gz	d70d1a9a01cf4a923b4f11e4374ffd887ad3ff964f35c6f9dc0f29c8d657f0ed	83315		
 bwa	0_5_9	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/bwa/bwa-0.5.9-Darwin-x86_64.tgz	083276bc36bb6f2e837a521d61b04e445ed133f0f5242a00e42a7cec8ce88f0b	101716		
 bwa	0_6_2	src	all	http://downloads.sourceforge.net/project/bio-bwa/bwa-0.6.2.tar.bz2	8783e5640d8e4ae028e048c56db1d6b4adff6234d1047bd4f98247ffc3be69e6	128409		

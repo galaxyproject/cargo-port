@@ -397,7 +397,7 @@ picard	1_126_0	src	all	https://github.com/broadinstitute/picard/releases/downloa
 picard	1_136	src	all	https://github.com/broadinstitute/picard/releases/download/1.136/picard-tools-1.136.zip	1881182b986ddf4aa3151e7e0c2b14c5ff49bc04376578cd6d854d77624fd5d3	7456388		
 picard	1_56_0	src	all	http://downloads.sourceforge.net/project/picard/picard-tools/1.56/picard-tools-1.56.zip	236e082e70218166bef4c128b0e2bd3347a7c4b76b63aa7353e098d0609f44aa	31759906		
 pil	1_1_7	src	all	https://github.com/bgruening/download_store/raw/master/pil/Imaging-1.1.7.tar.gz	895bc7c2498c8e1f9b99938f1a40dc86b3f149741f105cf7c7bd2e0725405211	498749		
-piranha	1_2_1	src	all	http://smithlabresearch.org/downloads/piranha-1.2.1.tar.gz	1b805946a71f67f0ab31facee504ba4e90c92c2d69622c7392026671526f12d2	0		Disappeared completely
+piranha	1_2_1	src	all	http://smithlabresearch.org/downloads/piranha-1.2.1.tar.gz	1e0ba205f585663343a1098eb75f9dc356c8867396943d6f06501c32fe008ea3	4780586		
 pixman	0_32_4	src	all	http://cairographics.org/releases/pixman-0.32.4.tar.gz	80c7ed420e8a3ae749800241e6347c3d55681296cab71384be7969cd9e657e84	817407		
 pixman	0_32_6	src	all	http://cairographics.org/releases/pixman-0.32.6.tar.gz	3dfed13b8060eadabf0a4945c7045b7793cc7e3e910e748a8bb0f0dc3e794904	816702		
 plotrix	3.6	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/plotrix_3.6.tar.gz	4544c2e95666ccf3896d764b07185b462830bc26cd277c1e051b10f8159ac67e	225539		

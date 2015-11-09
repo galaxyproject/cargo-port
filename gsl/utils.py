@@ -13,6 +13,7 @@ def yield_packages(handle, meta=False, retcode=None):
                     'alt_url', 'comment']
             if len(data) != len(keys):
                 log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(keys))
+                retcode = 1
 
             ld = {k: v for (k, v) in zip(keys, line.split('\t'))}
 

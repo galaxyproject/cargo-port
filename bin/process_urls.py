@@ -53,7 +53,18 @@ HTML_TPL_HEAD = """
 
             <pre>curl --silent https://raw.githubusercontent.com/erasche/community-package-cache/master/gsl.py | python - --package_id augustus_3_1</pre>
         </p>
+        <h3>Verifying URLs</h3>
         <p>
+            The CPC now ships a <a href="cpc.sha256sum">single checksum
+            file</a> for all packages. Downloaded files can be validated with
+            the following command:
+
+            <pre>
+            LC_ALL=C sha256sum -c tmp 2>/dev/null | grep -v 'FAILED open or read'
+            </pre>
+
+            sha256sum has the <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276664">unfortunate
+            behaviour</a> of printing a lot of noise when files aren't found.
         </p>
         <h1>Cached URLs</h1>
         <table class="table table-striped">
@@ -63,7 +74,6 @@ HTML_TPL_HEAD = """
                     <th>Package Version</th>
                     <th>Platform</th>
                     <th>Upstream</th>
-                    <th>sha256sum</th>
                 </tr>
             </thead>
             <tbody>
@@ -75,7 +85,6 @@ HTML_ROW_TPL ="""
     <td>{version}</td>
     <td>{platform}-{arch}</td>
     <td><a href="{url}">Link</a></td>
-    <td><a href="{sha}.sha256sum">{sha}</a></td>
 </tr>
 """
 

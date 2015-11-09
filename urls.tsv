@@ -522,7 +522,7 @@ weblogo	3_3	src	all	http://weblogo.googlecode.com/files/weblogo-3.3.tar.gz	ae730
 xorg_macros	1_17_1	src	all	http://ftp.x.org/pub/individual/util/util-macros-1.17.1.tar.bz2	5e52654f2a0b04223cf28a9d7fd62cf288852e639ac13a75172fd47d0d6ac625	79105		
 xtable	1.7-1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/xtable_1.7-1.tar.gz	241612679ef52cae08090ced5a8c2fdf0a0b58cd034da5a29b88e4bf21606ea2	334687		
 xtable	1.7-4	src	all	https://depot.galaxyproject.org/package/noarch/xtable_1.7-4.tar.gz	47629a31185591be30b13ae3a656fc24360760996975e292f4fa7954c0257dbb	350204		
-xz	5_0_5	src	all	http://tukaani.org/xz/xz-5.0.5.tar.bz2	166c48d2842519bc4f96333bff9e265f8cdda44d38e40594ef3f9bbb52890490	0		See notice at top of http://tukaani.org/xz/old.html TODO:November
+xz	5_0_5	src	all	https://github.com/bgruening/download_store/raw/master/xz/xz-5.0.5.tar.bz2	166c48d2842519bc4f96333bff9e265f8cdda44d38e40594ef3f9bbb52890490	1060649		
 zlib	1_2_8	src	all	http://zlib.net/zlib-1.2.8.tar.gz	36658cb768a54c1d4dec43c3116c27ed893e88b02ecfcb44f2166f9c0b7f2a0d	571091		
 zlibbioc	1.12.0	src	all	http://bioarchive.galaxyproject.org/zlibbioc_1.12.0.tar.gz	4b8d7f156dd533e671d6b52ea9bd641aa9e4bc27552cdcea46492a979548ad5f	162433		
 zlibbioc	1.14.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/zlibbioc_1.14.0.tar.gz	0811b4aecdb66a2ee33e806a40f54e0fdde2f4223a3981cccc16df9b7d3567d4	162439		

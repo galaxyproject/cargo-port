@@ -25,9 +25,11 @@ Column | Name          | Meaning
 3      | Platform      | One of (linux, windows, darwin, src)
 4      | Architecture  | One of (x32, x64, all)
 5      | Upstream URL  | Upstream's URL for the download. This only necessarily exist before the Community Package Cacher downloads is the first time. After that the URL may disappear and we will retain our copy
-6      | sha256sum     | sha256sum of the correct file.
-7      | Alternate URL | If the package is NOT to be hosted by the Community Package Cache, then an alternate url may be specified in this column which the downloader will use when downloading, and the updater will use to ignore that package.
-8      | Comment       | Feel free to add a comment to your package
+6      | Extension     | File extension, used in downloads/nicer access for end-users
+7      | sha256sum     | sha256sum of the correct file.
+8      | Size          | Size on disk (hint use `stat`). We've recently disabled this check, we may remove it entirely.
+9      | Alternate URL | If the package is NOT to be hosted by the Community Package Cache, then an alternate url may be specified in this column which the downloader will use when downloading, and the updater will use to ignore that package.
+10     | Comment       | Feel free to add a comment to your package
 
 ## Using the CPC
 

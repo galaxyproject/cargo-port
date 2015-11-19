@@ -225,7 +225,22 @@ def main(galaxy_package_file):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 
-        print "</tbody></table></div></body></html>"
+        print """
+                </tbody>
+            </table>
+        </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45719423-15', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>"""
         sys.exit(retcode)
 
 if __name__ == '__main__':

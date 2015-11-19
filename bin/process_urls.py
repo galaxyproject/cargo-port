@@ -190,7 +190,6 @@ def main(galaxy_package_file):
 
         for ld in yield_packages(handle):
             nice_name = package_to_path(**ld)
-            import pprint; pprint.pprint(nice_name)
 
             if not os.path.exists(ld['id']):
                 os.makedirs(ld['id'])

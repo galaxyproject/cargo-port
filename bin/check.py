@@ -2,7 +2,7 @@
 import sys
 import logging
 import click
-from gsl.utils import yield_packages
+from gsl.utils import yield_packages, HEADER_KEYS
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
@@ -13,14 +13,13 @@ def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
         retcode = 0
         identifiers = set()
-        keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
-                'alt_url', 'comment']
 
         for ld, lineno, line, extraret in yield_packages(handle, retcode=retcode, meta=True):
             if extraret > 0:
                 retcode = extraret
             try:
-                for x in keys[0:6]:
+                for x in HEADER_KEYS[0:5] + HEADER_KEYS[7:7]:
+                    # Skip extension, as it is OK to be empty
                     if ld.get(x, '').strip() == '':
                         log.error("[%s] Empty %s", lineno, x)
                         retcode = 1
@@ -43,9 +42,8 @@ def main(galaxy_package_file):
                     retcode = 1
                 else:
                     identifiers.add(platform_id)
-
-            except:
-                log.error("[%s] Line not tabbed properly", lineno)
+            except Exception, e:
+                log.error("[%s] Line (probably) not tabbed properly: %s", lineno, e)
                 retcode = 1
         sys.exit(retcode)
 

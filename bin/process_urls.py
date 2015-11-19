@@ -13,7 +13,7 @@ def yield_packages(handle, meta=False, retcode=None):
             continue
         try:
             data = line.split('\t')
-            keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size',
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha', 'size',
                     'alt_url', 'comment']
             if len(data) != len(keys):
                 log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(keys))
@@ -53,7 +53,17 @@ HTML_TPL_HEAD = """
 
             <pre>curl --silent https://raw.githubusercontent.com/erasche/community-package-cache/master/gsl.py | python - --package_id augustus_3_1</pre>
         </p>
+        <h3>Verifying URLs</h3>
         <p>
+            The CPC ships an SHA256SUM file per package download.
+            Downloaded files can be validated with the following command:
+
+            <pre>
+            LC_ALL=C sha256sum -c SHA256SUM 2>/dev/null | grep -v 'FAILED open or read'
+            </pre>
+
+            sha256sum has the <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276664">unfortunate
+            behaviour</a> of printing a lot of noise when files aren't found.
         </p>
         <h1>Cached URLs</h1>
         <table class="table table-striped">
@@ -63,7 +73,6 @@ HTML_TPL_HEAD = """
                     <th>Package Version</th>
                     <th>Platform</th>
                     <th>Upstream</th>
-                    <th>sha256sum</th>
                 </tr>
             </thead>
             <tbody>
@@ -71,11 +80,10 @@ HTML_TPL_HEAD = """
 
 HTML_ROW_TPL ="""
 <tr>
-    <td><a href="{sha}">{id}</a></td>
+    <td><a href="{package_path}">{id}</a></td>
     <td>{version}</td>
     <td>{platform}-{arch}</td>
     <td><a href="{url}">Link</a></td>
-    <td><a href="{sha}.sha256sum">{sha}</a></td>
 </tr>
 """
 
@@ -131,23 +139,24 @@ class XUnitReportBuilder(object):
         return self.XUNIT_TPL.format(**self.xunit_data)
 
 
-def verify_file(sha):
+def verify_file(path, sha):
     try:
-        subprocess.check_output(['sha256sum', '-c', '%s.sha256sum' % sha])
+        filehash = subprocess.check_output(['sha256sum', path])[0:64]
+        assert filehash == sha
     except subprocess.CalledProcessError, cpe:
         log.error("File has bad hash! Refusing to serve this to end users.")
-        os.unlink(sha)
+        os.unlink(path)
         return str(cpe)
 
-def download_url(url, sha, size=None):
+def download_url(url, output, size=None):
     try:
         # (ulimit -f 34; curl --max-filesize 34714 $URL -L -o tmp)
         args = ['curl', '-L', '-k', '--max-time', '360']
 
-        if size is not None:
-            args += ['--max-filesize', size]
+        # if size is not None:
+            # args += ['--max-filesize', size]
 
-        args += [url, '-o', sha]
+        args += [url, '-o', output]
         subprocess.check_call(args)
     except subprocess.CalledProcessError, cpe:
         log.error("File not found")
@@ -161,6 +170,9 @@ def cleanup_file(sha):
     except Exception, e:
         log.error("Unable to remove files: %s", str(e))
 
+def package_to_path(id="", version="", platform="", arch="", ext="", **kwargs):
+    return '_'.join([id, version, platform, arch])
+
 def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
         print HTML_TPL_HEAD
@@ -168,38 +180,44 @@ def main(galaxy_package_file):
         xunit = XUnitReportBuilder()
 
         for ld in yield_packages(handle):
-            # (id, version, platform, arch, url, sha, alt_url) = data[0:7]
-            nice_name = '{id}@{version}_{platform}-{arch}'.format(**ld)
+            nice_name = package_to_path(**ld)
+            import pprint; pprint.pprint(nice_name)
 
-            kwd = dict(**ld)
-            kwd['url'] = ld['alt_url'] if len(ld['alt_url'].strip()) > 0 else ld['url']
+            if not os.path.exists(os.path.join('out', ld['id'])):
+                os.makedirs(os.path.join('out', ld['id']))
+
+            output_package_path = os.path.join('out', ld['id'], nice_name) + ld['ext']
+
             print HTML_ROW_TPL.format(
-                **kwd
+                package_path=output_package_path,
+                id=ld['id'],
+                version=ld['version'],
+                platform=ld['platform'],
+                arch=ld['arch'],
+                url=ld['alt_url'] if len(ld['alt_url'].strip()) > 0 else ld['url'],
             )
-            if os.path.exists(ld['sha']) and os.path.getsize(ld['sha']) == 0:
-                log.error("Empty download, removing %s %s", ld['url'], ld['sha'])
-                cleanup_file(ld['sha'])
 
-            if os.path.exists(ld['sha']):
+            if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:
+                log.error("Empty download, removing %s %s", ld['url'], output_package_path)
+                cleanup_file(output_package_path)
+
+            if os.path.exists(output_package_path):
                 log.info("URL exists %s", ld['url'])
                 xunit.skip(nice_name)
             else:
-                log.info("URL missing, downloading %s to %s", ld['url'], ld['sha'])
+                log.info("URL missing, downloading %s to %s", ld['url'], output_package_path)
 
-                err = download_url(ld['url'], ld['sha'], size=ld['size'])
+                err = download_url(ld['url'], output_package_path, size=ld['size'])
                 if err is not None:
                     xunit.failure(nice_name, "DownloadError", err)
-                    cleanup_file(ld['sha'])
+                    cleanup_file(output_package_path)
                     continue
 
-                with open(os.path.join('%s.sha256sum' % ld['sha']), 'w') as handle:
-                    handle.write("%s  %s" % (ld['sha'], ld['sha']))
-
                 # Check sha256sum of download
-                err = verify_file(ld['sha'])
+                err = verify_file(output_package_path, ld['sha'])
                 if err is not None:
                     xunit.error(nice_name, "Sha256sumError", err)
-                    cleanup_file(ld['sha'])
+                    cleanup_file(output_package_path)
                     continue
 
                 xunit.ok(nice_name)
@@ -207,7 +225,22 @@ def main(galaxy_package_file):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 
-        print "</tbody></table></div></body></html>"
+        print """
+                </tbody>
+            </table>
+        </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45719423-15', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>"""
         sys.exit(retcode)
 
 if __name__ == '__main__':

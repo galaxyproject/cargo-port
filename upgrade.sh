@@ -9,7 +9,8 @@ rm -f *.sha256sum
 # Remove existing SHA256SUMs files.
 find . -name 'SHA256SUMS' -exec rm '{}' \;
 
+# Remove empty files
+find . -type f -empty -exec rm '{}' \;
+
 # Update the individual files.
-echo 'set -x' > mv.txt
-cat urls.tsv | awk -F'\t' '(NR>1){a=$1"_"$2"_"$3"_"$4".tar.gz"; print "echo \""$7"  \""a" >> "$1"/SHA256SUMS"}' >> mv.txt
-cat mv.txt | bash
+cat urls.tsv | awk -F'\t' '(NR>1){a=$1"_"$2"_"$3"_"$4".tar.gz"; print "echo \""$7"  \""a" >> "$1"/SHA256SUMS"}' | bash

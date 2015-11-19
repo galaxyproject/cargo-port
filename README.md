@@ -5,6 +5,7 @@
 This project should address the problem of unreliable URLs by proxying an ID to
 a URL. The ID is your stable token you can rely on and the corresponded URL is
 maintained by a community.
+The pilot runs at https://depot.galaxyproject.org/software/
 
 ## Contributing
 

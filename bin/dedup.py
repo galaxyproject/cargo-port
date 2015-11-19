@@ -2,19 +2,17 @@
 import sys
 import logging
 import click
-from gsl.utils import yield_packages
+from gsl.utils import yield_packages, HEADER_KEYS
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
-
-keys = ['id', 'version', 'platform', 'arch', 'url', 'sha', 'size','alt_url', 'comment']
 
 @click.command()
 @click.argument('galaxy_package_file')
 def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
 
-        print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream url', 'sha256sum', 'Alternate Url']),
+        print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream Url', 'Extension', 'sha256sum', 'Alternate Url']),
         retcode = 0
         res = {}
         for ld in yield_packages(handle):
@@ -26,7 +24,7 @@ def main(galaxy_package_file):
 
         for x in res:
             out = []
-            for key in keys:
+            for key in HEADER_KEYS:
                 out.append(res[x][0][key])
             print '\t'.join(out).rstrip("\n")
 

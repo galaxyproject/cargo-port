@@ -6,7 +6,7 @@ import click
 import os
 import hashlib
 import logging
-from gsl.utils import yield_packages
+from gsl.utils import yield_packages, package_name
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
@@ -25,7 +25,7 @@ def get(package_id, download_location):
         if ld['id'] == package_id.strip() and ld['platform']== 'src':
             package_found = True
             # I worry about this being unreliable. TODO: add target filename column?
-            pkg_name = urlparse(ld['upstream_url']).path.split('/')[-1]
+            pkg_name = package_name(ld)
             storage_path = os.path.join(download_location, pkg_name)
             if len(ld['alternate_url'].strip()):
                 url = ld['alternate_url']

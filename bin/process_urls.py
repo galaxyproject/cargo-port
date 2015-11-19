@@ -152,7 +152,7 @@ def verify_file(path, sha):
         filehash = subprocess.check_output(['sha256sum', path])[0:64]
         if filehash != sha:
             raise Exception("Bad hash, %s != %s in %s", filehash, sha, path)
-    except subprocess.CalledProcessError, cpe:
+    except Exception, cpe:
         log.error("File has bad hash! Refusing to serve this to end users.")
         os.unlink(path)
         return str(cpe)

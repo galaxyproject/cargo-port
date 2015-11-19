@@ -191,10 +191,10 @@ def main(galaxy_package_file):
             nice_name = package_to_path(**ld)
             import pprint; pprint.pprint(nice_name)
 
-            if not os.path.exists(os.path.join('out', ld['id'])):
-                os.makedirs(os.path.join('out', ld['id']))
+            if not os.path.exists(ld['id']):
+                os.makedirs(ld['id'])
 
-            output_package_path = os.path.join('out', ld['id'], nice_name) + ld['ext']
+            output_package_path = os.path.join(ld['id'], nice_name) + ld['ext']
 
             print HTML_ROW_TPL.format(
                 package_path=output_package_path,

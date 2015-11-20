@@ -317,7 +317,7 @@ bowtie2	2.1.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/
 bowtie2	2.1.0	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bowtie2/bowtie2-2.1.0-linux-i386.tgz	.tar.gz	eddff73f31e411da68309f9a3e5ba3185c4e3a3caba7b9fed376a18f2aeb69db			
 bowtie2	2.1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.1.0-linux-x86_64.tgz	.tar.gz	94ca56210af9a2cbab9c6dcf7fbe15bf1288fe1059c7729f3f653a7a6bea5c7a			
 bowtie2	2.1.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie2-2.1.0-source.zip	.zip	90a9d3a6bd19ddc3a8f90b935c6a2288478572de2ad4039b29f91016b95ef4b0			
-bowtie2	2.2.4+gx0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/b-betaowtie2/bowtie2-2.2.4-macos-x86_64.zip	.zip	9bf9639b854042b60aef900ab182848f705619678e8a13e242a26162d98d3b5e			
+bowtie2	2.2.4+gx0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie2/bowtie2-2.2.4-macos-x86_64.zip	.zip	9bf9639b854042b60aef900ab182848f705619678e8a13e242a26162d98d3b5e			
 bowtie2	2.2.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie2/bowtie2-2.2.4-macos-x86_64.tgz	.tar.gz	5b18596a44138203a5b75f5ab172c79f8c4117101f9f89ff1d4f39934a81f92a			
 bowtie2	2.2.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.2.4-linux-x86_64.tgz	.tar.gz	6ccc3016214121c5047db24f016a2fedefe7983e93b2b46a8db37740f21a476b			
 bowtie2	2.2.4+gx0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.2.4-linux-x86_64.zip	.zip	7bc81693d19599e1d3329a06d298aa4873080d7a3527a74fd2c72c8098355654			

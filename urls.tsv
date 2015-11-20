@@ -346,7 +346,6 @@ cairo	1.12.14	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/cai
 cairo	1.14.2	src	all	https://github.com/bgruening/download_store/raw/master/cairo/cairo-1.14.2.tar.bz2	.tar.bz2	0772ce92cabbcc18d4c699430d7eb89e56d5c0659de64e92cb88ec1496e8e18e			
 car	2.0-19	src	all	https://github.com/bgruening/download_store/raw/master/r_statistic_tools/car_2.0-19.tar.gz	.tar.gz	8c411a21210b18bae4e6559fa6c461ab12f29cb82112bd18129e2d9fce47735b			
 ccat	3.0	src	all	http://cmb.gis.a-star.edu.sg/ChIPSeq/tools/CCAT3.0.tar.gz	.tar.gz	d8944465c8327bec22eb41059ba73f780fcdcedf4470507bfdae5a54c59a9b07	1774390		
-cd_hit_auxtools	0.5.2012.03.07.fix.dan	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/cd-hit-auxtools/cd-hit-auxtools-0.5-2012-03-07-fix-dan-gh-0.0.1-Darwin-x86_64.tgz	.tar.gz	121ef7ff503b6745b4b137344ba2179d5cd68d0373ce90a889fea571a4fe679c	0		Missing
 cgatools	1.6.0.43	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/cgatools-1.6.0.43-MacOSX_binary-x86_64.tar.gz	.tar.gz	9f4ea0351351da89952738bb4bdd2bcfc501bd377d4cc543b971675c7bed50d2			
 cgatools	1.7.1.5	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/cgatools-1.7.1.5-linux_binary-x86_64.tar.gz	.tar.gz	2f5be17f94cb8222afced860ae92b42f8392c9adc142deea273f1e7d62cc9bc5			
 checkmate	1.5.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/checkmate_1.5.0.tar.gz	.tar.gz	e2a4e6a6c1ddd9df5165d88d1196e9a6c13beb3ee621785823a94f7fbc167f7f			
@@ -764,7 +763,7 @@ sed-patch-sandbox	e1626689	src	all	https://github.com/bgruening/download_store/r
 segemehl	0.1.6	src	all	http://www.bioinf.uni-leipzig.de/Software/segemehl/segemehl_0_1_6.tar.gz	.tar.gz	bc6b17220305cd0e756ffd1dd401e7fcbc8c3ca0761abc588854762a99f3cad8	1033693		
 segemehl	0.2.0	src	all	http://www.bioinf.uni-leipzig.de/Software/segemehl/segemehl_0_2_0.tar.gz	.tar.gz	2575139d2f2ba7bd534afcbe485c0570c177d1faaeb267c4cd873e65b8e72afb	1030136		
 sendmailR	1.2-1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/sendmailR_1.2-1.tar.gz	.tar.gz	04feb08c6c763d9c58b2db24b1222febe01e28974eac4fe87670be6fb9bff17c			
-setuptools	18.2	src	all	https://bitbucket.org/pypa/setuptools/get/18.2.tar.bz2	.tar.bz2	12c9998cf649d4738de16e4ff952119ca060c3e0bc2a6be44a502b6f4e6a9bbc			
+setuptools	18.2	src	all	https://bitbucket.org/pypa/setuptools/get/18.2.tar.bz2	.tar.bz2	7b2a76ec3aeb6dc95ae66eab173e7b46e26436c5ba4ee94744f2360bce493b25			
 setuptools	5.2	src	all	https://bitbucket.org/pypa/setuptools/get/5.2.tar.bz2	.tar.bz2	beb3445cfc3a0f9a36df7de6489d2a488a5ac113c471c448e46e6d9c47cb7840			
 sicer	1.1	src	all	http://home.gwu.edu/~wpeng/SICER_V1.1.tgz	.tar.gz	1749c1e382629376f1d9db12978b9733fd5d9b9a896a2d127194c42b600c84c9	334175		
 simplejson	3.7.3	src	all	https://pypi.python.org/packages/source/s/simplejson/simplejson-3.7.3.tar.gz	.tar.gz	63d7f7b14a20f29f74325a69e6db45925eaf6e3a003eab46c0234fd050a8c93f	74974		

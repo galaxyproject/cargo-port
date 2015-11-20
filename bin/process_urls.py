@@ -280,7 +280,7 @@ def main(galaxy_package_file):
             fullpath = os.path.abspath(os.path.join(root, filename))
             # Ensure we ahven't seen it and it's under our directory
             if fullpath not in visited_paths and fullpath.startswith('/srv/nginx/depot.galaxyproject.org/root/software/'):
-                log.error("Found a file that we don't own: %s", fullpath)
+                log.info("Found a file that we don't own: %s", fullpath)
                 os.unlink(fullpath)
 
     sys.exit(retcode)

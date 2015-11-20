@@ -146,6 +146,7 @@ ONTO-PERL	1.41	src	all	http://search.cpan.org/CPAN/authors/id/E/EA/EASR/ONTO-PER
 OpenMS	1.10.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/OpenMS-1.10.0.tar.gz	.tar.gz	407b1a598d5e76807429d8d28ff47e161a1c8feae147b2b7de62303fe1e922a2			
 OpenMS	1.11.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/OpenMS-1.11.0.tar.gz	.tar.gz	0a36db55a7031cdea63fa8679e7fa4e4db234ef6bd3290bd70d8393f50a6c4b7			
 OpenMS	1.11.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/OpenMS-1.11.1.tar.gz	.tar.gz	e2403df3e3e902dd92480b4137753da7af66f12c422b795d0daa93fd9b2cc185			
+OpenMS	2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/openms/openms-2.0-Linux-x86_64.tar.gz	.tar.gz	924c25ec4e6704b831ef6173126b629a831fd44c7bbc456acf3dfc7702939202			
 PeakRanger	1.16	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/PeakRanger-1.16-Linux-x86_64.zip	.zip	655aa27287bdf024796cfae909fab2f1485d0bd74302c4f9fd258ba71e9ef6e5			
 PerlIO-gzip	0.19	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/PerlIO-gzip-0.19.tar.gz	.tar.gz	d2e9351d58b8a93c86811e25a898ee651fc393a157413652bf42f9aada2eb284			
 Pillow	2.7.0	src	all	https://pypi.python.org/packages/source/P/Pillow/Pillow-2.7.0.tar.gz	.tar.gz	26e9320e73f5821826b6b2408a3bff0a8c29e45159530069a117efd39ef619f8			
@@ -616,9 +617,6 @@ octave	3.8	src	all	ftp://ftp.gnu.org/gnu/octave/octave-3.8.1.tar.gz	.tar.gz	ead2
 opal-py	2.4.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/opal-py-2.4.1.tar.gz	.tar.gz	78d82dbdab607a3acb40e0462a0418b856f3ef8c83cb302f55c4549d672e7085			
 openbabel	2.3	src	all	http://downloads.sourceforge.net/project/openbabel/openbabel/2.3.2/openbabel-2.3.2.tar.gz	.tar.gz	4eaca26679aa6cc85ebf96af19191472ac63ca442c36b0427b369c3a25705188	20509105		
 openbabel	2.3.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/openbabel-2.3.2.tar.gz	.tar.gz	4eaca26679aa6cc85ebf96af19191472ac63ca442c36b0427b369c3a25705188			
-openms	2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/openms/openms-2.0-Linux-x86_64.tar.gz	.tar.gz	924c25ec4e6704b831ef6173126b629a831fd44c7bbc456acf3dfc7702939202			
-openms	2.0.dev	src	all	https://github.com/OpenMS/OpenMS/archive/develop.tar.gz	.tar.gz	6c7bdabe66ea68ba109c8eb05192611084f73b00b4d44234f7458c8df775f547	184045		
-openms	2.0.master	src	all	https://github.com/OpenMS/contrib/archive/master.tar.gz	.tar.gz	6c7bdabe66ea68ba109c8eb05192611084f73b00b4d44234f7458c8df775f547	184045		
 openssl	1.0	src	all	https://www.openssl.org/source/openssl-1.0.2d.tar.gz	.tar.gz	671c36487785628a703374c652ad2cebea45fa920ae5681515df25d9f2c9a8c8	5295447		1.0.2a, only 1.0.2d available
 osra	1.4.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/osra-1.4.0.tgz	.tar.gz	1ebf0643b2843194880af46006e3da6ca6a0a556f0ff5b411186711c948cb442			
 osra	2.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/osra-2.0.0.tgz	.tar.gz	197a7705616df7b01363ca86e990c5a961258ff31a5074e6c57670ce5f3e3ead			

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import os
+import fnmatch
 import sys
 import subprocess
 import logging
@@ -80,6 +81,23 @@ HTML_TPL_HEAD = """
             </thead>
             <tbody>
 """
+
+HTML_TPL_TAIL = """
+                </tbody>
+            </table>
+        </div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-45719423-15', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>"""
 
 HTML_ROW_TPL ="""
 <tr>
@@ -187,6 +205,8 @@ def package_to_path(id="", version="", platform="", arch="", ext="", **kwargs):
     return '_'.join([id, version, platform, arch])
 
 def main(galaxy_package_file):
+    visited_paths = []
+
     with open(galaxy_package_file, 'r') as handle:
         print HTML_TPL_HEAD
         retcode = 0
@@ -199,6 +219,7 @@ def main(galaxy_package_file):
                 os.makedirs(ld['id'])
 
             output_package_path = os.path.join(ld['id'], nice_name) + ld['ext']
+            visited_paths.append(os.path.abspath(output_package_path))
 
             print HTML_ROW_TPL.format(
                 package_path=output_package_path,
@@ -241,23 +262,18 @@ def main(galaxy_package_file):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 
-        print """
-                </tbody>
-            </table>
-        </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        print HTML_TPL_TAIL
 
-  ga('create', 'UA-45719423-15', 'auto');
-  ga('send', 'pageview');
+    # Now that we've processed (hopefully) every file in urls.tsv
+    # we need to check for files which shouldn't be there (aka things NOT
+    # mentioned in urls.tsv) and remove those.
+    for root, dirnames, filenames in os.walk('.'):
+        for filename in filenames:
+            fullpath = os.path.abspath(os.path.join(root, filename))
+            if fullpath not in visited_paths:
+                log.error("Found a file that we don't own: %s", fullpath)
 
-</script>
-    </body>
-</html>"""
-        sys.exit(retcode)
+    sys.exit(retcode)
 
 if __name__ == '__main__':
     main(sys.argv[1])

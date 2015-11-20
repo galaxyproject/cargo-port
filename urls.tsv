@@ -570,7 +570,7 @@ mauve	2.4.0	linux	all	http://darlinglab.org/mauve/downloads/mauve_linux_2.4.0.ta
 mcl	12.135	src	all	http://micans.org/mcl/src/mcl-12-135.tar.gz	.tar.gz	3f5e0e7ad1074c7c4ef0139aa3318f92971fede7292dc3571eca2fd1da20a283	2970824		
 meme	4.10.0	darwin	x64	https://depot.galaxyproject.org/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057	8971348		
 meme	4.10.0	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tgz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8			
-meme	4.10.0.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tar.gz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057			
+meme	4.10.0.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057			
 meme	4.10.0.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tar.gz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8			
 mgcv	1.8-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/mgcv_1.8-5.tar.gz	.tar.gz	dcad548be9efbff8737e54082dde5a20cac79f81037eb79586ad68bf403f7c8c			
 miRDeep2	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2.tar.gz	.tar.gz	7a2ea1608d34e103750094ecac9a2d0d0a119f670ed41c635711e8e5d161f837			
@@ -624,7 +624,7 @@ osra	1.4.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/o
 osra	2.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/osra-2.0.0.tar.gz	.tar.gz	197a7705616df7b01363ca86e990c5a961258ff31a5074e6c57670ce5f3e3ead			
 pal_finder	0.02.04	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/pal_finder_v0.02.04.tar.gz	.tar.gz	b9c578a4e7b1f6f03b9d05cd47876d057c4f304c42ae34c7c19ca9207403ad3b			
 pandas	0.14	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.14.1.tar.gz	.tar.gz	8d36f69e63f4c36999d142d60e476a6359c77069ad0ed1e4aa16a7005884dd21	6713272		
-pandas	0.16	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.16.2.tar.gz	.tar.gz	570d243f8cb068bf780461b9225d2e7bef7c90aa10d43cf908fe541fc92df8b6			
+pandas	0.16	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.16.2.tar.gz	.tar.gz	e01853dfe111f3aea005315573400b7216ddbabbf1f28d482a71217d67ae4f81			
 parent	0.232	src	all	https://cpan.metacpan.org/authors/id/C/CO/CORION/parent-0.232.tar.gz	.tar.gz	1f8f5c928fd6699a25ead67c23e1159482e7088ce684fbc084b3bcef115e1fc3	6913		
 pathoscope	2.0.6	src	all	https://github.com/PathoScope/PathoScope/archive/v2.0.6.zip	.zip	b2bf83a3196d5d6fe6d3ce8a65779c5eb3df5d359bf6f144493d1e7c51b4ab7a	2894354		
 pcre	8.34	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/pcre-8.34.tar.bz2	.tar.bz2	b6043ae1ff2720be665ffa28dc22b7c637cdde96f389a116c0c3020caeae583f			

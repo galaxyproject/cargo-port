@@ -32,10 +32,7 @@ HTML_TPL_HEAD = """
 <html>
     <head>
         <title>Galaxy Package Cache</title>
-        <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-
-        <!-- Optional theme -->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
     </head>
     <body>
@@ -66,9 +63,7 @@ HTML_TPL_HEAD = """
             The CPC ships an SHA256SUM file per package download.
             Downloaded files can be validated with the following command:
 
-            <pre>
-            LC_ALL=C sha256sum -c SHA256SUM 2>/dev/null | grep -v 'FAILED open or read'
-            </pre>
+            <pre>LC_ALL=C sha256sum -c SHA256SUM 2>/dev/null | grep -v 'FAILED open or read'</pre>
 
             sha256sum has the <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276664">unfortunate
             behaviour</a> of printing a lot of noise when files aren't found.

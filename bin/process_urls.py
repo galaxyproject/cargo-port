@@ -168,8 +168,9 @@ def download_url(url, output, size=None):
 
 def symlink_depot(url, output, size=None):
     try:
-        args = ['ln', '-s', url, output]
+        args = ['ln', '-s', url, os.path.join('/srv/nginx/depot.galaxyproject.org/root/software', output)]
         log.info(' '.join(args))
+        log.info(subprocess.check_output(['pwd']))
         log.info(subprocess.check_call(args))
     except subprocess.CalledProcessError, cpe:
         log.error("Unable to symlink")

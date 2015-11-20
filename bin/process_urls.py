@@ -3,7 +3,7 @@ import os
 import sys
 import subprocess
 import logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
 
 
@@ -175,7 +175,7 @@ def symlink_depot(url, output, size=None):
     try:
         args = ['ln', '-s', url, output]
         log.debug(' '.join(args))
-        subprocess.check_call(args)
+        log.debug(subprocess.check_output(args))
     except subprocess.CalledProcessError, cpe:
         log.error("Unable to symlink")
         return str(cpe)
@@ -219,13 +219,12 @@ def main(galaxy_package_file):
                 cleanup_file(output_package_path)
 
             if os.path.exists(output_package_path):
-                log.info("URL exists %s", ld['url'])
+                log.debug("URL exists %s", ld['url'])
                 xunit.skip(nice_name)
             else:
                 log.info("URL missing, downloading %s to %s", ld['url'], output_package_path)
 
                 if ld['url'].startswith('/'):
-                    log.info("Local path, symlinking")
                     err = symlink_depot(ld['url'], output_package_path, size=ld['size'])
                 else:
                     err = download_url(ld['url'], output_package_path, size=ld['size'])

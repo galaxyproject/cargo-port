@@ -267,8 +267,17 @@ def main(galaxy_package_file):
     # Now that we've processed (hopefully) every file in urls.tsv
     # we need to check for files which shouldn't be there (aka things NOT
     # mentioned in urls.tsv) and remove those.
+    whitelist = [
+        'SHA256SUM', 'index.html'
+    ]
     for root, dirnames, filenames in os.walk('.'):
+        if '.git' in root:
+            continue
+
         for filename in filenames:
+            if filename in whitelist:
+                continue
+
             fullpath = os.path.abspath(os.path.join(root, filename))
             if fullpath not in visited_paths:
                 log.error("Found a file that we don't own: %s", fullpath)

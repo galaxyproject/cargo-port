@@ -169,8 +169,8 @@ def download_url(url, output, size=None):
 def symlink_depot(url, output, size=None):
     try:
         args = ['ln', '-s', url, output]
-        log.debug(' '.join(args))
-        log.debug(subprocess.check_output(args))
+        log.info(' '.join(args))
+        log.info(subprocess.check_call(args))
     except subprocess.CalledProcessError, cpe:
         log.error("Unable to symlink")
         return str(cpe)

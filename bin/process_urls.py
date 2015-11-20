@@ -173,11 +173,12 @@ def download_url(url, output, size=None):
 
 def symlink_depot(url, output, size=None):
     try:
-        log.debug('ln -s %s %s', url, output)
-        os.symlink(url, output)
-    except Exception, e:
+        args = ['ln', '-s', url, output]
+        log.debug(' '.join(args))
+        subprocess.check_call(args)
+    except subprocess.CalledProcessError, cpe:
         log.error("Unable to symlink")
-        return str(e)
+        return str(cpe)
 
 def cleanup_file(sha):
     try:

@@ -13,22 +13,21 @@ def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
 
         print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream Url', 'Extension', 'sha256sum', 'Alternate Url']),
-        retcode = 0
         res = {}
         for ld in yield_packages(handle):
+            # id, version, platform,a rch, sha
+            key = '_'.join([ld[x] for x in HEADER_KEYS[0:4] + HEADER_KEYS[6:7]])
 
-            if ld['id'] not in res:
-                res[ld['id']] = []
+            if key not in res:
+                res[key] = []
 
-            res[ld['id']].append(ld)
+            res[key].append(ld)
 
-        for x in res:
+        for x in sorted(res):
             out = []
             for key in HEADER_KEYS:
                 out.append(res[x][0][key])
             print '\t'.join(out).rstrip("\n")
-
-        sys.exit(retcode)
 
 
 if __name__ == '__main__':

@@ -223,6 +223,7 @@ def main(galaxy_package_file):
                 log.info("URL missing, downloading %s to %s", ld['url'], output_package_path)
 
                 if ld['url'].startswith('/'):
+                    log.info("Local path, symlinking")
                     err = symlink_depot(ld['url'], output_package_path, size=ld['size'])
                 else:
                     err = download_url(ld['url'], output_package_path, size=ld['size'])

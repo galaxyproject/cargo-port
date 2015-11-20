@@ -173,7 +173,7 @@ def download_url(url, output, size=None):
 
 def symlink_depot(url, output, size=None):
     try:
-        log.debug('ln -s %s %s')
+        log.debug('ln -s %s %s', url, output)
         os.symlink(url, output)
     except Exception, e:
         log.error("Unable to symlink")

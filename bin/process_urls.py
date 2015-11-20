@@ -171,6 +171,13 @@ def download_url(url, output, size=None):
         log.error("File not found")
         return str(cpe)
 
+def symlink_depot(url, output, size=None):
+    try:
+        os.symlink(url, output)
+    except Exception, e:
+        log.error("Unable to symlink")
+        return str(e)
+
 def cleanup_file(sha):
     try:
         os.unlink(sha)
@@ -215,7 +222,11 @@ def main(galaxy_package_file):
             else:
                 log.info("URL missing, downloading %s to %s", ld['url'], output_package_path)
 
-                err = download_url(ld['url'], output_package_path, size=ld['size'])
+                if ld['url'].startswith('/'):
+                    err = symlink_depot(ld['url'], output_package_path, size=ld['size'])
+                else:
+                    err = download_url(ld['url'], output_package_path, size=ld['size'])
+
                 if err is not None:
                     xunit.failure(nice_name, "DownloadError", err)
                     cleanup_file(output_package_path)

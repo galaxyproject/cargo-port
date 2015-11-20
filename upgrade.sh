@@ -5,7 +5,7 @@ rm -f *.sha256sum
 
 # Renaming files into folders.
 #echo 'set -x' > mkdir.txt
-cat urls.tsv | awk -F'\t' '(NR>1){print "mkdir -p "$1";}' | bash
+cat urls.tsv | awk -F'\t' '(NR>1){print "mkdir -p "$1";"}' | bash
 #cat mkdir.txt | bash
 
 # Remove existing SHA256SUMs files.

@@ -152,7 +152,7 @@ Pillow	2.7.0	src	all	https://pypi.python.org/packages/source/P/Pillow/Pillow-2.7
 Pod-Escapes	1.07	src	all	https://cpan.metacpan.org/authors/id/N/NE/NEILB/Pod-Escapes-1.07.tar.gz	.tar.gz	dbf7c827984951fb248907f940fd8f19f2696bc5545c0a15287e0fbe56a52308	11652		
 Pod-Simple	3.3	src	all	https://cpan.metacpan.org/authors/id/D/DW/DWHEELER/Pod-Simple-3.30.tar.gz	.tar.gz	7091566d331adf7b4803e7dbb7b1a2d13b616339ac9caa525033344c881a47ee	251641		
 Pod-Usage	1.67	src	all	https://cpan.metacpan.org/authors/id/M/MA/MAREKR/Pod-Usage-1.67.tar.gz	.tar.gz	c8be6d29b0dfe304c4ddfcc140f93d4c4de7a8362ea6e2651611c288b53cc68a	22342		
-PyCogent	1.5.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/PyCogent-1.5.2.tar.gz	.tar.gz	a1a5d98bd38b8e0cb4ca88dab50fdb8e42009a950040f96737fb75c05e68fa0a			
+PyCogent	1.5.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/PyCogent-1.5.2.tgz	.tar.gz	a1a5d98bd38b8e0cb4ca88dab50fdb8e42009a950040f96737fb75c05e68fa0a			
 PyYAML	3.11	src	all	https://pypi.python.org/packages/source/P/PyYAML/PyYAML-3.11.tar.gz	.tar.gz	c36c938a872e5ff494938b33b14aaa156cb439ec67548fcab3535bb78b0846e8			
 R.methodsS3	1.6.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/R.methodsS3_1.6.1.tar.gz	.tar.gz	1d5006429702315152e18553078505df0c5db151e39f27e658ae5fbb17316eb0			
 RBGL	1.42.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/RBGL_1.42.0.tar.gz	.tar.gz	d499ad3de5c917d4ffd639a940e8cc8025ef3cbf38c1653f0785d76a146057a8			
@@ -164,14 +164,14 @@ RCurl	1.95-4.5+gx0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarc
 RCurl	1.95-4.7	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/RCurl_1.95-4.7.tar.gz	.tar.gz	8874d73d89e051627bb54b78d1c8a45f8b52173a345083e71f8f8ec5b0735de3			
 RCurl	1.95-5	src	all	https://depot.galaxyproject.org/package/noarch/RCurl_1.95-4.5.tar.gz	.tar.gz	365c582a6da2ef22f8d1bcbbeafe8478ed31de17b0890f740a3e2960620f1382	878651		
 RCurl	1.95-7	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/RCurl_1.95-4.7.tar.gz	.tar.gz	8874d73d89e051627bb54b78d1c8a45f8b52173a345083e71f8f8ec5b0735de3	916897		
-RDKit	2012.12.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/RDKit_2012_12_1.tar.gz	.tar.gz	8393fbab30890a94cdcd976d66f4f0ee99679915e85f5f3c26338d2dd506e009			
+RDKit	2012.12.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/RDKit_2012_12_1.tgz	.tar.gz	8393fbab30890a94cdcd976d66f4f0ee99679915e85f5f3c26338d2dd506e009			
 RHmm	1.5.0	src	all	http://cran.r-project.org/src/contrib/Archive/RHmm/RHmm_1.5.0.tar.gz	.tar.gz	e50d13bf3ca543eafc7b169a18fb1acec736459eb102b5f2f76c9925e6315f2f	118025		
 RNAcode	0.3	src	all	https://github.com/bgruening/download_store/raw/master/RNAcode/RNAcode-0.3.tar.gz	.tar.gz	86c600a07ecd04d243fd6eb3c6cc5b20fd6159f34f69423e7391c0ce8f311048			
 RNAshapes	2.1.6	darwin	all	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6-osx.tar.gz	.tar.gz	a55854b1989d6646aa77fd88b50c1499e53fe739c640601f034830b56bad080e			
 RNAshapes	2.1.6	linux	x32	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6-i386-linux.tar.gz	.tar.gz	ecf560c2ddf61893790dd25bfa1be3e51caf277b2a7a32cd3da234364fedd0fa			
 RNAshapes	2.1.6	src	all	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6.tar.gz	.tar.gz	6923af49f931efa4f3ad2a05f87a8e5222b6f865d0347e5598de3661e73bb81b			
-RNAstructure	5.7	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/RNAstructure-5.7.tar.gz	.tar.gz	7d7060c2180b95e0d0e0a840499df48de3571e37ca6bef51325377fe7ca28ae6			
-RNAstructureSource	0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/RNAstructureSource.tar.gz	.tar.gz	b45c954e07102dbb0a1174e41b029e8a578eacb2c3e8c37fa66d1e8fa78e71c8			
+RNAstructure	5.7	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/RNAstructure-5.7.tgz	.tar.gz	7d7060c2180b95e0d0e0a840499df48de3571e37ca6bef51325377fe7ca28ae6			
+RNAstructureSource	0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/RNAstructureSource.tgz	.tar.gz	b45c954e07102dbb0a1174e41b029e8a578eacb2c3e8c37fa66d1e8fa78e71c8			
 RSQLite	0.11.4	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/RSQLite_0.11.4.tar.gz	.tar.gz	bba0cbf2a1a3120d667a731da1ca5b9bd4db23b813e1abf6f51fb01540c2000c			
 RSQLite	1.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/RSQLite_1.0.0.tar.gz	.tar.gz	8e0cfca19afbc61f40c6d86018cd723a7e00f16d0944c4637f07a18fb6d76121			
 RSeQC	2.3.7	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/RSeQC-2.3.7.tar.gz	.tar.gz	a668f68702257611b34c8ff30683b644459941dfc494b31e8ebc457e83491560			
@@ -201,8 +201,8 @@ S4Vectors	0.6.5	src	all	https://github.com/bgruening/download_store/raw/master/D
 Scalar-List-Utils	1.42	src	all	https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.42.tar.gz	.tar.gz	3507f72541f66a2dce850b9b56771e5fccda3d215c52f74946c6e370c0f4a4da	82574		
 Sibelia	3.0.4	linux	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/Sibelia-3.0.4-Linux.tar.gz	.tar.gz	de126418fee1c4009dbb7b5f5de1aa1dc062622cb8570f02cfd77473916e8256			
 Sub-Uplevel	0.25	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Sub-Uplevel-0.25.tar.gz	.tar.gz	2dcca582a7ea5bada576eb27c4be1d1b064fb22175bdbd6d696c45d083560505			
-TPP	4.6.3	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/TPP-4.6.3.tar.gz	.tar.gz	371793db99956a9024a6057b2ba19fef4dac576b075176c0cd61d51ecac9ffe9			
-TPP	4.7.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/TPP_4.7.0-src.tar.gz	.tar.gz	fea4e64c876ef3ddead15c0fc3c3f21480e44c2685ad195c16c4449145637034			
+TPP	4.6.3	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/TPP-4.6.3.tgz	.tar.gz	371793db99956a9024a6057b2ba19fef4dac576b075176c0cd61d51ecac9ffe9			
+TPP	4.7.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/TPP_4.7.0-src.tgz	.tar.gz	fea4e64c876ef3ddead15c0fc3c3f21480e44c2685ad195c16c4449145637034			
 Test	1.26	src	all	https://cpan.metacpan.org/authors/id/J/JE/JESSE/Test-1.26.tar.gz	.tar.gz	f7701bd28e05e7f82fe9a181bbab38f53fa6aeae48d2a810da74d1b981d4f392	23330		
 Test-Deep	0.115	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Test-Deep-0.115.tar.gz	.tar.gz	0f2f5d41e4c4454b01dedf3fa753cd51001b16e5336702e1b2c5b206a1bdc39c			
 Test-Differences	0.63	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Test-Differences-0.63.tar.gz	.tar.gz	7c657a178c32f48de3b469f6d4f67b75f018a3a19c1e6d0d8892188b0d261a66			
@@ -270,7 +270,7 @@ barrnap	0.3	src	all	http://www.vicbioinformatics.com/barrnap-0.3.tar.gz	.tar.gz	
 barrnap	0.7	src	all	https://github.com/tseemann/barrnap/archive/0.7.tar.gz	.tar.gz	ef2173e250f06cca7569c03404c9d4ab6a908ef7643e28901fbe9a732d20c09b	11801600		
 base64enc	0.1-2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/base64enc_0.1-2.tar.gz	.tar.gz	05fed8fde229fce48f5b9cd34f3bf92f2ca63d6038ba7cb9d37a2904e83e4b34			
 bcbio-gff	0.6.2	src	all	https://pypi.python.org/packages/source/b/bcbio-gff/bcbio-gff-0.6.2.tar.gz	.tar.gz	c682dc46a90e9fdb124ab5723797a5f71b2e3534542ceff9f6572b64b9814e68	18315		
-bcftools	1.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bcftools/bcftools-1.2-Linux-x86_64.tar.gz	.tar.gz	82d36151aebe1785c283ab0a98bf7e1714e11ee82ff5efc032fc18a33136975b			
+bcftools	1.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bcftools/bcftools-1.2-Linux-x86_64.tgz	.tar.gz	82d36151aebe1785c283ab0a98bf7e1714e11ee82ff5efc032fc18a33136975b			
 bcftools	1.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/bcftools-1.2.tar.bz2	.tar.bz2	53c628339020dd45334a007c9cefdaf1cba3f1032492ec813b116379fa684fd6			
 bedtools	2.19	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.19.1/bedtools-2.19.1.tar.gz	.tar.gz	17253439e8191cb51a8bffba640c580e09ba158d3a0c66649e53d23ee3e50f77	18791375		
 bedtools	2.20	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.20.1/bedtools-2.20.1.tar.gz	.tar.gz	b5401810f8b12b683575f0119521dda64ff2f0a59faa308357405c4ae4e328d3	4213348		
@@ -303,30 +303,30 @@ boost	1.55	src	all	http://downloads.sourceforge.net/project/boost/boost/1.55.0/b
 boost	1.55.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/boost_1_55_0.tar.gz	.tar.gz	19c4305cd6669f2216260258802a7abc73c1624758294b2cad209d45cc13a767			
 boost	1.57	src	all	http://sourceforge.net/projects/boost/files/boost/1.57.0/boost_1_57_0.tar.gz	.tar.gz	fea9c7472f7a52cec2a1640958145b2144bf17903a21db65b95efb6ae5817fa5	73472080		
 boost	1.57.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/boost_1_57_0.tar.gz	.tar.gz	fea9c7472f7a52cec2a1640958145b2144bf17903a21db65b95efb6ae5817fa5			
-bowtie	0.12.7	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/bowtie/bowtie-0.12.7-macos-10.5-i386.tar.gz	.tar.gz	462355de35b011415af05916d6b03c6acad688c30c9ccbf1ccdd9e9c05bc5c93			
-bowtie	0.12.7	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie/bowtie-0.12.7-macos-10.5-x86_64.tar.gz	.tar.gz	15909be5af1a79f8c39eeacc7401bd14eb7998b69ca3ee08dddf5addb1f84c1f			
-bowtie	0.12.7	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bowtie/bowtie-0.12.7-linux-i386.tar.gz	.tar.gz	7ba6460f9c23400dafe96c4e8c038b8cc1ed03eac34af2cdf65c5ef726391e98			
-bowtie	0.12.7	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie/bowtie-0.12.7-linux-x86_64.tar.gz	.tar.gz	efc33f0b4ade0974ccfaf5aac71d972150b608a4ae602492d7212915074ae5dd			
+bowtie	0.12.7	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/bowtie/bowtie-0.12.7-macos-10.5-i386.tgz	.tar.gz	462355de35b011415af05916d6b03c6acad688c30c9ccbf1ccdd9e9c05bc5c93			
+bowtie	0.12.7	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie/bowtie-0.12.7-macos-10.5-x86_64.tgz	.tar.gz	15909be5af1a79f8c39eeacc7401bd14eb7998b69ca3ee08dddf5addb1f84c1f			
+bowtie	0.12.7	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bowtie/bowtie-0.12.7-linux-i386.tgz	.tar.gz	7ba6460f9c23400dafe96c4e8c038b8cc1ed03eac34af2cdf65c5ef726391e98			
+bowtie	0.12.7	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie/bowtie-0.12.7-linux-x86_64.tgz	.tar.gz	efc33f0b4ade0974ccfaf5aac71d972150b608a4ae602492d7212915074ae5dd			
 bowtie	0.12.7	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie-0.12.7-src.zip	.zip	609a6a0ad0b1a5d97908ca17da7bbf5d6dc407c7b9c49713cdc9c40f056a586a			
 bowtie	0.12.8	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie-0.12.8-src.zip	.zip	f074a0f25e156976c4951fd69651d60caab925af9829054d107ec8b19af3082d			
 bowtie	1.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie-1.0.0-src.zip	.zip	51e434a78e053301f82ae56f4e94f71f97b19f7175324777a7305c8f88c5bac5			
 bowtie2	2.0.0-beta7-source	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie2-2.0.0-beta7-source.zip	.zip	16d6544f95c83f3e2fa193b2a734611629472b7ed34f7e1c11ec5251d4571f04			
-bowtie2	2.1.0	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/bowtie2/bowtie2-2.1.0-macos-i386.tar.gz	.tar.gz	644308de12b84b5fa92896452af1dda5945c89f77315d0e76d63523fe4d320bd			
-bowtie2	2.1.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie2/bowtie2-2.1.0-macos-x86_64.tar.gz	.tar.gz	aed8c434b2e3330f105b2b09e6f626b9eb6a98534ffd29ea05200ee55043b65e			
-bowtie2	2.1.0	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bowtie2/bowtie2-2.1.0-linux-i386.tar.gz	.tar.gz	eddff73f31e411da68309f9a3e5ba3185c4e3a3caba7b9fed376a18f2aeb69db			
-bowtie2	2.1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.1.0-linux-x86_64.tar.gz	.tar.gz	94ca56210af9a2cbab9c6dcf7fbe15bf1288fe1059c7729f3f653a7a6bea5c7a			
+bowtie2	2.1.0	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/bowtie2/bowtie2-2.1.0-macos-i386.tgz	.tar.gz	644308de12b84b5fa92896452af1dda5945c89f77315d0e76d63523fe4d320bd			
+bowtie2	2.1.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie2/bowtie2-2.1.0-macos-x86_64.tgz	.tar.gz	aed8c434b2e3330f105b2b09e6f626b9eb6a98534ffd29ea05200ee55043b65e			
+bowtie2	2.1.0	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bowtie2/bowtie2-2.1.0-linux-i386.tgz	.tar.gz	eddff73f31e411da68309f9a3e5ba3185c4e3a3caba7b9fed376a18f2aeb69db			
+bowtie2	2.1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.1.0-linux-x86_64.tgz	.tar.gz	94ca56210af9a2cbab9c6dcf7fbe15bf1288fe1059c7729f3f653a7a6bea5c7a			
 bowtie2	2.1.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie2-2.1.0-source.zip	.zip	90a9d3a6bd19ddc3a8f90b935c6a2288478572de2ad4039b29f91016b95ef4b0			
 bowtie2	2.2.4+gx0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/b-betaowtie2/bowtie2-2.2.4-macos-x86_64.zip	.zip	9bf9639b854042b60aef900ab182848f705619678e8a13e242a26162d98d3b5e			
-bowtie2	2.2.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie2/bowtie2-2.2.4-macos-x86_64.tar.gz	.tar.gz	5b18596a44138203a5b75f5ab172c79f8c4117101f9f89ff1d4f39934a81f92a			
-bowtie2	2.2.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.2.4-linux-x86_64.tar.gz	.tar.gz	6ccc3016214121c5047db24f016a2fedefe7983e93b2b46a8db37740f21a476b			
+bowtie2	2.2.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bowtie2/bowtie2-2.2.4-macos-x86_64.tgz	.tar.gz	5b18596a44138203a5b75f5ab172c79f8c4117101f9f89ff1d4f39934a81f92a			
+bowtie2	2.2.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.2.4-linux-x86_64.tgz	.tar.gz	6ccc3016214121c5047db24f016a2fedefe7983e93b2b46a8db37740f21a476b			
 bowtie2	2.2.4+gx0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.2.4-linux-x86_64.zip	.zip	7bc81693d19599e1d3329a06d298aa4873080d7a3527a74fd2c72c8098355654			
 bowtie2	2.2.5	darwin	x64	http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.2.5/bowtie2-2.2.5-macos-x86_64.zip	.zip	0f142477738accc73276f3e47877d54a64b6f7ac7911d0609b662adcd15374a0	9269076		
 bowtie2	2.2.5	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.2.5-Linux-x86_64.tar.gz	.tar.gz	be99a1a2249c8f7097a89244b15e078b0a3489e136284a0dd876978db0a9024a			
 bowtie2	2.2.5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie2-2.2.5-source.zip	.zip	e22766dd9421c10e82a3e207ee1f0eb924c025b909ad5fffa36633cd7978d3b0			
 brew	1.0-6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/brew_1.0-6.tar.gz	.tar.gz	d70d1a9a01cf4a923b4f11e4374ffd887ad3ff964f35c6f9dc0f29c8d657f0ed			
-bwa	0.5.9	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bwa/bwa-0.5.9-Darwin-x86_64.tar.gz	.tar.gz	083276bc36bb6f2e837a521d61b04e445ed133f0f5242a00e42a7cec8ce88f0b			
-bwa	0.5.9	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bwa/bwa-0.5.9-Linux-i686.tar.gz	.tar.gz	b6681bd683cc46cf64c7ca3271bb5c46fb3683307f06f62597a530b0dec2f0cf			
-bwa	0.5.9	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bwa/bwa-0.5.9-Linux-x86_64.tar.gz	.tar.gz	ea04f2031956a4cdc9d4359e3759376435e557e6423670c36f29257aa6d84529			
+bwa	0.5.9	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bwa/bwa-0.5.9-Darwin-x86_64.tgz	.tar.gz	083276bc36bb6f2e837a521d61b04e445ed133f0f5242a00e42a7cec8ce88f0b			
+bwa	0.5.9	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bwa/bwa-0.5.9-Linux-i686.tgz	.tar.gz	b6681bd683cc46cf64c7ca3271bb5c46fb3683307f06f62597a530b0dec2f0cf			
+bwa	0.5.9	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bwa/bwa-0.5.9-Linux-x86_64.tgz	.tar.gz	ea04f2031956a4cdc9d4359e3759376435e557e6423670c36f29257aa6d84529			
 bwa	0.5.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bwa-0.5.9.tar.bz2	.tar.bz2	0a4404af1261714b14585476e36ad2359ff4806224adc7d864c6231553b1a88a			
 bwa	0.6.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bwa-0.6.2.tar.bz2	.tar.bz2	8783e5640d8e4ae028e048c56db1d6b4adff6234d1047bd4f98247ffc3be69e6			
 bwa	0.7.10.039ea20639	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bwa/bwa-0.7.10.039ea20639.tar.gz	.tar.gz	03ae71c3c23b1afe4c7b0f6baadbeb7b18c0193770c0dde62a1a39f2564915f4			
@@ -366,7 +366,7 @@ coreutils	8.22	src	all	https://github.com/bgruening/download_store/raw/master/GN
 cran_kernlab	0.1.4	src	all	http://cran.r-project.org/src/contrib/Archive/kernlab/kernlab_0.1-4.tar.gz	.tar.gz	a522c22270050968a30118a16546054b82a01bcb845e975ba06584acc91169cf	598512		
 cran_yacca	1.0	src	all	http://cran.r-project.org/src/contrib/Archive/yacca/yacca_1.0.tar.gz	.tar.gz	e47f80e69fea87f1775d4439e6739914e734eac42832954b31f2a11df9011808	9233		
 cufflinks	2.1.1	darwin	x64	http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.1.1.OSX_x86_64.tar.gz	.tar.gz	5955a2650c548b4f50a8407ce7302855590e7eca325ee9db6a6edfd54653218e	2845252		
-cufflinks	2.1.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/cufflinks/cufflinks-2.1.1.tar.gz	.tar.gz	8e32e92ab6265e7f011938cdac72888a348da9c1d193906638cbd10450554607			
+cufflinks	2.1.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/cufflinks/cufflinks-2.1.1.tgz	.tar.gz	8e32e92ab6265e7f011938cdac72888a348da9c1d193906638cbd10450554607			
 cufflinks	2.2.1	darwin	x64	http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.OSX_x86_64.tar.gz	.tar.gz	98a78cdf9e38783f9809d74faadc70654977d5f6120e262ef623a04840da00c6	5558282		
 cummeRbund	2.8.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/cummeRbund_2.8.2.tar.gz	.tar.gz	e29029ae9a9e12134475c85451eba8f0b45b214606ce241486bd14cb1660849b			
 cutadapt	1.8	src	all	https://pypi.python.org/packages/source/c/cutadapt/cutadapt-1.8.tar.gz	.tar.gz	b72e55b36d319567ecc586b99db91cc8b3240e1e5fcd8237ad0e22d69ea317b8	303526		
@@ -392,9 +392,9 @@ edgeR	3.4.2	src	all	https://github.com/bgruening/download_store/raw/master/DiffB
 eigen	2.0	src	all	http://bitbucket.org/eigen/eigen/get/2.0.17.tar.gz	.tar.gz	705028db65db7c1e393cdf55018754bf0696e376603a48a33b781bc85406ff1e	442778		
 eigen	3.1	src	all	http://bitbucket.org/eigen/eigen/get/3.1.3.tar.gz	.tar.gz	2ea0ba3eb9ac7ec623d8be92be4ee651191532cb311e0c979d65da9bc6c5143a	1348611		
 eigen	3.2.0	src	all	http://bitbucket.org/eigen/eigen/get/3.2.0.tar.bz2	.tar.bz2	011f78960d939227f9276173d0c4cc0053bb9e0a7356539a9a6c7c89d984fab6	1135851		
-emboss	5.0.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/emboss/emboss-5.0.0-Darwin-x64_64.tar.gz	.tar.gz	60f3525955843a8e2b1bd2dcbb412a9ab690f068fe9e69261985e20b9bc84903			
-emboss	5.0.0	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/emboss/emboss-5.0.0-Linux-i686.tar.gz	.tar.gz	88aced3dabb422503e51eca00b357aea1d8e904f5079887ef9370e76787aca19			
-emboss	5.0.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/emboss/emboss-5.0.0-Linux-x86_64.tar.gz	.tar.gz	44fc68cf43f86a039b45537f3d43aa6bcf9f36bbe707ddd42519b6055c17b95a			
+emboss	5.0.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/emboss/emboss-5.0.0-Darwin-x64_64.tgz	.tar.gz	60f3525955843a8e2b1bd2dcbb412a9ab690f068fe9e69261985e20b9bc84903			
+emboss	5.0.0	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/emboss/emboss-5.0.0-Linux-i686.tgz	.tar.gz	88aced3dabb422503e51eca00b357aea1d8e904f5079887ef9370e76787aca19			
+emboss	5.0.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/emboss/emboss-5.0.0-Linux-x86_64.tgz	.tar.gz	44fc68cf43f86a039b45537f3d43aa6bcf9f36bbe707ddd42519b6055c17b95a			
 expat	2.1	src	all	https://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz	.tar.gz	823705472f816df21c8f6aa026dd162b280806838bb55b3432b0fb1fcca7eb86	562616		
 expat	2.1.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/expat-2.1.0.tar.gz	.tar.gz	823705472f816df21c8f6aa026dd162b280806838bb55b3432b0fb1fcca7eb86			
 express	1.1.1	darwin	x64	http://bio.math.berkeley.edu/eXpress/downloads/express-1.1.1/express-1.1.1-macosx_x86_64.tgz	.tar.gz	6622e68de7b54a97b8d09abacc507b7696d83874bda9951a8bac73b059438c44	925182		
@@ -416,19 +416,19 @@ findpython	1.0.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/
 fontconfig	2.11.1	src	all	http://www.freedesktop.org/software/fontconfig/release/fontconfig-2.11.1.tar.gz	.tar.gz	b6b066c7dce3f436fdc0dfbae9d36122b38094f4f53bd8dffd45e195b0540d8d	1821111		
 foreach	1.4.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/foreach_1.4.2.tar.gz	.tar.gz	d4fd8f090029d9b9168ae415e6ab13ef017f06f1879488a2e0af4bcfd999ff24			
 foreign	0.8-66	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/foreign_0.8-66.tar.gz	.tar.gz	d7401e5fcab9ce6e697d3520dbb8475e229c30341c0004c4fa489c82aa4447a4			
-freebayes	0.9.14.8a407cf5f4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/freebayes/freebayes-0.9.14_8a407cf5f4-Linux-x86_64.tar.gz	.tar.gz	8b6f6582816b8b529a15d0e836cfd2a6d738712359e0d9222eaf515eb7f00e72			
+freebayes	0.9.14.8a407cf5f4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/freebayes/freebayes-0.9.14_8a407cf5f4-Linux-x86_64.tgz	.tar.gz	8b6f6582816b8b529a15d0e836cfd2a6d738712359e0d9222eaf515eb7f00e72			
 freebayes	0.9.18.0059bdf	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/freebayes/freebayes-0.9.18_0059bdf.tar.gz	.tar.gz	0d00f2aa06d115faa77b42f295e1e21c96ef9512c800adc89c71fe1d5b37df0a			
 freebayes	0.9.20.b040236	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/freebayes/freebayes-0.9.20_b040236.tar.gz	.tar.gz	d7b302218e368576d39de827c709ab462e83a8f655494470ff75d5781fc8f825			
-freebayes	0.9.6.9608597d	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/freebayes/freebayes-0.9.6_9608597d-Darwin-x86_64.tar.gz	.tar.gz	3fa1487cf9a0acac47babda6786ef1d6934181eee208d30a1ed4d7542a138075			
-freebayes	0.9.6.9608597d	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/freebayes/freebayes-0.9.6_9608597d-Linux-i686.tar.gz	.tar.gz	dc307e01b89bb7402eb7e8a5c551d8d6669632f705ab94a073182af9f68eef58			
-freebayes	0.9.6.9608597d	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/freebayes/freebayes-0.9.6_9608597d-Linux-x86_64.tar.gz	.tar.gz	33029075f10e6bdd471025cb589d6f28f88eead7af51623330ab23062158b5e4			
+freebayes	0.9.6.9608597d	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/freebayes/freebayes-0.9.6_9608597d-Darwin-x86_64.tgz	.tar.gz	3fa1487cf9a0acac47babda6786ef1d6934181eee208d30a1ed4d7542a138075			
+freebayes	0.9.6.9608597d	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/freebayes/freebayes-0.9.6_9608597d-Linux-i686.tgz	.tar.gz	dc307e01b89bb7402eb7e8a5c551d8d6669632f705ab94a073182af9f68eef58			
+freebayes	0.9.6.9608597d	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/freebayes/freebayes-0.9.6_9608597d-Linux-x86_64.tgz	.tar.gz	33029075f10e6bdd471025cb589d6f28f88eead7af51623330ab23062158b5e4			
 freetype	2.4	src	all	http://download.savannah.gnu.org/releases/freetype/freetype-2.4.11.tar.bz2	.tar.bz2	ef9d0bcb64647d9e5125dc7534d7ca371c98310fec87677c410f397f71ffbe3f	1546087		
 freetype	2.4.11	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/freetype-2.4.11.tar.bz2	.tar.bz2	ef9d0bcb64647d9e5125dc7534d7ca371c98310fec87677c410f397f71ffbe3f			
 freetype	2.5.2	src	all	http://download.savannah.gnu.org/releases/freetype/freetype-2.5.2.tar.gz	.tar.gz	376bc32bd907cb6f1a826a9c52627747b6d95259129df0f2c8faf99491168b55	2219466		
 futile.logger	1.4.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/futile.logger_1.4.1.tar.gz	.tar.gz	a1e485e943d288b92a2af3337b333be95d1b51246dd14be9f18ae5ce626894de			
 futile.options	1.0.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/futile.options_1.0.0.tar.gz	.tar.gz	ee84ece359397fbb63f145d11af678f5c8618570971e78cc64ac60dc0d14e8c2			
-galaxy_sequence_utils	1.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0.tar.gz	.tar.gz	da7f408023d50e06c2f70198b7e85729d6e7556cbcf7f180ad6a07818163ee4a			
-galaxy_sequence_utils	1.0.0-st	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0-st.tar.gz	.tar.gz	f6a0ff8261109b643226bbf21e6ff55da0ad88de8133bd4c8a371273520592a3			
+galaxy_sequence_utils	1.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0.tgz	.tar.gz	da7f408023d50e06c2f70198b7e85729d6e7556cbcf7f180ad6a07818163ee4a			
+galaxy_sequence_utils	1.0.0-st	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0-st.tgz	.tar.gz	f6a0ff8261109b643226bbf21e6ff55da0ad88de8133bd4c8a371273520592a3			
 galaxy_utils	1.0	src	all	http://depot.galaxyproject.org/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0.tgz	.tar.gz	da7f408023d50e06c2f70198b7e85729d6e7556cbcf7f180ad6a07818163ee4a	19535		
 gatk	1.4	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gatk-1.4.tar.gz	.tar.gz	9e6cd45643d37f5ee37a11944b555b9ea217a6b22e25fc2e9988eea4d84d2e6c			
 gb_taxonomy	8d245994d7	src	all	https://github.com/spond/gb_taxonomy_tools/archive/8d245994d77546daac1f595b87a110a620426b4c.tar.gz	.tar.gz	56b746cf6f0da7768bc7ef0c31c19bd014fdbc8e11aa90d7779d89ccfae12971	234665		
@@ -451,8 +451,8 @@ ggplot2	0.9.3.1	src	all	https://github.com/bgruening/download_store/raw/master/b
 ggplot2	1.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/ggplot2_1.0.0.tar.gz	.tar.gz	e6effb8065f030903c760ee238c8890ce85e462fe3c12a5521a983fcd1ed198d			
 ggplot2	1.0.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/ggplot2_1.0.1.tar.gz	.tar.gz	40248e6b31307787e44e45d806e7a33095844a9bbe864cc7583dd311b19c241d			
 ghostscript	9.07	src	all	http://downloads.ghostscript.com/public/ghostscript-9.07.tar.gz	.tar.gz	44800d004c53f13192d1b5db413119198ddfc8a11c4d2a030aac2f2fda822ebf	31911560		
-ghostscript	9.10	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/ghostscript/ghostscript-9.10-Darwin-x86_64.tar.gz	.tar.gz	074fec88899afbcb2fc084bae3c059055d2d9e9b53cce23f076087f956071663			
-ghostscript	9.10	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/ghostscript/ghostscript-9.10-linux-x86_64.tar.gz	.tar.gz	ff8ffa17cab67d5365e47703098d370fab8eee6304e4e3497eca164ef73519ce			
+ghostscript	9.10	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/ghostscript/ghostscript-9.10-Darwin-x86_64.tgz	.tar.gz	074fec88899afbcb2fc084bae3c059055d2d9e9b53cce23f076087f956071663			
+ghostscript	9.10	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/ghostscript/ghostscript-9.10-linux-x86_64.tgz	.tar.gz	ff8ffa17cab67d5365e47703098d370fab8eee6304e4e3497eca164ef73519ce			
 gnu_awk	4.1.0	src	all	http://ftp.gnu.org/gnu/gawk/gawk-4.1.0.tar.gz	.tar.gz	79f81b09bc3cce50e083f78acc0f91783821ad30866615d30dd1731f17ec440b	3995528		
 gnu_coreutils	8.21	src	all	https://github.com/bgruening/download_store/raw/master/GNU/coreutils-8.21.tar.bz2	.tar.bz2	2d0fa1aff8ab612e37cbc96f8d4c2538aab836e7369b072a39c3314699424883	10024960		
 gnu_coreutils	8.22	src	all	https://github.com/bgruening/download_store/raw/master/GNU/coreutils-8.22.tar.bz2	.tar.bz2	ee9f39144f96ca29c862c0c4fd09e5d186b9079b12ff509653f390fc1fda67cc	10222520		
@@ -466,9 +466,9 @@ gnuplot_py	1.8	src	all	http://downloads.sourceforge.net/project/gnuplot-py/Gnupl
 go	1.5.1	darwin	x64	https://storage.googleapis.com/golang/go1.5.1.darwin-amd64.tar.gz	.tar.gz	e94487b8cd2e0239f27dc51e6c6464383b10acb491f753584605e9b28abf48fb			
 go	1.5.1	linux	x32	https://storage.googleapis.com/golang/go1.5.1.linux-386.tar.gz	.tar.gz	11bdd79a389a7c6220cc8049480b37227eae05778c0fde616b1edd10f713c5e2			
 go	1.5.1	linux	x64	https://storage.googleapis.com/golang/go1.5.1.linux-amd64.tar.gz	.tar.gz	2593132ca490b9ee17509d65ee2cd078441ff544899f6afb97a03d08c25524e7			
-gocr	0.50pre-patched	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/gocr-0.50pre-patched.tar.gz	.tar.gz	b04f8af0cd210b841c45b4c50f3b615c8e5913152cc63f01754255abd329b80c			
-gops	1.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/gops-1.0.tar.gz	.tar.gz	05c25e4cee35c72cdf4e739215101dcd421c7fb3f3409eddf15aac99f59553b8			
-gops	1.0-st	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/gops-1.0-st.tar.gz	.tar.gz	278e63599ec58653be8fdac0c8a3f8aac096db559751a782884118cfdc7e533a			
+gocr	0.50pre-patched	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/gocr-0.50pre-patched.tgz	.tar.gz	b04f8af0cd210b841c45b4c50f3b615c8e5913152cc63f01754255abd329b80c			
+gops	1.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/gops-1.0.tgz	.tar.gz	05c25e4cee35c72cdf4e739215101dcd421c7fb3f3409eddf15aac99f59553b8			
+gops	1.0-st	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/gops-1.0-st.tgz	.tar.gz	278e63599ec58653be8fdac0c8a3f8aac096db559751a782884118cfdc7e533a			
 gplots	2.12.1	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gplots_2.12.1.tar.gz	.tar.gz	37c48ff2fecef9e848f0d781095544b58fa0c7d091e079c482a4d583781cebd9			
 gplots	2.14.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/gplots_2.14.2.tar.gz	.tar.gz	8cb2ef4309f44eb049f0a8761d3b2aaf636e0ec2323942ec0c27fd8b4912abf9			
 graph	1.44.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/graph_1.44.0.tar.gz	.tar.gz	beba1882b4bb29777ed87470313a377e42e2880f5498019d5f7f84677283f618			
@@ -481,10 +481,10 @@ gtable	0.1.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gtab
 gtools	3.1.1	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gtools_3.1.1.tar.gz	.tar.gz	8f8ec6de48dde9b645c85b842339bd6d9739de0d83ccd3748c53763bdf821845			
 gtools	3.4.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gtools_3.4.1.tar.gz	.tar.gz	fa2b8351223369a13f4e922f13e8c836459a9522c775a455afd5e2b18941bb34			
 hdf5	1.8.12	src	all	https://github.com/bgruening/download_store/raw/master/hdf5/hdf5-1.8.12.tar.gz	.tar.gz	b5cccea850096962b5fd9e96f22c4f47d2379224bb41130d9bc038bb6c37dfcb			
-hisat	0.1.6	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/hisat/hisat-0.1.6-beta-OSX_x86_64.tar.gz	.tar.gz	80cb2ab3d58889abf4c25a7fe1e92e39273259fb706f71b9f3ec2bf181495248			
+hisat	0.1.6	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/hisat/hisat-0.1.6-beta-OSX_x86_64.tgz	.tar.gz	80cb2ab3d58889abf4c25a7fe1e92e39273259fb706f71b9f3ec2bf181495248			
 hisat	0.1.6	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/hisat/hisat-0.1.6-beta-Linux_x86_64.tgz	.tar.gz	a29dc43d9d66c2579803ff1c3ad0788266824640cd07b073d005321f1c125e69			
 hisat	0.1.6	src	all	http://ccb.jhu.edu/software/hisat/downloads/hisat-0.1.6-beta-source.zip	.zip	69fbd79d8f29b221aa72f0db33148d67d44a3e2cfe16dadf0663a58b7741ff9c			
-hisat	0.1.6-beta	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/hisat/hisat-0.1.6-beta-Linux_x86_64.tar.gz	.tar.gz	a29dc43d9d66c2579803ff1c3ad0788266824640cd07b073d005321f1c125e69			
+hisat	0.1.6-beta	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/hisat/hisat-0.1.6-beta-Linux_x86_64.tgz	.tar.gz	a29dc43d9d66c2579803ff1c3ad0788266824640cd07b073d005321f1c125e69			
 hisat	2.0	darwin	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-OSX_x86_64.zip	.zip	a71f5b5af05c942b8311805a98d2aeaec4b882b5876ea67a810fe46d544741b4	9407108		
 hmmer	3.1b1	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b1/hmmer-3.1b1.tar.gz	.tar.gz	246f5e32545d3a5706d065d8413fc8fc5445e779a97019e98ba319e5ef9dc1d8	5778584		
 hmmer	3.1b2	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b2/hmmer-3.1b2.tar.gz	.tar.gz	dd16edf4385c1df072c9e2f58c16ee1872d855a018a2ee6894205277017b5536	5965253		
@@ -518,10 +518,10 @@ lambda.r	1.1.7	src	all	https://github.com/bgruening/download_store/raw/master/DE
 lapack	3.4.2	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/lapack/3.4.2.gpk	.gpk	2435f9b73be3a0218881a6ba2c56021c9f81ee6dd142e9ff9b64503784e3051e			
 lapack	3.4.2	src	all	http://www.netlib.org/lapack/lapack-3.4.2.tgz	.tar.gz	60a65daaf16ec315034675942618a2230521ea7adf85eea788ee54841072faf0			
 lapack	3.5.0	src	all	http://www.netlib.org/lapack/lapack-3.5.0.tgz	.tar.gz	9ad8f0d3f3fb5521db49f2dd716463b8fb2b6bc9dc386a9956b8c6144f726352			
-lastz	1.02.00	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/lastz/lastz-1.02.00-Darwin-x86_64.tar.gz	.tar.gz	f6a20429bd93873ffc917381eb0808d325b166ff947008213973463b26bb520a			
-lastz	1.02.00	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/lastz/lastz-1.02.00-Linux-x86_64.tar.gz	.tar.gz	3036fcceb477deb9152d759b6ad323b27a5fe9cb7724396e688685a396e08297			
-lastz	1.03.52	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/lastz/lastz-1.03.52-Darwin-x86_64.tar.gz	.tar.gz	acf18a061a65704abfd56c84a21180dc9c3d277733bd139d4f4c3717d66622e6			
-lastz	1.03.52	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/lastz/lastz-1.03.52-linux-x86_64.tar.gz	.tar.gz	4420a9712df0d9f56407012c00d03aa341f706e4b2b9bc2caa339bc7e63451e8			
+lastz	1.02.00	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/lastz/lastz-1.02.00-Darwin-x86_64.tgz	.tar.gz	f6a20429bd93873ffc917381eb0808d325b166ff947008213973463b26bb520a			
+lastz	1.02.00	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/lastz/lastz-1.02.00-Linux-x86_64.tgz	.tar.gz	3036fcceb477deb9152d759b6ad323b27a5fe9cb7724396e688685a396e08297			
+lastz	1.03.52	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/lastz/lastz-1.03.52-Darwin-x86_64.tgz	.tar.gz	acf18a061a65704abfd56c84a21180dc9c3d277733bd139d4f4c3717d66622e6			
+lastz	1.03.52	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/lastz/lastz-1.03.52-linux-x86_64.tgz	.tar.gz	4420a9712df0d9f56407012c00d03aa341f706e4b2b9bc2caa339bc7e63451e8			
 lattice	0.20-29	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/lattice_0.20-29.tar.gz	.tar.gz	3a69b35d0d56ec3fec35acab6187ebda3d836f6b08ae93246ec8f83c03c7e646			
 lattice	0.20-30	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/lattice_0.20-30.tar.gz	.tar.gz	528ce0a6378334de47e11a1a7efe0f4b3b1c8b44ec8e3f0720bd9e5b122d2881			
 lattice	0.20-31	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/lattice_0.20-31.tar.gz	.tar.gz	61bdd89b85979b68a0546ea6910cdc096939922f936b29cbd41ab51f5e1e75ac			
@@ -571,7 +571,7 @@ mcl	12.135	src	all	http://micans.org/mcl/src/mcl-12-135.tar.gz	.tar.gz	3f5e0e7ad
 meme	4.10.0	darwin	x64	https://depot.galaxyproject.org/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057	8971348		
 meme	4.10.0	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tgz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8			
 meme	4.10.0.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057			
-meme	4.10.0.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tar.gz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8			
+meme	4.10.0.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tgz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8			
 mgcv	1.8-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/mgcv_1.8-5.tar.gz	.tar.gz	dcad548be9efbff8737e54082dde5a20cac79f81037eb79586ad68bf403f7c8c			
 miRDeep2	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2.tar.gz	.tar.gz	7a2ea1608d34e103750094ecac9a2d0d0a119f670ed41c635711e8e5d161f837			
 miRDeep2-mapper	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2-mapper.tar.gz	.tar.gz	37943e9c9df4ee1be3b518d5fb0478e412371d6643fac8a60516803ae82e3c99			
@@ -620,8 +620,8 @@ openms	2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_6
 openms	2.0.dev	src	all	https://github.com/OpenMS/OpenMS/archive/develop.tar.gz	.tar.gz	6c7bdabe66ea68ba109c8eb05192611084f73b00b4d44234f7458c8df775f547	184045		
 openms	2.0.master	src	all	https://github.com/OpenMS/contrib/archive/master.tar.gz	.tar.gz	6c7bdabe66ea68ba109c8eb05192611084f73b00b4d44234f7458c8df775f547	184045		
 openssl	1.0	src	all	https://www.openssl.org/source/openssl-1.0.2d.tar.gz	.tar.gz	671c36487785628a703374c652ad2cebea45fa920ae5681515df25d9f2c9a8c8	5295447		1.0.2a, only 1.0.2d available
-osra	1.4.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/osra-1.4.0.tar.gz	.tar.gz	1ebf0643b2843194880af46006e3da6ca6a0a556f0ff5b411186711c948cb442			
-osra	2.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/osra-2.0.0.tar.gz	.tar.gz	197a7705616df7b01363ca86e990c5a961258ff31a5074e6c57670ce5f3e3ead			
+osra	1.4.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/osra-1.4.0.tgz	.tar.gz	1ebf0643b2843194880af46006e3da6ca6a0a556f0ff5b411186711c948cb442			
+osra	2.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/osra-2.0.0.tgz	.tar.gz	197a7705616df7b01363ca86e990c5a961258ff31a5074e6c57670ce5f3e3ead			
 pal_finder	0.02.04	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/pal_finder_v0.02.04.tar.gz	.tar.gz	b9c578a4e7b1f6f03b9d05cd47876d057c4f304c42ae34c7c19ca9207403ad3b			
 pandas	0.14	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.14.1.tar.gz	.tar.gz	8d36f69e63f4c36999d142d60e476a6359c77069ad0ed1e4aa16a7005884dd21	6713272		
 pandas	0.16	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.16.2.tar.gz	.tar.gz	e01853dfe111f3aea005315573400b7216ddbabbf1f28d482a71217d67ae4f81			
@@ -670,29 +670,29 @@ python	2.7	src	all	https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz	.t
 python	3.4	src	all	https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tgz	.tar.gz	8b743f56e9e50bf0923b9e9c45dd927c071d7aa56cd46569d8818add8cf01147	19554643		
 qt	4.8	src	all	http://download.qt-project.org/official_releases/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz	.tar.gz	8b14dd91b52862e09b8e6a963507b74bc2580787d171feda197badfa7034032c	241623667		
 qt	5.1	src	all	http://download.qt-project.org/official_releases/qt/5.1/5.1.1/single/qt-everywhere-opensource-src-5.1.1.tar.gz	.tar.gz	4c05742db52325e96b1d610a2388140dcc1e3d03d93faea2b2d3791015b186f6	236856127		
-r	2.11.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-2.11.0-Darwin-x86_64.tar.gz	.tar.gz	83b5b3177302015b0895f781ee319bf1b1551875d1dc11f12c86521c50c24b75			
-r	2.11.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-2.11.0-Linux-x86_64.tar.gz	.tar.gz	c2c21bb038a17801becb227d9fbb4ef291e58396e7dd8e6df7b3cab78a03d48a			
-r	2.15.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-2.15.0-Darwin-x86_64.tar.gz	.tar.gz	d26e4d62b9b01cdd058ae94413dc26a738f4074b38022ca1312a5f1a6837a279			
-r	2.15.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-2.15.0-Linux-x86_64.tar.gz	.tar.gz	f4a48465e434d27cbc1703d215180595aff9a2d6c87c1e086838b897fee19403			
+r	2.11.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-2.11.0-Darwin-x86_64.tgz	.tar.gz	83b5b3177302015b0895f781ee319bf1b1551875d1dc11f12c86521c50c24b75			
+r	2.11.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-2.11.0-Linux-x86_64.tgz	.tar.gz	c2c21bb038a17801becb227d9fbb4ef291e58396e7dd8e6df7b3cab78a03d48a			
+r	2.15.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-2.15.0-Darwin-x86_64.tgz	.tar.gz	d26e4d62b9b01cdd058ae94413dc26a738f4074b38022ca1312a5f1a6837a279			
+r	2.15.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-2.15.0-Linux-x86_64.tgz	.tar.gz	f4a48465e434d27cbc1703d215180595aff9a2d6c87c1e086838b897fee19403			
 r	2.15.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/R/R-2.15.0.tar.gz	.tar.gz	6f26304773e92d8b61f150e1ccd21c153a32b89e8032b1ece45e5f4c34d9e397			
-r	3.0.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.0-Darwin-x86_64.tar.gz	.tar.gz	0a02d45f88b27b4c53d0cd0c0889aa07043e2eabb7f0a81ee2ad1892a52e4a01			
-r	3.0.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.0-Linux-x86_64.tar.gz	.tar.gz	36eacc7f429958887299059b2d1d3c68bf4d82941b5767b8daa736fd5be771bb			
-r	3.0.1	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.1-Darwin-x86_64.tar.gz	.tar.gz	fd95edc0c7bac14c266f6dff73cf0a1966a2debe1f205d2b5a84b981efcdb065			
-r	3.0.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.1-Linux-x86_64.tar.gz	.tar.gz	67f62eea4c62d939bcf75c6857f2447c1dd042fce5287d4bd13d927c2922bd83			
+r	3.0.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.0-Darwin-x86_64.tgz	.tar.gz	0a02d45f88b27b4c53d0cd0c0889aa07043e2eabb7f0a81ee2ad1892a52e4a01			
+r	3.0.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.0-Linux-x86_64.tgz	.tar.gz	36eacc7f429958887299059b2d1d3c68bf4d82941b5767b8daa736fd5be771bb			
+r	3.0.1	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.1-Darwin-x86_64.tgz	.tar.gz	fd95edc0c7bac14c266f6dff73cf0a1966a2debe1f205d2b5a84b981efcdb065			
+r	3.0.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.1-Linux-x86_64.tgz	.tar.gz	67f62eea4c62d939bcf75c6857f2447c1dd042fce5287d4bd13d927c2922bd83			
 r	3.0.1	src	all	http://cran.ms.unimelb.edu.au/src/base/R-3/R-3.0.1.tar.gz	.tar.gz	af90488af3141103b211dc81b6f17d1f0faf4f17684c579a32dfeb25d0d87134	25508280		
-r	3.0.2	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.2-Darwin-x86_64.tar.gz	.tar.gz	065ca3f407a3e850a1b260eac6765ce1fc49ca1bd06ea395d7fc2bf4a491b837			
-r	3.0.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.2-Linux-x86_64.tar.gz	.tar.gz	f69795d84005618bce8ec295fdb50293d435fd54bf3d7999cf5c707c4ba31299			
+r	3.0.2	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.2-Darwin-x86_64.tgz	.tar.gz	065ca3f407a3e850a1b260eac6765ce1fc49ca1bd06ea395d7fc2bf4a491b837			
+r	3.0.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.2-Linux-x86_64.tgz	.tar.gz	f69795d84005618bce8ec295fdb50293d435fd54bf3d7999cf5c707c4ba31299			
 r	3.0.2	src	all	http://cran.ms.unimelb.edu.au/src/base/R-3/R-3.0.2.tar.gz	.tar.gz	956e05ad60447955049285420b5a48e0526aa4db676fd9eadb4bcfb7ccdc024b	25364181		
-r	3.0.3	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.3-Darwin-x86_64.tar.gz	.tar.gz	35d29d8e0ab4c860b1c4b436e7b690811ea9a3b879093bdb3555ac3e2b1bbcde			
-r	3.0.3	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.3-Linux-x86_64.tar.gz	.tar.gz	724ee7c3be16df44fa2b41adbe1358cdcf2830face99e897a4a77bbd6baa57d8			
+r	3.0.3	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.0.3-Darwin-x86_64.tgz	.tar.gz	35d29d8e0ab4c860b1c4b436e7b690811ea9a3b879093bdb3555ac3e2b1bbcde			
+r	3.0.3	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.0.3-Linux-x86_64.tgz	.tar.gz	724ee7c3be16df44fa2b41adbe1358cdcf2830face99e897a4a77bbd6baa57d8			
 r	3.0.3	src	all	http://cran.rstudio.com/src/base/R-3/R-3.0.3.tar.gz	.tar.gz	b97cfd9540f294ab786e846153f3dd8605610d7e27616bfb4296795bc4fde6d6			
-r	3.1.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.1.0-Darwin-x86_64.tar.gz	.tar.gz	121ef7ff503b6745b4b137344ba2179d5cd68d0373ce90a889fea571a4fe679c			
-r	3.1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.1.0-Linux-x86_64.tar.gz	.tar.gz	b5521c91e5a4cab6e77e779327e25f6097b93d494ac7abcfc4ca1de6a203a18e			
+r	3.1.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-3.1.0-Darwin-x86_64.tgz	.tar.gz	121ef7ff503b6745b4b137344ba2179d5cd68d0373ce90a889fea571a4fe679c			
+r	3.1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.1.0-Linux-x86_64.tgz	.tar.gz	b5521c91e5a4cab6e77e779327e25f6097b93d494ac7abcfc4ca1de6a203a18e			
 r	3.1.0	src	all	http://cran.rstudio.com/src/base/R-3/R-3.1.0.tar.gz	.tar.gz	8a680390f84c58c01dcdefd682eaa0e90389f09e6d2f2e090c71af40065f5fe2			
 r	3.1.1	src	all	http://cran.rstudio.com/src/base/R-3/R-3.1.1.tar.gz	.tar.gz	ce5c4d5e34414ce8f1ec2d5642861435fa1ddc4cd89bd336172bbe25a62c7a19	28606569		
-r	3.1.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.1.2-Linux-x84_64.tar.gz	.tar.gz	586dde39d6821bcc5079004450f5d19f836a26d4554083c7add3933f071451e0			
+r	3.1.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.1.2-Linux-x84_64.tgz	.tar.gz	586dde39d6821bcc5079004450f5d19f836a26d4554083c7add3933f071451e0			
 r	3.1.2	src	all	http://cran.rstudio.com/src/base/R-3/R-3.1.2.tar.gz	.tar.gz	bcd150afcae0e02f6efb5f35a6ab72432be82e849ec52ce0bb89d8c342a8fa7a			
-r	3.2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.2.0-Linux-x86_64.tar.gz	.tar.gz	3046e973836ad80f6abaaa963bb31ead406af9bd5fa2f02eb03cdc2970440ab2			
+r	3.2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.2.0-Linux-x86_64.tgz	.tar.gz	3046e973836ad80f6abaaa963bb31ead406af9bd5fa2f02eb03cdc2970440ab2			
 r	3.2.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-3.2.1-Linux-x86_64.tar.gz	.tar.gz	0a27c632b6aacacfd96264ec815dfef4a68bfa807c48d90fa1eb6600872199e0			
 rMATS	3.0.9	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/rMATS.3.0.9.tgz	.tar.gz	59add11b1577983e8410441ca81d51f151e4b2353c131ce5c1dec83fe12de835			
 randfold	2.0	src	all	http://bioinformatics.psb.ugent.be/supplementary_data/erbon/nov2003/downloads/randfold-2.0.tar.gz	.tar.gz	4d9e07912a010f41f57fa8aded336fd53313897aab79c326c90987eed5f43be2	68099		
@@ -710,8 +710,8 @@ reshape2	1.4.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/re
 rjson	0.2.13	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/rjson_0.2.13.tar.gz	.tar.gz	24cf93ef25b222295d689a42e126bc15d7ab3e24b83891cf5c11796431cd045c			
 rjson	0.2.14	src	all	http://cran.r-project.org/src/contrib/Archive/rjson/rjson_0.2.14.tar.gz	.tar.gz	93d417f4eddb6fb7d679fbabb934b155de3965cf3d3e5ab03af69af5a0123357	98397		
 rjson	0.2.15	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/rjson_0.2.15.tar.gz	.tar.gz	77d00d8f6a1c936329b46f3b8b0be79a165f8c5f1989497f942ecc53dcf6f2ef			
-rmap	2.05	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/rmap/rmap-2.05-darwin-x86_64.tar.gz	.tar.gz	14e9105348af6c91f295028f0f92dc96eb4c165c123d0209f4323488061496e0			
-rmap	2.05	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/rmap/rmap-2.05-Linux-x86_64.tar.gz	.tar.gz	6cc4851c75996818c6a870d0a1c579e0fadf3a63c4ff5f03a227394925978bda			
+rmap	2.05	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/rmap/rmap-2.05-darwin-x86_64.tgz	.tar.gz	14e9105348af6c91f295028f0f92dc96eb4c165c123d0209f4323488061496e0			
+rmap	2.05	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/rmap/rmap-2.05-Linux-x86_64.tgz	.tar.gz	6cc4851c75996818c6a870d0a1c579e0fadf3a63c4ff5f03a227394925978bda			
 rmap	2.05	src	all	https://github.com/bgruening/download_store/raw/master/rmap/rmap_v2.05.tar.bz2	.tar.bz2	8378d77b4d9343208b986d0bcf87f06a6f1ad28d3aedf9bebc2472971cf879e9			
 rnacode	0.3	src	all	http://github.com/downloads/wash/rnacode/RNAcode-0.3.tar.gz	.tar.gz	86c600a07ecd04d243fd6eb3c6cc5b20fd6159f34f69423e7391c0ce8f311048	721178		
 rnashapes	2.1.6	darwin	all	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6-osx.tar.gz	.tar.gz	a55854b1989d6646aa77fd88b50c1499e53fe739c640601f034830b56bad080e	1453168		
@@ -730,25 +730,25 @@ ruby	2.2	src	all	http://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.3.tar.gz	.tar.
 sailfish	0.6	src	all	https://github.com/kingsfordgroup/sailfish/archive/v0.6.3.tar.gz	.tar.gz	5fded7dc88e525d17eb7abe102ac8ce8d8c3c8e9997d8aa1c512dddbef813632	213778		
 sailfish	0.7.5	darwin	x64	https://github.com/kingsfordgroup/sailfish/releases/download/v0.7.5/SailfishBeta-0.7.5_OSX_10.10.tar.gz	.tar.gz	d7abbd35481e961bd54dde0e3f265d05288f14f6e829e5f7bb8147bfc1319913	1296578		
 sailfish	0.7.6	darwin	x64	https://github.com/kingsfordgroup/sailfish/releases/download/v0.7.6/SailfishBeta-0.7.6_OSX_10.10.tar.gz	.tar.gz	5e9691160aae7c93346b227860be4d3362b37b1743af67ca64c097b418d499f7	1393614		
-samtools	0.1.16	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/samtools/samtools-0.1.16-Darwin-i386.tar.gz	.tar.gz	4b89dd5542809098269939f6eb913abcf0011c746e02085221d171e3942b6e1f			
-samtools	0.1.16	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/samtools/samtools-0.1.16-Darwin-x86_64.tar.gz	.tar.gz	4e74d7ce4eb5d26166ff6f9bb5939d9a0110d9bdb0baf9ff08cc9522a49e09cb			
-samtools	0.1.16	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/samtools/samtools-0.1.16-linux-i386.tar.gz	.tar.gz	7090bd62142df0ed3a2b4000292fc0edc917e773d0269c2f3f5b0d36b7888c22			
-samtools	0.1.16	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-0.1.16-linux-x86_64.tar.gz	.tar.gz	1d050e70fb6570117f282e3ab827f1f37fd453a0558c55ea565092ec3b2b9db2			
+samtools	0.1.16	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/samtools/samtools-0.1.16-Darwin-i386.tgz	.tar.gz	4b89dd5542809098269939f6eb913abcf0011c746e02085221d171e3942b6e1f			
+samtools	0.1.16	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/samtools/samtools-0.1.16-Darwin-x86_64.tgz	.tar.gz	4e74d7ce4eb5d26166ff6f9bb5939d9a0110d9bdb0baf9ff08cc9522a49e09cb			
+samtools	0.1.16	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/samtools/samtools-0.1.16-linux-i386.tgz	.tar.gz	7090bd62142df0ed3a2b4000292fc0edc917e773d0269c2f3f5b0d36b7888c22			
+samtools	0.1.16	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-0.1.16-linux-x86_64.tgz	.tar.gz	1d050e70fb6570117f282e3ab827f1f37fd453a0558c55ea565092ec3b2b9db2			
 samtools	0.1.16	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/samtools/samtools-0.1.16.tar.bz2	.tar.bz2	ae37c49f2414d1fabe597f68f2351f6cce4b6c0a1a512a5d739bbf759f80a726			
-samtools	0.1.18	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/samtools/samtools-0.1.18-Darwin-i386.tar.gz	.tar.gz	dffd1788d6075bc158a0481978ee9662e9773653bb0c50d515c4fcad4b098f4d			
-samtools	0.1.18	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/samtools/samtools-0.1.18-Darwin-x86_64.tar.gz	.tar.gz	ec199fa47f77fd5a4ac70b5b5c795600f9d5d456d8824d8d2f83cd6abbd8d690			
-samtools	0.1.18	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/samtools/samtools-0.1.18-linux-i386.tar.gz	.tar.gz	0727ad4388feca3a29c6242e8a0ead38b31115af75b7acd5368e92fcaf89a775			
-samtools	0.1.18	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-0.1.18-linux-x86_64.tar.gz	.tar.gz	d02ed38f0ff47998d23a70f98c2577885d089fd66c72e5af58636759e459a500			
+samtools	0.1.18	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/samtools/samtools-0.1.18-Darwin-i386.tgz	.tar.gz	dffd1788d6075bc158a0481978ee9662e9773653bb0c50d515c4fcad4b098f4d			
+samtools	0.1.18	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/samtools/samtools-0.1.18-Darwin-x86_64.tgz	.tar.gz	ec199fa47f77fd5a4ac70b5b5c795600f9d5d456d8824d8d2f83cd6abbd8d690			
+samtools	0.1.18	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/samtools/samtools-0.1.18-linux-i386.tgz	.tar.gz	0727ad4388feca3a29c6242e8a0ead38b31115af75b7acd5368e92fcaf89a775			
+samtools	0.1.18	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-0.1.18-linux-x86_64.tgz	.tar.gz	d02ed38f0ff47998d23a70f98c2577885d089fd66c72e5af58636759e459a500			
 samtools	0.1.18	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/samtools/samtools-0.1.18.tar.bz2	.tar.bz2	f3faaf34430d4782956562eb72906289e8e34d44d0c4d73837bdbeead7746b16			
-samtools	0.1.19	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/samtools/samtools-0.1.19-Darwin-x86_64.tar.gz	.tar.gz	01e0a2cb38b1bcd433461cef43ff6555755a30dfbe83cb9c0a24cb028b104ac7			
-samtools	0.1.19	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-0.1.19-Linux-x86_64.tar.gz	.tar.gz	3cc457cd66e077b70887155435d8f563154371a61e7ac6714bc10b6aa19841bd			
+samtools	0.1.19	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/samtools/samtools-0.1.19-Darwin-x86_64.tgz	.tar.gz	01e0a2cb38b1bcd433461cef43ff6555755a30dfbe83cb9c0a24cb028b104ac7			
+samtools	0.1.19	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-0.1.19-Linux-x86_64.tgz	.tar.gz	3cc457cd66e077b70887155435d8f563154371a61e7ac6714bc10b6aa19841bd			
 samtools	0.1.19	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/samtools/samtools-0.1.19.tar.bz2	.tar.bz2	d080c9d356e5f0ad334007e4461cbcee3c4ca97b8a7a5a48c44883cf9dee63d4			
 samtools	0.1.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/samtools-0.1.6.tar.bz2	.tar.bz2	a80f658edbbe810bcf94ecdbd1d05c109834186cccf6dcdaebca4eb7751e49f7			
-samtools	1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-1.0-Linux-x86_64.tar.gz	.tar.gz	cf1b9a19d0e8ad0a29d489e62fa9d1720842a6097c7679f7398d21884ff65da9			
+samtools	1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-1.0-Linux-x86_64.tgz	.tar.gz	cf1b9a19d0e8ad0a29d489e62fa9d1720842a6097c7679f7398d21884ff65da9			
 samtools	1.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/samtools-1.0.tar.bz2	.tar.bz2	7340b843663c3f54a902a06f2f73c68198f3a62d29a2ed20671139957f7fd7c0			
-samtools	1.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-1.1-Linux-x86_64.tar.gz	.tar.gz	7791c2b44457fbbdda37936d678ce68c087334bbddf10d35a63a415e141090c8			
+samtools	1.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-1.1-Linux-x86_64.tgz	.tar.gz	7791c2b44457fbbdda37936d678ce68c087334bbddf10d35a63a415e141090c8			
 samtools	1.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/samtools-1.1.tar.bz2	.tar.bz2	c24d26c303153d72b5bf3cc11f72c6c375a4ca1140cc485648c8c5473414b7f8			
-samtools	1.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-1.2-Linux-x86_64.tar.gz	.tar.gz	4bf5ee7bbf76c8260f032a7242c37f78cac5c33284f5a453b27de0ec131bafdb			
+samtools	1.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-1.2-Linux-x86_64.tgz	.tar.gz	4bf5ee7bbf76c8260f032a7242c37f78cac5c33284f5a453b27de0ec131bafdb			
 samtools	1.2	src	all	https://github.com/samtools/samtools/releases/download/1.2/samtools-1.2.tar.bz2	.tar.bz2	420e7a4a107fe37619b9d300b6379452eb8eb04a4a9b65c3ec69de82ccc26daa			
 samtools	1.2+gx1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/samtools/samtools-1.2+gx1-Linux-x86_64.tar.gz	.tar.gz	bc234f6cce07de6ea323c477b0d55941c33692297fa07d56b5325af9a3f220f6			
 scales	0.2.3	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/scales_0.2.3.tar.gz	.tar.gz	46aef8eb261abc39f87b71184e5484bc8c2c94e01d3714ce4b2fd60727bc40d9			
@@ -788,8 +788,8 @@ snpeff	3.6	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v3_6_
 snpeff	4.0	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v4_0_core.zip	.zip	e5c4c555b9ba5546ae885d2645b070ae81a1e30f3de96d298837ec40c45a9ffc	45999794		
 snpeff	4.1	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v4_1_core.zip	.zip	6b8a71863ff8a7121e1a1c619673bf17f559300a3001ff59345c4ba694914fee	41750981		
 sparsehash	2.0.2	src	all	https://sparsehash.googlecode.com/files/sparsehash-2.0.2.tar.gz	.tar.gz	2ed639a7155607c097c2029af5f4287296595080b2e5dd2e2ebd9bbb7450b87c	340514		
-sputnik	1.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/sputnik/sputnik-1.0-Darwin-x86_64.tar.gz	.tar.gz	3d752f22c171509da2752aed26b749a7eab21a80f5f9506eccdc8b290dbc62ba			
-sputnik	1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/sputnik/sputnik-1.0-Linux-x86_64.tar.gz	.tar.gz	92e9b5ecc3460063ace1972b09527b0a049a1cafd3e4cb08fc4c95c0d5a5dfaa			
+sputnik	1.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/sputnik/sputnik-1.0-Darwin-x86_64.tgz	.tar.gz	3d752f22c171509da2752aed26b749a7eab21a80f5f9506eccdc8b290dbc62ba			
+sputnik	1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/sputnik/sputnik-1.0-Linux-x86_64.tgz	.tar.gz	92e9b5ecc3460063ace1972b09527b0a049a1cafd3e4cb08fc4c95c0d5a5dfaa			
 sqlite	3.8.3	src	all	https://github.com/bgruening/download_store/raw/master/sqlite/sqlite-autoconf-3080300.tar.gz	.tar.gz	dabe38cf6732a9dfd57e9a2d2629dfb12ea3f2bf8948987f91318d01e6f72a26	1923594		
 squash	1.0.1	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/squash_1.0.1.tar.gz	.tar.gz	8cff0cc70e1d03e35fda1e24e8bb26ae3a36324ac809cfe5e4ae1204e5a80290			
 squid	1.9g	src	all	http://selab.janelia.org/software/squid/squid.tar.gz	.tar.gz	302f42e8794aa4dbcfa0996c14fb7a70a7c4397fc45c2bbd2748055460d8dca7	301432		
@@ -798,7 +798,7 @@ stringi	0.5-5	src	all	https://github.com/bgruening/download_store/raw/master/DES
 stringi	1.0-1	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/stringi_1.0-1.tar.gz	.tar.gz	e748e4f0f9cb642fd1ed0d663d5999ebd9b9d11edafb6b2ef79e6b6d4641a3d1	3643002		
 stringr	0.6.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/stringr_0.6.2.tar.gz	.tar.gz	c3fc9c71d060ad592d2cfc51c36ab2f8e5f8cf9a25dfe42c637447dd416b6737			
 stringr	1.0.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/stringr_1.0.0.tar.gz	.tar.gz	f8267db85b83c0fc8904009719c93296934775b0d6890c996ec779ec5336df4a			
-stringtie	0.97	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/stringtie/stringtie-0.97-Darwin-x86_64.tar.gz	.tar.gz	53dfa6d2fadf7bd548b9932f1dd3e1c40f84c3e2877a801af5cd9059024fe577			
+stringtie	0.97	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/stringtie/stringtie-0.97-Darwin-x86_64.tgz	.tar.gz	53dfa6d2fadf7bd548b9932f1dd3e1c40f84c3e2877a801af5cd9059024fe577			
 stringtie	0.97	linux	x64	http://ccb.jhu.edu/software/stringtie/dl/stringtie-0.97.Linux_x86_64.tar.gz	.tar.gz	3bad0150bc4ee6e0768a0cb77e13d1130e6103ffe0400f14e3daf1e6a617e6c6			
 stringtie	0.97	src	all	http://ccb.jhu.edu/software/stringtie/dl/stringtie-0.97.tar.gz	.tar.gz	8a8371827a123a94333036d482cc45ccd39d6dd54f6d394fb536853265241d1d			
 stringtie	1.0.1	darwin	x64	http://ccb.jhu.edu/software/stringtie/dl/stringtie-1.0.1.OSX_x86_64.tar.gz	.tar.gz	8815e3345567b413ad5a6567f499e71c16c316abb3828430f5e0affdb11c5ed3	245037		
@@ -840,16 +840,16 @@ tpp	4.7.0	src	all	http://downloads.sourceforge.net/project/sashimi/Trans-Proteom
 tpp	4.8.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/tpp/tpp-4.8.0-Linux-x86_64.tar.gz	.tar.gz	d2b99b22c18091124b41c4ef13315b8fafc2a3451b43e2794122806d96a97a7f			
 tpp	4.8.0	src	all	https://depot.galaxyproject.org/package/linux/x86_64/tpp/tpp-4.8.0-Linux-x86_64.tar.gz	.tar.gz	d2b99b22c18091124b41c4ef13315b8fafc2a3451b43e2794122806d96a97a7f	140512782		
 transtermhp	2.09	src	all	http://transterm.cbcb.umd.edu/transterm_hp_v2.09.zip	.zip	b636db1c0fe9731cc760d8f3639209d07f7f35309d83013cc9f9e40798ce8be0	1827662		
-trinityrnaseq	r2013-02-25	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/trinityrnaseq_r2013-02-25.tar.gz	.tar.gz	4cb1ac10d22ea68b1e3f325bbc8497df1c8928c139a6eb26deda9cf978a08882			
-trinityrnaseq	r2013.08.14	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/trinityrnaseq_r2013_08_14.tar.gz	.tar.gz	90f0a98464f4acd3e28ddcaeb760ab0f74cbe4153dda8e0e29ea30868c3f6563			
+trinityrnaseq	r2013-02-25	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/trinityrnaseq_r2013-02-25.tgz	.tar.gz	4cb1ac10d22ea68b1e3f325bbc8497df1c8928c139a6eb26deda9cf978a08882			
+trinityrnaseq	r2013.08.14	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/trinityrnaseq_r2013_08_14.tgz	.tar.gz	90f0a98464f4acd3e28ddcaeb760ab0f74cbe4153dda8e0e29ea30868c3f6563			
 trnascan	1.3.1	src	all	http://lowelab.ucsc.edu/software/tRNAscan-SE.tar.gz	.tar.gz	862924d869453d1c111ba02f47d4cd86c7d6896ff5ec9e975f1858682282f316	740960		
 ucsc	312	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/ucsc/ucsc-312-Linux-x86_64.tar.gz	.tar.gz	706ba638e26e0e51f4c3a1ce82d64d71caaae259e2cabdd903bfa2b9c0510799			
 ucsc_tools	312	src	all	https://depot.galaxyproject.org/package/linux/x86_64/ucsc/ucsc-312-Linux-x86_64.tar.gz	.tar.gz	706ba638e26e0e51f4c3a1ce82d64d71caaae259e2cabdd903bfa2b9c0510799	53668903		
 unzip	6.0	src	all	http://downloads.sourceforge.net/project/infozip/UnZip%206.x%20%28latest%29/UnZip%206.0/unzip60.tar.gz	.tar.gz	036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37	1376845		
 unzip	60	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/unzip60.tar.gz	.tar.gz	036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37			
 vcflib	586c5ae5d5	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/vcflib/vcflib-586c5ae5d57a38dae6b32ea831fb1f7cfa14c9bd.tar.gz	.tar.gz	ffd8f7dfead5bbd01245ccc78ca961990beaf9359d982c346cc2481912912b61			
-vcflib	86723982aa	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/vcflib/vcflib-86723982aa-Linux-x86_64.tar.gz	.tar.gz	93351d38e96962164fe0f3dfc196df0304f86556994174e0c703a4c748750b36			
-vcflib	8a5602bf07	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/vcflib/vcflib-8a5602bf07-Linux-x86_64.tar.gz	.tar.gz	3f1d08c8d75cad7d8debdda63371e3358dd1d45a535e8cf1d5f8223ad75a7935			
+vcflib	86723982aa	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/vcflib/vcflib-86723982aa-Linux-x86_64.tgz	.tar.gz	93351d38e96962164fe0f3dfc196df0304f86556994174e0c703a4c748750b36			
+vcflib	8a5602bf07	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/vcflib/vcflib-8a5602bf07-Linux-x86_64.tgz	.tar.gz	3f1d08c8d75cad7d8debdda63371e3358dd1d45a535e8cf1d5f8223ad75a7935			
 vcftools	0.1.11	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/vcftools_0.1.11.tar.gz	.tar.gz	81b98c8bc93e366e2f0b14eb78e2736ae1c790176939eef88dbf0546ab952aab			
 vcftools	0.1.12b	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/vcftools_0.1.12b.tar.gz	.tar.gz	9d2324512e9f1237d5cece74ba63965eb43643e9eada8685afe8217760a20a91			
 vegan	2.3-0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/vegan_2.3-0.tar.gz	.tar.gz	fd360671e09332570d66689b6e3b60adb4de39770f51b25a19070504f0179ffe			

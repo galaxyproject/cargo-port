@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 import os
-import fnmatch
 import sys
 import subprocess
 import logging
@@ -279,8 +278,10 @@ def main(galaxy_package_file):
                 continue
 
             fullpath = os.path.abspath(os.path.join(root, filename))
-            if fullpath not in visited_paths:
+            # Ensure we ahven't seen it and it's under our directory
+            if fullpath not in visited_paths and os.path.startswith('/srv/nginx/depot.galaxyproject.org/root/software/'):
                 log.error("Found a file that we don't own: %s", fullpath)
+                os.unlink(fullpath)
 
     sys.exit(retcode)
 

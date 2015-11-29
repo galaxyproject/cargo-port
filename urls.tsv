@@ -345,7 +345,7 @@ cgatools	1.7.1.5	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourc
 checkmate	1.5.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/checkmate_1.5.0.tar.gz	.tar.gz	e2a4e6a6c1ddd9df5165d88d1196e9a6c13beb3ee621785823a94f7fbc167f7f			
 checkmate	1.5.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/checkmate_1.5.1.tar.gz	.tar.gz	0f837be7b92ccc7e2ed6930f342cfaab0213d2df2b82052a4788c8a399bd9c04			
 chemfp	1.1	src	all	http://chem-fingerprints.googlecode.com/files/chemfp-1.1p1.tar.gz	.tar.gz	1beb7d0d19eeac231d21d59446db117e2e4f0f31bb03af57a59d2ad2e672a482	402946		
-chemfp-simsearch	0.1	src	all	https://github.com/bgruening/download_store/raw/48ea3d247251724e65859b2e991df463988b3978/chemfp/simsearch.py	.py	7faa1dfecf390ae39461fa8e59c4ac174bca3c363f4cb299394c770324a9eddf			
+chemfp	0.1-simsearch	src	all	https://github.com/bgruening/download_store/raw/48ea3d247251724e65859b2e991df463988b3978/chemfp/simsearch.py	.py	7faa1dfecf390ae39461fa8e59c4ac174bca3c363f4cb299394c770324a9eddf			
 clustalw	2.1	src	all	http://www.clustal.org/download/current/clustalw-2.1.tar.gz	.tar.gz	e052059b87abfd8c9e695c280bfba86a65899138c82abccd5b00478a80f49486	350761		
 cluster	2.0.1	src	all	https://github.com/bgruening/download_store/raw/master/monocle/cluster_2.0.1.tar.gz	.tar.gz	4c948e0d86eb5a1d966663966ac877b1da8d4c95abd3b552e8672ee59bdf8226			
 cluster	2.0.3	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/cluster_2.0.3.tar.gz	.tar.gz	286671702b1ac4c4e918faa8b43cd7fe7561ce02ca5f62823be5f136d6674e0e			

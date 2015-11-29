@@ -34,6 +34,11 @@ HTML_TPL_HEAD = """
         <title>Community Package Cache</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css">
+
+        <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+        <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+
     </head>
     <body>
         <script>
@@ -43,6 +48,11 @@ HTML_TPL_HEAD = """
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
           ga('create', 'UA-45719423-15', 'auto');
           ga('send', 'pageview');
+
+
+        $(document).ready(function() {
+            $('#packages').DataTable();
+        });
         </script>
         <div class="container">
         <h1>Community Package Cache</h1>
@@ -69,7 +79,7 @@ HTML_TPL_HEAD = """
             behaviour</a> of printing a lot of noise when files aren't found.
         </p>
         <h1>Cached URLs</h1>
-        <table class="table table-striped">
+        <table id="packages" class="table table-striped">
             <thead>
                 <tr>
                     <th>Package ID</th>

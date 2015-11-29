@@ -147,7 +147,7 @@ OpenMS	1.11.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforg
 OpenMS	1.11.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/OpenMS-1.11.1.tar.gz	.tar.gz	e2403df3e3e902dd92480b4137753da7af66f12c422b795d0daa93fd9b2cc185			
 OpenMS	2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/openms/openms-2.0-Linux-x86_64.tar.gz	.tar.gz	924c25ec4e6704b831ef6173126b629a831fd44c7bbc456acf3dfc7702939202			
 OpenMS	2.0	src	all	https://github.com/OpenMS/OpenMS/archive/136ec9057435f6d45d65a8e1465b2a6cff9621a8.zip	.zip	1552d136c3a0fb5ad5b549a0c995790c1679af416ae7536f1af6f0be245c7af9			
-OpenMS	2.0-contrib	src	all	https://github.com/OpenMS/contrib/archive/f6b44d770b6c1b23972a8891753472e60a356253.zip	.zip	cb67b14d907b0737004cafd785d08a515603f31ebf71a25e8b8fc05387ef9f96			
+OpenMS	2.0-contrib	src	all	https://github.com/OpenMS/contrib/archive/f6b44d770b6c1b23972a8891753472e60a356253.zip	.zip	3ce93941a0d47ae7f2e377712f5ce4be6bf5be7fab58922ef3fb6607f6a310bb			
 PeakRanger	1.16	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/PeakRanger-1.16-Linux-x86_64.zip	.zip	655aa27287bdf024796cfae909fab2f1485d0bd74302c4f9fd258ba71e9ef6e5			
 PerlIO-gzip	0.19	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/PerlIO-gzip-0.19.tar.gz	.tar.gz	d2e9351d58b8a93c86811e25a898ee651fc393a157413652bf42f9aada2eb284			
 Pillow	2.7.0	src	all	https://pypi.python.org/packages/source/P/Pillow/Pillow-2.7.0.tar.gz	.tar.gz	26e9320e73f5821826b6b2408a3bff0a8c29e45159530069a117efd39ef619f8			
@@ -554,7 +554,7 @@ mauve	2.4.0	linux	all	http://darlinglab.org/mauve/downloads/mauve_linux_2.4.0.ta
 mcl	12.135	src	all	http://micans.org/mcl/src/mcl-12-135.tar.gz	.tar.gz	3f5e0e7ad1074c7c4ef0139aa3318f92971fede7292dc3571eca2fd1da20a283	2970824		
 meme	4.10.0.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057			
 meme	4.10.0.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tgz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8			
-meme	4.10.0.4	src	all	http://ebi.edu.au/ftp/software/MEME/4.10.0/meme_4.10.0_4.tar.gz	.tar.gz	2e0266102f5a510ed75b9275e8c1d138891bb8012ee4261a7f9f5c011c315a50			
+meme	4.10.0.4	src	all	http://meme-suite.org/meme-software/4.10.0/meme_4.10.0_4.tar.gz	.tar.gz	2e0266102f5a510ed75b9275e8c1d138891bb8012ee4261a7f9f5c011c315a50			
 mgcv	1.8-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/mgcv_1.8-5.tar.gz	.tar.gz	dcad548be9efbff8737e54082dde5a20cac79f81037eb79586ad68bf403f7c8c			
 miRDeep2	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2.tar.gz	.tar.gz	7a2ea1608d34e103750094ecac9a2d0d0a119f670ed41c635711e8e5d161f837			
 miRDeep2-mapper	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2-mapper.tar.gz	.tar.gz	37943e9c9df4ee1be3b518d5fb0478e412371d6643fac8a60516803ae82e3c99			

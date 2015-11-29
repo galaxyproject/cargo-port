@@ -182,7 +182,7 @@ def verify_file(path, sha):
 def download_url(url, output, size=None):
     try:
         # (ulimit -f 34; curl --max-filesize 34714 $URL -L -o tmp)
-        args = ['curl', '-L', '-k', '--max-time', '360']
+        args = ['curl', '-L', '-k', '--max-time', '720']
 
         # if size is not None:
             # args += ['--max-filesize', size]

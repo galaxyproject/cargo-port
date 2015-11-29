@@ -1,5 +1,7 @@
 # Id	Version	Platform	Architecture	Upstream Url	Extension	sha256sum	Alternate Url
 Algorithm-Diff	1.1903	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Algorithm-Diff-1.1903.tar.gz	.tar.gz	30e84ac4b31d40b66293f7b1221331c5a50561a39d580d85004d9c1fff991751			
+Anaconda	2.3.0	darwin	x64	https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda-2.3.0-MacOSX-x86_64.sh	.sh	c4bb59a57bf44dde80612041bbbcfd2e5cab8534842209ef456da7a46f919c33			
+Anaconda	2.3.0	linux	x64	https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda-2.3.0-Linux-x86_64.sh	.sh	7c02499e9511c127d225992cfe1cd815e88fd46cd8a5b3cdf764f3fb4d8d4576			
 AnnotationDbi	1.22.6	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/AnnotationDbi_1.22.6.tar.gz	.tar.gz	66c242154da781c5075320851d1bb97020f11cea7a9c6a6b3494fc5f8a1cef29			
 AnnotationDbi	1.24.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_2_10/AnnotationDbi_1.24.0.tar.gz	.tar.gz	132777be015a3ce8f1c97abba1b628622bcc0bef5ce49d22eec29a7a90a66ac5			
 AnnotationDbi	1.28.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/AnnotationDbi_1.28.1.tar.gz	.tar.gz	214a293286af854001ce46b9d866ea5b3fbc4e6b8383be0952f63491e4f6171c			
@@ -320,6 +322,9 @@ bowtie2	2.2.4+gx0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linu
 bowtie2	2.2.5	darwin	x64	http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.2.5/bowtie2-2.2.5-macos-x86_64.zip	.zip	0f142477738accc73276f3e47877d54a64b6f7ac7911d0609b662adcd15374a0	9269076		
 bowtie2	2.2.5	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bowtie2/bowtie2-2.2.5-Linux-x86_64.tar.gz	.tar.gz	be99a1a2249c8f7097a89244b15e078b0a3489e136284a0dd876978db0a9024a			
 bowtie2	2.2.5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/bowtie2-2.2.5-source.zip	.zip	e22766dd9421c10e82a3e207ee1f0eb924c025b909ad5fffa36633cd7978d3b0			
+bowtie2	2.2.6	darwin	x64	http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.2.6/bowtie2-2.2.6-macos-x86_64.zip	.zip	6b2bf02135951d1ad61128dd0b39cf3fcd5a0a04fb402b13db763961efb9244a			
+bowtie2	2.2.6	linux	x64	http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.2.6/bowtie2-2.2.6-linux-x86_64.zip	.zip	831f969e76d3968a6f007bff6018b8e09ae2b9c613feb0fa46137ed65f93fbac			
+bowtie2	2.2.6	src	all	http://downloads.sourceforge.net/project/bowtie-bio/bowtie2/2.2.6/bowtie2-2.2.6-source.zip	.zip	1000e90cdd90c3ca43c69d0d0ad951e190d36a6981a546f430a90ce86d64bfc8			
 brew	1.0-6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/brew_1.0-6.tar.gz	.tar.gz	d70d1a9a01cf4a923b4f11e4374ffd887ad3ff964f35c6f9dc0f29c8d657f0ed			
 bwa	0.5.9	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/bwa/bwa-0.5.9-Darwin-x86_64.tgz	.tar.gz	083276bc36bb6f2e837a521d61b04e445ed133f0f5242a00e42a7cec8ce88f0b			
 bwa	0.5.9	linux	x32	/srv/nginx/depot.galaxyproject.org/root/package/linux/i386/bwa/bwa-0.5.9-Linux-i686.tgz	.tar.gz	b6681bd683cc46cf64c7ca3271bb5c46fb3683307f06f62597a530b0dec2f0cf			
@@ -449,6 +454,7 @@ ghostscript	9.10	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux
 gnu_awk	4.1.0	src	all	http://ftp.gnu.org/gnu/gawk/gawk-4.1.0.tar.gz	.tar.gz	79f81b09bc3cce50e083f78acc0f91783821ad30866615d30dd1731f17ec440b	3995528		
 gnu_parallel	20131122	src	all	ftp://ftp.gnu.org/gnu/parallel/parallel-20131122.tar.bz2	.tar.bz2	ef5e0af618cd71c2a2d96ab3aa800ca44e6fab830092176db4b3468b747e29d0	808204		
 gnu_sed	4.2.2.sandbox	src	all	http://ftp.gnu.org/gnu/sed/sed-4.2.2.tar.gz	.tar.gz	fea0a94d4b605894f3e2d5572e3f96e4413bcad3a085aae7367c2cf07908b2ff	1349912		
+gnu_sed	e1626689.sandbox.patch	src	all	https://github.com/bgruening/download_store/raw/master/GNU/sed-e16266897f646e193a9a1287658a1847d68f1e51_sandbox.patch	.patch	b9d5b4ea8b60ffaea4185db7d390baf9c9ca6d27e475c68648bcf4d625900442			
 gnuplot	4.6.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/gnuplot-4.6.6.tar.gz	.tar.gz	1f19596fd09045f22225afbfec11fa91b9ad1d95b9f48406362f517d4f130274			
 gnuplot-py	1.8	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/gnuplot-py-1.8.tar.gz	.tar.gz	ab339be7847d30a8acfd616f27b5021bfde0999b7bf2d68400fbe62c53106e21			
 go	1.5.1	darwin	x64	https://storage.googleapis.com/golang/go1.5.1.darwin-amd64.tar.gz	.tar.gz	e94487b8cd2e0239f27dc51e6c6464383b10acb491f753584605e9b28abf48fb			
@@ -471,7 +477,9 @@ hisat	0.1.6	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x8
 hisat	0.1.6	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/hisat/hisat-0.1.6-beta-Linux_x86_64.tgz	.tar.gz	a29dc43d9d66c2579803ff1c3ad0788266824640cd07b073d005321f1c125e69			
 hisat	0.1.6	src	all	http://ccb.jhu.edu/software/hisat/downloads/hisat-0.1.6-beta-source.zip	.zip	69fbd79d8f29b221aa72f0db33148d67d44a3e2cfe16dadf0663a58b7741ff9c			
 hisat	0.1.6-beta	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/hisat/hisat-0.1.6-beta-Linux_x86_64.tgz	.tar.gz	a29dc43d9d66c2579803ff1c3ad0788266824640cd07b073d005321f1c125e69			
-hisat	2.0	darwin	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-OSX_x86_64.zip	.zip	a71f5b5af05c942b8311805a98d2aeaec4b882b5876ea67a810fe46d544741b4	9407108		
+hisat	2.0.0	darwin	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-OSX_x86_64.zip	.zip	a71f5b5af05c942b8311805a98d2aeaec4b882b5876ea67a810fe46d544741b4	9407108		
+hisat	2.0.0	linux	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-Linux_x86_64.zip	.zip	23c65f4bf33c87f7e7aa84da4e8bfd872413ee42237c8ca127a57f6e82e8c2c0			
+hisat	2.0.0	src	all	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-source.zip	.zip	12ce17a34d3c3e5f546e6204a49aeb65c860c42fce7ac2a77c6c0b690d934fbf			
 hmmer	3.1b1	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b1/hmmer-3.1b1.tar.gz	.tar.gz	246f5e32545d3a5706d065d8413fc8fc5445e779a97019e98ba319e5ef9dc1d8	5778584		
 hmmer	3.1b2	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b2/hmmer-3.1b2.tar.gz	.tar.gz	dd16edf4385c1df072c9e2f58c16ee1872d855a018a2ee6894205277017b5536	5965253		
 homer	4.2	src	all	http://homer.salk.edu/homer/data/software/homer.v4.2.zip	.zip	a52aebb3435e40f1fed7551cbf112b59cf33327692994943814869442398a459	231330785		including annotation data
@@ -479,6 +487,7 @@ htmldoc	1.8.27-8ubuntu1.debian	src	all	https://github.com/bgruening/download_sto
 htseq	0.6	src	all	https://pypi.python.org/packages/source/H/HTSeq/HTSeq-0.6.1.tar.gz	.tar.gz	9bff6779595ea13c10137dad3bc4ecfd046b0bc620990eaa08920a29dcbd05c5	226659		
 hwriter	1.3.2	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/hwriter_1.3.2.tar.gz	.tar.gz	6b3531d2e7a239be9d6e3a1aa3256b2745eb68aa0bdffd2076d36552d0d7322b			
 igraph	0.7.1	src	all	https://github.com/bgruening/download_store/raw/master/monocle/igraph_0.7.1.tar.gz	.tar.gz	07cfd3273c3b091d9cdc189bd8fe4153888771baeaa3b65a0c0671293f186bdb			
+infernal	1.0.2	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.0.2.tar.gz	.tar.gz	c4f89ac2e865c8b04a53a647703d88f96c31bb1d47d3e06f4b6090d7d15643ad			
 infernal	1.1	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1.tar.gz	.tar.gz	d1f2f70e952e8a8a9ba3bae8a7b45666049dddca3bfc5e1fb9e8e845e0ed995b	19167835		
 infernal	1.1rc4	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1rc4.tar.gz	.tar.gz	8891822c7935bdfb4fc9a28e6a563584a0564c17745a54984ef3242af704b3f8	19169671		
 inputproto	2.2	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/inputproto-2.2.tar.bz2	.tar.bz2	de7516ab25c299740da46c0f1af02f1831c5aa93b7283f512c0f35edaac2bcb0	178839		
@@ -561,8 +570,8 @@ miRDeep2-mapper	0.0	src	all	https://github.com/bgruening/download_store/raw/mast
 miRDeep2-quantifier	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2-quantifier.tar.gz	.tar.gz	f58a5c7b40cbab832543e7d8a8211dc1ecb81645d2df634e90a700127f4fe96d			
 minced	0.1.4	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.4/minced		1f404083c477ab87f30368091be9fdaa25f2791f14eed2b59a56ca157a276666			
 minced	0.1.5	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.5/minced		1f404083c477ab87f30368091be9fdaa25f2791f14eed2b59a56ca157a276666			
-minced.jar	0.1.4	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.4/minced.jar	.jar	234ab0f2d432f610363cf0adb404eae577d04b459da24c930dcf0dc363c30ad0			
-minced.jar	0.1.5	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.5/minced.jar	.jar	7e2696f139b3cf65571a61e74b4a94c388a4b85c0317942f0fe75898e9fba7b3			
+minced	0.1.4-jar	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.4/minced.jar	.jar	234ab0f2d432f610363cf0adb404eae577d04b459da24c930dcf0dc363c30ad0			
+minced	0.1.5-jar	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.5/minced.jar	.jar	7e2696f139b3cf65571a61e74b4a94c388a4b85c0317942f0fe75898e9fba7b3			
 mine	1.0.1	src	all	http://www.exploredata.net/ftp/MINE.jar	.jar	d896d04e3df2c1eb9b6b6d73befa46c73df03eb82bb2339c2696ecc2ca6a01fe	45482		
 mira	3.4.1.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/mira_3.4.1.1_prod_linux-gnu_x86_64_static.tar.bz2	.tar.bz2	8843c3efc72f0ca8c7e681f9d81748604127b1d9c01d0234a5e8b3a55b798d5c			
 mira	4.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/mira_4.0_darwin13.0.0_x86_64_static.tar.bz2	.tar.bz2	9ed5a0960ed1542ea852e13a0629b2ce90ee43974622b301c403b17049a3131f			
@@ -743,8 +752,6 @@ scikit_learn	0.15	src	all	https://pypi.python.org/packages/source/s/scikit-learn
 scipy	0.12.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/scipy-0.12.0.tar.gz	.tar.gz	b967e802dafe2db043cfbdf0043e1312f9ce9c1386863e1c801a08ddfccf9de6			
 scipy	0.14	src	all	https://pypi.python.org/packages/source/s/scipy/scipy-0.14.0.tar.gz	.tar.gz	4b41a3e6bf178df1c7f0ef3bfeabf1f56610329aca5dbd7b6d64da8ac9af6b14	10212944		
 scipy	0.14.1	src	all	https://pypi.python.org/packages/source/s/scipy/scipy-0.14.1.tar.gz	.tar.gz	ab75f161107ee411c054abc35e28ec2d19bb5ec8437aaf6c32b80916568f7dad			
-sed	e1626689.sandbox.patch	src	all	https://github.com/bgruening/download_store/raw/master/GNU/sed-e16266897f646e193a9a1287658a1847d68f1e51_sandbox.patch	.patch	b9d5b4ea8b60ffaea4185db7d390baf9c9ca6d27e475c68648bcf4d625900442			
-sed-patch-sandbox	e1626689	src	all	https://github.com/bgruening/download_store/raw/master/GNU/sed-e16266897f646e193a9a1287658a1847d68f1e51_sandbox.patch	.patch	b9d5b4ea8b60ffaea4185db7d390baf9c9ca6d27e475c68648bcf4d625900442			
 segemehl	0.1.6	src	all	http://www.bioinf.uni-leipzig.de/Software/segemehl/segemehl_0_1_6.tar.gz	.tar.gz	bc6b17220305cd0e756ffd1dd401e7fcbc8c3ca0761abc588854762a99f3cad8	1033693		
 segemehl	0.2.0	src	all	http://www.bioinf.uni-leipzig.de/Software/segemehl/segemehl_0_2_0.tar.gz	.tar.gz	2575139d2f2ba7bd534afcbe485c0570c177d1faaeb267c4cd873e65b8e72afb	1030136		
 sendmailR	1.2-1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/sendmailR_1.2-1.tar.gz	.tar.gz	04feb08c6c763d9c58b2db24b1222febe01e28974eac4fe87670be6fb9bff17c			

@@ -110,8 +110,8 @@ HTML_TPL_TAIL = """
 
 HTML_ROW_TPL ="""
 <tr>
-    <td><a href="{package_path}">{id}</a></td>
-    <td>{version}</td>
+    <td><a href="{id}/">{id}</a></td>
+    <td><a href="{package_path}">{version}</a></td>
     <td>{platform}-{arch}</td>
     <td><a href="{url}">Link</a></td>
 </tr>

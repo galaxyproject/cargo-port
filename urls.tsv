@@ -694,6 +694,8 @@ rmap	2.05	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64
 rmap	2.05	src	all	https://github.com/bgruening/download_store/raw/master/rmap/rmap_v2.05.tar.bz2	.tar.bz2	8378d77b4d9343208b986d0bcf87f06a6f1ad28d3aedf9bebc2472971cf879e9			
 rnacode	0.3	src	all	http://github.com/downloads/wash/rnacode/RNAcode-0.3.tar.gz	.tar.gz	86c600a07ecd04d243fd6eb3c6cc5b20fd6159f34f69423e7391c0ce8f311048	721178		
 rnashapes	2.1.6	darwin	all	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6-osx.tar.gz	.tar.gz	a55854b1989d6646aa77fd88b50c1499e53fe739c640601f034830b56bad080e	1453168		
+rnashapes	2.1.6	linux	x32	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6-i386-linux.tar.gz	.tar.gz	ecf560c2ddf61893790dd25bfa1be3e51caf277b2a7a32cd3da234364fedd0fa			
+rnashapes	2.1.6	src	all	https://github.com/bgruening/download_store/raw/master/RNAshapes/RNAshapes-2.1.6.tar.gz	.tar.gz	6923af49f931efa4f3ad2a05f87a8e5222b6f865d0347e5598de3661e73bb81b			
 rnashapes	3.2.5	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/rnashapes/rnashapes-3.2.5-Linux-x86_64.tar.gz	.tar.gz	a2c07c557b6fb0c8664ee89a56248fa65fa939b27cb3e388200e173d720a0c0f			
 rnastar	2.4.0d	src	all	https://github.com/alexdobin/STAR/archive/STAR_2.4.0d.tar.gz	.tar.gz	b6b368092e91cca135145b631832048d7f508ee8bf8cbd52ffdcb04a413b593f	2421473		
 rnastructure	5.7	src	all	http://depot.galaxyproject.org/package/source/RNAstructure-5.7.tgz	.tar.gz	7d7060c2180b95e0d0e0a840499df48de3571e37ca6bef51325377fe7ca28ae6	50031357		
@@ -746,6 +748,7 @@ segemehl	0.1.6	src	all	http://www.bioinf.uni-leipzig.de/Software/segemehl/segeme
 segemehl	0.2.0	src	all	http://www.bioinf.uni-leipzig.de/Software/segemehl/segemehl_0_2_0.tar.gz	.tar.gz	2575139d2f2ba7bd534afcbe485c0570c177d1faaeb267c4cd873e65b8e72afb	1030136		
 sendmailR	1.2-1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/sendmailR_1.2-1.tar.gz	.tar.gz	04feb08c6c763d9c58b2db24b1222febe01e28974eac4fe87670be6fb9bff17c			
 setuptools	18.2	src	all	https://bitbucket.org/pypa/setuptools/get/18.2.tar.bz2	.tar.bz2	7b2a76ec3aeb6dc95ae66eab173e7b46e26436c5ba4ee94744f2360bce493b25			
+setuptools	6.1	src	all	https://bitbucket.org/pypa/setuptools/get/6.1.tar.bz2	.tar.bz2	12c9998cf649d4738de16e4ff952119ca060c3e0bc2a6be44a502b6f4e6a9bbc			
 setuptools	5.2	src	all	https://bitbucket.org/pypa/setuptools/get/5.2.tar.bz2	.tar.bz2	beb3445cfc3a0f9a36df7de6489d2a488a5ac113c471c448e46e6d9c47cb7840			
 sicer	1.1	src	all	http://home.gwu.edu/~wpeng/SICER_V1.1.tgz	.tar.gz	1749c1e382629376f1d9db12978b9733fd5d9b9a896a2d127194c42b600c84c9	334175		
 simplejson	3.7.3	src	all	https://pypi.python.org/packages/source/s/simplejson/simplejson-3.7.3.tar.gz	.tar.gz	63d7f7b14a20f29f74325a69e6db45925eaf6e3a003eab46c0234fd050a8c93f	74974		

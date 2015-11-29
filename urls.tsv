@@ -146,6 +146,8 @@ OpenMS	1.10.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforg
 OpenMS	1.11.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/OpenMS-1.11.0.tar.gz	.tar.gz	0a36db55a7031cdea63fa8679e7fa4e4db234ef6bd3290bd70d8393f50a6c4b7			
 OpenMS	1.11.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/OpenMS-1.11.1.tar.gz	.tar.gz	e2403df3e3e902dd92480b4137753da7af66f12c422b795d0daa93fd9b2cc185			
 OpenMS	2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/openms/openms-2.0-Linux-x86_64.tar.gz	.tar.gz	924c25ec4e6704b831ef6173126b629a831fd44c7bbc456acf3dfc7702939202			
+OpenMS	2.0	src	all	https://github.com/OpenMS/OpenMS/archive/136ec9057435f6d45d65a8e1465b2a6cff9621a8.zip	.zip	1552d136c3a0fb5ad5b549a0c995790c1679af416ae7536f1af6f0be245c7af9			
+OpenMS	2.0-contrib	src	all	https://github.com/OpenMS/contrib/archive/f6b44d770b6c1b23972a8891753472e60a356253.zip	.zip	cb67b14d907b0737004cafd785d08a515603f31ebf71a25e8b8fc05387ef9f96			
 PeakRanger	1.16	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/PeakRanger-1.16-Linux-x86_64.zip	.zip	655aa27287bdf024796cfae909fab2f1485d0bd74302c4f9fd258ba71e9ef6e5			
 PerlIO-gzip	0.19	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/PerlIO-gzip-0.19.tar.gz	.tar.gz	d2e9351d58b8a93c86811e25a898ee651fc393a157413652bf42f9aada2eb284			
 Pillow	2.7.0	src	all	https://pypi.python.org/packages/source/P/Pillow/Pillow-2.7.0.tar.gz	.tar.gz	26e9320e73f5821826b6b2408a3bff0a8c29e45159530069a117efd39ef619f8			

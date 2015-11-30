@@ -4,7 +4,8 @@
 
 <img src="media/cpc-plain-small.png" style="max-height: 10em" alt="Cargo Port Logo"/>
 
-[![Build Status](https://travis-ci.org/erasche/community-package-cache.svg)](https://travis-ci.org/erasche/community-package-cache)
+[![Build Status](https://travis-ci.org/galaxyproject/cargo-port.svg)](https://travis-ci.org/galaxyproject/cargo-port)
+[![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=cargo-port)](https://jenkins.galaxyproject.org/view/Meta/job/cargo-port/)
 
 This project addresses the problem of unreliable URLs by providing stable, long term storage for downloads.
 Instead of hoping that the upstream CPAN author will not remove a downloadable

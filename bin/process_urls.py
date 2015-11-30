@@ -141,7 +141,7 @@ def main(galaxy_package_file):
             visited_paths.append(os.path.abspath(output_package_path))
 
             api_data['data'].append((
-                ld['id'],
+                '<a href="{0}/">{0}</a>'.format(ld['id']),
                 ld['version'],
                 ld['platform'] + '-' + ld['arch'],
                 ld['url'],

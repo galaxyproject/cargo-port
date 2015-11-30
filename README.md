@@ -1,4 +1,6 @@
-# Community Package Cache
+# The Cargo Port
+
+![Cargo-Port-Logo](media/cpc-plain-small.png)
 
 [![Build Status](https://travis-ci.org/erasche/community-package-cache.svg)](https://travis-ci.org/erasche/community-package-cache)
 

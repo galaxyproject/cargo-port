@@ -140,12 +140,10 @@ def main(galaxy_package_file):
             output_package_path = os.path.join(ld['id'], nice_name) + ld['ext']
             visited_paths.append(os.path.abspath(output_package_path))
 
-            api_data['data'].append((
-                '<a href="{0}/">{0}</a>'.format(ld['id']),
-                '<a href="{0}">{1}</a>'.format(output_package_path, ld['version']),
-                ld['platform'] + '-' + ld['arch'],
-                '<a href="{0}">Link</a>'.format(ld['url']),
-            ))
+            tmpld = {}
+            tmpld.update(ld)
+            tmpld['_gen'] = output_package_path
+            api_data['data'].append(tmpld)
 
             if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:
                 log.error("Empty download, removing %s %s", ld['url'], output_package_path)

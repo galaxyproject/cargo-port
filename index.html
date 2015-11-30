@@ -98,7 +98,34 @@
 
             $(document).ready(function() {
                 $('#data').DataTable({
-                    "ajax": "api.json"
+                    "ajax": "api.json",
+                    "columnDefs": [
+                        {
+                            "targets": 0,
+                            "data": "id",
+                            "render": function ( data, type, full, meta  ) {
+                                return '<a href="'+ data +'/">' + data + '</a>';
+                            }
+                        },
+                        {
+                             "targets": 1,
+                             "data": "version",
+                             "render": function(data, type, full, meta){
+                                 return '<a href="' + full._gen + '">' + data + '</a>'
+                             }
+                        },
+                        {
+                             "targets": 2,
+                             "data": "platform",
+                             "render": function(data, type, full, meta){
+                                 return data + '-' + full.arch;
+                             }
+                        },
+                        {
+                             "targets": 3,
+                             "data": "link"
+                        },
+                    ]
                 });
             });
 

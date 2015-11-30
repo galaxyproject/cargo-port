@@ -123,7 +123,10 @@
                         },
                         {
                              "targets": 3,
-                             "data": "link"
+                             "data": "url",
+                             "render": function(data, type, full, meta){
+                                 return '<a href="' + data + '">Link</a>';
+                             }
                         },
                     ]
                 });

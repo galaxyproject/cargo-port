@@ -2,7 +2,6 @@
 set -ex
 # Cleanup old hashes
 rm -f *.sha256sum
-find . -name 'SHA256SUMS' -exec rm '{}' \
 
 # Renaming files into folders.
 #echo 'set -x' > mkdir.txt

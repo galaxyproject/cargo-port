@@ -97,16 +97,10 @@
 
 
             $(document).ready(function() {
-                $('#data').DataTable( {
-                    "ajax": "data.json",
-                    "columns": [
-                        { "data": "id" },
-                        { "data": "version" },
-                        { "data": "platform-gen" },
-                        { "data": "upstream" }
-                    ]
-                } );
-            } );
+                $('#data').DataTable({
+                    "ajax": "api.json"
+                });
+            });
 
         </script>
     </body>

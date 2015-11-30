@@ -185,7 +185,7 @@ def main(galaxy_package_file):
     # we need to check for files which shouldn't be there (aka things NOT
     # mentioned in urls.tsv) and remove those.
     whitelist = [
-        'SHA256SUMS', 'index.html', 'report.xml'
+        'SHA256SUMS', 'index.html', 'report.xml', 'api.json'
     ]
     for root, dirnames, filenames in os.walk('.'):
         if '.git' in root:

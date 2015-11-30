@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
+import json
 import subprocess
 import logging
 logging.basicConfig(level=logging.INFO)
@@ -13,8 +14,7 @@ def yield_packages(handle, meta=False, retcode=None):
             continue
         try:
             data = line.split('\t')
-            keys = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha', 'size',
-                    'alt_url', 'comment']
+            keys = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha']
             if len(data) != len(keys):
                 log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(keys))
 
@@ -26,130 +26,6 @@ def yield_packages(handle, meta=False, retcode=None):
                 yield ld
         except Exception, e:
             log.error(str(e))
-
-HTML_TPL_HEAD = """
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Community Package Cache</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/dataTables.bootstrap.min.css">
-
-        <script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-        <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
-
-        <style type="text/css">
-.paginate_button {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-.current {
-    background-image: -webkit-linear-gradient(top,#337ab7 0,#265a88 100%);
-    background-image: -o-linear-gradient(top,#337ab7 0,#265a88 100%);
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#337ab7),to(#265a88));
-    background-image: linear-gradient(to bottom,#337ab7 0,#265a88 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
-    background-repeat: repeat-x;
-    border-color: #245580;
-}
-        </style>
-
-    </head>
-    <body>
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-          ga('create', 'UA-45719423-15', 'auto');
-          ga('send', 'pageview');
-
-
-        $(document).ready(function() {
-            $('#packages').DataTable();
-        });
-        </script>
-        <div class="container">
-        <h1>Community Package Cache</h1>
-        <p>
-            This package cache serves to preserve packages permanently. Please
-            see our <a href="https://github.com/erasche/community-package-cache">Github Repository</a>
-            for more information.
-        </p>
-        <h3>How to Use This</h3>
-        <p>
-            You can use the following command to download
-            packages from this repository:
-
-            <pre>curl --silent https://raw.githubusercontent.com/erasche/community-package-cache/master/gsl.py | python - --package_id augustus_3_1</pre>
-        </p>
-        <h3>Verifying URLs</h3>
-        <p>
-            The CPC ships an SHA256SUM file per package download.
-            Downloaded files can be validated with the following command:
-
-            <pre>LC_ALL=C sha256sum -c SHA256SUM 2>/dev/null | grep -v 'FAILED open or read'</pre>
-
-            sha256sum has the <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276664">unfortunate
-            behaviour</a> of printing a lot of noise when files aren't found.
-        </p>
-        <h1>Cached URLs</h1>
-        <table id="packages" class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Package ID</th>
-                    <th>Package Version</th>
-                    <th>Platform</th>
-                    <th>Upstream</th>
-                </tr>
-            </thead>
-            <tbody>
-"""
-
-HTML_TPL_TAIL = """
-                </tbody>
-            </table>
-        </div>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-45719423-15', 'auto');
-  ga('send', 'pageview');
-
-</script>
-    </body>
-</html>"""
-
-HTML_ROW_TPL ="""
-<tr>
-    <td><a href="{id}/">{id}</a></td>
-    <td><a href="{package_path}">{version}</a></td>
-    <td>{platform}-{arch}</td>
-    <td><a href="{url}">Link</a></td>
-</tr>
-"""
 
 class XUnitReportBuilder(object):
     XUNIT_TPL = """<?xml version="1.0" encoding="UTF-8"?>
@@ -213,13 +89,9 @@ def verify_file(path, sha):
         os.unlink(path)
         return str(cpe)
 
-def download_url(url, output, size=None):
+def download_url(url, output):
     try:
-        # (ulimit -f 34; curl --max-filesize 34714 $URL -L -o tmp)
         args = ['curl', '-L', '-k', '--max-time', '720']
-
-        # if size is not None:
-            # args += ['--max-filesize', size]
 
         args += [url, '-o', output]
         subprocess.check_call(args)
@@ -227,7 +99,8 @@ def download_url(url, output, size=None):
         log.error("File not found")
         return str(cpe)
 
-def symlink_depot(url, output, size=None):
+
+def symlink_depot(url, output):
     try:
         args = ['ln', '-s', url, output]
         log.info(' '.join(args))
@@ -235,6 +108,7 @@ def symlink_depot(url, output, size=None):
     except subprocess.CalledProcessError, cpe:
         log.error("Unable to symlink")
         return str(cpe)
+
 
 def cleanup_file(sha):
     try:
@@ -244,14 +118,16 @@ def cleanup_file(sha):
     except Exception, e:
         log.error("Unable to remove files: %s", str(e))
 
+
 def package_to_path(id="", version="", platform="", arch="", ext="", **kwargs):
     return '_'.join([id, version, platform, arch])
 
+
 def main(galaxy_package_file):
     visited_paths = []
+    api_data = {'data': []}
 
     with open(galaxy_package_file, 'r') as handle:
-        print HTML_TPL_HEAD
         retcode = 0
         xunit = XUnitReportBuilder()
 
@@ -264,14 +140,12 @@ def main(galaxy_package_file):
             output_package_path = os.path.join(ld['id'], nice_name) + ld['ext']
             visited_paths.append(os.path.abspath(output_package_path))
 
-            print HTML_ROW_TPL.format(
-                package_path=output_package_path,
-                id=ld['id'],
-                version=ld['version'],
-                platform=ld['platform'],
-                arch=ld['arch'],
-                url=ld['alt_url'] if len(ld['alt_url'].strip()) > 0 else ld['url'],
-            )
+            api_data['data'].append((
+                ld['id'],
+                ld['version'],
+                ld['platform'] + '-' + ld['arch'],
+                ld['url'],
+            ))
 
             if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:
                 log.error("Empty download, removing %s %s", ld['url'], output_package_path)
@@ -284,9 +158,9 @@ def main(galaxy_package_file):
                 log.info("URL missing, downloading %s to %s", ld['url'], output_package_path)
 
                 if ld['url'].startswith('/'):
-                    err = symlink_depot(ld['url'], output_package_path, size=ld['size'])
+                    err = symlink_depot(ld['url'], output_package_path)
                 else:
-                    err = download_url(ld['url'], output_package_path, size=ld['size'])
+                    err = download_url(ld['url'], output_package_path)
 
                 if err is not None:
                     xunit.failure(nice_name, "DownloadError", err)
@@ -305,13 +179,13 @@ def main(galaxy_package_file):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 
-        print HTML_TPL_TAIL
+        print json.dumps(api_data, indent=2)
 
     # Now that we've processed (hopefully) every file in urls.tsv
     # we need to check for files which shouldn't be there (aka things NOT
     # mentioned in urls.tsv) and remove those.
     whitelist = [
-        'SHA256SUMS', 'index.html', 'report.xml'
+        'SHA256SUMS', 'index.html', 'report.xml', 'api.json'
     ]
     for root, dirnames, filenames in os.walk('.'):
         if '.git' in root:
@@ -326,7 +200,6 @@ def main(galaxy_package_file):
             if fullpath not in visited_paths and fullpath.startswith('/srv/nginx/depot.galaxyproject.org/root/software/'):
                 log.info("Found a file that we don't own: %s", fullpath)
                 os.unlink(fullpath)
-
     sys.exit(retcode)
 
 if __name__ == '__main__':

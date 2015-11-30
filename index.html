@@ -38,39 +38,56 @@
     background-image: linear-gradient(to bottom,#337ab7 0,#265a88 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    color: white;
     background-repeat: repeat-x;
     border-color: #245580;
+}
+#logo {
+    height: 6em;
+}
+#main {
+    margin-top: 2em;
 }
         </style>
 
     </head>
     <body>
-        <div class="container">
-        <h1>Community Package Cache</h1>
-        <p>
-            This package cache serves to preserve packages permanently. Please
-            see our <a href="https://github.com/erasche/community-package-cache">Github Repository</a>
-            for more information.
-        </p>
-        <h3>How to Use This</h3>
-        <p>
-            You can use the following command to download
-            packages from this repository:
+        <div id="main" class="container">
+            <div class="row">
+                <div class="col-xs-8">
+                    <h1>The Cargo Port</h1>
+                    <h4>Galactic Distribution Center</h4>
+                </div>
+                <div class="col-xs-4" style="text-align:right">
+                    <img id="logo" src="media/cpc-plain-small.png" />
+                </div>
+            </div>
+            <hr/>
+            </h1>
+            <p>
+                This package cache serves to preserve packages permanently. Please
+                see our <a href="https://github.com/galaxyproject/cargo-port">Github Repository</a>
+                for more information.
+            </p>
+            <h3>How to Use This</h3>
+            <p>
+                You can use the following command to download
+                packages from this repository:
 
-            <pre>curl --silent https://raw.githubusercontent.com/erasche/community-package-cache/master/gsl.py | python - --package_id augustus_3_1</pre>
-        </p>
-        <h3>Verifying URLs</h3>
-        <p>
-            The CPC ships an SHA256SUM file per package download.
-            Downloaded files can be validated with the following command:
+                <pre>curl --silent https://raw.githubusercontent.com/galaxyproject/cargo-port/master/gsl.py | python - --package_id augustus_3_1</pre>
+            </p>
+            <h3>Verifying URLs</h3>
+            <p>
+                The CPC ships an SHA256SUM file per package download.
+                Downloaded files can be validated with the following command:
 
-            <pre>LC_ALL=C sha256sum -c SHA256SUM 2>/dev/null | grep -v 'FAILED open or read'</pre>
+                <pre>LC_ALL=C sha256sum -c SHA256SUM 2>/dev/null | grep -v 'FAILED open or read'</pre>
 
-            sha256sum has the <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276664">unfortunate
-            behaviour</a> of printing a lot of noise when files aren't found.
-        </p>
+                sha256sum has the <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1276664">unfortunate
+                behaviour</a> of printing a lot of noise when files aren't found.
+            </p>
 
-        <h1>Cached URLs</h1>
+            <h1>Cached URLs</h1>
 
             <table id="data" class="table table-striped">
                 <thead>

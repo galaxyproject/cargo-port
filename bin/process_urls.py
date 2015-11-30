@@ -179,7 +179,7 @@ def main(galaxy_package_file):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 
-        print json.dumps(api_data)
+        print json.dumps(api_data, indent=2)
 
     # Now that we've processed (hopefully) every file in urls.tsv
     # we need to check for files which shouldn't be there (aka things NOT
@@ -200,7 +200,6 @@ def main(galaxy_package_file):
             if fullpath not in visited_paths and fullpath.startswith('/srv/nginx/depot.galaxyproject.org/root/software/'):
                 log.info("Found a file that we don't own: %s", fullpath)
                 os.unlink(fullpath)
-
     sys.exit(retcode)
 
 if __name__ == '__main__':

@@ -3,20 +3,19 @@ import logging
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
 
-HEADER_KEYS = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha',
-               'size', 'alt_url', 'comment']
+HEADER_KEYS = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha']
 
 def yield_packages(handle, meta=False, retcode=None):
     for lineno, line in enumerate(handle):
         if line.startswith('#'):
             continue
         try:
-            data = line.split('\t')
+            data = line.strip().split('\t')
             if len(data) != len(HEADER_KEYS):
                 log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(HEADER_KEYS))
                 retcode = 1
 
-            ld = {k: v for (k, v) in zip(HEADER_KEYS, line.split('\t'))}
+            ld = {k: v for (k, v) in zip(HEADER_KEYS, data)}
 
             if meta:
                 yield ld, lineno, line, retcode

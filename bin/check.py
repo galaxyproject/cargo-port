@@ -18,7 +18,7 @@ def main(galaxy_package_file):
             if extraret > 0:
                 retcode = extraret
             try:
-                for x in HEADER_KEYS[0:5] + HEADER_KEYS[7:7]:
+                for x in HEADER_KEYS[0:5] + HEADER_KEYS[6:6]:
                     # Skip extension, as it is OK to be empty
                     if ld.get(x, '').strip() == '':
                         log.error("[%s] Empty %s", lineno, x)

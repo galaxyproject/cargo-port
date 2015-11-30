@@ -142,9 +142,9 @@ def main(galaxy_package_file):
 
             api_data['data'].append((
                 '<a href="{0}/">{0}</a>'.format(ld['id']),
-                ld['version'],
+                '<a href="{0}">{1}</a>'.format(output_package_path, ld['version']),
                 ld['platform'] + '-' + ld['arch'],
-                ld['url'],
+                '<a href="{0}">Link</a>'.format(ld['url']),
             ))
 
             if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:

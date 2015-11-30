@@ -1,13 +1,18 @@
 # The Cargo Port
 
-![Cargo-Port-Logo](media/cpc-plain-small.png)
+[Galactic Distribution Center](https://depot.galaxyproject.org/software/)
+
+<img src="media/cpc-plain-small.png" style="max-height: 10em" alt="Cargo Port Logo"/>
 
 [![Build Status](https://travis-ci.org/erasche/community-package-cache.svg)](https://travis-ci.org/erasche/community-package-cache)
 
-This project should address the problem of unreliable URLs by proxying an ID to
-a URL. The ID is your stable token you can rely on and the corresponded URL is
-maintained by a community.
-The pilot runs at https://depot.galaxyproject.org/software/
+This project addresses the problem of unreliable URLs by providing stable, long term storage for downloads.
+Instead of hoping that the upstream CPAN author will not remove a downloadable
+.tar.gz file, you can rely on the Galaxy Cargo Port to maintain a copy of that
+file long term.
+
+This helps package authors and tool developers work more efficiently, by
+allowing them to rely on URLs being permanently available.
 
 ## Contributing
 
@@ -39,7 +44,7 @@ You can use the community package cache with a small script called `gsl` (get st
 The simplest way to download your archive is using this magic curl command.
 
 ```console
-$ curl https://raw.githubusercontent.com/erasche/package-cache/master/gsl.py | python - --package_id augustus_3_1
+$ curl https://raw.githubusercontent.com/galaxyproject/cargo-port/master/gsl.py | python - --package_id augustus_3_1
 ```
 
 ## LICENSE

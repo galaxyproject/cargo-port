@@ -166,7 +166,7 @@ def main(galaxy_package_file):
                     continue
 
                 # Check sha256sum of download
-                err = verify_file(output_package_path, ld['sha'])
+                err = verify_file(output_package_path, ld['sha'].strip())
                 if err is not None:
                     xunit.error(nice_name, "Sha256sumError", err)
                     cleanup_file(output_package_path)

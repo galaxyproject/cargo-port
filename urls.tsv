@@ -1,5 +1,6 @@
 # Id	Version	Platform	Architecture	Upstream Url	Extension	sha256sum
 Algorithm-Diff	1.1903	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Algorithm-Diff-1.1903.tar.gz	.tar.gz	30e84ac4b31d40b66293f7b1221331c5a50561a39d580d85004d9c1fff991751
+AI-FANN	1.10	src	all	http://www.cpan.org/authors/id/S/SA/SALVA/AI-FANN-0.10.tar.gz	.tar.gz	6d4f46cdde08ab001a13132db8bdda0e419ddce1d8bed10bd75bdaf84211f28f
 Anaconda	2.3.0	darwin	x64	https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda-2.3.0-MacOSX-x86_64.sh	.sh	c4bb59a57bf44dde80612041bbbcfd2e5cab8534842209ef456da7a46f919c33
 Anaconda	2.3.0	linux	x64	https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda-2.3.0-Linux-x86_64.sh	.sh	7c02499e9511c127d225992cfe1cd815e88fd46cd8a5b3cdf764f3fb4d8d4576
 AnnotationDbi	1.22.6	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/AnnotationDbi_1.22.6.tar.gz	.tar.gz	66c242154da781c5075320851d1bb97020f11cea7a9c6a6b3494fc5f8a1cef29
@@ -521,6 +522,7 @@ lattice	0.20-31	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/l
 lattice	0.20-33	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/lattice_0.20-33.tar.gz	.tar.gz	8f46260a14364d945c7b74587cdb54986f36303588dd14010a33d15dba085931
 latticeExtra	0.6-26	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/latticeExtra_0.6-26.tar.gz	.tar.gz	0d1410f279d515a99c102824cc11ad2b024c86ee6af982cb45ea55739e06a09b
 libcurl	7.35	src	all	http://curl.haxx.se/download/curl-7.35.0.tar.gz	.tar.gz	917d118fc5d61e9dd1538d6519bd93bbebf2e866882419781c2e0fdb2bc42121
+libfann	2.2.0	src	all	https://github.com/libfann/fann/archive/2.2.0.tar.gz	.tar.gz	f31c92c1589996f97d855939b37293478ac03d24b4e1c08ff21e0bd093449c3c
 libffi	3.0	src	all	ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz	.tar.gz	1dddde1400c3bcb7749d398071af88c3e4754058d2d4c0b3696c2f82dc5cf11c
 libgd	2.1	src	all	https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.0.tar.gz	.tar.gz	3ceef69d5454a392e8793ae90b5f0d632dd3e20879c12856aa1d1d3d063a51c8
 libgd	2.1.0	src	all	https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.0.tar.bz2	.tar.bz2	f3e1bc472bd81ee976a739436659fe752a14727a964c64530fde68531ddeee91

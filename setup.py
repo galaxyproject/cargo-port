@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
-from setuptools import setup, find_packages
+# from distutils.core import setup
+from setuptools import setup  # , find_packages
+import glob
 
 setup(name='galaxy-package-cache',
       version='1.0',
@@ -10,7 +11,7 @@ setup(name='galaxy-package-cache',
       maintainer='Eric Rasche',
       url='https://github.com/erasche/community-package-cache',
       packages=['gsl'],
-      scripts=["bin/galaxy-package-locator","bin/galaxy-cachefile-dedup","bin/galaxy-cachefile-validator","bin/galaxy-package-updater"],
+      scripts=list(glob.glob("bin/galaxy*")),
       install_requires=['click'],
       classifiers=[
         'Environment :: Console',

@@ -6,11 +6,9 @@ import click
 import os
 import hashlib
 import logging
-from gsl.utils import yield_packages, package_name
+from gsl.utils import yield_packages, package_name, PACKAGE_SERVER, depot_url
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
-
-PACKAGE_SERVER = 'https://depot.galaxyproject.org/software/'
 
 
 @click.command()
@@ -27,10 +25,7 @@ def get(package_id, download_location):
             # I worry about this being unreliable. TODO: add target filename column?
             pkg_name = package_name(ld)
             storage_path = os.path.join(download_location, pkg_name)
-            if len(ld['alternate_url'].strip()):
-                url = ld['alternate_url']
-            else:
-                url = PACKAGE_SERVER + ld['checksum']
+            url = depot_url(ld)
             urllib.urlretrieve(url, storage_path)
             download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
             if ld['checksum'] != download_checksum:

@@ -13,7 +13,7 @@ def yield_packages(handle, meta=False, retcode=None):
         if line.startswith('#'):
             continue
         try:
-            data = line.split('\t')
+            data = line.strip().split('\t')
             keys = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha']
             if len(data) != len(keys):
                 log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(keys))
@@ -81,7 +81,7 @@ class XUnitReportBuilder(object):
 
 def verify_file(path, sha):
     try:
-        filehash = subprocess.check_output(['sha256sum', path])[0:64]
+        filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
         if filehash != sha:
             raise Exception("Bad hash, %s != %s in %s", filehash, sha, path)
     except Exception, cpe:

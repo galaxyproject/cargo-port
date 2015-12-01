@@ -1,6 +1,6 @@
 # Id	Version	Platform	Architecture	Upstream Url	Extension	sha256sum
-Algorithm-Diff	1.1903	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Algorithm-Diff-1.1903.tar.gz	.tar.gz	30e84ac4b31d40b66293f7b1221331c5a50561a39d580d85004d9c1fff991751
 AI-FANN	1.10	src	all	http://www.cpan.org/authors/id/S/SA/SALVA/AI-FANN-0.10.tar.gz	.tar.gz	6d4f46cdde08ab001a13132db8bdda0e419ddce1d8bed10bd75bdaf84211f28f
+Algorithm-Diff	1.1903	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Algorithm-Diff-1.1903.tar.gz	.tar.gz	30e84ac4b31d40b66293f7b1221331c5a50561a39d580d85004d9c1fff991751
 Anaconda	2.3.0	darwin	x64	https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda-2.3.0-MacOSX-x86_64.sh	.sh	c4bb59a57bf44dde80612041bbbcfd2e5cab8534842209ef456da7a46f919c33
 Anaconda	2.3.0	linux	x64	https://3230d63b5fc54e62148e-c95ac804525aac4b6dba79b00b39d1d3.ssl.cf1.rackcdn.com/Anaconda-2.3.0-Linux-x86_64.sh	.sh	7c02499e9511c127d225992cfe1cd815e88fd46cd8a5b3cdf764f3fb4d8d4576
 AnnotationDbi	1.22.6	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/AnnotationDbi_1.22.6.tar.gz	.tar.gz	66c242154da781c5075320851d1bb97020f11cea7a9c6a6b3494fc5f8a1cef29
@@ -571,8 +571,8 @@ miRDeep2	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRD
 miRDeep2-mapper	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2-mapper.tar.gz	.tar.gz	37943e9c9df4ee1be3b518d5fb0478e412371d6643fac8a60516803ae82e3c99
 miRDeep2-quantifier	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2-quantifier.tar.gz	.tar.gz	f58a5c7b40cbab832543e7d8a8211dc1ecb81645d2df634e90a700127f4fe96d
 minced	0.1.4	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.4/minced		1f404083c477ab87f30368091be9fdaa25f2791f14eed2b59a56ca157a276666
-minced	0.1.5	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.5/minced		1f404083c477ab87f30368091be9fdaa25f2791f14eed2b59a56ca157a276666
 minced	0.1.4-jar	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.4/minced.jar	.jar	234ab0f2d432f610363cf0adb404eae577d04b459da24c930dcf0dc363c30ad0
+minced	0.1.5	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.5/minced		1f404083c477ab87f30368091be9fdaa25f2791f14eed2b59a56ca157a276666
 minced	0.1.5-jar	src	all	https://github.com/ctSkennerton/minced/releases/download/0.1.5/minced.jar	.jar	7e2696f139b3cf65571a61e74b4a94c388a4b85c0317942f0fe75898e9fba7b3
 mine	1.0.1	src	all	http://www.exploredata.net/ftp/MINE.jar	.jar	d896d04e3df2c1eb9b6b6d73befa46c73df03eb82bb2339c2696ecc2ca6a01fe
 mira	3.4.1.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/mira_3.4.1.1_prod_linux-gnu_x86_64_static.tar.bz2	.tar.bz2	8843c3efc72f0ca8c7e681f9d81748604127b1d9c01d0234a5e8b3a55b798d5c
@@ -695,6 +695,7 @@ rdkit	2013.03	src	all	http://rdkit.googlecode.com/files/RDKit_2013_03_2.tgz	.tar
 readline	6.2	src	all	ftp://ftp.gnu.org/gnu/readline/readline-6.2.tar.gz	.tar.gz	79a696070a058c233c72dd6ac697021cc64abd5ed51e59db867d66d196a89381
 readline	6.3	src	all	ftp://ftp.gnu.org/gnu/readline/readline-6.3.tar.gz	.tar.gz	56ba6071b9462f980c5a72ab0023893b65ba6debb4eeb475d7a563dc65cafd43
 reportlab	3.1.44	src	all	https://pypi.python.org/packages/source/r/reportlab/reportlab-3.1.44.tar.gz	.tar.gz	f6c22e4afefd1aed0e85f1c1216eee5e74d2eb77d53963feab0172b321b636d5
+reprof	1.0.1	src	all	https://github.com/Rostlab/reprof/archive/160ebbeebaf188414eb330d29089b2f43540ed8a.zip	.zip	e77d41b4c19efe050d71e2ae95c1752da6cf083ac3a649cb4e8bbfdefe23264d
 reshape2	1.2.2	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/reshape2_1.2.2.tar.gz	.tar.gz	9131025b8f684e1629ab3e2748d4cf2b907b7c89cfbff667c925bc0fb5dfc103
 reshape2	1.4	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/reshape2_1.4.tar.gz	.tar.gz	57fa5002ebcba911e5ad12c400b550a4bea25eb2faeb9a396fce73ca488d6b44
 reshape2	1.4.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/reshape2_1.4.1.tar.gz	.tar.gz	fbd49f75a5b0b7266378515af98db310cf6c772bf6e68bed01f38ee99b408042

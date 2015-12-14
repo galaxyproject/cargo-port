@@ -37,7 +37,7 @@ Column | Name          | Meaning
 6      | Extension     | File extension, used in downloads/nicer access for end-users
 7      | sha256sum     | sha256sum of the correct file.
 
-## Using the CPC
+## Using TCP
 
 You can use the community package cache with a small script called `gsl` (get stable link).
 `--package_id` specifies the unique package name and with `--download_location` you can provide a path where the tarball should be stored.

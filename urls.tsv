@@ -541,6 +541,7 @@ libxcb	1.9.1	src	all	http://xorg.freedesktop.org/archive/individual/xcb/libxcb-1
 libxcb_proto	1.8	src	all	http://xcb.freedesktop.org/dist/xcb-proto-1.8.tar.bz2	.tar.bz2	233d16c7a019235b3092111e7c11429119357eb13754a607b75eea04453121b0
 libxext_proto	7.2.1	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/xextproto-7.2.1.tar.bz2	.tar.bz2	7c53b105407ef3b2eb180a361bd672c1814524a600166a0a7dbbe76b97556d1a
 libxml2	2.9.1	src	all	ftp://xmlsoft.org/libxml2/libxml2-2.9.1.tar.gz	.tar.gz	fd3c64cb66f2c4ea27e934d275904d92cec494a8e8405613780cbc8a71680fdb
+libxml2	2.9.3	src	all	ftp://xmlsoft.org/libxml2/libxml2-2.9.3.tar.gz	.tar.gz	4DE9E31F46B44D34871C22F54BFC54398EF124D6F7CAFB1F4A5958FBCD3BA12D
 libxproto	7.0.23	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/xproto-7.0.23.tar.bz2	.tar.bz2	ade04a0949ebe4e3ef34bb2183b1ae8e08f6f9c7571729c9db38212742ac939e
 libxslt	1.1.28	src	all	ftp://xmlsoft.org/libxml2/libxslt-1.1.28.tar.gz	.tar.gz	5fc7151a57b89c03d7b825df5a0fae0a8d5f05674c0e7cf2937ecec4d54a028c
 libxtrans	1.2.7	src	all	ftp://ftp.x.org/pub/X11R7.7/src/lib/xtrans-1.2.7.tar.bz2	.tar.bz2	7f811191ba70a34a9994d165ea11a239e52c527f039b6e7f5011588f075fe1a6

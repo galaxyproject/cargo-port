@@ -82,8 +82,8 @@ class XUnitReportBuilder(object):
 def verify_file(path, sha):
     try:
         filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
-        if filehash != sha:
-            raise Exception("Bad hash, %s != %s in %s", filehash, sha, path)
+        if filehash.lower() != sha.lower():
+            raise Exception("Bad hash, %s != %s in %s", filehash.lower(), sha.lower(), path)
     except Exception, cpe:
         log.error("File has bad hash! Refusing to serve this to end users.")
         os.unlink(path)

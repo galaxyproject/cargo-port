@@ -32,8 +32,8 @@ def main(galaxy_package_file):
                     log.error("[%s] Unknown architecture %s", lineno, ld['arch'])
                     retcode = 1
 
-                if len(ld['sha']) != 64:
-                    log.error("[%s] Bad checksum %s", lineno, ld['sha'])
+                if len(ld['sha256sum']) != 64:
+                    log.error("[%s] Bad checksum %s", lineno, ld['sha256sum'])
                     retcode = 1
 
                 platform_id = (ld['id'], ld['version'], ld['platform'], ld['arch'])

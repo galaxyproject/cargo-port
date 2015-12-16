@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 # Cleanup old hashes
-rm -f *.sha256sum
+find . -name 'SHA256SUM.txt' -exec rm '{}' \;
 
 # Renaming files into folders.
 #echo 'set -x' > mkdir.txt

@@ -6,21 +6,28 @@ import click
 import os
 import hashlib
 import logging
-from gsl.utils import yield_packages, package_name, PACKAGE_SERVER, depot_url
+import gsllib
+from gsllib.utils import yield_packages, package_name, PACKAGE_SERVER, depot_url
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
 
 @click.command()
 @click.option('--package_id', help='Package ID', required=True)
-@click.option('--download_location', default='./',
+@click.option('--package_version', help="Package version, downloads all versions if not specified", default=None, required=False)
+@click.option('--download_location', default='./downloads',
               help='Location for the downloaded file')
-def get(package_id, download_location):
+def get(package_id, package_version, download_location):
     package_found = False
-    for ld in yield_packages(urllib2.urlopen(PACKAGE_SERVER + 'urls.tsv')):
+    database = PACKAGE_SERVER + 'urls.tsv'
+    log.info("Searching for package: "+str(package_id)+" in "+str(database))
+    if not os.path.exists(download_location):
+        os.makedirs(download_location)
+    
+    for ld in yield_packages(urllib2.urlopen(database)):
         # TODO: check platform/architecture, failover to all if available?
         # iid, version, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
-        if ld['id'] == package_id.strip() and ld['platform']== 'src':
+        if ld['id'] == package_id.strip() and ld['platform']== 'src' and (package_version == None or ld['version'] == package_version):
             package_found = True
             # I worry about this being unreliable. TODO: add target filename column?
             pkg_name = package_name(ld)
@@ -28,15 +35,15 @@ def get(package_id, download_location):
             url = depot_url(ld)
             urllib.urlretrieve(url, storage_path)
             download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
-            if ld['checksum'] != download_checksum:
+            if ld['sha'] != download_checksum:
                 print ('Checksum does not match, something seems to be wrong.\n'
                        '{expected}\t(expected)\n{actual}\t(downloaded)').format(
-                           expected=ld['checksum'],
+                           expected=ld['sha'],
                            actual=download_checksum)
             else:
-                print 'Download successful for %s.' % (pkg_name)
+                log.info('Download successful for %s.' % (pkg_name))
     if not package_found:
-        print 'Package (%s) could not be found in this server.' % (package_id)
+        log.warning('Package (%s) could not be found in this server.' % (package_id))
 
 if __name__ == '__main__':
     get()

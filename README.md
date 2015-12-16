@@ -45,7 +45,7 @@ You can use the community package cache with a small script called `gsl` (get st
 The simplest way to download your archive is using this magic curl command.
 
 ```console
-$ curl https://raw.githubusercontent.com/galaxyproject/cargo-port/master/gsl.py | python - --package_id augustus_3_1
+$ git clone https://github.com/galaxyproject/cargo-port.git ; cd cargo-port ; python bin/gsl.py --package_id samtools --package_version "1.2"
 ```
 
 ## LICENSE

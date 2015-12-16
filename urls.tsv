@@ -75,6 +75,7 @@ Exporter-Tiny	0.042	src	all	https://github.com/bgruening/download_store/raw/mast
 FCGI	0.67	src	all	http://search.cpan.org/CPAN/authors/id/S/SK/SKIMO/FCGI-0.67.tar.gz	.tar.gz	08bf8afe1985b17d2375e8dc98ac86cab0daf017ccd5281157abdbb7e19273fd
 FLASH	1.2.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/FLASH-1.2.9.tar.gz	.tar.gz	8d29a5183514b4db35ef246d01c932fddcf3231aeacec4c485e50a4b894342ba
 FastUniq	1.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/FastUniq-1.1.tar.gz	.tar.gz	9ebf251566d097226393fb5aa9db30a827e60c7a4bd9f6e06022b4af4cee0eae
+Flexbar	2.5	src	all	https://github.com/seqan/flexbar/archive/v2.5.0.tar.gz	.tar.gz	5b5fb3b14809f9f9249d942a8bb4ae241a60a762ff10a51f18926aaae3d169ef
 File-Listing	6.04	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz	.tar.gz	1e0050fcd6789a2179ec0db282bf1e90fb92be35d1171588bd9c47d52d959cf5
 File-Next	1.12	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/File-Next-1.12.tar.gz	.tar.gz	cc3afd8eaf6294aba93b8152a269cc36a9df707c6dc2c149aaa04dabd869e60a
 File-Path	2.09	src	all	https://cpan.metacpan.org/authors/id/D/DL/DLAND/File-Path-2.09.tar.gz	.tar.gz	d1e0b5b7f93cc4133e2fc206a34e00dd868886b7ed850d799ccee824d25a225e

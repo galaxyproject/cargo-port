@@ -36,9 +36,9 @@ def get(package_id, package_version, download_location):
             urllib.urlretrieve(url, storage_path)
             download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
             if ld['sha256sum'] != download_checksum:
-                print ('Checksum does not match, something seems to be wrong.\n'
+                log.error('Checksum does not match, something seems to be wrong.\n'
                        '{expected}\t(expected)\n{actual}\t(downloaded)').format(
-                           expected=ld['sha'],
+                           expected=ld['sha256sum'],
                            actual=download_checksum)
             else:
                 log.info('Download successful for %s.' % (pkg_name))

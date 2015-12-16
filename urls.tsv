@@ -275,6 +275,7 @@ base64enc	0.1-2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/b
 bcbio-gff	0.6.2	src	all	https://pypi.python.org/packages/source/b/bcbio-gff/bcbio-gff-0.6.2.tar.gz	.tar.gz	c682dc46a90e9fdb124ab5723797a5f71b2e3534542ceff9f6572b64b9814e68
 bcftools	1.2	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/bcftools/bcftools-1.2-Linux-x86_64.tgz	.tar.gz	82d36151aebe1785c283ab0a98bf7e1714e11ee82ff5efc032fc18a33136975b
 bcftools	1.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/bcftools-1.2.tar.bz2	.tar.bz2	53c628339020dd45334a007c9cefdaf1cba3f1032492ec813b116379fa684fd6
+bcftools	1.3	src	all	https://github.com/samtools/bcftools/releases/download/1.3/bcftools-1.3.tar.bz2	.tar.bz2	fc5332e49546d55120551b0d5fb690f79e4f2216b8492c7b53033cdaa4256a3d
 bedtools	2.19	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.19.1/bedtools-2.19.1.tar.gz	.tar.gz	17253439e8191cb51a8bffba640c580e09ba158d3a0c66649e53d23ee3e50f77
 bedtools	2.20	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.20.1/bedtools-2.20.1.tar.gz	.tar.gz	b5401810f8b12b683575f0119521dda64ff2f0a59faa308357405c4ae4e328d3
 bedtools	2.22	src	all	https://github.com/arq5x/bedtools2/releases/download/v2.22.1/bedtools-2.22.1.tar.gz	.tar.gz	43ab5da6b41350bbef78ea2ee5be0609fb02d76b920a3301b687a39af7017233

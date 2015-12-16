@@ -3,7 +3,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
 
-HEADER_KEYS = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha']
+HEADER_KEYS = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha256sum']
 PACKAGE_SERVER = 'https://depot.galaxyproject.org/software/'
 
 def yield_packages(handle, meta=False, retcode=None):

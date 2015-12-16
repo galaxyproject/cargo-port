@@ -2,7 +2,7 @@
 import sys
 import logging
 import click
-from gsl.utils import yield_packages, HEADER_KEYS
+from cargoport.utils import yield_packages, HEADER_KEYS
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 

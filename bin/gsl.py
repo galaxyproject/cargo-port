@@ -6,8 +6,8 @@ import click
 import os
 import hashlib
 import logging
-import gsllib
-from gsllib.utils import yield_packages, package_name, PACKAGE_SERVER, depot_url
+import cargoport
+from cargoport.utils import yield_packages, package_name, PACKAGE_SERVER, depot_url
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
@@ -15,7 +15,7 @@ log = logging.getLogger()
 @click.command()
 @click.option('--package_id', help='Package ID', required=True)
 @click.option('--package_version', help="Package version, downloads all versions if not specified", default=None, required=False)
-@click.option('--download_location', default='./downloads',
+@click.option('--download_location', default='./',
               help='Location for the downloaded file')
 def get(package_id, package_version, download_location):
     package_found = False
@@ -35,7 +35,7 @@ def get(package_id, package_version, download_location):
             url = depot_url(ld)
             urllib.urlretrieve(url, storage_path)
             download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
-            if ld['sha'] != download_checksum:
+            if ld['sha256sum'] != download_checksum:
                 print ('Checksum does not match, something seems to be wrong.\n'
                        '{expected}\t(expected)\n{actual}\t(downloaded)').format(
                            expected=ld['sha'],

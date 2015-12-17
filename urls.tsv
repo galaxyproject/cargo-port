@@ -137,6 +137,7 @@ MASS	7.3-39	src	all	https://github.com/bgruening/download_store/raw/master/monoc
 MASS	7.3-44	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/MASS_7.3-44.tar.gz	.tar.gz	835fe22547222742fa84b8bf77774432abe3dff267932b8b8ed06de554f8e79b	True
 MUMmer	3.23	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MUMmer3.23.tar.gz	.tar.gz	1efad4f7d8cee0d8eaebb320a2d63745bb3a160bb513a15ef7af46f330af662f	True
 Matrix	1.1-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/Matrix_1.1-5.tar.gz	.tar.gz	b23ea59a5218be916a3e6ac4d5f573c5e7921b1eca9a2ed918f2d8f8ef520b4f	True
+metilene	0.2-4	src	all	http://www.bioinf.uni-leipzig.de/Software/metilene/metilene_v02-4.tar.gz	.tar.gz	7430b4c2af4f43d389ad690dfe42c9ce7a63b2bff4ff0ac59afc0f1ec7e600f2	True
 MiClip	1.2	src	all	https://github.com/bgruening/download_store/raw/master/miclip/MiClip_1.2.tar.gz	.tar.gz	60dcaf33483369fd7ed73a198049962eb6490e87da35e2827e084d7d1ef55f33	True
 MiModD	0.1.3.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MiModD-0.1.3.1.tar.gz	.tar.gz	ec698070c4a7658493fc83a974e36e8a89f922a7bf7338efeb9820facffafdd2	True
 MiModD	0.1.4.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MiModD-0.1.4.9.tar.gz	.tar.gz	cbfe8b175527b1e8e7fc53cc131d25611484570736082487dead3c1b2427881e	True

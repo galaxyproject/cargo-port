@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 import os
 import sys
-import click
 import json
 import subprocess
 import logging
@@ -124,8 +123,6 @@ def package_to_path(id="", version="", platform="", arch="", ext="", **kwargs):
     return '_'.join([id, version, platform, arch])
 
 
-@click.command()
-@click.argument('galaxy_package_file')
 def main(galaxy_package_file):
     visited_paths = []
     api_data = {'data': []}
@@ -208,4 +205,4 @@ def main(galaxy_package_file):
     sys.exit(retcode)
 
 if __name__ == '__main__':
-    main()
+    main(sys.argv[1])

@@ -655,6 +655,7 @@ proto	0.3-10	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/prot
 pwiz-bin	3.0.9016	linux	x64	https://github.com/bgruening/download_store/raw/master/pwiz/pwiz-bin-linux-x86_64-gcc48-release-3_0_9016.tar.bz2	.tar.bz2	02fdce3c0fdd4356872c2f7d77b6c2c7ef806c582057aa223f775192ca47be33	True
 pybedtools	0.6.6	src	all	https://github.com/daler/pybedtools/archive/v0.6.6.tar.gz	.tar.gz	7d9416f0901cafb37034164cc2fb27313641a9071f47e80a35efc7085eca4cb6	True
 pybedtools	0.6.9	src	all	https://github.com/daler/pybedtools/archive/v0.6.9.tar.gz	.tar.gz	2639e80917999e76572017fd93757e8d7ceb384f0b92647ccfdd23a0d60def7c	True
+pybedtools	0.7.4	src	all	https://pypi.python.org/packages/source/p/pybedtools/pybedtools-0.7.4.tar.gz	.tar.gz	15cfae9e8a207ded403ad9fa2e77f09d14c2fe377d1bc5f8b063647e2d0554e0	True
 pydoop	0.11.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/pydoop-0.11.1.tar.gz	.tar.gz	8ab013b34a4e8a4a19d62abe6d66cdf4afa50a85998869428342e5130980f3a4	True
 pyfaidx	0.4.1.1	src	all	https://github.com/mdshw5/pyfaidx/archive/v0.4.1.1.tar.gz	.tar.gz	5aedb781a55a916c62bcbb109b44d36e8f9fe2e301b2e0372644c83604e259d3	True
 pysam	0.7.5	src	all	https://pysam.googlecode.com/files/pysam-0.7.5.tar.gz	.tar.gz	fa85900ead3d1c2c9ce24f28d2b1843c0a8ffb761cd21d440049e29eca2e2453	True

@@ -190,6 +190,9 @@ def main(galaxy_package_file):
         if '.git' in root:
             continue
 
+        if 'static' in root:
+            continue
+
         for filename in filenames:
             if filename in whitelist:
                 continue

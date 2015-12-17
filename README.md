@@ -8,8 +8,8 @@
 [![Build Status](https://jenkins.galaxyproject.org/buildStatus/icon?job=cargo-port)](https://jenkins.galaxyproject.org/view/Meta/job/cargo-port/)
 
 This project addresses the problem of unreliable URLs by providing stable, long term storage for downloads.
-Instead of hoping that the upstream CPAN author will not remove a downloadable
-.tar.gz file, you can rely on the Galaxy Cargo Port to maintain a copy of that
+Instead of hoping that the upstream author (e.g. sourceforge or CPAN) will not remove or modify a downloadable
+.tar.gz file over time, you can rely on the Galaxy Cargo Port to maintain a copy of that
 file long term.
 
 This helps package authors and tool developers work more efficiently, by
@@ -39,13 +39,22 @@ Column | Name          | Meaning
 
 ## Using TCP
 
-You can use the community package cache with a small script called `gsl` (get stable link).
-`--package_id` specifies the unique package name and with `--download_location` you can provide a path where the tarball should be stored.
+You can use cargo-port with a small script called `galaxy-package-locator`.
+Argument `--package_id` specifies the package name, `--package_version` the package version and with `--download_location` you can provide a path where the tarball should be stored.
 
-The simplest way to download your archive is using this magic curl command.
+Cargo port can be installed as follows:
 
 ```console
-$ curl https://raw.githubusercontent.com/galaxyproject/cargo-port/master/gsl.py | python - --package_id augustus_3_1
+$ git clone https://github.com/galaxyproject/cargo-port.git
+$ cd cargo-port
+$ python setup.py build
+$ sudo python setup.py install
+```
+
+Downloading a package with galaxy-package-locator can be done as follows:
+
+```
+galaxy-package-locator --package_id samtools --package_version "1.2"
 ```
 
 ## LICENSE

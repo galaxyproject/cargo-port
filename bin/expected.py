@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import logging
 import click
-from gsl.utils import yield_packages, depot_url
+from cargoport.utils import yield_packages, depot_url
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 

@@ -40,6 +40,10 @@ def main(galaxy_package_file):
                     log.error("[%s] Uppercase checksum needs to be lower case %s", lineno, ld['sha256sum'])
                     retcode = 1
 
+                if ld['upstream_first'] not in ('True', 'False'):
+                    log.error("[%s] Upstream first must be 'True' or 'False', was '%s'", lineno, ld['upstream_first'])
+                    retcode = 1
+
                 platform_id = (ld['id'], ld['version'], ld['platform'], ld['arch'])
                 if platform_id in identifiers:
                     log.error("[%s] identifier is not unique: '%s'", lineno, platform_id)

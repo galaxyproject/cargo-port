@@ -1,13 +1,11 @@
 #!/usr/bin/python
-from urlparse import urlparse
 import urllib
 import urllib2
 import click
 import os
 import hashlib
 import logging
-import cargoport
-from cargoport.utils import yield_packages, package_name, PACKAGE_SERVER, depot_url
+from cargoport.utils import yield_packages, package_name, PACKAGE_SERVER, get_url
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
@@ -23,7 +21,7 @@ def get(package_id, package_version, download_location):
     log.info("Searching for package: "+str(package_id)+" in "+str(database))
     if not os.path.exists(download_location):
         os.makedirs(download_location)
-    
+
     for ld in yield_packages(urllib2.urlopen(database)):
         # TODO: check platform/architecture, failover to all if available?
         # iid, version, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
@@ -32,7 +30,7 @@ def get(package_id, package_version, download_location):
             # I worry about this being unreliable. TODO: add target filename column?
             pkg_name = package_name(ld)
             storage_path = os.path.join(download_location, pkg_name)
-            url = depot_url(ld)
+            url = get_url(ld)
             urllib.urlretrieve(url, storage_path)
             download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
             if ld['sha256sum'] != download_checksum:

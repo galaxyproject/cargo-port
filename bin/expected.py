@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import logging
 import click
-from cargoport.utils import yield_packages, depot_url
+from cargoport.utils import yield_packages, get_url
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
@@ -21,7 +21,7 @@ def main(galaxy_package_file, id, version=None):
 
             print """<action type="download_by_url" sha256sum="{0[sha]}">
     {1}
-</action>""".format(ld, depot_url(ld))
+</action>""".format(ld, get_url(ld))
 
 
 if __name__ == '__main__':

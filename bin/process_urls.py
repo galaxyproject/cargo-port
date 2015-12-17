@@ -10,12 +10,12 @@ log = logging.getLogger()
 
 
 def yield_packages(handle, meta=False, retcode=None):
+    keys = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha', 'use_upstream']
     for lineno, line in enumerate(handle):
         if line.startswith('#'):
             continue
         try:
             data = line.strip().split('\t')
-            keys = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha']
             if len(data) != len(keys):
                 log.error('[%s] data has wrong number of columns. %s != %s', lineno + 1, len(data), len(keys))
 

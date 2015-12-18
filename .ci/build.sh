@@ -1,4 +1,6 @@
 #!/bin/bash
+set -x
+git log | head
 git diff master
 python setup.py build
 python setup.py install

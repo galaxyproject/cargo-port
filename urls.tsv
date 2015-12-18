@@ -721,6 +721,7 @@ rnastructure	5.7	src	all	http://depot.galaxyproject.org/package/source/RNAstruct
 rpart	4.1-10	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/rpart_4.1-10.tar.gz	.tar.gz	c5ddaed288d38118876a94c7aa5000dce0070b8d736dba12de64a9cb04dc2d85	True
 rpy	1.0.3	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/rpy-1.0.3.tar.gz	.tar.gz	53a84ad4d3ef4d7e950d11f61021e8de199bb94381340dd0466d6c1fa33cbcae	True
 rpy2	2.3.6	src	all	https://pypi.python.org/packages/source/r/rpy2/rpy2-2.3.6.tar.gz	.tar.gz	a834e54ed6b98e71ef674f96628ab68e17f614db5b6246a9560048493a69f81c	True
+rpy2	2.7.5	src	all	https://pypi.python.org/packages/source/r/rpy2/rpy2-2.7.5.tar.gz	.tar.gz	0d88f7fff21fbef523c8678ed8f850a36052edca4ce702c62f234fdcb52de441	True
 rtracklayer	1.22.0	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/rtracklayer_1.22.0.tar.gz	.tar.gz	d94e8a2a713731f541471293535e0f3806fd9626b7109afdd0b296b8cc379164	True
 rtracklayer	1.26.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/rtracklayer_1.26.2.tar.gz	.tar.gz	c0284805d84f83f6189dc5a58461ea9ace8ec43dc301b0b317f4c3b493bf8bdb	True
 ruby	1.9	src	all	http://cache.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p484.tar.gz	.tar.gz	d684bc3a5ba72cda9ef30039f783c0f8cdc325bae5c8738c7bf05577cbe8f31d	True

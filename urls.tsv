@@ -597,6 +597,7 @@ muscle	3.8.31	linux	x32	http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.3
 muscle	3.8.31	linux	x64	http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz	.tar.gz	818dc1132b3c929d85355d6db6b0f1fe752dd4e276903a3cf91036cdb7247953	True
 muscle	3.8.31	src	all	http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_src.tar.gz	.tar.gz	43c5966a82133bd7da5921e8142f2f592c2b5f53d802f0527a2801783af809ad	True
 ncurses	5.9	src	all	http://ftp.gnu.org/pub/gnu/ncurses/ncurses-5.9.tar.gz	.tar.gz	9046298fb440324c9d4135ecea7879ffed8546dd1b58e59430ea07a4633f563b	True
+ncurses_patch	5.9p	src	all	https://raw.githubusercontent.com/cloudius-systems/osv/07e2d9032dbb3f4f2b0d0133e0eccd5be05dd05d/modules/ncurses/ncurses-5.9-gcc-5.patch	.patch	c9033021022979a02621af43883e6ca5a4df14d2c3a5a821e4c67923d13d5e78	True
 ncurses	6.0	src	all	ftp://invisible-island.net/ncurses/current/ncurses-6.0-20150725.tgz	.tar.gz	3c1d9534d6d5b3a691d23199a7621f25ffbfa0ccc333f680fcdfc192ea362c84	True
 netcdf	4.3	src	all	ftp://ftp.unidata.ucar.edu/pub/netcdf/old/netcdf-4.3.1.1.tar.gz	.tar.gz	09a4123d631714f488a2dc43292a7218e5241f2cf9288d2dbc8347d2fe176cad	True
 networkx	1.9.1	src	all	https://pypi.python.org/packages/source/n/networkx/networkx-1.9.1.tar.gz	.tar.gz	6380eb38d0b5770d7e50813c8a48ff7c373b2187b4220339c1adce803df01c59	True

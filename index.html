@@ -126,10 +126,13 @@
 
         </div>
         <script type="text/javascript">
-            function showUsage(id, version, url){
+            function showUsage(id, version, url, sha, ext){
                 BootstrapDialog.show({
-                    title: 'Using ' + id + '@' + version,
-                    message: ""
+                    title: 'How to use ' + id + '@' + version,
+                    message: `<h3>Package tool_dependencies.xml</h3>
+                        <pre>&lt;action type="download_by_url" sha256sum="${sha}"&gt;
+    https://depot.galaxyproject.org/software/${url}
+&lt;/action&gt;</pre>`
                 });
             }
         </script>
@@ -164,7 +167,7 @@
                              "targets": 3,
                              "data": "url",
                              "render": function(data, type, full, meta){
-                                 var showUsageCall = "<a onclick='showUsage(\"" + full.id + "\",\"" + full.version + "\",\"" + full._gen +"\")'>Test</a>";
+                                 var showUsageCall = "<a onclick='showUsage(\"" + full.id + "\",\"" + full.version + "\",\"" + full._gen+ "\",\"" + full.sha+ "\",\"" + full.ext +"\")'>Test</a>";
                                 return showUsageCall;
                              }
                         }

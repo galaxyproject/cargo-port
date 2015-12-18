@@ -18,6 +18,16 @@
         <script type="text/javascript" language="javascript" src="static/jquery.dataTables.min.js"
             integrity="sha512-Wdh8pTxAPpFPIMNSMGsM/TY1HOfGTswr68AnM9x0ZvemoEBUpQtg7ImSlBRuNO+WMtxwRknJUyb4gM8hSt8EVw=="
             crossorigin="anonymous"></script>
+        <script type="text/javascript" language="javascript" src="static/bootstrap.min.js"
+            integrity="sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A=="
+            crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="static/bootstrap-dialog.min.css"
+            integrity="sha512-NiSiBvckeLxY/WLKuEtzFVkUJpCe2XGWXxwUfD4Tk6/quYf+eaIZTtJfiyCTF6icvKg236kaRWbyObTC6O43MA=="
+            crossorigin="anonymous">
+        <script type="text/javascript" language="javascript" src="static/bootstrap-dialog.min.js"
+            integrity="sha512-l2PkvHp95bWqdhM5gBfa18yRYVhTpUxuxyBgeuYawHw51YTkAQCdOsnTuQrEgp6pJLaFrCOaOvqKk3ctZ0O+gw=="
+            crossorigin="anonymous"></script>
 
         <style type="text/css">
 .paginate_button {
@@ -115,6 +125,14 @@
 
 
         </div>
+        <script type="text/javascript">
+            function showUsage(id, version, url){
+                BootstrapDialog.show({
+                    title: 'Using ' + id + '@' + version,
+                    message: ""
+                });
+            }
+        </script>
 
         <script>
             $(document).ready(function() {
@@ -146,13 +164,14 @@
                              "targets": 3,
                              "data": "url",
                              "render": function(data, type, full, meta){
-                                 return '<a href="' + data + '">Link</a>';
+                                 var showUsageCall = "<a onclick='showUsage(\"" + full.id + "\",\"" + full.version + "\",\"" + full._gen +"\")'>Test</a>";
+                                return showUsageCall;
                              }
-                        },
+                        }
                     ]
                 });
-            });
 
+            });
         </script>
     </body>
 </html>

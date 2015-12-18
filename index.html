@@ -119,6 +119,7 @@
                         <th>Package Version</th>
                         <th>Platform</th>
                         <th>Upstream Link</th>
+                        <th>Help</th>
                     </tr>
                 </thead>
             </table>
@@ -126,7 +127,7 @@
 
         </div>
         <script type="text/javascript">
-            function showUsage(id, version, url, sha, ext){
+            function showUsage(id, version, url, sha){
                 BootstrapDialog.show({
                     title: 'How to use ' + id + '@' + version,
                     message: `<h3>Package tool_dependencies.xml</h3>
@@ -167,7 +168,17 @@
                              "targets": 3,
                              "data": "url",
                              "render": function(data, type, full, meta){
-                                 var showUsageCall = "<a onclick='showUsage(\"" + full.id + "\",\"" + full.version + "\",\"" + full._gen+ "\",\"" + full.sha+ "\",\"" + full.ext +"\")'>Test</a>";
+                                 return '<a href="' + data + '">Link</a>';
+                             }
+                        },
+                        {
+                             "targets": 4,
+                             "data": "id",
+                             "render": function(data, type, full, meta){
+                                 var showUsageCall = `<a onclick='showUsage("${full.id}", "${full.version}", "${full._gen}", "${full.sha}")'>
+                                     <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                     </a>
+                                     `;
                                 return showUsageCall;
                              }
                         }

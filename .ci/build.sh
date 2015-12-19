@@ -1,5 +1,4 @@
 #!/bin/bash
-set -x
 git fetch master
 git diff master
 python setup.py build

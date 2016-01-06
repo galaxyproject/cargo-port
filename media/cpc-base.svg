@@ -16,6 +16,8 @@
    height="675"
    viewBox="0 0 1200 675"
    sodipodi:docname="cpc-base.svg">
+  <title
+     id="title3385">Cargo Port Logo</title>
   <metadata
      id="metadata4196">
     <rdf:RDF>
@@ -24,8 +26,30 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title>Cargo Port Logo</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/3.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Eric Rasche</dc:title>
+          </cc:Agent>
+        </dc:creator>
       </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/3.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
     </rdf:RDF>
   </metadata>
   <defs
@@ -39,8 +63,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="731"
+     inkscape:window-width="1364"
+     inkscape:window-height="748"
      id="namedview4192"
      showgrid="false"
      showguides="true"
@@ -48,8 +72,8 @@
      inkscape:zoom="1.0241263"
      inkscape:cx="587.08007"
      inkscape:cy="338.0448"
-     inkscape:window-x="-6"
-     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg4190"
      inkscape:snap-bbox="true"

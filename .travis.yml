@@ -1,3 +1,3 @@
 language: python
 python: 2.7
-script: python setup.py build ; python setup.py install ; galaxy-cachefile-validator urls.tsv
+script: .ci/build.sh; .ci/check.sh

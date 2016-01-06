@@ -83,6 +83,7 @@ File-Temp	0.2304	src	all	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File
 Formula	1.1-2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/Formula_1.1-2.tar.gz	.tar.gz	20a812a8620f610e5242402f6b3437287b26e3e4fb30e9b22d27884e7c65b2ab	True
 Formula	1.2-1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Formula_1.2-1.tar.gz	.tar.gz	5db1ef55119b299c9d291e1c5c08e2d51b696303daf4e7295c38ff5fc428360a	True
 GD	2.56	src	all	https://github.com/bgruening/download_store/raw/master/GD-2.56/GD-2.56.tar.gz	.tar.gz	391647b94e5f1389d10e534cd8cd35ae9b6a6f70f8f32281c1392d547b221f97	True
+genometools	1.5.7	src	all	http://genometools.org/pub/genometools-1.5.7.tar.gz	.tar.gz	b84a2eab9e7b8fb3e7acb5a1b9df40e8d07394d18357b4bb85c5a9004f3339e5	True
 GenomeInfoDb	1.2.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/GenomeInfoDb_1.2.2.tar.gz	.tar.gz	8eff813a08c3659164df0481478ba7b32f7c8a780e6f77bc56f50e88655b6f6c	True
 GenomeInfoDb	1.2.4	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/GenomeInfoDb_1.2.4.tar.gz	.tar.gz	459d8904e30999435f7dd2ce40fc9a1b076982f798a6d2fb752d0311a7bcbd4b	True
 GenomeInfoDb	1.4.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/GenomeInfoDb_1.4.2.tar.gz	.tar.gz	3d4ff22c6a11192ee1e313042ff0da4703b18c72f2247be73a0590769328d05a	True
@@ -570,7 +571,7 @@ mcl	12.135	src	all	http://micans.org/mcl/src/mcl-12-135.tar.gz	.tar.gz	3f5e0e7ad
 meme	4.10.0.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057	True
 meme	4.10.0.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tgz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8	True
 meme	4.10.0.4	src	all	http://meme-suite.org/meme-software/4.10.0/meme_4.10.0_4.tar.gz	.tar.gz	2e0266102f5a510ed75b9275e8c1d138891bb8012ee4261a7f9f5c011c315a50	True
-meme	4.11.0	src	all	http://meme-suite.org/meme-software/4.11.0/meme_4.11.0.tar.gz	.tar.gz	3d18329f5f8e5d086da3ab0fcdcac621447b6592c99f5a8cdd8695cdb5275fd3	True
+meme	4.11.0	src	all	http://meme-suite.org/meme-software/4.11.0/meme_4.11.0.tar.gz	.tar.gz	5dc4841f4816ef25bdb4bd088c76606c1b42726e7d65cc417f0f8c49fe7e237f	True
 mgcv	1.8-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/mgcv_1.8-5.tar.gz	.tar.gz	dcad548be9efbff8737e54082dde5a20cac79f81037eb79586ad68bf403f7c8c	True
 miRDeep2	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2.tar.gz	.tar.gz	7a2ea1608d34e103750094ecac9a2d0d0a119f670ed41c635711e8e5d161f837	True
 miRDeep2-mapper	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2-mapper.tar.gz	.tar.gz	37943e9c9df4ee1be3b518d5fb0478e412371d6643fac8a60516803ae82e3c99	True

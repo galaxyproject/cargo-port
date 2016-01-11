@@ -823,6 +823,7 @@ survival	2.38-1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/b
 survival	2.38-3	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/survival_2.38-3.tar.gz	.tar.gz	2588ba869471d97a42628611496ba0ce6ade188143f673af41987c7d4a8972c2	True
 suspenders	0.2.5	src	all	https://pypi.python.org/packages/source/s/suspenders/suspenders-0.2.5.tar.gz	.tar.gz	27fcbeb0f71e5dd9d1085981640873812fa13ece0f4c0d0207b1733d13041b04	True
 sva	3.12.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/sva_3.12.0.tar.gz	.tar.gz	53afc52973093a8a853cfa5e1ea4c03ca51bb744f8917b520efb8f429d8054f4	True
+SVG-perl	2.63	src	all	www.cpan.org/authors/id/S/SZ/SZABGAB/SVG-2.64.tar.gz	.tar.gz	73d1e1e79f6cc04f976066e70106099df35be5534eceb5dfd2c1903ecf994acd	True
 tabix	0.2.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/tabix-0.2.6.tar.bz2	.tar.bz2	e4066be7101bae83bec62bc2bc6917013f6c2875b66eb5055fbb013488d68b73	True
 taxonomy	1.0.0	src	all	https://bitbucket.org/natefoo/taxonomy/get/97aef0c05300.zip	.zip	1c7549a75aaef00d777a4043a46b206d3d455f4d23e0ab587754996184927cdf	True
 tbl2asn	22.4	linux	x64	https://github.com/bgruening/download_store/raw/master/ncbi_tools/tbl2asn/22.4/linux64/tbl2asn		e68c91f59cb269492c564cf3e83770f10c3e665e7584f1b1521e0a14ff96bb25	True

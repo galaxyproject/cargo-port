@@ -155,6 +155,7 @@ OpenMS	2.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_6
 OpenMS	2.0	src	all	https://github.com/OpenMS/OpenMS/archive/136ec9057435f6d45d65a8e1465b2a6cff9621a8.zip	.zip	1552d136c3a0fb5ad5b549a0c995790c1679af416ae7536f1af6f0be245c7af9	True
 OpenMS	2.0-contrib	src	all	https://github.com/OpenMS/contrib/archive/f6b44d770b6c1b23972a8891753472e60a356253.zip	.zip	3ce93941a0d47ae7f2e377712f5ce4be6bf5be7fab58922ef3fb6607f6a310bb	True
 PeakRanger	1.16	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/PeakRanger-1.16-Linux-x86_64.zip	.zip	655aa27287bdf024796cfae909fab2f1485d0bd74302c4f9fd258ba71e9ef6e5	True
+Perl-Getopt-Long	2.45	src	all	http://pkgs.fedoraproject.org/repo/pkgs/perl-Getopt-Long/Getopt-Long-2.45.tar.gz/md5/ea5c085b30915efe522f9ac58fcc343d/Getopt-Long-2.45.tar.gz	.tar.gz	93fdea2b24130dd748cd1dd8579513a4d46965b2e9869cf47649ab5a66053af1	True
 PerlIO-gzip	0.19	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/PerlIO-gzip-0.19.tar.gz	.tar.gz	d2e9351d58b8a93c86811e25a898ee651fc393a157413652bf42f9aada2eb284	True
 Pillow	2.7.0	src	all	https://pypi.python.org/packages/source/P/Pillow/Pillow-2.7.0.tar.gz	.tar.gz	26e9320e73f5821826b6b2408a3bff0a8c29e45159530069a117efd39ef619f8	True
 Pod-Escapes	1.07	src	all	https://cpan.metacpan.org/authors/id/N/NE/NEILB/Pod-Escapes-1.07.tar.gz	.tar.gz	dbf7c827984951fb248907f940fd8f19f2696bc5545c0a15287e0fbe56a52308	True

@@ -412,6 +412,8 @@ fastICA	1.2-0	src	all	https://github.com/bgruening/download_store/raw/master/mon
 fastcluster	1.1.13	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/fastcluster_1.1.13.tar.gz	.tar.gz	6a14810aff8fb53e5d193a35c810c642a45e563610371b13c7afe0fa1ea27542	True
 fastqc	0.10.1	src	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.10.1.zip	.zip	50b20e3e8721219008234da0747319dd4453a6d8408f17199ac2d020cfa01098	True
 fastqc	0.11.2	src	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.2.zip	.zip	f362b141e696d67442fa16c3a71118936e0b14a0343bb88735973a920cbaef09	True
+fastqc	0.11.4	linux	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.4.zip	.zip	adb233f9fae7b02fe99e716664502adfec1b9a3fbb84eed4497122d6d33d1fe7	True
+fastqc	0.11.4	darwin	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.4.dmg	.dmg	bd4089397cfa1086d81e7b29508542d2478917df8d1ef1fb494616da1b8e651a	True
 fastx_toolkit	0.0.13	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/fastx_toolkit/0.0.13.tar.bz2	.tar.bz2	761277d3444758f283c70d55d747ddd633de2d9cfefc2de9caa1ee0ebae49d28	True
 fastx_toolkit	0.0.13	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/fastx_toolkit/0.0.13.tar.bz2	.tar.bz2	dd61839e5a40bad499302abc0bc32257d7fee3f2de2d4dd4e2b836e8ea88965d	True
 fastx_toolkit	0.0.13	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/fastx_toolkit/0.0.13.tar.bz2	.tar.bz2	76a56a134a8bccba55d703c00026673af0a2bb445bf6b7d903e4cf2398ea8883	True

@@ -488,8 +488,8 @@ hisat	0.1.6-beta	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux
 hisat	2.0.0	darwin	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-OSX_x86_64.zip	.zip	a71f5b5af05c942b8311805a98d2aeaec4b882b5876ea67a810fe46d544741b4	True
 hisat	2.0.0	linux	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-Linux_x86_64.zip	.zip	23c65f4bf33c87f7e7aa84da4e8bfd872413ee42237c8ca127a57f6e82e8c2c0	True
 hisat	2.0.0	src	all	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-source.zip	.zip	12ce17a34d3c3e5f546e6204a49aeb65c860c42fce7ac2a77c6c0b690d934fbf	True
-hmmer	3.1b1	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b1/hmmer-3.1b1.tar.gz	.tar.gz	246f5e32545d3a5706d065d8413fc8fc5445e779a97019e98ba319e5ef9dc1d8	True
-hmmer	3.1b2	src	all	ftp://selab.janelia.org/pub/software/hmmer3/3.1b2/hmmer-3.1b2.tar.gz	.tar.gz	dd16edf4385c1df072c9e2f58c16ee1872d855a018a2ee6894205277017b5536	True
+hmmer	3.1b1	src	all	http://eddylab.org/software/hmmer3/3.1b1/hmmer-3.1b1.tar.gz	.tar.gz	246f5e32545d3a5706d065d8413fc8fc5445e779a97019e98ba319e5ef9dc1d8	True
+hmmer	3.1b2	src	all	http://eddylab.org/software/hmmer3/3.1b2/hmmer-3.1b2.tar.gz	.tar.gz	dd16edf4385c1df072c9e2f58c16ee1872d855a018a2ee6894205277017b5536	True
 homer	4.2	src	all	http://homer.salk.edu/homer/data/software/homer.v4.2.zip	.zip	a52aebb3435e40f1fed7551cbf112b59cf33327692994943814869442398a459	True
 htmldoc	1.8.27-8ubuntu1.debian	src	all	https://github.com/bgruening/download_store/raw/master/htmldoc/htmldoc_1.8.27-8ubuntu1.debian.tar.gz	.tar.gz	980280d925db8def1aceec33c3ff74993d617edfe4ed657e880cc08a44fc2f6e	True
 htseq	0.6	src	all	https://pypi.python.org/packages/source/H/HTSeq/HTSeq-0.6.1.tar.gz	.tar.gz	9bff6779595ea13c10137dad3bc4ecfd046b0bc620990eaa08920a29dcbd05c5	True

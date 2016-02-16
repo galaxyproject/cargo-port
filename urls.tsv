@@ -117,6 +117,7 @@ Hmisc	3.14-5	src	all	https://github.com/bgruening/download_store/raw/master/DESe
 Hmisc	3.14-6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/Hmisc_3.14-6.tar.gz	.tar.gz	fe26b57a356832dc098be6edca0ffd1ad5766dee9b6a0989c113d4fee3a9255b	True
 Hmisc	3.16-0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Hmisc_3.16-0.tar.gz	.tar.gz	4edc3903da63e25d747f34c33abf3e4e9a1f250580bbbab39fb192469738a30d	True
 Hmisc	3.17-0	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/Hmisc_3.17-0.tar.gz	.tar.gz	9ce6156bc91df9209b8a44633e857f9abe0da053fe225ff1e6c1cb7b03f27558	True
+ImageMagick	6.9.3	src	all	http://www.imagemagick.org/download/ImageMagick.tar.gz	.tar.gz	5617e14d624be393209d77674b935165bddc797e65661774f81785f6c05ca0e9	True
 IO-HTML	1.001	src	all	http://search.cpan.org/CPAN/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz	.tar.gz	ea78d2d743794adc028bc9589538eb867174b4e165d7d8b5f63486e6b828e7e0	True
 IO-String	1.08	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/IO-String-1.08.tar.gz	.tar.gz	2a3f4ad8442d9070780e58ef43722d19d1ee21a803bf7c8206877a10482de5a0	True
 IRanges	1.18.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/IRanges_1.18.2.tar.gz	.tar.gz	897b65330f4932a23ca96c722e67fff1106d44578e1f80967f4570b93f1e27a6	True

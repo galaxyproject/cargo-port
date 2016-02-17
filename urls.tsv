@@ -374,6 +374,7 @@ coreutils	8.21	src	all	https://github.com/bgruening/download_store/raw/master/GN
 coreutils	8.22	src	all	https://github.com/bgruening/download_store/raw/master/GNU/coreutils-8.22.tar.bz2	.tar.bz2	ee9f39144f96ca29c862c0c4fd09e5d186b9079b12ff509653f390fc1fda67cc	True
 cran_kernlab	0.1.4	src	all	http://cran.r-project.org/src/contrib/Archive/kernlab/kernlab_0.1-4.tar.gz	.tar.gz	a522c22270050968a30118a16546054b82a01bcb845e975ba06584acc91169cf	True
 cran_yacca	1.0	src	all	http://cran.r-project.org/src/contrib/Archive/yacca/yacca_1.0.tar.gz	.tar.gz	e47f80e69fea87f1775d4439e6739914e734eac42832954b31f2a11df9011808	True
+ctc	1.44.0	src	all	http://www.bioconductor.org/packages/release/bioc/src/contrib/ctc_1.44.0.tar.gz	.tar.gz	0f67391d3fd6bc970293b5eb11dcd14f15686b61bce1c6da03e16dc3a60e93f2	True
 cufflinks	2.1.1	darwin	x64	http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.1.1.OSX_x86_64.tar.gz	.tar.gz	5955a2650c548b4f50a8407ce7302855590e7eca325ee9db6a6edfd54653218e	True
 cufflinks	2.1.1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/cufflinks/cufflinks-2.1.1.tgz	.tar.gz	8e32e92ab6265e7f011938cdac72888a348da9c1d193906638cbd10450554607	True
 cufflinks	2.2.1	darwin	x64	http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.OSX_x86_64.tar.gz	.tar.gz	98a78cdf9e38783f9809d74faadc70654977d5f6120e262ef623a04840da00c6	True
@@ -674,6 +675,7 @@ python	2.7	src	all	https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz	.t
 python	3.4	src	all	https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tgz	.tar.gz	8b743f56e9e50bf0923b9e9c45dd927c071d7aa56cd46569d8818add8cf01147	True
 qt	4.8	src	all	http://download.qt-project.org/official_releases/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz	.tar.gz	8b14dd91b52862e09b8e6a963507b74bc2580787d171feda197badfa7034032c	True
 qt	5.1	src	all	http://download.qt-project.org/official_releases/qt/5.1/5.1.1/single/qt-everywhere-opensource-src-5.1.1.tar.gz	.tar.gz	4c05742db52325e96b1d610a2388140dcc1e3d03d93faea2b2d3791015b186f6	True
+qvalue	2.2.2	src	all	http://bioconductor.org/packages/release/bioc/src/contrib/qvalue_2.2.2.tar.gz	.tar.gz	36f8bec5831ceedde3d3ab21d9db87cf1a32133a04f46e1803c833a510b8d17d	True
 r	2.11.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-2.11.0-Darwin-x86_64.tgz	.tar.gz	83b5b3177302015b0895f781ee319bf1b1551875d1dc11f12c86521c50c24b75	True
 r	2.11.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/R/R-2.11.0-Linux-x86_64.tgz	.tar.gz	c2c21bb038a17801becb227d9fbb4ef291e58396e7dd8e6df7b3cab78a03d48a	True
 r	2.15.0	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/R/R-2.15.0-Darwin-x86_64.tgz	.tar.gz	d26e4d62b9b01cdd058ae94413dc26a738f4074b38022ca1312a5f1a6837a279	True

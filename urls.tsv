@@ -439,6 +439,7 @@ futile.options	1.0.0	src	all	https://github.com/bgruening/download_store/raw/mas
 galaxy_sequence_utils	1.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0.tgz	.tar.gz	da7f408023d50e06c2f70198b7e85729d6e7556cbcf7f180ad6a07818163ee4a	True
 galaxy_sequence_utils	1.0.0-st	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0-st.tgz	.tar.gz	f6a0ff8261109b643226bbf21e6ff55da0ad88de8133bd4c8a371273520592a3	True
 galaxy_utils	1.0	src	all	http://depot.galaxyproject.org/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0.tgz	.tar.gz	da7f408023d50e06c2f70198b7e85729d6e7556cbcf7f180ad6a07818163ee4a	True
+galaxy_json_data_source	1.0.0	src	all	https://raw.githubusercontent.com/mdshw5/galaxy-json-data-source/a637ce880f44d56ae95a7380ff258e827b70811c/json_data_source.py	.py	4cc6538ef6013df9f98e2a067825d5624e19c3a8da319ac047acf347ac3f86a3	True
 gatk	1.4	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gatk-1.4.tar.gz	.tar.gz	9e6cd45643d37f5ee37a11944b555b9ea217a6b22e25fc2e9988eea4d84d2e6c	True
 gb_taxonomy	8d245994d7	src	all	https://github.com/spond/gb_taxonomy_tools/archive/8d245994d77546daac1f595b87a110a620426b4c.tar.gz	.tar.gz	56b746cf6f0da7768bc7ef0c31c19bd014fdbc8e11aa90d7779d89ccfae12971	True
 gdata	2.13.2	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gdata_2.13.2.tar.gz	.tar.gz	176700fa1c23d6f734a683061f31b0bfa863e2b8bbdaadb8c43076a28e2810a4	True

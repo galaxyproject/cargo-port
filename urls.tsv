@@ -539,7 +539,7 @@ libffi	3.0	src	all	ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz	.tar.gz	
 libgd	2.1	src	all	https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.0.tar.gz	.tar.gz	3ceef69d5454a392e8793ae90b5f0d632dd3e20879c12856aa1d1d3d063a51c8	True
 libgd	2.1.0	src	all	https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.0.tar.bz2	.tar.bz2	f3e1bc472bd81ee976a739436659fe752a14727a964c64530fde68531ddeee91	True
 libgtextutils	0.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/fastx_toolkit/libgtextutils-0.6.tar.bz2	.tar.bz2	5c8a795a80134f0f8bdc62a92b5baf32eb689e40c9fc685c491c648eff5a30ba	True
-libmagic	5.25	src	ftp://ftp.astron.com/pub/file/file-5.25.tar.gz	.tar.gz	3735381563f69fb4239470b8c51b876a80425348b8285a7cded8b61d6b890eca	True
+libmagic	5.25	src	all	ftp://ftp.astron.com/pub/file/file-5.25.tar.gz	.tar.gz	3735381563f69fb4239470b8c51b876a80425348b8285a7cded8b61d6b890eca	True
 libpng	1.2	src	all	http://download.sourceforge.net/libpng/libpng-1.2.51.tar.gz	.tar.gz	2ff1b671b89b04e9288b7282a33f69afcd1db07bf0c16e80c7bbdf2b56056fda	True
 libpng	1.2.51	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/libpng-1.2.51.tar.gz	.tar.gz	2ff1b671b89b04e9288b7282a33f69afcd1db07bf0c16e80c7bbdf2b56056fda	True
 libpng	1.6.7	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/libpng-1.6.7.tar.gz	.tar.gz	5d3be409d4ed4425923ad8677fc45497abb43c6b9cfd5beafe7dfc6f2a94f24b	True

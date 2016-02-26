@@ -395,6 +395,7 @@ digest	0.6.8	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/d
 dill	0.2	src	all	https://pypi.python.org/packages/source/d/dill/dill-0.2.1.tgz	.tar.gz	c0223a75afeef28734c6cd1ca40bd676e010209789f2e3986bbb4ca66d3754d4	True
 dotknot	1.3.1	src	all	https://github.com/bgruening/download_store/raw/master/dotknot/dotknot_1.3.1.tar.bz2	.tar.bz2	a6c6302fd3eef1096df3d082077b5f669edd2c9be62b67f3ae0b6ba833888a35	True
 e2fsprogs	1.42.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/e2fsprogs-1.42.9.tar.gz	.tar.gz	2f92ac06e92fa00f2ada3ee67dad012d74d685537527ad1241d82f2d041f2802	True
+edgeR	3.12.0	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/edgeR_3.12.0.tar.gz	.tar.gz	dc0927def56f2960d49a4550709b184f22e004119298af035ce723a26bae6ed8	True
 edgeR	3.11.0	src	all	https://bioarchive.galaxyproject.org/edgeR_3.11.0.tar.gz	.tar.gz	342cedff198241e3eeaa7ff033de27f535ee8290e47e971a460d378ce4388180	True
 edgeR	3.4.2	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/edgeR_3.4.2.tar.gz	.tar.gz	6fb44d4dc9ef8894fb8d69bcc465609e20cb4f18131c5714980dd9f01cb6236c	True
 eigen	2.0	src	all	http://bitbucket.org/eigen/eigen/get/2.0.17.tar.gz	.tar.gz	705028db65db7c1e393cdf55018754bf0696e376603a48a33b781bc85406ff1e	True

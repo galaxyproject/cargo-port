@@ -24,6 +24,7 @@ Biobase	2.26.0	src	all	http://bioarchive.galaxyproject.org/Biobase_2.26.0.tar.gz
 Biobase	2.26.0+gx0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/Biobase_2.26.0.tar.gz	.tar.gz	c481a23e57762d969b225d0fa2e72cbe72e0ce037422d89bafcc8b7527561b9c	True
 Biobase	2.28.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/Biobase_2.28.0.tar.gz	.tar.gz	5ba26e4432581482d3f2730c818555a1a87776b3e980d01e036f3b58db75c725	True
 Biobase	2.28.0+gx0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Biobase_2.28.0.tar.gz	.tar.gz	056b12f15e4164c3ea22bb3462ae2e5d7f391b91e473c014ee51e5460431ffa6	True
+Biobase 2.30.0      src     all     http://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.30.0.tar.gz       .tar.gz f16b6316fdbd7ab0077644d41a3286a688b0b75cc34686383e10f139f0955ae1        True
 BiocGenerics	0.12.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/BiocGenerics_0.12.0.tar.gz	.tar.gz	298a141bbd2536568eb153cc64ab0d461b669dec049cf1a301e979f7b630ae7c	True
 BiocGenerics	0.12.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/BiocGenerics_0.12.1.tar.gz	.tar.gz	d451f2c72c46a7b5fa6dd252a207ba72f0a5a86d1bfc95408935f079efa85f77	True
 BiocGenerics	0.14.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/BiocGenerics_0.14.0.tar.gz	.tar.gz	d16ad5910aee6247990a19745511a5d50e19fa8c236000cbf99395e06c73c9f8	True

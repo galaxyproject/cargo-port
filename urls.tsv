@@ -387,6 +387,7 @@ cython	0.23.1	src	all	https://pypi.python.org/packages/source/C/Cython/Cython-0.
 datamash	1.0.6	src	all	http://ftp.gnu.org/gnu/datamash/datamash-1.0.6.tar.gz	.tar.gz	0154c25c45b5506b6d618ca8e18d0ef093dac47946ac0df464fb21e77b504118	True
 deeptools	1.5.10	src	all	https://github.com/fidelram/deepTools/archive/1.5.10.tar.gz	.tar.gz	b5a1e3dd28f4c1365e67b7bcda435588315f1cb0303e12caab15054a30307336	True
 deeptools	1.5.11	src	all	https://github.com/fidelram/deepTools/archive/1.5.11.tar.gz	.tar.gz	20c885c2cdf68f5644d12a84d9fe48907b4f59ef5e4a88e579ec7a0e3f3ca339	True
+deeptools	1.5.11	src	all	https://pypi.python.org/packages/source/d/deepTools/deepTools-2.2.2.tar.gz	.tar.gz	f3d7cdec273a118e199f00cbbbbca7952c7e4ce4d4492c9106c780c629a78759	True
 defuse	0.5.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/defuse-0.5.0.tar.gz	.tar.gz	c9773ad5a6651a67af9bbc1f8e22b6efdcb3ac6e02bdd2b21e1f07694e25a0ab	True
 defuse	0.6.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/defuse-0.6.0.tar.gz	.tar.gz	da00726f4df756e463dfe1e89d6b55d9077b8920de1d73f3cadd9e170c7e3f02	True
 defuse	0.6.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/defuse-0.6.1.tar.gz	.tar.gz	aa80c4f4507a56bbabb6fcc372c1aa93c18d3ddacbcca5f4c382d6d8f869c366	True

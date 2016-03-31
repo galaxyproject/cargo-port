@@ -233,6 +233,8 @@ VarScan	2.3.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforg
 VariantAnnotation	1.12.7	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/VariantAnnotation_1.12.7.tar.gz	.tar.gz	7aa547964f6491c17bd8bda1d7fb0afebb6e7918d67571d7785974793b6ae4a5	True
 ViennaRNA	2.1.8	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/ViennaRNA/ViennaRNA-2.1.8-Linux-x86_64.tar.gz	.tar.gz	60eab3d236c44a1f2796cc7098a651384ca39c61754f4d589d3076ddbf110e23	True
 ViennaRNA	2.1.8	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-2.1.8.tar.gz	.tar.gz	37a0a0b7c8a167bcdab1a85d88bcb1025ad8e00a4b00a147bf36d45dc8ca7560	True
+ViennaRNA	1.8.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.8.5.tar.gz	.tar.gz	f4e2d94beaf77165e8321758e4ab0ad1c5d49879cefa12e48b07d09ed2d0ecf9	True
+ViennaRNA	1.6.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.6.5.tar.gz	.tar.gz	70a7bef5d6e67d31ee88089603c18b95e3a544880cddc56e5a04da28cdaa84b9	True
 WWW-RobotRules	6.02	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz	.tar.gz	46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e	True
 XML	3.98-1	src	all	https://depot.galaxyproject.org/package/noarch/XML_3.98-1.1.tar.gz	.tar.gz	947318e0e0d272bcd57244999d897d6f7b2624554fdf451f8c3c0461c8313159	True
 XML	3.98-1.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/XML_3.98-1.1.tar.gz	.tar.gz	947318e0e0d272bcd57244999d897d6f7b2624554fdf451f8c3c0461c8313159	True

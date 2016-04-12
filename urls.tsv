@@ -878,6 +878,7 @@ velvet	1.2.10	src	all	https://github.com/dzerbino/velvet/archive/d430f1ade319af5
 vienna_rna	1.8	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.8.5.tar.gz	.tar.gz	f4e2d94beaf77165e8321758e4ab0ad1c5d49879cefa12e48b07d09ed2d0ecf9	True
 vienna_rna	2.1	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/ViennaRNA/ViennaRNA-2.1.8-Linux-x86_64.tar.gz	.tar.gz	60eab3d236c44a1f2796cc7098a651384ca39c61754f4d589d3076ddbf110e23	True
 vienna_rna	2.1.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-2.1.5.tar.gz	.tar.gz	2d02103b6a5d1536df26607ee00b8be364758f2cb796aeb010517c311e861d58	True
+vienna_rna	2.2.4	src	all	ftp://biftp.informatik.uni-freiburg.de/pub/Vienna_RNA/ViennaRNA-2.2.4.tar.gz	.tar.gz	f0d4cdeb9d0179e7ac1fc6825ca109f1fcd62104d056e9c8688e618550267fda	False
 vsearch	1.1.3	darwin	x64	https://github.com/torognes/vsearch/releases/download/v1.1.3/vsearch-1.1.3-osx-x86_64		109e70fef692c6114e707c453935c74bf312a897d642b0b4977e85f9b9c4f24b	True
 vsearch	1.1.3	linux	x64	https://github.com/torognes/vsearch/releases/download/v1.1.3/vsearch-1.1.3-linux-x86_64		4df3b4b4a31267cec9b7845aea2b68d61f6132762956048b26e4b93967eb5238	True
 weblogo	2.8.2	src	all	https://github.com/bgruening/download_store/raw/master/weblogo/weblogo.2.8.2.tar.gz	.tar.gz	2d3e0040c0c1e363c1dfd57f8b585387eb682ed08b2cc2fe2e4cc2a33ac52266	True

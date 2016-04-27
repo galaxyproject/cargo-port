@@ -83,7 +83,8 @@ def verify_file(path, sha, dryrun=False):
     try:
         filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
         if filehash.lower() != sha.lower():
-            raise Exception("Bad hash, %s != %s in %s", filehash.lower(), sha.lower(), path)
+            excstr = "Bad hash, %s != %s in %s" % (filehash.lower(), sha.lower(), path)
+            raise Exception(excstr)
     except Exception, cpe:
         log.error("File has bad hash! Refusing to serve this to end users.")
         if not dryrun:

@@ -73,7 +73,7 @@ Encode-Locale	1.03	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Enco
 Exception-Class	1.39	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Exception-Class-1.39.tar.gz	.tar.gz	819c756a69a6d1e31f396eca6a508b07b0a522a035b904cd1d432353cc362083	True
 Exporter	5.7	src	all	https://cpan.metacpan.org/authors/id/T/TO/TODDR/Exporter-5.70.tar.gz	.tar.gz	836a2f397b59f7194f4787235aeb0c7ac0c232bd6fc39be45b77e65a1a19e122	True
 Exporter-Tiny	0.042	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Exporter-Tiny-0.042.tar.gz	.tar.gz	8f1622c5ebbfbcd519ead81df7917e48cb16cc527b1c46737b0459c3908a023f	True
-FCGI	0.67	src	all	http://search.cpan.org/CPAN/authors/id/S/SK/SKIMO/FCGI-0.67.tar.gz	.tar.gz	08bf8afe1985b17d2375e8dc98ac86cab0daf017ccd5281157abdbb7e19273fd	True
+FCGI	0.67	src	all	http://search.cpan.org/CPAN/authors/id/S/SK/SKIMO/FCGI-0.67.tar.gz	.tar.gz	6125df9285fc22f1add8062ba06248a41b291659997948c670ead21aca943a73	True
 FLASH	1.2.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/FLASH-1.2.9.tar.gz	.tar.gz	8d29a5183514b4db35ef246d01c932fddcf3231aeacec4c485e50a4b894342ba	True
 FastUniq	1.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/FastUniq-1.1.tar.gz	.tar.gz	9ebf251566d097226393fb5aa9db30a827e60c7a4bd9f6e06022b4af4cee0eae	True
 Flexbar	2.5	src	all	https://github.com/seqan/flexbar/archive/v2.5.0.tar.gz	.tar.gz	5b5fb3b14809f9f9249d942a8bb4ae241a60a762ff10a51f18926aaae3d169ef	True

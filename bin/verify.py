@@ -111,6 +111,7 @@ def main(galaxy_package_file, dryrun=False):
     with open(galaxy_package_file, 'r') as handle:
         retcode = 0
         xunit = XUnitReportBuilder()
+        xunit.ok("I.Am.Alive")
 
         for ld in yield_packages(handle):
             nice_name = package_to_path(**ld)

@@ -23,6 +23,18 @@ sweeping changes to `urls.tsv` honestly your best choice for editing it is
 probably going to be a spreadsheet tool like libreoffice. If you do need to
 edit it in vim, I've found `:set ts=120` to be helpful in aligning columns.
 
+## Tools Included
+
+
+Script Name                  | Script File           | Args                                                                                    | Purpose
+---------------------------- | --------------------- | --------------------------------------------------------------------------------------- | ---------------------------------
+`galaxy-cachefile-dedup`     | `bin/dedup.py`        | urls.tsv                                                                                | Remove duplicate entries from urls.tsv
+`galaxy-cachefile-validator` | `bin/check.py`        | urls.tsv                                                                                | Verify the formatting of the urls.tsv file. Used by travis to ensure submissions are valid
+`galaxy-cache-validator`     | `bin/verify.py`       | urls.tsv [dryrun]                                                                       | Verify the entire cargoport cache, to ensure that all sha256sums are valid and no packages have been downloaded incorrectly.
+`galaxy-package-locator`     | `bin/gsl.py`          | [--package_id PACKAGE_ID] [--package_version PACKAGE_VERSION] [--download_loaction DIR] | Download a package using the cargo port to the command line
+`galaxy-package-tooldeps`    | `bin/expected.py`     | urls.tsv id                                                                             | Print the expected `<action />` tags for use in Galaxy
+`galaxy-package-updater`     | `bin/process_urls.py` | urls.tsv                                                                                | Download all of the files listed in urls.ts
+
 ## URL file
 
 The file consists of four tab separated columns:

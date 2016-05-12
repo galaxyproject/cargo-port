@@ -13,19 +13,27 @@ log = logging.getLogger()
 @click.command()
 @click.option('--package_id', help='Package ID', required=True)
 @click.option('--package_version', help="Package version, downloads all versions if not specified", default=None, required=False)
+@click.option('--urls', help="Override default urls.tsv location", default=PACKAGE_SERVER + "urls.tsv")
 @click.option('--download_location', default='./',
               help='Location for the downloaded file')
-def get(package_id, package_version, download_location):
+def get(package_id, package_version, urls, download_location):
     package_found = False
-    database = PACKAGE_SERVER + 'urls.tsv'
-    log.info("Searching for package: "+str(package_id)+" in "+str(database))
+    log.info("Searching for package: "+str(package_id)+" in "+str(urls))
     if not os.path.exists(download_location):
         os.makedirs(download_location)
 
-    for ld in yield_packages(urllib2.urlopen(database)):
+    handle = None
+    if '://' in urls:
+        handle = urllib2.urlopen(urls)
+    elif os.path.exists(urls):
+        handle = open(urls, 'r')
+    else:
+        raise Exception("--urls option does not look like a url or a file path")
+
+    for ld in yield_packages(handle):
         # TODO: check platform/architecture, failover to all if available?
         # iid, version, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
-        if ld['id'] == package_id.strip() and ld['platform']== 'src' and (package_version == None or ld['version'] == package_version):
+        if ld['id'] == package_id.strip() and (package_version == None or ld['version'] == package_version):
             package_found = True
             # I worry about this being unreliable. TODO: add target filename column?
             pkg_name = package_name(ld)

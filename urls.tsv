@@ -492,6 +492,7 @@ gsl	1.16	src	all	http://ftp.u-tx.net/gnu/gsl/gsl-1.16.tar.gz	.tar.gz	73bc2f51b90
 gtable	0.1.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gtable_0.1.2.tar.gz	.tar.gz	b08ba8e62e0ce05e7a4c07ba3ffa67719161db62438b04f14343f8928d74304d	True
 gtools	3.1.1	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gtools_3.1.1.tar.gz	.tar.gz	8f8ec6de48dde9b645c85b842339bd6d9739de0d83ccd3748c53763bdf821845	True
 gtools	3.4.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gtools_3.4.1.tar.gz	.tar.gz	fa2b8351223369a13f4e922f13e8c836459a9522c775a455afd5e2b18941bb34	True
+hardklor	2.3.0	linux	x64	https://drive.google.com/uc?export=download'&'id=0ByyfOdPaY1xkcUZETE5GdXlFVm8	.zip	4aa6a5123087c3e8e5cdb716bf63d04fd86ffde752d00c6b0c45decacc4d5b91	True
 hdf5	1.8.12	src	all	https://github.com/bgruening/download_store/raw/master/hdf5/hdf5-1.8.12.tar.gz	.tar.gz	b5cccea850096962b5fd9e96f22c4f47d2379224bb41130d9bc038bb6c37dfcb	True
 hisat	0.1.6	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/hisat/hisat-0.1.6-beta-OSX_x86_64.tgz	.tar.gz	80cb2ab3d58889abf4c25a7fe1e92e39273259fb706f71b9f3ec2bf181495248	True
 hisat	0.1.6	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/hisat/hisat-0.1.6-beta-Linux_x86_64.tgz	.tar.gz	a29dc43d9d66c2579803ff1c3ad0788266824640cd07b073d005321f1c125e69	True
@@ -527,6 +528,7 @@ kraken	0.10.5	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/kra
 kraken	0.10.5	src	all	https://ccb.jhu.edu/software/kraken/dl/kraken-0.10.5-beta.tgz	.tar.gz	7c0ac64ee0acdcce18e16b51b636b7cdc6d07ea7ab465bb64df078c5a710346b	True
 kraken	0.10.5-beta	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/kraken/kraken-0.10.5-beta-Linux-x86_64.tar.gz	.tar.gz	091fb2bfa6e834921f4cc404ef828181d51408f4413ed189b65f777db4295115	True
 kraken	0.10.5-beta-1	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/kraken/kraken-0.10.5-beta-1-Linux-x86_64.tar.gz	.tar.gz	15861ebad66e3b233eeef5acf2327b7cc8c04bc93543b77ab15b61eb73e6582f	True
+kronik	2.02	linux	x64	http://proteome.gs.washington.edu/software/hardklor/public/kronik.zip	.zip	b8657a4d9682b88af53ac1ab64bbac8a08cdb578f2493d270a6d20d0b98d323b	True
 labeling	0.2	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/labeling_0.2.tar.gz	.tar.gz	8aaa7f8b91923088da4e47ae42620fadcff7f2bc566064c63d138e2145e38aa4	True
 labeling	0.3	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/labeling_0.3.tar.gz	.tar.gz	0d8069eb48e91f6f6d6a9148f4e2dc5026cabead15dd15fc343eff9cf33f538f	True
 labels	1.0.5	src	all	https://pypi.python.org/packages/source/l/lapels/lapels-1.0.5.tar.gz	.tar.gz	2af0a857c0d0281190ca7b0335220c2ab9c14b207b15126c45529394f2c3164e	True

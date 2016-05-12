@@ -492,7 +492,7 @@ gsl	1.16	src	all	http://ftp.u-tx.net/gnu/gsl/gsl-1.16.tar.gz	.tar.gz	73bc2f51b90
 gtable	0.1.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gtable_0.1.2.tar.gz	.tar.gz	b08ba8e62e0ce05e7a4c07ba3ffa67719161db62438b04f14343f8928d74304d	True
 gtools	3.1.1	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gtools_3.1.1.tar.gz	.tar.gz	8f8ec6de48dde9b645c85b842339bd6d9739de0d83ccd3748c53763bdf821845	True
 gtools	3.4.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gtools_3.4.1.tar.gz	.tar.gz	fa2b8351223369a13f4e922f13e8c836459a9522c775a455afd5e2b18941bb34	True
-hardklor	2.3.0	linux	x64	https://drive.google.com/uc?export=download&id=0ByyfOdPaY1xkcUZETE5GdXlFVm8	.zip	4aa6a5123087c3e8e5cdb716bf63d04fd86ffde752d00c6b0c45decacc4d5b91	True
+hardklor	2.3.0	linux	x64	https://drive.google.com/uc?export=download&amp;id=0ByyfOdPaY1xkcUZETE5GdXlFVm8	.zip	4aa6a5123087c3e8e5cdb716bf63d04fd86ffde752d00c6b0c45decacc4d5b91	True
 hdf5	1.8.12	src	all	https://github.com/bgruening/download_store/raw/master/hdf5/hdf5-1.8.12.tar.gz	.tar.gz	b5cccea850096962b5fd9e96f22c4f47d2379224bb41130d9bc038bb6c37dfcb	True
 hisat	0.1.6	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/hisat/hisat-0.1.6-beta-OSX_x86_64.tgz	.tar.gz	80cb2ab3d58889abf4c25a7fe1e92e39273259fb706f71b9f3ec2bf181495248	True
 hisat	0.1.6	linux	x64	https://depot.galaxyproject.org/package/linux/x86_64/hisat/hisat-0.1.6-beta-Linux_x86_64.tgz	.tar.gz	a29dc43d9d66c2579803ff1c3ad0788266824640cd07b073d005321f1c125e69	True

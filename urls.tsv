@@ -475,6 +475,7 @@ gnu_awk	4.1.0	src	all	http://ftp.gnu.org/gnu/gawk/gawk-4.1.0.tar.gz	.tar.gz	79f8
 gnu_parallel	20131122	src	all	ftp://ftp.gnu.org/gnu/parallel/parallel-20131122.tar.bz2	.tar.bz2	ef5e0af618cd71c2a2d96ab3aa800ca44e6fab830092176db4b3468b747e29d0	True
 gnu_sed	4.2.2.sandbox	src	all	http://ftp.gnu.org/gnu/sed/sed-4.2.2.tar.gz	.tar.gz	fea0a94d4b605894f3e2d5572e3f96e4413bcad3a085aae7367c2cf07908b2ff	True
 gnu_sed	e1626689.sandbox.patch	src	all	https://github.com/bgruening/download_store/raw/master/GNU/sed-e16266897f646e193a9a1287658a1847d68f1e51_sandbox.patch	.patch	b9d5b4ea8b60ffaea4185db7d390baf9c9ca6d27e475c68648bcf4d625900442	True
+gnu_sed	sandbox-2016-05-26.patch	src	all	https://raw.githubusercontent.com/bgruening/download_store/master/GNU/sed-4.2.2-sandbox-2016-05-26.patch	.patch	b7d52cfc474cd5a4a0ce79db669f726de201ea4e98808dec6c22be3c3701b774	True
 gnuplot	4.6.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/gnuplot-4.6.6.tar.gz	.tar.gz	1f19596fd09045f22225afbfec11fa91b9ad1d95b9f48406362f517d4f130274	True
 gnuplot-py	1.8	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/gnuplot-py-1.8.tar.gz	.tar.gz	ab339be7847d30a8acfd616f27b5021bfde0999b7bf2d68400fbe62c53106e21	True
 go	1.5.1	darwin	x64	https://storage.googleapis.com/golang/go1.5.1.darwin-amd64.tar.gz	.tar.gz	e94487b8cd2e0239f27dc51e6c6464383b10acb491f753584605e9b28abf48fb	True

@@ -821,6 +821,7 @@ sputnik	1.0	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_
 sqlite	3.8.3	src	all	https://github.com/bgruening/download_store/raw/master/sqlite/sqlite-autoconf-3080300.tar.gz	.tar.gz	dabe38cf6732a9dfd57e9a2d2629dfb12ea3f2bf8948987f91318d01e6f72a26	True
 squash	1.0.1	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/squash_1.0.1.tar.gz	.tar.gz	8cff0cc70e1d03e35fda1e24e8bb26ae3a36324ac809cfe5e4ae1204e5a80290	True
 squid	1.9g	src	all	http://selab.janelia.org/software/squid/squid.tar.gz	.tar.gz	302f42e8794aa4dbcfa0996c14fb7a70a7c4397fc45c2bbd2748055460d8dca7	True
+stacks	1.40	src	all	http://catchenlab.life.illinois.edu/stacks/source/stacks-1.40.tar.gz	.tar.gz	bf2304ba4ec44991db327ea77eb0f8c58de6d665162abf72470f5cd9dfb71493	True
 statmod	1.4.21	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/statmod_1.4.21.tar.gz	.tar.gz	aa996fe93f0bd5635d40783039eb868811a9238e83e0a5a7da8617a17082148d	True
 stringi	0.5-5	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/stringi_0.5-5.tar.gz	.tar.gz	1cd67b64f287aac9e8fd95dd4a0cab829e0fb7870fd264ede281be0b65ce7ca0	True
 stringi	1.0-1	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/stringi_1.0-1.tar.gz	.tar.gz	e748e4f0f9cb642fd1ed0d663d5999ebd9b9d11edafb6b2ef79e6b6d4641a3d1	True

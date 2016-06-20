@@ -579,6 +579,7 @@ limma	3.22.5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/l
 limma	3.22.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/limma_3.22.6.tar.gz	.tar.gz	011131ed104f5be2eed7d7387877e2fe70c1ac72c1052de12cd2284cb61ce2b3	True
 limma	3.25.3	src	all	http://bioarchive.galaxyproject.org/limma_3.25.3.tar.gz	.tar.gz	b7661fb61a74df2f4fbd0a9ff8fa35ec8f32f0f6de110653e4883f0bfff136e1	True
 limma	3.28.2	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.2.tar.gz	.tar.gz	96b3c01e2c6709ee8fb4c43583b22ea0a6f32624b73a9c05d74cac4c443ad342	True
+limma	3.28.10	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.10.tar.gz	.tar.gz	92c219f672f7061e8204cf9466e9b05a3df3a177b2bdfcd23c5a873591b6d4b4	True
 lncPro	0.0	src	all	https://github.com/bgruening/download_store/raw/master/lncPro/lncPro-src.tar.gz	.tar.gz	cb839c1a6328cb20c54debaee360b189e22d4b5fbf84214a5dde6a74dd8b4c53	True
 locfit	1.5-9.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/locfit_1.5-9.1.tar.gz	.tar.gz	f524148fdb29aac3a178618f88718d3d4ac91283014091aa11a01f1c70cd4e51	True
 lockfile	0.10.2	src	all	https://github.com/bgruening/download_store/raw/master/qiime/lockfile-0.10.2.tar.gz	.tar.gz	04440b3f1e34f525080f228689fc9c4cd5e630e9c5fb364d8cbeb2394f38cc8d	True

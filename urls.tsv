@@ -641,6 +641,7 @@ numpy	1.7	src	all	https://pypi.python.org/packages/source/n/numpy/numpy-1.7.1.ta
 numpy	1.8	src	all	https://pypi.python.org/packages/source/n/numpy/numpy-1.8.1.tar.gz	.tar.gz	3d722fc3ac922a34c50183683e828052cd9bb7e9134a95098441297d7ea1c7a9	True
 numpy	1.9	src	all	https://pypi.python.org/packages/source/n/numpy/numpy-1.9.2.tar.gz	.tar.gz	325e5f2b0b434ecb6e6882c7e1034cc6cdde3eeeea87dbc482575199a6aeef2a	True
 numpy	1.9p1	src	all	https://github.com/pjbriggs/download_archive/raw/master/numpy/numpy-1.9.2.tar.gz	.tar.gz	9753003ab7c489968eb260e5460556fd7d533a8e11a9d5326e0995bd1aa21318	True
+numpy	1.9p2	src	all	https://github.com/mvdbeek/galaxy_package_sources/raw/master/numpy_1.9p2_src_all.tar.gz	.tar.gz	d60ac7614b5b4167c048980c7ec54c94dae70bb52d407ae1571a79eeffff5a9f	True
 nwalign	0.3.1	src	all	https://pypi.python.org/packages/source/n/nwalign/nwalign-0.3.1.tar.gz	.tar.gz	bdbf1948df8421ef744ebf2993341df1f8431bbe41f4ce31241fff88d4d8e781	True
 octave	3.8	src	all	ftp://ftp.gnu.org/gnu/octave/octave-3.8.1.tar.gz	.tar.gz	ead2c481eac9bc0d46922eca87007e7103270b259388a359e3cdba82420f8305	True
 opal-py	2.4.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/opal-py-2.4.1.tar.gz	.tar.gz	78d82dbdab607a3acb40e0462a0418b856f3ef8c83cb302f55c4549d672e7085	True

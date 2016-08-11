@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex
+set -x
 # Cleanup old hashes
 find . -name 'SHA256SUM.txt' -exec rm '{}' \;
 # Create appropriate folders

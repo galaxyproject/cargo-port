@@ -27,6 +27,7 @@ def yield_packages(handle, meta=False, retcode=None):
         except Exception, e:
             log.error(str(e))
 
+
 class XUnitReportBuilder(object):
     XUNIT_TPL = """<?xml version="1.0" encoding="UTF-8"?>
     <testsuite name="cpc" tests="{total}" errors="{errors}" failures="{failures}" skip="{skips}">
@@ -89,6 +90,7 @@ def verify_file(path, sha):
         log.error("File has bad hash! Refusing to serve this to end users.")
         os.unlink(path)
         return str(cpe)
+
 
 def download_url(url, output):
     try:

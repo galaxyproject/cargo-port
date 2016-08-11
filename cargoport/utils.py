@@ -62,9 +62,11 @@ def package_to_path(id="", version="", platform="", arch="", ext="", **kwargs):
 def verify_file(path, sha):
     try:
         filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
+        log.info("File hash %s", filehash.lower())
         if filehash.lower() != sha.lower():
             excstr = "%s != %s in %s" % (filehash.lower(), sha.lower(), path)
             raise Exception(excstr)
+        log.info("Verified, %s == %s", filehash.lower(), sha.lower())
         return None
     except Exception, cpe:
         log.error("File has bad hash! %s", cpe)

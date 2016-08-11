@@ -7,6 +7,7 @@ log = logging.getLogger()
 
 
 def main():
+    retcode = 0
     for package in yield_packages(sys.stdin):
         print package
         # Remove the '+' at the beginning
@@ -17,6 +18,7 @@ def main():
 
         if err is not None:
             log.error("Could not download file", err)
+            retcode = 1
         else:
             log.info("%s downloaded successfully", output_package_path)
 
@@ -24,8 +26,11 @@ def main():
 
         if err is not None:
             log.error("Could not verify file", err)
+            retcode = 1
         else:
             log.info("%s verified successfully with hash %s", output_package_path, package['sha256sum'])
+
+    exit(retcode)
 
 
 if __name__ == '__main__':

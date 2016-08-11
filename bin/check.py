@@ -40,6 +40,14 @@ def main(galaxy_package_file):
                     log.error("[%s] Uppercase checksum needs to be lower case %s", lineno, ld['sha256sum'])
                     retcode = 1
 
+                if len(ld['sha256sum']) != 64:
+                    log.error("[%s] sha256sum is not 64 characters long. Typo?  %s", lineno, ld['sha256sum'])
+                    retcode = 1
+
+                if any([x not in list('1234567890abcdef') for x in list(ld['sha256sum'])]):
+                    log.error("[%s] sha256sum contains non-hexidecimal characters. Typo?  %s", lineno, ld['sha256sum'])
+                    retcode = 1
+
                 if ld['upstream_first'] not in ('True', 'False'):
                     log.error("[%s] Upstream first must be 'True' or 'False', was '%s'", lineno, ld['upstream_first'])
                     retcode = 1

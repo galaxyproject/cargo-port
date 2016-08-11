@@ -17,11 +17,15 @@ def main():
 
         if err is not None:
             log.error("Could not download file", err)
+        else:
+            log.info("%s downloaded successfully", output_package_path)
 
-        err = verify_file(output_package_path, package['sha'])
+        err = verify_file(output_package_path, package['sha256sum'])
 
         if err is not None:
             log.error("Could not verify file", err)
+        else:
+            log.info("%s verified successfully with hash %s", output_package_path, package['sha256sum'])
 
 
 if __name__ == '__main__':

@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-import os
 import subprocess
 import logging
 logging.basicConfig(level=logging.INFO)
@@ -50,6 +49,7 @@ def download_url(url, output):
 
         args += [url, '-o', output]
         subprocess.check_call(args)
+        return None
     except subprocess.CalledProcessError, cpe:
         log.error("File not found")
         return str(cpe)
@@ -63,9 +63,9 @@ def verify_file(path, sha):
     try:
         filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
         if filehash.lower() != sha.lower():
-            excstr = "Bad hash, %s != %s in %s" % (filehash.lower(), sha.lower(), path)
+            excstr = "%s != %s in %s" % (filehash.lower(), sha.lower(), path)
             raise Exception(excstr)
+        return None
     except Exception, cpe:
-        log.error("File has bad hash! Removing from disk")
-        os.unlink(path)
+        log.error("File has bad hash! %s", cpe)
         return str(cpe)

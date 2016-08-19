@@ -85,6 +85,7 @@ Formula	1.1-2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/For
 Formula	1.2-1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Formula_1.2-1.tar.gz	.tar.gz	5db1ef55119b299c9d291e1c5c08e2d51b696303daf4e7295c38ff5fc428360a	True
 GD	2.56	src	all	https://github.com/bgruening/download_store/raw/master/GD-2.56/GD-2.56.tar.gz	.tar.gz	391647b94e5f1389d10e534cd8cd35ae9b6a6f70f8f32281c1392d547b221f97	True
 genometools	1.5.7	src	all	http://genometools.org/pub/genometools-1.5.7.tar.gz	.tar.gz	b84a2eab9e7b8fb3e7acb5a1b9df40e8d07394d18357b4bb85c5a9004f3339e5	True
+gemini_tables.txt	src	all	https://github.com/nekrut/galaxy/wiki/datasets/gemini_tables.txt	43b8e4ef481cf19cbdd6bba8e4df0341d70948c8783e3c54ddd7e86f55dff209	False
 GenomeInfoDb	1.2.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/GenomeInfoDb_1.2.2.tar.gz	.tar.gz	8eff813a08c3659164df0481478ba7b32f7c8a780e6f77bc56f50e88655b6f6c	True
 GenomeInfoDb	1.2.4	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/GenomeInfoDb_1.2.4.tar.gz	.tar.gz	459d8904e30999435f7dd2ce40fc9a1b076982f798a6d2fb752d0311a7bcbd4b	True
 GenomeInfoDb	1.4.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/GenomeInfoDb_1.4.2.tar.gz	.tar.gz	3d4ff22c6a11192ee1e313042ff0da4703b18c72f2247be73a0590769328d05a	True

@@ -625,7 +625,6 @@ meme	4.10.0.4	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/
 meme	4.10.0.4	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tgz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8	True
 meme	4.10.0.4	src	all	http://meme-suite.org/meme-software/4.10.0/meme_4.10.0_4.tar.gz	.tar.gz	2e0266102f5a510ed75b9275e8c1d138891bb8012ee4261a7f9f5c011c315a50	True
 meme	4.11.0	src	all	http://meme-suite.org/meme-software/4.11.0/meme_4.11.0.tar.gz	.tar.gz	5dc4841f4816ef25bdb4bd088c76606c1b42726e7d65cc417f0f8c49fe7e237f	True
-meme	4.11.0	src	all	http://meme-suite.org/meme-software/4.11.0/meme_4.11.0.tar.gz	.tar.gz	5dc4841f4816ef25bdb4bd088c76606c1b42726e7d65cc417f0f8c49fe7e237f	True
 meme	4.11.1	src	all	http://meme-suite.org/meme-software/4.11.1/meme_4.11.1.tar.gz	.tar.gz	62602045b25c8422c59f441025b710629c2fbb602bf618fffeeab5654f521088	True
 metilene	0.2-4	src	all	http://www.bioinf.uni-leipzig.de/Software/metilene/metilene_v02-4.tar.gz	.tar.gz	7430b4c2af4f43d389ad690dfe42c9ce7a63b2bff4ff0ac59afc0f1ec7e600f2	True
 mgcv	1.8-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/mgcv_1.8-5.tar.gz	.tar.gz	dcad548be9efbff8737e54082dde5a20cac79f81037eb79586ad68bf403f7c8c	True

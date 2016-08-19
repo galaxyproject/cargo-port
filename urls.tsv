@@ -76,15 +76,14 @@ Exporter-Tiny	0.042	src	all	https://github.com/bgruening/download_store/raw/mast
 FCGI	0.67	src	all	http://search.cpan.org/CPAN/authors/id/S/SK/SKIMO/FCGI-0.67.tar.gz	.tar.gz	6125df9285fc22f1add8062ba06248a41b291659997948c670ead21aca943a73	True
 FLASH	1.2.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/FLASH-1.2.9.tar.gz	.tar.gz	8d29a5183514b4db35ef246d01c932fddcf3231aeacec4c485e50a4b894342ba	True
 FastUniq	1.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/FastUniq-1.1.tar.gz	.tar.gz	9ebf251566d097226393fb5aa9db30a827e60c7a4bd9f6e06022b4af4cee0eae	True
-Flexbar	2.5	src	all	https://github.com/seqan/flexbar/archive/v2.5.0.tar.gz	.tar.gz	5b5fb3b14809f9f9249d942a8bb4ae241a60a762ff10a51f18926aaae3d169ef	True
 File-Listing	6.04	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-Listing-6.04.tar.gz	.tar.gz	1e0050fcd6789a2179ec0db282bf1e90fb92be35d1171588bd9c47d52d959cf5	True
 File-Next	1.12	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/File-Next-1.12.tar.gz	.tar.gz	cc3afd8eaf6294aba93b8152a269cc36a9df707c6dc2c149aaa04dabd869e60a	True
 File-Path	2.09	src	all	https://cpan.metacpan.org/authors/id/D/DL/DLAND/File-Path-2.09.tar.gz	.tar.gz	d1e0b5b7f93cc4133e2fc206a34e00dd868886b7ed850d799ccee824d25a225e	True
 File-Temp	0.2304	src	all	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-Temp-0.2304.tar.gz	.tar.gz	13415323e48f7c9f34efdedf3d35141a7c3435e2beb8c6b922229dc317d321ac	True
+Flexbar	2.5	src	all	https://github.com/seqan/flexbar/archive/v2.5.0.tar.gz	.tar.gz	5b5fb3b14809f9f9249d942a8bb4ae241a60a762ff10a51f18926aaae3d169ef	True
 Formula	1.1-2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/Formula_1.1-2.tar.gz	.tar.gz	20a812a8620f610e5242402f6b3437287b26e3e4fb30e9b22d27884e7c65b2ab	True
 Formula	1.2-1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Formula_1.2-1.tar.gz	.tar.gz	5db1ef55119b299c9d291e1c5c08e2d51b696303daf4e7295c38ff5fc428360a	True
 GD	2.56	src	all	https://github.com/bgruening/download_store/raw/master/GD-2.56/GD-2.56.tar.gz	.tar.gz	391647b94e5f1389d10e534cd8cd35ae9b6a6f70f8f32281c1392d547b221f97	True
-genometools	1.5.7	src	all	http://genometools.org/pub/genometools-1.5.7.tar.gz	.tar.gz	b84a2eab9e7b8fb3e7acb5a1b9df40e8d07394d18357b4bb85c5a9004f3339e5	True
 GenomeInfoDb	1.2.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/GenomeInfoDb_1.2.2.tar.gz	.tar.gz	8eff813a08c3659164df0481478ba7b32f7c8a780e6f77bc56f50e88655b6f6c	True
 GenomeInfoDb	1.2.4	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/GenomeInfoDb_1.2.4.tar.gz	.tar.gz	459d8904e30999435f7dd2ce40fc9a1b076982f798a6d2fb752d0311a7bcbd4b	True
 GenomeInfoDb	1.4.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/GenomeInfoDb_1.4.2.tar.gz	.tar.gz	3d4ff22c6a11192ee1e313042ff0da4703b18c72f2247be73a0590769328d05a	True
@@ -118,7 +117,6 @@ Hmisc	3.14-5	src	all	https://github.com/bgruening/download_store/raw/master/DESe
 Hmisc	3.14-6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/Hmisc_3.14-6.tar.gz	.tar.gz	fe26b57a356832dc098be6edca0ffd1ad5766dee9b6a0989c113d4fee3a9255b	True
 Hmisc	3.16-0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Hmisc_3.16-0.tar.gz	.tar.gz	4edc3903da63e25d747f34c33abf3e4e9a1f250580bbbab39fb192469738a30d	True
 Hmisc	3.17-0	src	all	https://mran.revolutionanalytics.com/snapshot/2015-10-29/src/contrib/Hmisc_3.17-0.tar.gz	.tar.gz	9ce6156bc91df9209b8a44633e857f9abe0da053fe225ff1e6c1cb7b03f27558	True
-ImageMagick	6.9.3	src	all	http://www.imagemagick.org/download/ImageMagick.tar.gz	.tar.gz	5617e14d624be393209d77674b935165bddc797e65661774f81785f6c05ca0e9	True
 IO-HTML	1.001	src	all	http://search.cpan.org/CPAN/authors/id/C/CJ/CJM/IO-HTML-1.001.tar.gz	.tar.gz	ea78d2d743794adc028bc9589538eb867174b4e165d7d8b5f63486e6b828e7e0	True
 IO-String	1.08	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/IO-String-1.08.tar.gz	.tar.gz	2a3f4ad8442d9070780e58ef43722d19d1ee21a803bf7c8206877a10482de5a0	True
 IRanges	1.18.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/IRanges_1.18.2.tar.gz	.tar.gz	897b65330f4932a23ca96c722e67fff1106d44578e1f80967f4570b93f1e27a6	True
@@ -126,6 +124,7 @@ IRanges	1.20.6	src	all	https://github.com/bgruening/download_store/raw/master/DE
 IRanges	2.0.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/IRanges_2.0.0.tar.gz	.tar.gz	efd76409332c3b07aaee0066821ce450253d518e194533b40bba95f0d8ab1887	True
 IRanges	2.0.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/IRanges_2.0.1.tar.gz	.tar.gz	6c26fcb89570f869fe476688d59e99f4c4eb8358a4f8a16d00f77ab04a9c3db9	True
 IRanges	2.2.7	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/IRanges_2.2.7.tar.gz	.tar.gz	0609e1887e17ab75f8fcabb40e7c5995a4033c2c6e764e73bda8d35350561861	True
+ImageMagick	6.9.3	src	all	http://www.imagemagick.org/download/ImageMagick.tar.gz	.tar.gz	5617e14d624be393209d77674b935165bddc797e65661774f81785f6c05ca0e9	True
 JSON	2.9	src	all	https://cpan.metacpan.org/authors/id/M/MA/MAKAMAKA/JSON-2.90.tar.gz	.tar.gz	4ddbb3cb985a79f69a34e7c26cde1c81120d03487e87366f9a119f90f7bdfe88	True
 JSON	2.90	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/JSON-2.90.tar.gz	.tar.gz	4ddbb3cb985a79f69a34e7c26cde1c81120d03487e87366f9a119f90f7bdfe88	True
 KernSmooth	2.23-13	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/KernSmooth_2.23-13.tar.gz	.tar.gz	3f5fbda9201ea0dab4b5d30a8b857460a929502fc07e3fadc87445c746ce3fe5	True
@@ -140,7 +139,6 @@ MASS	7.3-39	src	all	https://github.com/bgruening/download_store/raw/master/monoc
 MASS	7.3-44	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/MASS_7.3-44.tar.gz	.tar.gz	835fe22547222742fa84b8bf77774432abe3dff267932b8b8ed06de554f8e79b	True
 MUMmer	3.23	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MUMmer3.23.tar.gz	.tar.gz	1efad4f7d8cee0d8eaebb320a2d63745bb3a160bb513a15ef7af46f330af662f	True
 Matrix	1.1-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/Matrix_1.1-5.tar.gz	.tar.gz	b23ea59a5218be916a3e6ac4d5f573c5e7921b1eca9a2ed918f2d8f8ef520b4f	True
-metilene	0.2-4	src	all	http://www.bioinf.uni-leipzig.de/Software/metilene/metilene_v02-4.tar.gz	.tar.gz	7430b4c2af4f43d389ad690dfe42c9ce7a63b2bff4ff0ac59afc0f1ec7e600f2	True
 MiClip	1.2	src	all	https://github.com/bgruening/download_store/raw/master/miclip/MiClip_1.2.tar.gz	.tar.gz	60dcaf33483369fd7ed73a198049962eb6490e87da35e2827e084d7d1ef55f33	True
 MiModD	0.1.3.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MiModD-0.1.3.1.tar.gz	.tar.gz	ec698070c4a7658493fc83a974e36e8a89f922a7bf7338efeb9820facffafdd2	True
 MiModD	0.1.4.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MiModD-0.1.4.9.tar.gz	.tar.gz	cbfe8b175527b1e8e7fc53cc131d25611484570736082487dead3c1b2427881e	True
@@ -207,6 +205,7 @@ S4Vectors	0.4.0+gx0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noar
 S4Vectors	0.6.3	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/S4Vectors_0.6.3.tar.gz	.tar.gz	34fa5e22333bd8101dc4a5560e8e3261570895952882e33f1d37ab72211cf21c	True
 S4Vectors	0.6.4	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/S4Vectors_0.6.4.tar.gz	.tar.gz	9a6235cafc5f0b0420f6c051bb58ba26da71a8c100cb5d2d6caf3e93917cf78f	True
 S4Vectors	0.6.5	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/S4Vectors_0.6.5.tar.gz	.tar.gz	25f82ea9278cfc93b8dadb70fe3b6d114719ea4247c28178d699fde8cacd68f0	True
+SVG-perl	2.63	src	all	www.cpan.org/authors/id/S/SZ/SZABGAB/SVG-2.64.tar.gz	.tar.gz	73d1e1e79f6cc04f976066e70106099df35be5534eceb5dfd2c1903ecf994acd	True
 Scalar-List-Utils	1.42	src	all	https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.42.tar.gz	.tar.gz	3507f72541f66a2dce850b9b56771e5fccda3d215c52f74946c6e370c0f4a4da	True
 Sibelia	3.0.4	linux	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/Sibelia-3.0.4-Linux.tar.gz	.tar.gz	de126418fee1c4009dbb7b5f5de1aa1dc062622cb8570f02cfd77473916e8256	True
 Sub-Uplevel	0.25	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Sub-Uplevel-0.25.tar.gz	.tar.gz	2dcca582a7ea5bada576eb27c4be1d1b064fb22175bdbd6d696c45d083560505	True
@@ -231,17 +230,17 @@ VGAM	0.9-6	src	all	https://github.com/bgruening/download_store/raw/master/monocl
 VarScan	2.3.5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/VarScan.v2.3.5.jar	.jar	8a84754bed9e639104fff720fbfb65dc246711d9c2c56b644a3274620577ef93	True
 VarScan	2.3.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/VarScan.v2.3.6.jar	.jar	13edaee278c8a5be2926e48c03ce2ed8916e4a10b9e8817beaee74c3dd00a4b8	True
 VariantAnnotation	1.12.7	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/VariantAnnotation_1.12.7.tar.gz	.tar.gz	7aa547964f6491c17bd8bda1d7fb0afebb6e7918d67571d7785974793b6ae4a5	True
+ViennaRNA	1.6.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.6.5.tar.gz	.tar.gz	70a7bef5d6e67d31ee88089603c18b95e3a544880cddc56e5a04da28cdaa84b9	True
+ViennaRNA	1.8.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.8.5.tar.gz	.tar.gz	f4e2d94beaf77165e8321758e4ab0ad1c5d49879cefa12e48b07d09ed2d0ecf9	True
 ViennaRNA	2.1.8	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/ViennaRNA/ViennaRNA-2.1.8-Linux-x86_64.tar.gz	.tar.gz	60eab3d236c44a1f2796cc7098a651384ca39c61754f4d589d3076ddbf110e23	True
 ViennaRNA	2.1.8	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-2.1.8.tar.gz	.tar.gz	37a0a0b7c8a167bcdab1a85d88bcb1025ad8e00a4b00a147bf36d45dc8ca7560	True
-ViennaRNA	1.8.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.8.5.tar.gz	.tar.gz	f4e2d94beaf77165e8321758e4ab0ad1c5d49879cefa12e48b07d09ed2d0ecf9	True
-ViennaRNA	1.6.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.6.5.tar.gz	.tar.gz	70a7bef5d6e67d31ee88089603c18b95e3a544880cddc56e5a04da28cdaa84b9	True
 ViennaRNA	2.2.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-2.2.5.tar.gz	.tar.gz	12654f0ba5e516d5eeb018dc76485b1c5a3ba010c61f40f1221aad5c3815cc29	True
 WWW-RobotRules	6.02	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/WWW-RobotRules-6.02.tar.gz	.tar.gz	46b502e7a288d559429891eeb5d979461dd3ecc6a5c491ead85d165b6e03a51e	True
 XML	3.98-1	src	all	https://depot.galaxyproject.org/package/noarch/XML_3.98-1.1.tar.gz	.tar.gz	947318e0e0d272bcd57244999d897d6f7b2624554fdf451f8c3c0461c8313159	True
 XML	3.98-1.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/XML_3.98-1.1.tar.gz	.tar.gz	947318e0e0d272bcd57244999d897d6f7b2624554fdf451f8c3c0461c8313159	True
 XML	3.98-1.3	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/XML_3.98-1.3.tar.gz	.tar.gz	5e1fb547848b12b9b1a14a1e647891d62dbbebb2a87da28e10e095a1d0f52a49	True
-XML-Simple	2.22	src	all	http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-Simple-2.22.tar.gz	.tar.gz	b9450ef22ea9644ae5d6ada086dc4300fa105be050a2030ebd4efd28c198eb49	True
 XML-Parser	2.41	src	all	http://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.41.tar.gz	.tar.gz	b48197cd2265a26c5f016489f11a7b450d8833cb8b3d6a46ee15975740894de9	True
+XML-Simple	2.22	src	all	http://search.cpan.org/CPAN/authors/id/G/GR/GRANTM/XML-Simple-2.22.tar.gz	.tar.gz	b9450ef22ea9644ae5d6ada086dc4300fa105be050a2030ebd4efd28c198eb49	True
 XML-XPath	1.13	src	all	http://search.cpan.org/CPAN/authors/id/M/MS/MSERGEANT/XML-XPath-1.13.tar.gz	.tar.gz	2a49c2df34007588397bdf7ae5f122df72a9499df5cbec8fbc6ad4a31a775576	True
 XSLoader	0.16	src	all	https://cpan.metacpan.org/authors/id/S/SA/SAPER/XSLoader-0.16.tar.gz	.tar.gz	96de61bad187919bf632cfa657f1b9957ad47defcc90dad8ee1f50c955eedb86	True
 XVector	0.2.0	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/XVector_0.2.0.tar.gz	.tar.gz	7a32f3c06f36186906423691e1c532a27f16f318a76a237bfb08d9b6dadddc71	True
@@ -422,9 +421,9 @@ digest	0.6.8	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/d
 dill	0.2	src	all	https://pypi.python.org/packages/source/d/dill/dill-0.2.1.tgz	.tar.gz	c0223a75afeef28734c6cd1ca40bd676e010209789f2e3986bbb4ca66d3754d4	True
 dotknot	1.3.1	src	all	https://github.com/bgruening/download_store/raw/master/dotknot/dotknot_1.3.1.tar.bz2	.tar.bz2	a6c6302fd3eef1096df3d082077b5f669edd2c9be62b67f3ae0b6ba833888a35	True
 e2fsprogs	1.42.9	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/e2fsprogs-1.42.9.tar.gz	.tar.gz	2f92ac06e92fa00f2ada3ee67dad012d74d685537527ad1241d82f2d041f2802	True
+edgeR	3.11.0	src	all	https://bioarchive.galaxyproject.org/edgeR_3.11.0.tar.gz	.tar.gz	342cedff198241e3eeaa7ff033de27f535ee8290e47e971a460d378ce4388180	True
 edgeR	3.12.0	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/edgeR_3.12.0.tar.gz	.tar.gz	dc0927def56f2960d49a4550709b184f22e004119298af035ce723a26bae6ed8	True
 edgeR	3.14.0	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/edgeR_3.14.0.tar.gz	.tar.gz	766a5d1f8e66d28b0c4cc70a72aaa1c5a32047def34d72957ab6fc7cfcf37993	True
-edgeR	3.11.0	src	all	https://bioarchive.galaxyproject.org/edgeR_3.11.0.tar.gz	.tar.gz	342cedff198241e3eeaa7ff033de27f535ee8290e47e971a460d378ce4388180	True
 edgeR	3.4.2	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/edgeR_3.4.2.tar.gz	.tar.gz	6fb44d4dc9ef8894fb8d69bcc465609e20cb4f18131c5714980dd9f01cb6236c	True
 eigen	2.0	src	all	http://bitbucket.org/eigen/eigen/get/2.0.17.tar.gz	.tar.gz	705028db65db7c1e393cdf55018754bf0696e376603a48a33b781bc85406ff1e	True
 eigen	3.1	src	all	http://bitbucket.org/eigen/eigen/get/3.1.3.tar.gz	.tar.gz	2ea0ba3eb9ac7ec623d8be92be4ee651191532cb311e0c979d65da9bc6c5143a	True
@@ -444,8 +443,8 @@ fastICA	1.2-0	src	all	https://github.com/bgruening/download_store/raw/master/mon
 fastcluster	1.1.13	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/fastcluster_1.1.13.tar.gz	.tar.gz	6a14810aff8fb53e5d193a35c810c642a45e563610371b13c7afe0fa1ea27542	True
 fastqc	0.10.1	src	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.10.1.zip	.zip	50b20e3e8721219008234da0747319dd4453a6d8408f17199ac2d020cfa01098	True
 fastqc	0.11.2	src	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.2.zip	.zip	f362b141e696d67442fa16c3a71118936e0b14a0343bb88735973a920cbaef09	True
-fastqc	0.11.4	linux	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.4.zip	.zip	adb233f9fae7b02fe99e716664502adfec1b9a3fbb84eed4497122d6d33d1fe7	True
 fastqc	0.11.4	darwin	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.4.dmg	.dmg	bd4089397cfa1086d81e7b29508542d2478917df8d1ef1fb494616da1b8e651a	True
+fastqc	0.11.4	linux	all	http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v0.11.4.zip	.zip	adb233f9fae7b02fe99e716664502adfec1b9a3fbb84eed4497122d6d33d1fe7	True
 fastx_toolkit	0.0.13	darwin	x32	/srv/nginx/depot.galaxyproject.org/root/package/darwin/i386/fastx_toolkit/0.0.13.tar.bz2	.tar.bz2	761277d3444758f283c70d55d747ddd633de2d9cfefc2de9caa1ee0ebae49d28	True
 fastx_toolkit	0.0.13	darwin	x64	/srv/nginx/depot.galaxyproject.org/root/package/darwin/x86_64/fastx_toolkit/0.0.13.tar.bz2	.tar.bz2	dd61839e5a40bad499302abc0bc32257d7fee3f2de2d4dd4e2b836e8ea88965d	True
 fastx_toolkit	0.0.13	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux/x86_64/fastx_toolkit/0.0.13.tar.bz2	.tar.bz2	76a56a134a8bccba55d703c00026673af0a2bb445bf6b7d903e4cf2398ea8883	True
@@ -465,10 +464,10 @@ freetype	2.4.11	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourcefo
 freetype	2.5.2	src	all	http://download.savannah.gnu.org/releases/freetype/freetype-2.5.2.tar.gz	.tar.gz	376bc32bd907cb6f1a826a9c52627747b6d95259129df0f2c8faf99491168b55	True
 futile.logger	1.4.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/futile.logger_1.4.1.tar.gz	.tar.gz	a1e485e943d288b92a2af3337b333be95d1b51246dd14be9f18ae5ce626894de	True
 futile.options	1.0.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/futile.options_1.0.0.tar.gz	.tar.gz	ee84ece359397fbb63f145d11af678f5c8618570971e78cc64ac60dc0d14e8c2	True
+galaxy_json_data_source	1.0.0	src	all	https://raw.githubusercontent.com/mdshw5/galaxy-json-data-source/a637ce880f44d56ae95a7380ff258e827b70811c/json_data_source.py	.py	4cc6538ef6013df9f98e2a067825d5624e19c3a8da319ac047acf347ac3f86a3	True
 galaxy_sequence_utils	1.0.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0.tgz	.tar.gz	da7f408023d50e06c2f70198b7e85729d6e7556cbcf7f180ad6a07818163ee4a	True
 galaxy_sequence_utils	1.0.0-st	src	all	/srv/nginx/depot.galaxyproject.org/root/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0-st.tgz	.tar.gz	f6a0ff8261109b643226bbf21e6ff55da0ad88de8133bd4c8a371273520592a3	True
 galaxy_utils	1.0	src	all	http://depot.galaxyproject.org/package/source/galaxy_sequence_utils/galaxy_sequence_utils-1.0.0.tgz	.tar.gz	da7f408023d50e06c2f70198b7e85729d6e7556cbcf7f180ad6a07818163ee4a	True
-galaxy_json_data_source	1.0.0	src	all	https://raw.githubusercontent.com/mdshw5/galaxy-json-data-source/a637ce880f44d56ae95a7380ff258e827b70811c/json_data_source.py	.py	4cc6538ef6013df9f98e2a067825d5624e19c3a8da319ac047acf347ac3f86a3	True
 gatk	1.4	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/gatk-1.4.tar.gz	.tar.gz	9e6cd45643d37f5ee37a11944b555b9ea217a6b22e25fc2e9988eea4d84d2e6c	True
 gb_taxonomy	8d245994d7	src	all	https://github.com/spond/gb_taxonomy_tools/archive/8d245994d77546daac1f595b87a110a620426b4c.tar.gz	.tar.gz	56b746cf6f0da7768bc7ef0c31c19bd014fdbc8e11aa90d7779d89ccfae12971	True
 gdata	2.13.2	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gdata_2.13.2.tar.gz	.tar.gz	176700fa1c23d6f734a683061f31b0bfa863e2b8bbdaadb8c43076a28e2810a4	True
@@ -484,6 +483,7 @@ geneplotter	1.44.0	src	all	https://github.com/bgruening/download_store/raw/maste
 geneplotter	1.46.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/geneplotter_1.46.0.tar.gz	.tar.gz	04a6bfdf1a9591261d24a74620912ed923d9e5e0d1911d4a6260df442196eb6c	True
 geneplotter	1.46.0+gx0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/geneplotter_1.46.0.tar.gz	.tar.gz	ba930931a39ffbe5aa243b0886844921afdf7028ab904fd50aa4edcb63e1d257	True
 gengetopt	2.22.6	src	all	ftp://ftp.gnu.org/gnu/gengetopt/gengetopt-2.22.6.tar.gz	.tar.gz	30b05a88604d71ef2a42a2ef26cd26df242b41f5b011ad03083143a31d9b01f7	True
+genometools	1.5.7	src	all	http://genometools.org/pub/genometools-1.5.7.tar.gz	.tar.gz	b84a2eab9e7b8fb3e7acb5a1b9df40e8d07394d18357b4bb85c5a9004f3339e5	True
 getopt	1.20.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/getopt_1.20.0.tar.gz	.tar.gz	f920baa2a0ef7082155c8b666851af0c77534af8b2ca0cd067e7d56fdf3ec501	True
 gffutils	0.8.4rc1	src	all	https://pypi.python.org/packages/source/g/gffutils/gffutils-0.8.4rc1.tar.gz	.tar.gz	63d3ec216bb395ff8d9f9033f8aa83f82130e4ef229273e37beb1034580da666	True
 ggplot2	0.9.3.1	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/ggplot2_0.9.3.1.tar.gz	.tar.gz	b4c97404fd44571f9980712af963949ed204b5d4e639d97df9ba9a17423a6601	True
@@ -523,8 +523,8 @@ hisat	0.1.6-beta	linux	x64	/srv/nginx/depot.galaxyproject.org/root/package/linux
 hisat	2.0.0	darwin	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-OSX_x86_64.zip	.zip	a71f5b5af05c942b8311805a98d2aeaec4b882b5876ea67a810fe46d544741b4	True
 hisat	2.0.0	linux	x64	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-Linux_x86_64.zip	.zip	23c65f4bf33c87f7e7aa84da4e8bfd872413ee42237c8ca127a57f6e82e8c2c0	True
 hisat	2.0.0	src	all	http://ccb.jhu.edu/software/hisat2/downloads/hisat2-2.0.0-beta-source.zip	.zip	12ce17a34d3c3e5f546e6204a49aeb65c860c42fce7ac2a77c6c0b690d934fbf	True
-hisat	2.0.3	linux	x64	ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.0.3-beta-Linux_x86_64.zip	.zip	4b32770619efcc6c14dcc9c39544cd4f7946cd286776b29965347f11f00e699d	True
 hisat	2.0.3	darwin	x64	ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.0.3-beta-OSX_x86_64.zip	.zip	e6bb2f06165085e6fd00408f6d1404d6875c9e58a9d3be7da966b6053789109e	True
+hisat	2.0.3	linux	x64	ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.0.3-beta-Linux_x86_64.zip	.zip	4b32770619efcc6c14dcc9c39544cd4f7946cd286776b29965347f11f00e699d	True
 hisat	2.0.3	src	all	ftp://ftp.ccb.jhu.edu/pub/infphilo/hisat2/downloads/hisat2-2.0.3-beta-source.zip	.zip	b2f4aa59e000d98fc57455fd83ae69f0f50992477590ca35ce834510289d552d	True
 hmmer	3.1b1	src	all	http://eddylab.org/software/hmmer3/3.1b1/hmmer-3.1b1.tar.gz	.tar.gz	246f5e32545d3a5706d065d8413fc8fc5445e779a97019e98ba319e5ef9dc1d8	True
 hmmer	3.1b2	src	all	http://eddylab.org/software/hmmer3/3.1b2/hmmer-3.1b2.tar.gz	.tar.gz	dd16edf4385c1df072c9e2f58c16ee1872d855a018a2ee6894205277017b5536	True
@@ -598,8 +598,8 @@ limma	3.22.4	src	all	https://github.com/bgruening/download_store/raw/master/mono
 limma	3.22.5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/limma_3.22.5.tar.gz	.tar.gz	8e19225cf8a046230b2fb767d03b07054774940e7ef21967be20938ea216187d	True
 limma	3.22.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/limma_3.22.6.tar.gz	.tar.gz	011131ed104f5be2eed7d7387877e2fe70c1ac72c1052de12cd2284cb61ce2b3	True
 limma	3.25.3	src	all	http://bioarchive.galaxyproject.org/limma_3.25.3.tar.gz	.tar.gz	b7661fb61a74df2f4fbd0a9ff8fa35ec8f32f0f6de110653e4883f0bfff136e1	True
-limma	3.28.2	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.2.tar.gz	.tar.gz	96b3c01e2c6709ee8fb4c43583b22ea0a6f32624b73a9c05d74cac4c443ad342	True
 limma	3.28.10	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.10.tar.gz	.tar.gz	92c219f672f7061e8204cf9466e9b05a3df3a177b2bdfcd23c5a873591b6d4b4	True
+limma	3.28.2	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.2.tar.gz	.tar.gz	96b3c01e2c6709ee8fb4c43583b22ea0a6f32624b73a9c05d74cac4c443ad342	True
 lncPro	0.0	src	all	https://github.com/bgruening/download_store/raw/master/lncPro/lncPro-src.tar.gz	.tar.gz	cb839c1a6328cb20c54debaee360b189e22d4b5fbf84214a5dde6a74dd8b4c53	True
 locfit	1.5-9.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/locfit_1.5-9.1.tar.gz	.tar.gz	f524148fdb29aac3a178618f88718d3d4ac91283014091aa11a01f1c70cd4e51	True
 lockfile	0.10.2	src	all	https://github.com/bgruening/download_store/raw/master/qiime/lockfile-0.10.2.tar.gz	.tar.gz	04440b3f1e34f525080f228689fc9c4cd5e630e9c5fb364d8cbeb2394f38cc8d	True
@@ -619,6 +619,7 @@ meme	4.10.0.4	src	all	http://meme-suite.org/meme-software/4.10.0/meme_4.10.0_4.t
 meme	4.11.0	src	all	http://meme-suite.org/meme-software/4.11.0/meme_4.11.0.tar.gz	.tar.gz	5dc4841f4816ef25bdb4bd088c76606c1b42726e7d65cc417f0f8c49fe7e237f	True
 meme	4.11.0	src	all	http://meme-suite.org/meme-software/4.11.0/meme_4.11.0.tar.gz	.tar.gz	5dc4841f4816ef25bdb4bd088c76606c1b42726e7d65cc417f0f8c49fe7e237f	True
 meme	4.11.1	src	all	http://meme-suite.org/meme-software/4.11.1/meme_4.11.1.tar.gz	.tar.gz	62602045b25c8422c59f441025b710629c2fbb602bf618fffeeab5654f521088	True
+metilene	0.2-4	src	all	http://www.bioinf.uni-leipzig.de/Software/metilene/metilene_v02-4.tar.gz	.tar.gz	7430b4c2af4f43d389ad690dfe42c9ce7a63b2bff4ff0ac59afc0f1ec7e600f2	True
 mgcv	1.8-5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/mgcv_1.8-5.tar.gz	.tar.gz	dcad548be9efbff8737e54082dde5a20cac79f81037eb79586ad68bf403f7c8c	True
 miRDeep2	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2.tar.gz	.tar.gz	7a2ea1608d34e103750094ecac9a2d0d0a119f670ed41c635711e8e5d161f837	True
 miRDeep2-mapper	0.0	src	all	https://github.com/bgruening/download_store/raw/master/miRDeep2/miRDeep2-mapper.tar.gz	.tar.gz	37943e9c9df4ee1be3b518d5fb0478e412371d6643fac8a60516803ae82e3c99	True
@@ -649,8 +650,8 @@ muscle	3.8.31	linux	x32	http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.3
 muscle	3.8.31	linux	x64	http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_i86linux64.tar.gz	.tar.gz	818dc1132b3c929d85355d6db6b0f1fe752dd4e276903a3cf91036cdb7247953	True
 muscle	3.8.31	src	all	http://www.drive5.com/muscle/downloads3.8.31/muscle3.8.31_src.tar.gz	.tar.gz	43c5966a82133bd7da5921e8142f2f592c2b5f53d802f0527a2801783af809ad	True
 ncurses	5.9	src	all	http://ftp.gnu.org/pub/gnu/ncurses/ncurses-5.9.tar.gz	.tar.gz	9046298fb440324c9d4135ecea7879ffed8546dd1b58e59430ea07a4633f563b	True
-ncurses_patch	5.9p	src	all	https://raw.githubusercontent.com/cloudius-systems/osv/07e2d9032dbb3f4f2b0d0133e0eccd5be05dd05d/modules/ncurses/ncurses-5.9-gcc-5.patch	.patch	c9033021022979a02621af43883e6ca5a4df14d2c3a5a821e4c67923d13d5e78	True
 ncurses	6.0	src	all	ftp://invisible-island.net/ncurses/current/ncurses-6.0-20150725.tgz	.tar.gz	3c1d9534d6d5b3a691d23199a7621f25ffbfa0ccc333f680fcdfc192ea362c84	True
+ncurses_patch	5.9p	src	all	https://raw.githubusercontent.com/cloudius-systems/osv/07e2d9032dbb3f4f2b0d0133e0eccd5be05dd05d/modules/ncurses/ncurses-5.9-gcc-5.patch	.patch	c9033021022979a02621af43883e6ca5a4df14d2c3a5a821e4c67923d13d5e78	True
 netcdf	4.3	src	all	ftp://ftp.unidata.ucar.edu/pub/netcdf/old/netcdf-4.3.1.1.tar.gz	.tar.gz	09a4123d631714f488a2dc43292a7218e5241f2cf9288d2dbc8347d2fe176cad	True
 networkx	1.9.1	src	all	https://pypi.python.org/packages/source/n/networkx/networkx-1.9.1.tar.gz	.tar.gz	6380eb38d0b5770d7e50813c8a48ff7c373b2187b4220339c1adce803df01c59	True
 nlme	3.1-120	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/nlme_3.1-120.tar.gz	.tar.gz	4cd65b2187d6155652d8725f62086641da373f23f3bce4170ace92705cb628ca	True
@@ -877,7 +878,6 @@ survival	2.38-1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/b
 survival	2.38-3	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/survival_2.38-3.tar.gz	.tar.gz	2588ba869471d97a42628611496ba0ce6ade188143f673af41987c7d4a8972c2	True
 suspenders	0.2.5	src	all	https://pypi.python.org/packages/source/s/suspenders/suspenders-0.2.5.tar.gz	.tar.gz	27fcbeb0f71e5dd9d1085981640873812fa13ece0f4c0d0207b1733d13041b04	True
 sva	3.12.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/noarch/bg/sva_3.12.0.tar.gz	.tar.gz	53afc52973093a8a853cfa5e1ea4c03ca51bb744f8917b520efb8f429d8054f4	True
-SVG-perl	2.63	src	all	www.cpan.org/authors/id/S/SZ/SZABGAB/SVG-2.64.tar.gz	.tar.gz	73d1e1e79f6cc04f976066e70106099df35be5534eceb5dfd2c1903ecf994acd	True
 tabix	0.2.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/tabix-0.2.6.tar.bz2	.tar.bz2	e4066be7101bae83bec62bc2bc6917013f6c2875b66eb5055fbb013488d68b73	True
 taxonomy	1.0.0	src	all	https://bitbucket.org/natefoo/taxonomy/get/97aef0c05300.zip	.zip	1c7549a75aaef00d777a4043a46b206d3d455f4d23e0ab587754996184927cdf	True
 tbl2asn	22.4	linux	x64	https://github.com/bgruening/download_store/raw/master/ncbi_tools/tbl2asn/22.4/linux64/tbl2asn		e68c91f59cb269492c564cf3e83770f10c3e665e7584f1b1521e0a14ff96bb25	True

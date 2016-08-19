@@ -17,7 +17,7 @@ def main():
         err = download_url(package['url'], output_package_path)
 
         if err is not None:
-            log.error("Could not download file", err)
+            log.error("Could not download file: %s", err)
             retcode = 1
         else:
             log.info("%s downloaded successfully", output_package_path)
@@ -25,7 +25,7 @@ def main():
         err = verify_file(output_package_path, package['sha256sum'])
 
         if err is not None:
-            log.error("Could not verify file", err)
+            log.error("Could not verify file: %s", err)
             retcode = 1
         else:
             log.info("%s verified successfully with hash %s", output_package_path, package['sha256sum'])

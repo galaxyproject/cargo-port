@@ -12,7 +12,7 @@ log = logging.getLogger()
 def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
 
-        print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream Url', 'Extension', 'sha256sum', 'Alternate Url']),
+        print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream Url', 'Extension', 'sha256sum', 'Use upstream'])
         res = {}
         for ld in yield_packages(handle):
             # id, version, platform,a rch, sha

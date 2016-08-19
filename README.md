@@ -37,7 +37,7 @@ Script Name                  | Script File           | Args                     
 
 ## URL file
 
-The file consists of four tab separated columns:
+The file consists of eight tab separated columns:
 
 Column | Name          | Meaning
 ------ | ------------- | --------

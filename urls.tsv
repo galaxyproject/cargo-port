@@ -146,6 +146,7 @@ MiModD	0.1.5	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge
 MiModD	0.1.5.1	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MiModD-0.1.5.1.tar.gz	.tar.gz	bb46a08d375108254f735be175fdaeb984158d129bee0cd9ac7b594ec1835afd	True
 MiModD	0.1.5.2	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MiModD-0.1.5.2.tar.gz	.tar.gz	a34fb7f69d82169a92de85e202dcd61ffca5672249d7c50e12fbf31fb5b4b0bc	True
 MiModD	0.1.6	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/MiModD-0.1.6.tar.gz	.tar.gz	29b729b6a63262b1c4d30488107b5601a46ff7dc3dd6fe99f87e9462d5ef2611	True
+NLStradamus	1.8	src	all	http://www.moseslab.csb.utoronto.ca/NLStradamus/NLStradamus/NLStradamus.1.8.tar.gz	.tar.gz	73ef3a77c6c1132f213d44bc2a48a8182e652b01b8cd83d06b30832a682ec0d0	True
 Net-HTTP	6.07	src	all	http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/Net-HTTP-6.07.tar.gz	.tar.gz	9f31e0325a5a0930ad309fa019da9d208e57e236fb0598675ed883c820240364	True
 ONTO-PERL	1.41	src	all	http://search.cpan.org/CPAN/authors/id/E/EA/EASR/ONTO-PERL/ONTO-PERL-1.41.tar.gz	.tar.gz	0aad6f898f927a8d3e80f685c0065019a132759b6876864ebc9a3e0c94767c09	True
 OpenMS	1.10.0	src	all	/srv/nginx/depot.galaxyproject.org/root/package/sourceforge/OpenMS-1.10.0.tar.gz	.tar.gz	407b1a598d5e76807429d8d28ff47e161a1c8feae147b2b7de62303fe1e922a2	True

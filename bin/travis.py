@@ -9,6 +9,9 @@ log = logging.getLogger()
 def main():
     retcode = 0
     for package in yield_packages(sys.stdin):
+        # For piped in diff, header can appear as +# Id ...
+        if package['id'].startswith("+#"):
+            continue
         print package
         # Remove the '+' at the beginning
         package['id'] = package['id'][1:]

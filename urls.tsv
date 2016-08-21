@@ -16,7 +16,7 @@ BSgenome	1.34.0+gx0	src	all	http://depot.galaxyproject.org/package/noarch/BSgeno
 BSgenome	1.34.0	src	all	https://bioarchive.galaxyproject.org/BSgenome_1.34.0.tar.gz	.tar.gz	fab6bf44f61353d3fdd26779768a049b22b3120e5ef53de08d9b2ffcb9eb4278	True
 BatchJobs	1.5	src	all	http://depot.galaxyproject.org/package/noarch/BatchJobs_1.5.tar.gz	.tar.gz	97583c7ddeb43a5361a9b45eab8b47a166077521c6963507e0155820690e44a9	True
 Bio-GFF3	2	src	all	https://cpan.metacpan.org/authors/id/R/RB/RBUELS/Bio-GFF3-2.0.tar.gz	.tar.gz	cbfef8376d3d9026483360150e3745a27dad78e995348d0c08ef5b2e4374170c	True
-BioPerl	1.6.922	src	all	http://search.cpan.org/CPAN/authors/id/C/CJ/CJFIELDS/BioPerl-1.6.922.tar.gz	.tar.gz	da8a88112bff0224bd17b74eb28f605f96db6481ed5c8c00ca7e851522deee2b	True
+BioPerl	1.6.922	src	all	http://backpan.perl.org/authors/id/C/CJ/CJFIELDS/BioPerl-1.6.922.tar.gz	.tar.gz	da8a88112bff0224bd17b74eb28f605f96db6481ed5c8c00ca7e851522deee2b	True
 BioPerl	1.6.924	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/BioPerl-1.6.924.tar.gz	.tar.gz	616a7546bb3c58504de27304a0f6cb904e18b6bbcdb6a4ec8454f2bd37bb76d0	True
 Biobase	2.20.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/Biobase_2.20.1.tar.gz	.tar.gz	e9848c4c63979665591b78a483cb96ca067a0c2a24f941864184d4f1941870cf	True
 Biobase	2.22.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_2_10/Biobase_2.22.0.tar.gz	.tar.gz	52e0877a76cdcc9f5e9c59a99c74decbe973d668c51a2242027069add16f11af	True

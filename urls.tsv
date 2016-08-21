@@ -124,7 +124,7 @@ IRanges	1.20.6	src	all	https://github.com/bgruening/download_store/raw/master/DE
 IRanges	2.0.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/IRanges_2.0.0.tar.gz	.tar.gz	efd76409332c3b07aaee0066821ce450253d518e194533b40bba95f0d8ab1887	True
 IRanges	2.0.1	src	all	http://depot.galaxyproject.org/package/noarch/IRanges_2.0.1.tar.gz	.tar.gz	6c26fcb89570f869fe476688d59e99f4c4eb8358a4f8a16d00f77ab04a9c3db9	True
 IRanges	2.2.7	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/IRanges_2.2.7.tar.gz	.tar.gz	0609e1887e17ab75f8fcabb40e7c5995a4033c2c6e764e73bda8d35350561861	True
-ImageMagick	6.9.3	src	all	http://www.imagemagick.org/download/ImageMagick.tar.gz	.tar.gz	5617e14d624be393209d77674b935165bddc797e65661774f81785f6c05ca0e9	True
+ImageMagick	6.9.3	src	all	https://launchpad.net/imagemagick/main/6.9.3-4/+download/ImageMagick-6.9.3-4.tar.gz	.tar.gz	5617e14d624be393209d77674b935165bddc797e65661774f81785f6c05ca0e9	True
 JSON	2.90	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/JSON-2.90.tar.gz	.tar.gz	4ddbb3cb985a79f69a34e7c26cde1c81120d03487e87366f9a119f90f7bdfe88	True
 JSON	2.9	src	all	https://cpan.metacpan.org/authors/id/M/MA/MAKAMAKA/JSON-2.90.tar.gz	.tar.gz	4ddbb3cb985a79f69a34e7c26cde1c81120d03487e87366f9a119f90f7bdfe88	True
 KernSmooth	2.23-13	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/KernSmooth_2.23-13.tar.gz	.tar.gz	3f5fbda9201ea0dab4b5d30a8b857460a929502fc07e3fadc87445c746ce3fe5	True
@@ -412,7 +412,7 @@ cufflinks	2.1.1	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/cu
 cufflinks	2.2.1	darwin	x64	http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.OSX_x86_64.tar.gz	.tar.gz	98a78cdf9e38783f9809d74faadc70654977d5f6120e262ef623a04840da00c6	True
 cummeRbund	2.8.2	src	all	http://depot.galaxyproject.org/package/noarch/cummeRbund_2.8.2.tar.gz	.tar.gz	e29029ae9a9e12134475c85451eba8f0b45b214606ce241486bd14cb1660849b	True
 cutadapt	1.8	src	all	https://pypi.python.org/packages/source/c/cutadapt/cutadapt-1.8.tar.gz	.tar.gz	b72e55b36d319567ecc586b99db91cc8b3240e1e5fcd8237ad0e22d69ea317b8	True
-cython	0.20.1	src	all	http://cython.org/release/Cython-0.20.1.tar.gz	.tar.gz	31a563744a21d7b10355f25a3bca96b37ec5d32bdecfc75e93d65a5f7e62766c	True
+cython	0.20.1	src	all	https://pypi.python.org/packages/source/C/Cython/Cython-0.20.1.tar.gz	.tar.gz	31a563744a21d7b10355f25a3bca96b37ec5d32bdecfc75e93d65a5f7e62766c	True
 cython	0.23.1	src	all	https://pypi.python.org/packages/source/C/Cython/Cython-0.23.1.tar.gz	.tar.gz	bdfd12d6a2a2e34b9a1bbc1af5a772cabdeedc3851703d249a52dcda8378018a	True
 datamash	1.0.6	src	all	http://ftp.gnu.org/gnu/datamash/datamash-1.0.6.tar.gz	.tar.gz	0154c25c45b5506b6d618ca8e18d0ef093dac47946ac0df464fb21e77b504118	True
 deeptools	1.5.10	src	all	https://github.com/fidelram/deepTools/archive/1.5.10.tar.gz	.tar.gz	b5a1e3dd28f4c1365e67b7bcda435588315f1cb0303e12caab15054a30307336	True
@@ -481,7 +481,7 @@ gb_taxonomy	8d245994d7	src	all	https://github.com/spond/gb_taxonomy_tools/archiv
 gdata	2.13.2	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gdata_2.13.2.tar.gz	.tar.gz	176700fa1c23d6f734a683061f31b0bfa863e2b8bbdaadb8c43076a28e2810a4	True
 gdata	2.13.3	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/gdata_2.13.3.tar.gz	.tar.gz	554c973955a5d768359f56556effff6a7acd9e859d98ab13fa010df01fa16516	True
 gdbm	1.11	src	all	ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.11.tar.gz	.tar.gz	8d912f44f05d0b15a4a5d96a76f852e905d051bb88022fcdfd98b43be093e3c3	True
-gemini-install	0.1	src	all	https://raw.github.com/arq5x/gemini/master/gemini/scripts/gemini_install.py	.py	0e9a482c3f2b12a055fb73191b4d99c1e43a210471d16e539d85695b83ff3fc5	True
+gemini-install	0.1	src	all	https://raw.githubusercontent.com/arq5x/gemini/746dc004622b1f0b43f5245a7f25f92723fea527/gemini/scripts/gemini_install.py	.py	0e9a482c3f2b12a055fb73191b4d99c1e43a210471d16e539d85695b83ff3fc5	True
 genefilter	1.42.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/genefilter_1.42.0.tar.gz	.tar.gz	2e4ff4ba02e85796bb0bc6546d429e367801c625aeae9c3f21b67b18aa6d023e	True
 genefilter	1.44.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_2_10/genefilter_1.44.0.tar.gz	.tar.gz	09cc9121e1905adb7b44365288e1b972dbf1b78345886b6305e4de2ded41c48b	True
 genefilter	1.48.1	src	all	http://depot.galaxyproject.org/package/noarch/bg/genefilter_1.48.1.tar.gz	.tar.gz	31356f8eabecd6b4fe6124edcf9cd6b258481ff124061d709f49cb10f29691f6	True
@@ -541,9 +541,9 @@ htmldoc	1.8.27-8ubuntu1.debian	src	all	https://github.com/bgruening/download_sto
 htseq	0.6	src	all	https://pypi.python.org/packages/source/H/HTSeq/HTSeq-0.6.1.tar.gz	.tar.gz	9bff6779595ea13c10137dad3bc4ecfd046b0bc620990eaa08920a29dcbd05c5	True
 hwriter	1.3.2	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/hwriter_1.3.2.tar.gz	.tar.gz	6b3531d2e7a239be9d6e3a1aa3256b2745eb68aa0bdffd2076d36552d0d7322b	True
 igraph	0.7.1	src	all	https://github.com/bgruening/download_store/raw/master/monocle/igraph_0.7.1.tar.gz	.tar.gz	07cfd3273c3b091d9cdc189bd8fe4153888771baeaa3b65a0c0671293f186bdb	True
-infernal	1.0.2	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.0.2.tar.gz	.tar.gz	c4f89ac2e865c8b04a53a647703d88f96c31bb1d47d3e06f4b6090d7d15643ad	True
-infernal	1.1	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1.tar.gz	.tar.gz	d1f2f70e952e8a8a9ba3bae8a7b45666049dddca3bfc5e1fb9e8e845e0ed995b	True
-infernal	1.1rc4	src	all	ftp://selab.janelia.org/pub/software/infernal/infernal-1.1rc4.tar.gz	.tar.gz	8891822c7935bdfb4fc9a28e6a563584a0564c17745a54984ef3242af704b3f8	True
+infernal	1.0.2	src	all	http://eddylab.org/software/infernal/infernal-1.0.2.tar.gz	.tar.gz	c4f89ac2e865c8b04a53a647703d88f96c31bb1d47d3e06f4b6090d7d15643ad	True
+infernal	1.1	src	all	http://eddylab.org/software/software/infernal/infernal-1.1.tar.gz	.tar.gz	d1f2f70e952e8a8a9ba3bae8a7b45666049dddca3bfc5e1fb9e8e845e0ed995b	True
+infernal	1.1rc4	src	all	http://eddylab.org/software/software/infernal/infernal-1.1rc4.tar.gz	.tar.gz	8891822c7935bdfb4fc9a28e6a563584a0564c17745a54984ef3242af704b3f8	True
 inputproto	2.2	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/inputproto-2.2.tar.bz2	.tar.bz2	de7516ab25c299740da46c0f1af02f1831c5aa93b7283f512c0f35edaac2bcb0	True
 irlba	1.0.3	src	all	https://github.com/bgruening/download_store/raw/master/monocle/irlba_1.0.3.tar.gz	.tar.gz	deaf82b5670f91bc65a0ff31a2f03c540e210539251c5e0e10b2a707d3ac5ec0	True
 iterators	1.0.7	src	all	http://depot.galaxyproject.org/package/noarch/bg/iterators_1.0.7.tar.gz	.tar.gz	1bf74e5a5603b2b2d3deecb801ca1796e2b2c3f08c488c497725c5cb205798ff	True

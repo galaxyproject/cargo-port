@@ -1,5 +1,7 @@
 #!/bin/bash
 set -e
+CONDA_INSTALLATION_PATH=/tmp/anaconda
+export PATH=$CONDA_INSTALLATION_PATH/bin:$PATH
 
 ./.conda/install.sh
 ./.conda/get_meta.sh | sort -u > meta_files.list

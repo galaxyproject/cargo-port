@@ -2,7 +2,7 @@
 CPC_HOST=depot@orval.galaxyproject.org
 CPC_DIR=/srv/nginx/depot.galaxyproject.org/root/software
 rm -f report*.xml
-rm -rf CONDA_INSTALL_PATH
+rm -rf CONDA_INSTALLATION_PATH
 
 rsync -avr . $CPC_HOST:$CPC_DIR/
 

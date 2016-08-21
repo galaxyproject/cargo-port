@@ -8,8 +8,8 @@ if hash conda 2>/dev/null; then
 else
     echo "Installing Conda"
     curl -O https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh
-    bash Miniconda2-latest-Linux-x86_64.sh -b -p CONDA_INSTALLATION_PATH/anaconda
-    export PATH=CONDA_INSTALLATION_PATH/bin:$PATH
+    bash Miniconda2-latest-Linux-x86_64.sh -b -p $CONDA_INSTALLATION_PATH/anaconda
+    export PATH=$CONDA_INSTALLATION_PATH/bin:$PATH
 fi
 
 if hash conda 2>/dev/null; then

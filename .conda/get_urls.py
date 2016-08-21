@@ -12,17 +12,19 @@ Usage:
 import os
 import sys
 import yaml
-from conda_build.metadata import MetaData
+
+# needs to be before the conda_build import
+
 import conda.config as cc
 cc.subdir = 'osx-'
 
-'linux-64'
+from conda_build.metadata import MetaData
+
 
 res = list()
 for meta_path in open(sys.argv[1]):
     input_dir = os.path.join( './bioconda-recipes', os.path.dirname(meta_path) )
     if os.path.exists(input_dir):
-
         for arch in ['osx-', 'linux-64']:
             package = dict()
             #package['arch'] = arch
@@ -45,7 +47,6 @@ for meta_path in open(sys.argv[1]):
                     sys.exit('git revision is missing for: %s' % input_dir)
             package['url'] = url
             res.append(package)
-
 
 # remove duplicates
 res = [dict(tup) for tup in set([tuple(package.items()) for package in res])]

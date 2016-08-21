@@ -24,7 +24,7 @@ Biobase	2.26.0+gx0	src	all	http://depot.galaxyproject.org/package/noarch/Biobase
 Biobase	2.26.0	src	all	http://bioarchive.galaxyproject.org/Biobase_2.26.0.tar.gz	.tar.gz	7585cd13b5ae6c3dd918327803de4918dcc11cf6bea45df4e5051c492e49db2a	True
 Biobase	2.28.0+gx0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Biobase_2.28.0.tar.gz	.tar.gz	056b12f15e4164c3ea22bb3462ae2e5d7f391b91e473c014ee51e5460431ffa6	True
 Biobase	2.28.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/Biobase_2.28.0.tar.gz	.tar.gz	5ba26e4432581482d3f2730c818555a1a87776b3e980d01e036f3b58db75c725	True
-Biobase	2.30.0	src	all	http://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.30.0.tar.gz	.tar.gz	f16b6316fdbd7ab0077644d41a3286a688b0b75cc34686383e10f139f0955ae1	True
+Biobase	2.30.0	src	all	https://bioarchive.galaxyproject.org/Biobase_2.30.0.tar.gz	.tar.gz	1191c0022bcba15e5b896f6197ac91bc7fb4679e150e9c32ad4181a812ec74f1	True
 BiocGenerics	0.12.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/BiocGenerics_0.12.0.tar.gz	.tar.gz	298a141bbd2536568eb153cc64ab0d461b669dec049cf1a301e979f7b630ae7c	True
 BiocGenerics	0.12.1	src	all	http://depot.galaxyproject.org/package/noarch/BiocGenerics_0.12.1.tar.gz	.tar.gz	d451f2c72c46a7b5fa6dd252a207ba72f0a5a86d1bfc95408935f079efa85f77	True
 BiocGenerics	0.14.0+gx0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/BiocGenerics_0.14.0.tar.gz	.tar.gz	5e55e0f5c6577935d169f62268dc05a168a2f607b652d44a919cb16caca7952e	True
@@ -406,7 +406,7 @@ coreutils	8.22	src	all	https://github.com/bgruening/download_store/raw/master/GN
 coreutils	8.25	src	all	https://github.com/mvdbeek/galaxy_package_sources/raw/master/package_gnu_coreutils_8_25/coreutils_8.25_src_all.tar.bz2	.tar.bz2	031a9842298864ed0d7ae87e008759465c8b4716ed4bf97d723fe8ced5145e94	False
 cran_kernlab	0.1.4	src	all	http://cran.r-project.org/src/contrib/Archive/kernlab/kernlab_0.1-4.tar.gz	.tar.gz	a522c22270050968a30118a16546054b82a01bcb845e975ba06584acc91169cf	True
 cran_yacca	1.0	src	all	http://cran.r-project.org/src/contrib/Archive/yacca/yacca_1.0.tar.gz	.tar.gz	e47f80e69fea87f1775d4439e6739914e734eac42832954b31f2a11df9011808	True
-ctc	1.44.0	src	all	http://www.bioconductor.org/packages/release/bioc/src/contrib/ctc_1.44.0.tar.gz	.tar.gz	0f67391d3fd6bc970293b5eb11dcd14f15686b61bce1c6da03e16dc3a60e93f2	True
+ctc	1.44.0	src	all	https://bioarchive.galaxyproject.org/ctc_1.44.0.tar.gz	1bb92d4acb74e0075e882b5b5c8c0748c2ac9b32d19ed24e37d24cbedab3fbbb	True
 cufflinks	2.1.1	darwin	x64	http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.1.1.OSX_x86_64.tar.gz	.tar.gz	5955a2650c548b4f50a8407ce7302855590e7eca325ee9db6a6edfd54653218e	True
 cufflinks	2.1.1	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/cufflinks/cufflinks-2.1.1.tgz	.tar.gz	8e32e92ab6265e7f011938cdac72888a348da9c1d193906638cbd10450554607	True
 cufflinks	2.2.1	darwin	x64	http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.OSX_x86_64.tar.gz	.tar.gz	98a78cdf9e38783f9809d74faadc70654977d5f6120e262ef623a04840da00c6	True

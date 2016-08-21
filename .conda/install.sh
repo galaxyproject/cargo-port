@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-CONDA_INSTALLATION_PATH=$HOME/anaconda
+CONDA_INSTALLATION_PATH=/tmp/anaconda
 
 if hash conda 2>/dev/null; then
     echo "Conda already installed"

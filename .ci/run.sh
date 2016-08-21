@@ -1,6 +1,7 @@
 #!/bin/bash
 CPC_HOST=depot@orval.galaxyproject.org
 CPC_DIR=/srv/nginx/depot.galaxyproject.org/root/software
+rm -f report*.xml
 
 rsync -avr . $CPC_HOST:$CPC_DIR/
 

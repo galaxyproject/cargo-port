@@ -4,7 +4,7 @@
 DIRECTORY=./bioconda-recipes
 
 if [ -d "$DIRECTORY" ]; then
-    cd bioconda-recipes
+    cd "$DIRECTORY"
     git pull origin master > /dev/null
 else
     git clone --quiet https://github.com/bioconda/bioconda-recipes.git

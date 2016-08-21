@@ -143,8 +143,10 @@ def main(galaxy_package_file, dryrun=False):
     # we need to check for files which shouldn't be there (aka things NOT
     # mentioned in urls.tsv) and remove those.
     whitelist = [
-        'SHA256SUM.txt', 'index.html', 'report.xml', 'api.json',
-        'cpc-plain-small.png', 'cpc-base.png', 'cpc-base.svg', 'urls.tsv'
+        'SHA256SUM.txt', 'index.html', 'report.xml',
+        'cpc-plain-small.png', 'cpc-base.png', 'cpc-base.svg',
+        'urls.tsv', 'urls-bioconda.tsv',
+        'api-tcp.json', 'api-bioconda.json', 'api.json',
     ]
     for root, dirnames, filenames in os.walk('.'):
         if '.git' in root:

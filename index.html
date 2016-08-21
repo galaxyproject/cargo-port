@@ -123,6 +123,7 @@
                         <th>Package Version</th>
                         <th>Platform</th>
                         <th>Upstream Link</th>
+                        <th>Tags</th>
                         <th>Help</th>
                     </tr>
                 </thead>
@@ -186,6 +187,10 @@
                         },
                         {
                              "targets": 4,
+                             "data": "tag",
+                        },
+                        {
+                             "targets": 5,
                              "data": "id",
                              "render": function(data, type, full, meta){
                                  var showUsageCall = `<a onclick='showUsage("${full.id}", "${full.version}", "${full._gen}", "${full.sha}")'>

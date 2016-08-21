@@ -918,7 +918,7 @@ vcflib	8a5602bf07	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/
 vcftools	0.1.11	src	all	http://depot.galaxyproject.org/package/sourceforge/vcftools_0.1.11.tar.gz	.tar.gz	81b98c8bc93e366e2f0b14eb78e2736ae1c790176939eef88dbf0546ab952aab	True
 vcftools	0.1.12b	src	all	http://depot.galaxyproject.org/package/sourceforge/vcftools_0.1.12b.tar.gz	.tar.gz	9d2324512e9f1237d5cece74ba63965eb43643e9eada8685afe8217760a20a91	True
 vegan	2.3-0	src	all	http://depot.galaxyproject.org/package/noarch/vegan_2.3-0.tar.gz	.tar.gz	fd360671e09332570d66689b6e3b60adb4de39770f51b25a19070504f0179ffe	True
-vegan	2.3-4	src	all	http://cran.at.r-project.org/src/contrib/vegan_2.3-4.tar.gz	.tar.gz	b9efeb684421670ac0cc8d5f8fe7c2b7e2d2ac92be5122d9703bd56a91f4efd9	True
+vegan	2.3-4	src	all	https://mran.revolutionanalytics.com/snapshot/2016-03-08/src/contrib/vegan_2.3-4.tar.gz	.tar.gz	b9efeb684421670ac0cc8d5f8fe7c2b7e2d2ac92be5122d9703bd56a91f4efd9	True
 velvet	1.2.10	src	all	https://github.com/dzerbino/velvet/archive/d430f1ade319af582dc7bb6886ea904abd6337bd.zip	.zip	a23a27339282c6215d7f8735e59d07ad855e3819b217bc75f9fa2aeeefacfb1f	True
 vienna_rna	1.8	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-1.8.5.tar.gz	.tar.gz	f4e2d94beaf77165e8321758e4ab0ad1c5d49879cefa12e48b07d09ed2d0ecf9	True
 vienna_rna	2.1.5	src	all	http://www.tbi.univie.ac.at/RNA/packages/source/ViennaRNA-2.1.5.tar.gz	.tar.gz	2d02103b6a5d1536df26607ee00b8be364758f2cb796aeb010517c311e861d58	True

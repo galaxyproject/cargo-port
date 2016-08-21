@@ -730,7 +730,7 @@ python	3.4	src	all	https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tgz	.tar
 qt	4.8	src	all	http://download.qt-project.org/official_releases/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz	.tar.gz	8b14dd91b52862e09b8e6a963507b74bc2580787d171feda197badfa7034032c	True
 qt	5.1	src	all	http://download.qt-project.org/official_releases/qt/5.1/5.1.1/single/qt-everywhere-opensource-src-5.1.1.tar.gz	.tar.gz	4c05742db52325e96b1d610a2388140dcc1e3d03d93faea2b2d3791015b186f6	True
 qualimap	2.2	src	all	https://bitbucket.org/kokonech/qualimap/downloads/qualimap_v2.2.zip	.zip	8ed75ca2ccab86071a1fd0273d10037506509913ea1477e11769cc0034e0689f	True
-qvalue	2.2.2	src	all	http://bioconductor.org/packages/release/bioc/src/contrib/qvalue_2.2.2.tar.gz	.tar.gz	36f8bec5831ceedde3d3ab21d9db87cf1a32133a04f46e1803c833a510b8d17d	True
+qvalue	2.2.2	src	all	https://bioc.ism.ac.jp/packages/3.2/bioc/src/contrib/qvalue_2.2.2.tar.gz	.tar.gz	36f8bec5831ceedde3d3ab21d9db87cf1a32133a04f46e1803c833a510b8d17d	True
 rMATS	3.0.9	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/rMATS.3.0.9.tgz	.tar.gz	59add11b1577983e8410441ca81d51f151e4b2353c131ce5c1dec83fe12de835	True
 r	2.11.0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/R/R-2.11.0-Darwin-x86_64.tgz	.tar.gz	83b5b3177302015b0895f781ee319bf1b1551875d1dc11f12c86521c50c24b75	True
 r	2.11.0	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/R/R-2.11.0-Linux-x86_64.tgz	.tar.gz	c2c21bb038a17801becb227d9fbb4ef291e58396e7dd8e6df7b3cab78a03d48a	True

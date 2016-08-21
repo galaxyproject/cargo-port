@@ -190,6 +190,7 @@ def main(galaxy_package_file):
         'cpc-plain-small.png', 'cpc-base.png', 'cpc-base.svg',
         'urls.tsv', 'urls-bioconda.tsv',
         'api-tcp.json', 'api-bioconda.json', 'api.json',
+        'process_urls.py', 'merge_apis.py',
     ]
     for root, dirnames, filenames in os.walk('.'):
         if '.git' in root:

@@ -16,8 +16,6 @@ import yaml
 # needs to be before the conda_build import
 
 import conda.config as cc
-cc.subdir = 'osx-'
-
 from conda_build.metadata import MetaData
 
 

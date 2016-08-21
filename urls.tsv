@@ -497,7 +497,7 @@ gffutils	0.8.4rc1	src	all	https://pypi.python.org/packages/source/g/gffutils/gff
 ggplot2	0.9.3.1	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/ggplot2_0.9.3.1.tar.gz	.tar.gz	b4c97404fd44571f9980712af963949ed204b5d4e639d97df9ba9a17423a6601	True
 ggplot2	1.0.0	src	all	http://depot.galaxyproject.org/package/noarch/ggplot2_1.0.0.tar.gz	.tar.gz	e6effb8065f030903c760ee238c8890ce85e462fe3c12a5521a983fcd1ed198d	True
 ggplot2	1.0.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/ggplot2_1.0.1.tar.gz	.tar.gz	40248e6b31307787e44e45d806e7a33095844a9bbe864cc7583dd311b19c241d	True
-ghostscript	9.07	src	all	http://downloads.ghostscript.com/public/ghostscript-9.07.tar.gz	.tar.gz	44800d004c53f13192d1b5db413119198ddfc8a11c4d2a030aac2f2fda822ebf	True
+ghostscript	9.07	src	all	http://downloads.sourceforge.net/project/ghostscript/GPL%20Ghostscript/9.07/ghostscript-9.07.tar.gz	.tar.gz	44800d004c53f13192d1b5db413119198ddfc8a11c4d2a030aac2f2fda822ebf	True
 ghostscript	9.10	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/ghostscript/ghostscript-9.10-Darwin-x86_64.tgz	.tar.gz	074fec88899afbcb2fc084bae3c059055d2d9e9b53cce23f076087f956071663	True
 ghostscript	9.10	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/ghostscript/ghostscript-9.10-linux-x86_64.tgz	.tar.gz	ff8ffa17cab67d5365e47703098d370fab8eee6304e4e3497eca164ef73519ce	True
 gnu_awk	4.1.0	src	all	http://ftp.gnu.org/gnu/gawk/gawk-4.1.0.tar.gz	.tar.gz	79f81b09bc3cce50e083f78acc0f91783821ad30866615d30dd1731f17ec440b	True

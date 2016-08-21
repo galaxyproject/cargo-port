@@ -184,33 +184,6 @@ def main(galaxy_package_file):
             xunit_handle.write(xunit.serialize())
 
         print json.dumps(api_data, indent=2)
-
-    # Now that we've processed (hopefully) every file in urls.tsv
-    # we need to check for files which shouldn't be there (aka things NOT
-    # mentioned in urls.tsv) and remove those.
-    whitelist = [
-        'SHA256SUM.txt', 'index.html', 'report.xml',
-        'cpc-plain-small.png', 'cpc-base.png', 'cpc-base.svg',
-        'urls.tsv', 'urls-bioconda.tsv',
-        'api-tcp.json', 'api-bioconda.json', 'api.json',
-        'process_urls.py', 'merge_apis.py',
-    ]
-    for root, dirnames, filenames in os.walk('.'):
-        if '.git' in root:
-            continue
-
-        if 'static' in root:
-            continue
-
-        for filename in filenames:
-            if filename in whitelist:
-                continue
-
-            fullpath = os.path.abspath(os.path.join(root, filename))
-            # Ensure we ahven't seen it and it's under our directory
-            if fullpath not in visited_paths and fullpath.startswith('/srv/nginx/depot.galaxyproject.org/root/software/'):
-                log.info("Found a file that we don't own: %s", fullpath)
-                os.unlink(fullpath)
     sys.exit(retcode)
 
 if __name__ == '__main__':

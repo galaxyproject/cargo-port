@@ -12,6 +12,9 @@ else
     bash Miniconda2-latest-Linux-x86_64.sh -b -p $CONDA_INSTALLATION_PATH/anaconda || echo "Conda already installed"
 fi
 
+find $CONDA_INSTALLATION_PATH -maxdepth 2
+which conda
+
 if hash conda 2>/dev/null; then
     echo "Conda build already installed"
 else

@@ -1,4 +1,6 @@
 #!/bin/bash
+
+## Cargo port
 git fetch master
 git diff master
 python setup.py build

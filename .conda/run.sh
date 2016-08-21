@@ -6,3 +6,4 @@ set -e
 python ./.conda/get_urls.py meta_files.list
 
 cat data.yml
+python ./.conda/to_cargoport.py < data.yml >> urls-bioconda.tsv

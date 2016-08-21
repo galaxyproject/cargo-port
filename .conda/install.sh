@@ -12,6 +12,9 @@ else
     bash Miniconda2-latest-Linux-x86_64.sh -b -p $CONDA_INSTALLATION_PATH || echo "Conda already installed"
 fi
 
+echo $(which pip)
+pip install pyyaml
+
 if hash conda 2>/dev/null; then
     echo "Conda build already installed"
 else

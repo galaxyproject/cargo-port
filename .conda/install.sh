@@ -2,7 +2,7 @@
 set -ex
 
 CONDA_INSTALLATION_PATH=/tmp/anaconda
-export PATH=$CONDA_INSTALLATION_PATH/bin:$PATH
+export PATH=$CONDA_INSTALLATION_PATH/anaconda/bin:$PATH
 
 if hash conda 2>/dev/null; then
     echo "Conda already installed"

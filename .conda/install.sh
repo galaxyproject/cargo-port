@@ -2,6 +2,7 @@
 set -ex
 
 CONDA_INSTALLATION_PATH=/tmp/anaconda
+rm -rf $CONDA_INSTALLATION_PATH
 export PATH=$CONDA_INSTALLATION_PATH/anaconda/bin:$PATH
 
 if hash conda 2>/dev/null; then

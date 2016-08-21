@@ -81,6 +81,9 @@ class XUnitReportBuilder(object):
 
 
 def verify_file(path, sha):
+    if len(sha) == 0:
+        log.warn("No hash was provided, but we will not treat this as an error since you clearly meant it to get through validation")
+        return None
     try:
         filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
         if filehash.lower() != sha.lower():

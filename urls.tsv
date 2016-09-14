@@ -230,6 +230,7 @@ Test-Warn	0.3	src	all	https://github.com/bgruening/download_store/raw/master/jbr
 Test	1.26	src	all	https://cpan.metacpan.org/authors/id/J/JE/JESSE/Test-1.26.tar.gz	.tar.gz	f7701bd28e05e7f82fe9a181bbab38f53fa6aeae48d2a810da74d1b981d4f392	True
 Text-Diff	1.41	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Text-Diff-1.41.tar.gz	.tar.gz	a67f50a48e313c1680cc662109ce5f913ea71454db355d0cf4db87ac89d2d2fa	True
 Text-Tabs+Wrap	2013.0523	src	all	https://cpan.metacpan.org/authors/id/M/MU/MUIR/modules/Text-Tabs+Wrap-2013.0523.tar.gz	.tar.gz	b9cb056fffb737b9c12862099b952bf4ab4b1f599fd34935356ae57dab6f655f	True
+toolshed	0.4.6	src	all	https://pypi.python.org/packages/08/bd/d6259c8d882f6783fdfe69bfaed628afb1ddd291f8a1ac6176d27c62860c/toolshed-0.4.6.tar.gz	.tar.gz	23a31c177bf84244b30a9f12c7a8a17a66a2d63043ead0460c31b9ff42f9fb93	True
 URI	1.65	src	all	http://pkgs.fedoraproject.org/repo/pkgs/perl-URI/URI-1.65.tar.gz/12c5d612a20ddd42041a5aa426f66269/URI-1.65.tar.gz	.tar.gz	93dec3e8dc2fe6ababb0cdd53f8b529e89595fe56cd691d2c57b1c04d6df2b91	True
 URI	1.67	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/URI-1.67.tar.gz	.tar.gz	7088d43d5f4902becfa5e0627751f5e6d0e0bdd1637b2d39e70ce807068a274e	True
 VGAM	0.9-3	src	all	https://github.com/bgruening/download_store/raw/master/miclip/VGAM_0.9-3.tar.gz	.tar.gz	be32fd77c21456e8b85e990a7461b7650342ae67bb02c491ba5bb183e0073cbc	True
@@ -374,6 +375,7 @@ bwa	0.7.12	src	all	http://depot.galaxyproject.org/package/sourceforge/bwa-0.7.12
 bwa	0.7.4	src	all	http://depot.galaxyproject.org/package/sourceforge/bwa-0.7.4.tar.bz2	.tar.bz2	58b4e5934b0de9fb432b4513f327ff9a1df86f6abfe9fe14f1a25ffbeb347b20	True
 bwa	0.7.5a	src	all	http://depot.galaxyproject.org/package/sourceforge/bwa-0.7.5a.tar.bz2	.tar.bz2	d157d79710b938225875c9322fc9e9139666deb7ace401dd73a5a65f6dffd7dd	True
 bwa	0.7.7	src	all	http://depot.galaxyproject.org/package/sourceforge/bwa-0.7.7.tar.bz2	.tar.bz2	2c44b63c23b04b878e28d5dc0c6145bbb2d6244ef9b588cdc0cdfeebac75e569	True
+bwa-meth	0.2.0	src	all	https://github.com/brentp/bwa-meth/archive/v0.2.0.tar.gz	.tar.gz	726b6d0d24b51ff522eaeb72e782ac99cca286bbb8fcfcc55759eafa01132274	True
 bx-python	0.7.2+gx0	src	all	https://github.com/bgruening/download_store/raw/master/bx-python/bx-python_0.7.2.tar.gz	.tar.gz	d9436b82b8e38dc6490ec040a4b8c3d878e12269bf3b0b891e08bc6076f1e987	True
 bx-python	0.7.2	src	all	https://pypi.python.org/packages/source/b/bx-python/bx-python-0.7.2.tar.gz	.tar.gz	b083b2c87807bbfa5b11196754768147ca5bb15001cb0dd76ef217065b4ca451	True
 bx_python	0.7	src	all	https://pypi.python.org/packages/source/b/bx-python/bx-python-0.7.1.tar.gz	.tar.gz	9ff7b5354de03c463da6d245d3256a41966e718a16f4021b7f8d4861305c9ea1	True

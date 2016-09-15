@@ -206,6 +206,7 @@ S4Vectors	0.4.0	src	all	http://bioarchive.galaxyproject.org/S4Vectors_0.4.0.tar.
 S4Vectors	0.6.3	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/S4Vectors_0.6.3.tar.gz	.tar.gz	34fa5e22333bd8101dc4a5560e8e3261570895952882e33f1d37ab72211cf21c	True
 S4Vectors	0.6.4	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/S4Vectors_0.6.4.tar.gz	.tar.gz	9a6235cafc5f0b0420f6c051bb58ba26da71a8c100cb5d2d6caf3e93917cf78f	True
 S4Vectors	0.6.5	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/S4Vectors_0.6.5.tar.gz	.tar.gz	25f82ea9278cfc93b8dadb70fe3b6d114719ea4247c28178d699fde8cacd68f0	True
+singledispatch	3.4.0.3	linux	x64	https://pypi.python.org/packages/d9/e9/513ad8dc17210db12cb14f2d4d190d618fb87dd38814203ea71c87ba5b68/singledispatch-3.4.0.3.tar.gz	.tar.gz	5b06af87df13818d14f08a028e42f566640aef80805c3b50c5056b086e3c2b9c	True
 SNNS	4.3	linux	x64	http://www.ra.cs.uni-tuebingen.de/downloads/SNNS/SNNSv4.3.tar.gz	.tar.gz	54bf92d23e9198f9030a3c3d2b741472e9b8660b27d3b419ade6393b1ebf6f62	True
 SVG-perl	2.63	src	all	www.cpan.org/authors/id/S/SZ/SZABGAB/SVG-2.64.tar.gz	.tar.gz	73d1e1e79f6cc04f976066e70106099df35be5534eceb5dfd2c1903ecf994acd	True
 Scalar-List-Utils	1.42	src	all	https://cpan.metacpan.org/authors/id/P/PE/PEVANS/Scalar-List-Utils-1.42.tar.gz	.tar.gz	3507f72541f66a2dce850b9b56771e5fccda3d215c52f74946c6e370c0f4a4da	True

@@ -668,7 +668,7 @@ nlme	3.1-120	src	all	http://depot.galaxyproject.org/package/noarch/bg/nlme_3.1-1
 nnet	7.3-11	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/nnet_7.3-11.tar.gz	.tar.gz	979ed2fa4f9ec7c10e76188d41bc48f16fc90c3e59c3102714c85e53455ee54d	True
 np-likeness	1.4.1	src	all	http://depot.galaxyproject.org/package/sourceforge/Natural Product Likeness calculator 1.4.1.zip	.zip	f7264dfe7a62ec2d4d0934b1b5a56be84cecb5131367f78cdfc86e84970b55a9	True
 np-likeness	2.0	src	all	http://depot.galaxyproject.org/package/sourceforge/Natural_Product_Likeness_calculator_2.0.zip	.zip	a92780118ff9c9c835bf38f827e4d5697c6b29aaf5336950785bc5248d5c4df5	True
-nucleosome_prediction	3.0	src	all	https://github.com/bgruening/download_store/raw/master/nucleosome_prediction/ver3_64bit_nucleosome_prediction.tar.bz2	.tar.bz2	75ea1a9c89ecdb8b29b5b6f82c49af68b4815878d9e97d516325901719656d2e	False
+nucleosome_prediction	3.0	src	all	https://github.com/bgruening/download_store/raw/master/nucleosome_prediction/ver3_64bit_nucleosome_prediction.tar.bz2	.tar.bz2	9d175f00c201b8adc8f65b211b576517f94750e4150c59b8f1803e5a755a0b17	False
 numpy	1.3.0	src	all	http://depot.galaxyproject.org/package/sourceforge/numpy-1.3.0.tar.gz	.tar.gz	7524687cce85aa78103046db5e617c626b0ef871a203a049159f88f35647c90d	True
 numpy	1.6.2	src	all	http://depot.galaxyproject.org/package/sourceforge/numpy-1.6.2.tar.gz	.tar.gz	0b83d96ab79711b548470b7aeee1272c4ba8fcbba6586a67116b566a21ed16c6	True
 numpy	1.7	src	all	https://pypi.python.org/packages/source/n/numpy/numpy-1.7.1.tar.gz	.tar.gz	5525019a3085c3d860e6cfe4c0a30fb65d567626aafc50cf1252a641a418084a	True

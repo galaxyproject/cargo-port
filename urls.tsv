@@ -442,7 +442,7 @@ eigen	3.2.0	src	all	http://bitbucket.org/eigen/eigen/get/3.2.0.tar.bz2	.tar.bz2	
 emboss	5.0.0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/emboss/emboss-5.0.0-Darwin-x64_64.tgz	.tar.gz	60f3525955843a8e2b1bd2dcbb412a9ab690f068fe9e69261985e20b9bc84903	True
 emboss	5.0.0	linux	x32	http://depot.galaxyproject.org/package/linux/i386/emboss/emboss-5.0.0-Linux-i686.tgz	.tar.gz	88aced3dabb422503e51eca00b357aea1d8e904f5079887ef9370e76787aca19	True
 emboss	5.0.0	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/emboss/emboss-5.0.0-Linux-x86_64.tgz	.tar.gz	44fc68cf43f86a039b45537f3d43aa6bcf9f36bbe707ddd42519b6055c17b95a	True
-ESTScan2	2.1	src	all	.tar.gz	http://downloads.sourceforge.net/project/estscan/ESTScan2/2.1/ESTScan2-2.1.tar.gz	6760285b24de2ec623954ca6a6a5aab74d804d4332579df4872bbaa6325b4524	True
+ESTScan2	2.1	src	all	http://downloads.sourceforge.net/project/estscan/ESTScan2/2.1/ESTScan2-2.1.tar.gz	.tar.gz	6760285b24de2ec623954ca6a6a5aab74d804d4332579df4872bbaa6325b4524	True
 expat	2.1.0	src	all	http://depot.galaxyproject.org/package/sourceforge/expat-2.1.0.tar.gz	.tar.gz	823705472f816df21c8f6aa026dd162b280806838bb55b3432b0fb1fcca7eb86	True
 expat	2.1	src	all	https://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz	.tar.gz	823705472f816df21c8f6aa026dd162b280806838bb55b3432b0fb1fcca7eb86	True
 express	1.1.1	darwin	x64	http://bio.math.berkeley.edu/eXpress/downloads/express-1.1.1/express-1.1.1-macosx_x86_64.tgz	.tar.gz	6622e68de7b54a97b8d09abacc507b7696d83874bda9951a8bac73b059438c44	True

@@ -133,7 +133,6 @@ KronaTools	2.4	src	all	http://depot.galaxyproject.org/package/sourceforge/KronaT
 KronaTools	2.5	src	all	http://depot.galaxyproject.org/package/source/KronaTools-2.5.tar	.tar	0a0f04949b153df7ec0a06192278c138cd3215ede3dec36063a3a5708f07fa8a	True
 LWP-MediaTypes	6.02	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz	.tar.gz	18790b0cc5f0a51468495c3847b16738f785a2d460403595001e0b932e5db676	True
 List-MoreUtils	0.412	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/List-MoreUtils-0.412.tar.gz	.tar.gz	66d31289647761e772fa26baa14e513e34c4186af7e5ee8a1bc13c79d1ee15b3	True
-Limma	3.28.2	src	all	https://github.com/Bioconductor-mirror/limma/archive/8c82f4559ab64884bfcccf78a06b8a667329e05d.zip	.zip	ce74fdcf9eee109eccf6f742c9ff96dc34edc2cd7b304d856aa44729d91921c2	True
 MACS2	2.1.0	src	all	https://pypi.python.org/packages/source/M/MACS2/MACS2-2.1.0.20140616.tar.gz	.tar.gz	c68a58d3cb6861d7535feee591819853e43c1d252f15abcbb11ce2ad0c8f9586	True
 MACS	1.3.7.1	src	all	http://depot.galaxyproject.org/package/source/MACS-1.3.7.1.tar.gz	.tar.gz	8070453d76b36544e2e88e265524b957158cc64ba8907a7da0db9e6845ffda38	True
 MASS	7.3-39	src	all	https://github.com/bgruening/download_store/raw/master/monocle/MASS_7.3-39.tar.gz	.tar.gz	936bc972aa2a5154603c3fddd31a515aaf001b5515714ad19a05857d5022d11d	True
@@ -613,7 +612,7 @@ limma	3.22.5	src	all	http://depot.galaxyproject.org/package/noarch/bg/limma_3.22
 limma	3.22.6	src	all	http://depot.galaxyproject.org/package/noarch/bg/limma_3.22.6.tar.gz	.tar.gz	011131ed104f5be2eed7d7387877e2fe70c1ac72c1052de12cd2284cb61ce2b3	True
 limma	3.25.3	src	all	http://bioarchive.galaxyproject.org/limma_3.25.3.tar.gz	.tar.gz	b7661fb61a74df2f4fbd0a9ff8fa35ec8f32f0f6de110653e4883f0bfff136e1	True
 limma	3.28.10	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.10.tar.gz	.tar.gz	92c219f672f7061e8204cf9466e9b05a3df3a177b2bdfcd23c5a873591b6d4b4	True
-limma	3.28.2	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.2.tar.gz	.tar.gz	96b3c01e2c6709ee8fb4c43583b22ea0a6f32624b73a9c05d74cac4c443ad342	True
+limma	3.28.2	src	all	https://github.com/Bioconductor-mirror/limma/archive/8c82f4559ab64884bfcccf78a06b8a667329e05d.tar.gz	.tar.gz	70acdd49e77b8514afd8ca364c3c47b6fbeef46b7a40881d5312832e90cf9c75	True
 lncPro	0.0	src	all	https://github.com/bgruening/download_store/raw/master/lncPro/lncPro-src.tar.gz	.tar.gz	cb839c1a6328cb20c54debaee360b189e22d4b5fbf84214a5dde6a74dd8b4c53	True
 locfit	1.5-9.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/locfit_1.5-9.1.tar.gz	.tar.gz	f524148fdb29aac3a178618f88718d3d4ac91283014091aa11a01f1c70cd4e51	True
 lockfile	0.10.2	src	all	https://github.com/bgruening/download_store/raw/master/qiime/lockfile-0.10.2.tar.gz	.tar.gz	04440b3f1e34f525080f228689fc9c4cd5e630e9c5fb364d8cbeb2394f38cc8d	True

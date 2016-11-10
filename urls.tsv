@@ -611,7 +611,7 @@ limma	3.22.4	src	all	https://github.com/bgruening/download_store/raw/master/mono
 limma	3.22.5	src	all	http://depot.galaxyproject.org/package/noarch/bg/limma_3.22.5.tar.gz	.tar.gz	8e19225cf8a046230b2fb767d03b07054774940e7ef21967be20938ea216187d	True
 limma	3.22.6	src	all	http://depot.galaxyproject.org/package/noarch/bg/limma_3.22.6.tar.gz	.tar.gz	011131ed104f5be2eed7d7387877e2fe70c1ac72c1052de12cd2284cb61ce2b3	True
 limma	3.25.3	src	all	http://bioarchive.galaxyproject.org/limma_3.25.3.tar.gz	.tar.gz	b7661fb61a74df2f4fbd0a9ff8fa35ec8f32f0f6de110653e4883f0bfff136e1	True
-limma	3.28.10	src	all	https://bioconductor.org/packages/release/bioc/src/contrib/limma_3.28.10.tar.gz	.tar.gz	92c219f672f7061e8204cf9466e9b05a3df3a177b2bdfcd23c5a873591b6d4b4	True
+limma	3.28.10	src	all	https://github.com/Bioconductor-mirror/limma/archive/896d17091a17f4409b779b28693be6c5ce70fae9.tar.gz	.tar.gz	62c9337a640d4ee31abbec77df37ea3b0d75826cbace3de9914561106e04dfdc	True
 limma	3.28.2	src	all	https://github.com/Bioconductor-mirror/limma/archive/8c82f4559ab64884bfcccf78a06b8a667329e05d.tar.gz	.tar.gz	70acdd49e77b8514afd8ca364c3c47b6fbeef46b7a40881d5312832e90cf9c75	True
 lncPro	0.0	src	all	https://github.com/bgruening/download_store/raw/master/lncPro/lncPro-src.tar.gz	.tar.gz	cb839c1a6328cb20c54debaee360b189e22d4b5fbf84214a5dde6a74dd8b4c53	True
 locfit	1.5-9.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/locfit_1.5-9.1.tar.gz	.tar.gz	f524148fdb29aac3a178618f88718d3d4ac91283014091aa11a01f1c70cd4e51	True

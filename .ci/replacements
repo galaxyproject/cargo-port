@@ -1,2 +1,0 @@
-#!/bin/bash
-sed -i.bak 's|\t.0/goleft\t|\t\t|;s|\t.3/nextflow\t|\t\t|;s|\t.8/drive_darwin\t|\t\t|;s|\t.8/drive_linux\t|\t\t|;s|\t.gov/pub/agarwala/bmtagger/mac-os/extract_fullseq\t|\t\t|' urls-bioconda.tsv

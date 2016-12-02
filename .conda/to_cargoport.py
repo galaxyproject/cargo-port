@@ -13,7 +13,12 @@ def extDetect(url):
     elif url.endswith('.tar.xz'):
         return '.tar.xz'
     else:
-        return url[url.rindex('.'):]
+        guess = url[url.rindex('.'):]
+        # If there's a slash, that's DEFINITELY not an extension. Return empty
+        # and hope downstream handles that OK.
+        if '/' in guess:
+            return ''
+        return guess
 
 
 for element in yaml.load(sys.stdin):

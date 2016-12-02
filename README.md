@@ -70,6 +70,18 @@ Downloading a package with galaxy-package-locator can be done as follows:
 galaxy-package-locator --package_id samtools --package_version "1.2"
 ```
 
+## Mirroring the Cargo Port
+
+The cargo port is available via rsync from [rsync://depot.galaxyproject.org/software](rsync://depot.galaxyproject.org/software
+)
+
+Here are some available mirrors for the cargoport:
+
+- https://cpt.tamu.edu/cargoport/
+
+If you are willing to mirror the cargo port, please go ahead and do so, and pull request this file with your URL.
+
+
 ## LICENSE
 
 MIT licensed. See LICENSE file.

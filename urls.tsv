@@ -383,6 +383,7 @@ bx-python	0.7.2	src	all	https://pypi.python.org/packages/source/b/bx-python/bx-p
 bx_python	0.7	src	all	https://pypi.python.org/packages/source/b/bx-python/bx-python-0.7.1.tar.gz	.tar.gz	9ff7b5354de03c463da6d245d3256a41966e718a16f4021b7f8d4861305c9ea1	True
 bzlib	1.0.6	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/bzlib/1.0.6.gpk	.gpk	e7b02ecc65bc5a8a6db2b6a38fe1a7945535ad8827cce4ff2911c7f4936ad266	True
 bzlib	1.0	src	all	http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz	.tar.gz	a2848f34fcd5d6cf47def00461fcb528a0484d8edef8208d6d2e2909dc61d9cd	True
+b2g4pipe	2.5	src	all	http://www.blast2go.com/data/blast2go/b2g4pipe_v2.5.zip	.zip	b980cb9f70de0a3b3ca6d388dae6bf5a54c70c025680ee26a3d4f7ef4fa4cd7e	True
 caTools	1.16	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/caTools_1.16.tar.gz	.tar.gz	bd3eee87dbb1e8f04b0d0973e3fb832b13788f760c9f0376bdfde98c738f4ff9	True
 caTools	1.17.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/caTools_1.17.1.tar.gz	.tar.gz	d32a73febf00930355cc00f3e4e71357412e0f163faae6a4bf7f552cacfe9af4	True
 cairo	1.12.14	src	all	http://depot.galaxyproject.org/package/source/cairo/cairo-1.12.14.tar.bz2	.tar.bz2	700df574b953dac1b974bfde869a8dc1af011b7cb73080d7ca7b7dec3e68ce69	True

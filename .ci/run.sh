@@ -10,8 +10,8 @@ ssh $CPC_HOST "cd $CPC_DIR && python bin/process_urls.py urls.tsv > api-tcp.json
 rsync $CPC_HOST:$CPC_DIR/report.xml report-tcp.xml
 
 bash .conda/run.sh
-
-# Update now taht we have a urls-bioconda
+bash .ci/replacements
+# Update now that we have a urls-bioconda
 rsync -avr urls-bioconda.tsv $CPC_HOST:$CPC_DIR/urls-bioconda.tsv
 
 ssh $CPC_HOST "cd $CPC_DIR && python bin/process_urls.py urls-bioconda.tsv > api-bioconda.json"

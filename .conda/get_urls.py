@@ -14,7 +14,7 @@ import sys
 import yaml
 
 # needs to be before the conda_build import
-
+url_file = open(sys.argv[1], 'r')
 platform = sys.argv[2]
 
 import conda.config as cc
@@ -24,7 +24,7 @@ from conda_build.metadata import MetaData
 
 
 res = list()
-for meta_path in open(sys.argv[1]):
+for meta_path in url_file:
     input_dir = os.path.join( './bioconda-recipes', os.path.dirname(meta_path) )
     if os.path.exists(input_dir):
         try:

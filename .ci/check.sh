@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 GIT_REMOTE=$(git remote -v | grep origin | grep fetch | sed 's/^origin\s*//g;s/ .*//g')
 # Add a second remote since we can't seem to fetch master normally
 git remote add origin2 $GIT_REMOTE

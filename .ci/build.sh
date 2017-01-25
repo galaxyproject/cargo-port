@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 ## Cargo port
 git fetch master

@@ -1,3 +1,5 @@
+set -ex
+
 mkdir -p logs;
 cat /var/log/nginx/depot.galaxyproject.org_access.log |
     egrep ' /software/[^/ ]+/[^/ ]+'  |

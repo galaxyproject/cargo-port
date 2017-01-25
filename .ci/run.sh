@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 CPC_HOST=depot@orval.galaxyproject.org
 CPC_DIR=/srv/nginx/depot.galaxyproject.org/root/software
 rm -f report*.xml

@@ -10,4 +10,4 @@ else
     git clone --quiet https://github.com/bioconda/bioconda-recipes.git
     cd bioconda-recipes
 fi
-git log --name-only --pretty="" --since="2 days ago" | grep -E '^recipes/.*/meta.yaml'
+git log --name-only --pretty="" --since="2 months ago" | grep -E '^recipes/.*/meta.yaml'

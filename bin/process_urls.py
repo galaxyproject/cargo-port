@@ -6,6 +6,7 @@ import subprocess
 import logging
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
+ALLOWED_PROTOCOLS = ('http://', 'https://', 'ftp://')
 
 
 def yield_packages(handle, meta=False, retcode=None):
@@ -96,10 +97,9 @@ def verify_file(path, sha):
 
 
 def download_url(url, output):
-    for allowed_proto in ('http://', 'https://', 'ftp://'):
-        if not url.startswith(allowed_proto):
-            log.error("Unsupported protocol: %s" % url[0:10])
-            return "Unsupported protocol"
+    if not any([url.startswith(proto) for proto in ALLOWED_PROTOCOLS])
+        log.error("Unsupported protocol: %s" % url[0:10])
+        return "Unsupported protocol"
 
     try:
         args = ['curl', '-L', '-k', '--max-time', '720']

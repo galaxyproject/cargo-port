@@ -47,7 +47,8 @@ for meta_path in open(sys.argv[1]):
                 git_rev = recipe_meta.get_value('source/git_rev')
                 url = '%s/%s.tar.gz' % (git_url.rstrip('.git'), git_rev)
                 if not git_rev:
-                    sys.exit('git revision is missing for: %s' % input_dir)
+                    sys.stderr.write('git revision is missing for: %s\n' % input_dir)
+                    continue
             package['url'] = url
             res.append(package)
 

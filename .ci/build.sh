@@ -2,7 +2,7 @@
 set -ex
 
 ## Cargo port
-git fetch master
+git fetch origin master
 git diff master
 python setup.py build
 python setup.py install

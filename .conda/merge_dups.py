@@ -2,15 +2,25 @@
 
 import yaml
 
-linux = yaml.load(open('data_linux-64.yml'))
-res = yaml.load(open('data_osx-.yml'))
+linux = yaml.load(open('data_linux-64.yml', 'r'))
+res = yaml.load(open('data_osx-.yml', 'r'))
 res.extend(linux)
 
 # Remove duplicates
 unique_packages = {}
 for package in res:
     # This information is the unique portion, so we key on that
-    key = '|'.join([package[x] for x in ('url', 'version', 'name')])
+    key_data = [
+        package['version'],
+        package['name']
+    ]
+
+    if isinstance(package['url'], list):
+        key_data += package['url']
+    else:
+        key_data.append(package['url'])
+
+    key = '|'.join(key_data)
     # We turn the architecture item into a list.
     if key in unique_packages:
         unique_packages[key]['arch'].append(package['arch'])

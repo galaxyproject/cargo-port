@@ -3,7 +3,15 @@ import sys
 import yaml
 
 
+def pickOne(url):
+    # Pick one
+    if isinstance(url, list):
+        return url[0]
+    return url
+
 def extDetect(url):
+    url = pickOne(url)
+
     if url.endswith('.tar.gz'):
         return '.tar.gz'
     elif url.endswith('.tgz'):
@@ -21,8 +29,7 @@ def extDetect(url):
         return guess
 
 
-for element in yaml.load(sys.stdin):
-
+for element in sorted(yaml.load(sys.stdin), key=lambda el: el['name']):
     {'url': 'https://github.com/arq5x/lumpy-sv/66c83c8.tar.gz', 'version': '0.2.12', 'arch': 'linux-64', 'name': 'lumpy-sv'}
     # Id	Version	Platform	Architecture	Upstream Url	Extension	sha256sum	Use upstream
     platform = element['arch']
@@ -39,7 +46,7 @@ for element in yaml.load(sys.stdin):
         element['version'],
         platform,
         arch,
-        element['url'],
+        pickOne(element['url']),
         extDetect(element['url']),
         "",
         "True"

@@ -1,12 +1,10 @@
 #!/usr/bin/env python
-
 """
 Creates a yaml file with all URL that needs to be downloaded, given a file with a list of all meta.yaml file.
 
 Usage:
 
 ./get_urls.py meta_files.list
-
 """
 
 import os
@@ -17,6 +15,7 @@ import yaml
 url_file = open(sys.argv[1], 'r')
 platform = sys.argv[2]
 
+sys.stderr.write('CWD: %s\n' % os.getcwd())
 import conda.config as cc
 cc.subdir = platform
 

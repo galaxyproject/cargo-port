@@ -1,13 +1,13 @@
 #!/bin/sh
-set -ex
+
 
 DIRECTORY=./bioconda-recipes
 
 if [ -d "$DIRECTORY" ]; then
     cd "$DIRECTORY"
-    git pull origin master
+    git pull origin master > /dev/null
 else
-    git clone https://github.com/bioconda/bioconda-recipes.git
+    git clone --quiet https://github.com/bioconda/bioconda-recipes.git
     cd bioconda-recipes
 fi
 

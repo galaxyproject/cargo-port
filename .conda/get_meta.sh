@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -ex
 
 DIRECTORY=./bioconda-recipes
 

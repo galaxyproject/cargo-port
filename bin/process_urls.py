@@ -97,7 +97,7 @@ def verify_file(path, sha):
 
 
 def download_url(url, output):
-    if not any([url.startswith(proto) for proto in ALLOWED_PROTOCOLS])
+    if not any([url.startswith(proto) for proto in ALLOWED_PROTOCOLS]):
         log.error("Unsupported protocol: %s" % url[0:10])
         return "Unsupported protocol"
 

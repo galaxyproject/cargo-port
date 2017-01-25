@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -ex
 CONDA_INSTALLATION_PATH=/tmp/anaconda
 export CONDA_INSTALLATION_PATH
 export PATH=$CONDA_INSTALLATION_PATH/bin:$PATH

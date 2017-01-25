@@ -98,7 +98,7 @@ def verify_file(path, sha):
 def download_url(url, output):
     for allowed_proto in ('http://', 'https://', 'ftp://'):
         if not url.startswith(allowed_proto):
-            log.error("Unsupported protocol")
+            log.error("Unsupported protocol: %s" % url[0:10])
             return "Unsupported protocol"
 
     try:

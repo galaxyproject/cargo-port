@@ -330,6 +330,8 @@ blast_plus	2.4.0	darwin	all	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/
 blast_plus	2.4.0	linux	x64	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.4.0/ncbi-blast-2.4.0+-x64-linux.tar.gz	.tar.gz	21aa7ca60954ce9c6d3f572e427fee804291fcad41447d554033a81d5af96a2b	True
 blast_plus	2.5.0	darwin	x64	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.5.0/ncbi-blast-2.5.0+-x64-macosx.tar.gz	.tar.gz	a446a18eec900cfd821a754bd984f6fe7076341801ece5ca40cbcddde7d0ca72	True
 blast_plus	2.5.0	linux	x64	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.5.0/ncbi-blast-2.5.0+-x64-linux.tar.gz	.tar.gz	d7006968b527fc151db9d6e58c3ad3235f0b04d9769dcb1a49f3eeb9303b84ac	True
+blast_plus	2.6.0	darwin	x64	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.6.0/ncbi-blast-2.6.0+-x64-macosx.tar.gz	.tar.gz	7cd48e5b63141945182508aa1ea90d8604decfddfe373aff7d97ffbbaf7ffe57	True
+blast_plus	2.6.0	linux	x64	ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/2.6.0/ncbi-blast-2.6.0+-x64-linux.tar.gz	.tar.gz	3e5dd522da10bb02ee01abd81c1b62ef30f8c69a77c198b2cc1c5a3fa1eb4a67	True
 blockbuster	0.0.1	src	all	https://github.com/bgruening/download_store/raw/master/blockbuster/blockbuster-0.0.1.tar.gz	.tar.gz	68829bf4286ea61369a9ca583698fcebf79015df3d89d1e908510fb7c84bdadf	True
 blockclust	1.0-data-celWS235	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/blockclust-data-1.0/annotations/celWS235.tar.gz	.tar.gz	937769091b9f9b5f33a03ebe21bd6fecc103e13fb205facffa614ef44c86f98f	True
 blockclust	1.0-data-dm3	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/blockclust-data-1.0/annotations/dm3.tar.gz	.tar.gz	70e0b2d90a76ba3004ee9e6cb43a78f99ab6280291f0207197dd546c1eb407b6	True

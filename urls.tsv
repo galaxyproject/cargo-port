@@ -769,6 +769,7 @@ r	3.1.2	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/R/R-3.1.2-
 r	3.1.2	src	all	http://cran.rstudio.com/src/base/R-3/R-3.1.2.tar.gz	.tar.gz	bcd150afcae0e02f6efb5f35a6ab72432be82e849ec52ce0bb89d8c342a8fa7a	True
 r	3.2.0	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/R/R-3.2.0-Linux-x86_64.tgz	.tar.gz	3046e973836ad80f6abaaa963bb31ead406af9bd5fa2f02eb03cdc2970440ab2	True
 r	3.2.1	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/R/R-3.2.1-Linux-x86_64.tar.gz	.tar.gz	0a27c632b6aacacfd96264ec815dfef4a68bfa807c48d90fa1eb6600872199e0	True
+rDock	2013.1	src	all	https://downloads.sourceforge.net/project/rdock/rDock_2013.1_src.tar.gz?use_mirror=nchc	.tar.gz	e716998c3f8a2a70205a8d30ba22675bfdb1764d13c858645138c5eadf2a37e9	True
 randfold	2.0	src	all	http://bioinformatics.psb.ugent.be/supplementary_data/erbon/nov2003/downloads/randfold-2.0.tar.gz	.tar.gz	4d9e07912a010f41f57fa8aded336fd53313897aab79c326c90987eed5f43be2	True
 rcpp	0.10.6	src	all	https://github.com/bgruening/download_store/raw/master/gatk2_R_deps/rcpp_0.10.6.tar.gz	.tar.gz	2357bcd4fdbb87fdc6f1188f18615bb0e487e1f071462fd3b8f7196d7402fd51	True
 rcpp	0.9.15	src	all	https://github.com/bgruening/download_store/raw/master/gatk2_R_deps/rcpp_0.9.15.tar.gz	.tar.gz	83a1240823dd6101b21c08264b48e0785d5bc8040bde874c2f68f75e375eead0	True

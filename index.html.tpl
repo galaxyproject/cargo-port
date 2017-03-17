@@ -94,7 +94,7 @@
                 for more information.
             </p>
             <p>
-                The <a href="https://jenkins.galaxyproject.org/view/Meta/job/cargo-port/">Galaxy Jenkins Bot</a>
+                The <a href="https://jenkins.galaxyproject.org/job/cargo-port/">Galaxy Jenkins Bot</a>
                 compiles this webpage from  the github repository.
             </p>
             <!--<h3>How to Use This</h3>-->

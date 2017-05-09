@@ -411,6 +411,7 @@ codetools	0.2-9	src	all	http://depot.galaxyproject.org/package/noarch/codetools_
 colorspace	1.2-4	src	all	http://depot.galaxyproject.org/package/noarch/colorspace_1.2-4.tar.gz	.tar.gz	d09cda442d61c9f70631c5024013e67596a2da134ca722d30ab2494c199bfbde	True
 colorspace	1.2-6	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/colorspace_1.2-6.tar.gz	.tar.gz	ba3165c5b906edadcd1c37cad0ef58f780b0af651f3fdeb49fbb2dc825251679	True
 combinat	0.0-8	src	all	https://github.com/bgruening/download_store/raw/master/monocle/combinat_0.0-8.tar.gz	.tar.gz	1513cf6b6ed74865bfdd9f8ca58feae12b62f38965d1a32c6130bef810ca30c1	True
+conda	8.6.3	linux	all	http://research.cs.wisc.edu/htcondor/ubuntu/stable/pool/contrib/c/condor/condor_8.6.3-404928-ubuntu14_amd64.deb	.deb	c987e7228dce2e756368ed820267a83973323b41735d5fc0b2b1cf8cc8c067d0	True
 coreutils	8.21	src	all	https://github.com/bgruening/download_store/raw/master/GNU/coreutils-8.21.tar.bz2	.tar.bz2	2d0fa1aff8ab612e37cbc96f8d4c2538aab836e7369b072a39c3314699424883	True
 coreutils	8.22	src	all	https://github.com/bgruening/download_store/raw/master/GNU/coreutils-8.22.tar.bz2	.tar.bz2	ee9f39144f96ca29c862c0c4fd09e5d186b9079b12ff509653f390fc1fda67cc	True
 coreutils	8.25	src	all	https://github.com/mvdbeek/galaxy_package_sources/raw/master/package_gnu_coreutils_8_25/coreutils_8.25_src_all.tar.bz2	.tar.bz2	031a9842298864ed0d7ae87e008759465c8b4716ed4bf97d723fe8ced5145e94	False

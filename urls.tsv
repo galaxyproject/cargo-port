@@ -80,6 +80,7 @@ File-Listing	6.04	src	all	http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-
 File-Next	1.12	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/File-Next-1.12.tar.gz	.tar.gz	cc3afd8eaf6294aba93b8152a269cc36a9df707c6dc2c149aaa04dabd869e60a	True
 File-Path	2.09	src	all	https://cpan.metacpan.org/authors/id/D/DL/DLAND/File-Path-2.09.tar.gz	.tar.gz	d1e0b5b7f93cc4133e2fc206a34e00dd868886b7ed850d799ccee824d25a225e	True
 File-Temp	0.2304	src	all	https://cpan.metacpan.org/authors/id/D/DA/DAGOLDEN/File-Temp-0.2304.tar.gz	.tar.gz	13415323e48f7c9f34efdedf3d35141a7c3435e2beb8c6b922229dc317d321ac	True
+Fold-Grammars	1.0	src	all	https://bibiserv2.cebitec.uni-bielefeld.de/fold-grammars/fold-grammars.zip	.zip	d5d21ce1035e6cb9952cf803f8ad43cd986c172b6b11c2c43a5ad6722d98f2db	True
 Flexbar	2.5	src	all	https://github.com/seqan/flexbar/archive/v2.5.0.tar.gz	.tar.gz	5b5fb3b14809f9f9249d942a8bb4ae241a60a762ff10a51f18926aaae3d169ef	True
 Formula	1.1-2	src	all	http://depot.galaxyproject.org/package/noarch/Formula_1.1-2.tar.gz	.tar.gz	20a812a8620f610e5242402f6b3437287b26e3e4fb30e9b22d27884e7c65b2ab	True
 Formula	1.2-1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/Formula_1.2-1.tar.gz	.tar.gz	5db1ef55119b299c9d291e1c5c08e2d51b696303daf4e7295c38ff5fc428360a	True

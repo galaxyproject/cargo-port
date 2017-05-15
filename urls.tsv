@@ -948,6 +948,7 @@ vsearch	1.1.3	darwin	x64	https://github.com/torognes/vsearch/releases/download/v
 vsearch	1.1.3	linux	x64	https://github.com/torognes/vsearch/releases/download/v1.1.3/vsearch-1.1.3-linux-x86_64		4df3b4b4a31267cec9b7845aea2b68d61f6132762956048b26e4b93967eb5238	True
 weblogo	2.8.2	src	all	https://github.com/bgruening/download_store/raw/master/weblogo/weblogo.2.8.2.tar.gz	.tar.gz	2d3e0040c0c1e363c1dfd57f8b585387eb682ed08b2cc2fe2e4cc2a33ac52266	True
 weblogo	3.3	src	all	http://weblogo.googlecode.com/files/weblogo-3.3.tar.gz	.tar.gz	ae730d77e4cddc3d8267e170abe67ff31ac20f6fd52baeda547dbbfd2382af82	True
+weeder	2.0	src	all	http://159.149.160.51/modtools/downloads/weeder2.0.tar.gz	.tar.gz	1bd21b26369a1cd90c59af3b94c9cacd516308231b27da9475af250b58b6ad33	True
 weka	3-6-11	src	all	http://depot.galaxyproject.org/package/sourceforge/weka-3-6-11.zip	.zip	cbbbe2818de6f9bd5e4b80c0804cfae2eb4365264ccf6c9e111c7ac029abe876	True
 weka	3.7.11	src	all	http://downloads.sourceforge.net/project/weka/weka-3-7/3.7.11/weka-monolithic.jar	.jar	693073d518484d729c007024ee2c1fb85ab56232cd55daa6d76e7000907c1718	True
 weka	latest	src	all	http://depot.galaxyproject.org/package/sourceforge/weka-monolithic.jar	.jar	693073d518484d729c007024ee2c1fb85ab56232cd55daa6d76e7000907c1718	True

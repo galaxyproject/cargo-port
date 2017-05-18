@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 from __future__ import print_function
-from builtins import str
-from builtins import zip
-from builtins import object
 import os
 import sys
+# Conditional import to ensure we can run without non-stdlib on py2k.
+if sys.version_info.major > 2:
+    from builtins import str
+    from builtins import zip
+    from builtins import object
 import json
 import subprocess
 import logging

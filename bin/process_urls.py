@@ -1,6 +1,12 @@
 #!/usr/bin/env python
+from __future__ import print_function
 import os
 import sys
+# Conditional import to ensure we can run without non-stdlib on py2k.
+if sys.version_info.major > 2:
+    from builtins import str
+    from builtins import zip
+    from builtins import object
 import json
 import subprocess
 import logging
@@ -25,7 +31,7 @@ def yield_packages(handle, meta=False, retcode=None):
                 yield ld, lineno, line, retcode
             else:
                 yield ld
-        except Exception, e:
+        except Exception as e:
             log.error(str(e))
 
 
@@ -90,7 +96,7 @@ def verify_file(path, sha):
         if filehash.lower() != sha.lower():
             excstr = "Bad hash, %s != %s in %s" % (filehash.lower(), sha.lower(), path)
             raise Exception(excstr)
-    except Exception, cpe:
+    except Exception as cpe:
         log.error("File has bad hash! Refusing to serve this to end users.")
         os.unlink(path)
         return str(cpe)
@@ -106,7 +112,7 @@ def download_url(url, output):
 
         args += [url, '-o', output]
         subprocess.check_call(args)
-    except subprocess.CalledProcessError, cpe:
+    except subprocess.CalledProcessError as cpe:
         log.error("File not found")
         return str(cpe)
 
@@ -116,7 +122,7 @@ def symlink_depot(url, output):
         args = ['ln', '-s', url, output]
         log.info(' '.join(args))
         log.info(subprocess.check_call(args))
-    except subprocess.CalledProcessError, cpe:
+    except subprocess.CalledProcessError as cpe:
         log.error("Unable to symlink")
         return str(cpe)
 
@@ -126,7 +132,7 @@ def cleanup_file(sha):
         os.unlink(sha)
         if os.path.exists(sha + '.sha256sum'):
             os.unlink(sha + '.sha256sum')
-    except Exception, e:
+    except Exception as e:
         log.error("Unable to remove files: %s", str(e))
 
 
@@ -188,7 +194,7 @@ def main(galaxy_package_file):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 
-        print json.dumps(api_data, indent=2)
+        print(json.dumps(api_data, indent=2))
     sys.exit(retcode)
 
 if __name__ == '__main__':

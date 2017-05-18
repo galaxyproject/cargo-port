@@ -1,6 +1,9 @@
 #!/usr/bin/python
-import urllib
-import urllib2
+from future import standard_library
+standard_library.install_aliases()
+from builtins import str
+import urllib.request, urllib.parse, urllib.error
+import urllib.request, urllib.error, urllib.parse
 import click
 import os
 import hashlib
@@ -24,7 +27,7 @@ def get(package_id, package_version, urls, download_location):
 
     handle = None
     if '://' in urls:
-        handle = urllib2.urlopen(urls)
+        handle = urllib.request.urlopen(urls)
     elif os.path.exists(urls):
         handle = open(urls, 'r')
     else:
@@ -39,7 +42,7 @@ def get(package_id, package_version, urls, download_location):
             pkg_name = package_name(ld)
             storage_path = os.path.join(download_location, pkg_name)
             url = get_url(ld)
-            urllib.urlretrieve(url, storage_path)
+            urllib.request.urlretrieve(url, storage_path)
             download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
             if ld['sha256sum'] != download_checksum:
                 log.error('Checksum does not match, something seems to be wrong.\n'

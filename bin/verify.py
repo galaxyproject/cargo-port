@@ -1,4 +1,7 @@
 #!/usr/bin/env python
+from builtins import str
+from builtins import zip
+from builtins import object
 import os
 import sys
 import json
@@ -24,7 +27,7 @@ def yield_packages(handle, meta=False, retcode=None):
                 yield ld, lineno, line, retcode
             else:
                 yield ld
-        except Exception, e:
+        except Exception as e:
             log.error(str(e))
 
 class XUnitReportBuilder(object):
@@ -85,7 +88,7 @@ def verify_file(path, sha, dryrun=False):
         if filehash.lower() != sha.lower():
             excstr = "Bad hash, %s != %s in %s" % (filehash.lower(), sha.lower(), path)
             raise Exception(excstr)
-    except Exception, cpe:
+    except Exception as cpe:
         log.error("File has bad hash! Refusing to serve this to end users.")
         if not dryrun:
             os.unlink(path)
@@ -96,7 +99,7 @@ def symlink_depot(url, output):
         args = ['ln', '-s', url, output]
         log.info(' '.join(args))
         log.info(subprocess.check_call(args))
-    except subprocess.CalledProcessError, cpe:
+    except subprocess.CalledProcessError as cpe:
         log.error("Unable to symlink")
         return str(cpe)
 

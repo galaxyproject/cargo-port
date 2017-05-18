@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import print_function
 import sys
 import logging
 import click
@@ -12,7 +13,7 @@ log = logging.getLogger()
 def main(galaxy_package_file):
     with open(galaxy_package_file, 'r') as handle:
 
-        print '# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream Url', 'Extension', 'sha256sum', 'Use upstream'])
+        print('# ' + '\t'.join(['Id', 'Version', 'Platform', 'Architecture', 'Upstream Url', 'Extension', 'sha256sum', 'Use upstream']))
         res = {}
         for ld in yield_packages(handle):
             # id, version, platform,a rch, sha
@@ -27,7 +28,7 @@ def main(galaxy_package_file):
             out = []
             for key in HEADER_KEYS:
                 out.append(res[x][0][key])
-            print '\t'.join(out).rstrip("\n")
+            print('\t'.join(out).rstrip("\n"))
 
 
 if __name__ == '__main__':

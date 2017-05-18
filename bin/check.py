@@ -58,7 +58,7 @@ def main(galaxy_package_file):
                     retcode = 1
                 else:
                     identifiers.add(platform_id)
-            except Exception, e:
+            except Exception as e:
                 log.error("[%s] Line (probably) not tabbed properly: %s", lineno, e)
                 retcode = 1
         sys.exit(retcode)

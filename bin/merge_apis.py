@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from builtins import zip
 import sys
 import json
 import logging

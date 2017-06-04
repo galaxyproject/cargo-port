@@ -32,6 +32,7 @@ def yield_packages(handle, meta=False, retcode=None):
         except Exception as e:
             log.error(str(e))
 
+
 class XUnitReportBuilder(object):
     XUNIT_TPL = """<?xml version="1.0" encoding="UTF-8"?>
     <testsuite name="cpc-fulltest" tests="{total}" errors="{errors}" failures="{failures}" skip="{skips}">
@@ -96,6 +97,14 @@ def verify_file(path, sha, dryrun=False):
             os.unlink(path)
         return str(cpe)
 
+
+def verify_filetype(path, ext, dryrun=False):
+    mimetype = subprocess.check_output(['file', '--mime-type', path])
+    log.info("Mimetype of %s is %s", path, mimetype)
+    # Currently just passing on without error.
+    return
+
+
 def symlink_depot(url, output):
     try:
         args = ['ln', '-s', url, output]
@@ -138,6 +147,10 @@ def main(galaxy_package_file, dryrun=False):
                 xunit.failure(nice_name, "EmptyFile", "%s was found to be empty" % output_package_path)
 
             err = verify_file(output_package_path, ld['sha'].strip(), dryrun=dryrun)
+            if err is not None:
+                xunit.failure(nice_name, "ValidationError", err)
+
+            err = verify_filetype(output_package_path, ld['ext'].strip(), dryrun=dryrun)
             if err is not None:
                 xunit.failure(nice_name, "ValidationError", err)
 

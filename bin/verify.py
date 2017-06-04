@@ -99,7 +99,7 @@ def verify_file(path, sha, dryrun=False):
 
 
 def verify_filetype(path, ext, dryrun=False):
-    mimetype = subprocess.check_output(['file', path])
+    mimetype = subprocess.check_output(['file', path]).strip()
     log.info("Mimetype of %s is %s", path, mimetype)
     # Currently just passing on without error.
     return

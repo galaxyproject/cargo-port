@@ -17,7 +17,7 @@ allowing them to rely on URLs being permanently available.
 
 ## Contributing
 
-Please make PRs adding new lines to the `urls.tsv` file with your package, the
+Please make pull requests (PRs) adding new lines to the `urls.tsv` file with your package, the
 expected sha256sum, and optionally a comment. If you don't need to make
 sweeping changes to `urls.tsv` honestly your best choice for editing it is
 probably going to be a spreadsheet tool like libreoffice. If you do need to

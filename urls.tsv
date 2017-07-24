@@ -66,7 +66,8 @@ Devel-StackTrace	2.00	src	all	https://github.com/bgruening/download_store/raw/ma
 Devel-StackTrace	2	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Devel-StackTrace-2.00.tar.gz	.tar.gz	1debe7273099a60e1386e0da5edbed7334db3cf3ed8e3b4106b087100b8ec5e4	True
 DiffBind	1.8.3	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/DiffBind_1.8.3.tar.gz	.tar.gz	dc561e796d00940f3ece3eeb1ace6894143ffad74660e5a9cc30853fa4ed1b1f	True
 Digest-Crc32	0.01	src	all	https://cpan.metacpan.org/authors/id/F/FA/FAYS/Digest-Crc32-0.01.tar.gz	.tar.gz	219b8a97164efc2b46985e9178234683d675c2eec2b90fa925844680144c12a1	True
-DomClust	1.2.8	src	all	http://mbgd.genome.ad.jp/domclust/domclust.tgz	.tar.gz	ffe3dac8dee1ccd621556ed7e5818299ed167853dd4dcd9e42cde43eec4c40b2	True
+DomClust	1.2.8a	src	all	http://mbgd.genome.ad.jp/domclust/domclust.tgz	.tar.gz	34b3724b05f42ec072c1e24a05a369e6c8a56ff51cd40a06002129fcd2b6a859	False
+DomClust	1.2.8	src	all	http://mbgd.genome.ad.jp/domclust/domclust.tgz	.tar.gz	ffe3dac8dee1ccd621556ed7e5818299ed167853dd4dcd9e42cde43eec4c40b2	False
 DomClust	1.2.7j	src	all	ftp://biftp.informatik.uni-freiburg.de/pub/domclust_v1.2.7j.tgz	.tar.gz	cbd0ed55eb722f01cfce11f02f77f23be9c702c647fbd6c88a48882f0b9558a2	False
 DomClust	1.0	src	all	ftp://biftp.informatik.uni-freiburg.de/pub/domclust_v1.0.tgz	.tar.gz	a91cd437d2d19f67097a103bd2b49ad8524668b1d946209de65183d50173352a	False
 EDeN	1.1.0	src	all	https://github.com/bgruening/download_store/raw/master/EDeN/EDeN-1.1.0.tar.gz	.tar.gz	6709b7dac2dc90f6d914fda33ecc807390a136306e04c63b0ae6f764081db050	True

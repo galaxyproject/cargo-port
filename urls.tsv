@@ -968,3 +968,4 @@ zlibbioc	1.12.0	src	all	http://bioarchive.galaxyproject.org/zlibbioc_1.12.0.tar.
 zlibbioc	1.14.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/zlibbioc_1.14.0.tar.gz	.tar.gz	213cec750b14254df25e160463e28f3857ba703df1f3f43f7082dece8cfbf08b	True
 zlibbioc	1.8.0	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/zlibbioc_1.8.0.tar.gz	.tar.gz	bd32f4f110f9e030bdf7110f29356c1d632dfd0f160e33364e5668ab3c2cbd47	True
 fold-grammars	0.1	src	all	https://raw.githubusercontent.com/bgruening/download_store/master/fold-grammar/fold-grammars.tar.gz	.tar.gz	47c04f7c03ca34b311a75b23b27339ce4629ae3ca13663ac2cfe6b65fa68b835	True
+metaphlan2	2.6.0	src	all	https://framadrive.org/s/HVGlw5S6n2Wjdgy/download	.tar.gz	737a50297aa8d3d0d2276a4296b3453f75140f732de949d8a46ddc379b881dc6	False

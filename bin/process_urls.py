@@ -1,15 +1,16 @@
 #!/usr/bin/env python
 from __future__ import print_function
+
+import json
+import logging
 import os
+import subprocess
 import sys
 # Conditional import to ensure we can run without non-stdlib on py2k.
 if sys.version_info.major > 2:
     from builtins import str
     from builtins import zip
     from builtins import object
-import json
-import subprocess
-import logging
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
 ALLOWED_PROTOCOLS = ('http://', 'https://', 'ftp://')
@@ -88,6 +89,10 @@ class XUnitReportBuilder(object):
 
 
 def verify_file(path, sha):
+    # If no hash provided then this is a bioconda package.
+    if 0 == len(sha.strip()):
+        log.warning("Unvalidated file download (bioconda) %s", path)
+        return
     try:
         filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
         if filehash.lower() != sha.lower():
@@ -193,6 +198,7 @@ def main(galaxy_package_file):
 
         print(json.dumps(api_data, indent=2))
     sys.exit(retcode)
+
 
 if __name__ == '__main__':
     main(sys.argv[1])

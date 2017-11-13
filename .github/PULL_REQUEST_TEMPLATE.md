@@ -1,0 +1,3 @@
+- [ ] This software or dataset is not more easily backed up by other systems (e.g. a conda package which could more easily be mirrored by a conda mirror)
+- [ ] This software or dataset's license allows us to distribute it. If possible please link to it.
+- [ ] This software or dataset is related to the sciences, galaxy, or similar areas.

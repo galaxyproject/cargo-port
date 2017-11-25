@@ -9,7 +9,7 @@ AnnotationDbi	1.28.1	src	all	http://depot.galaxyproject.org/package/noarch/Annot
 AnnotationDbi	1.30.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/AnnotationDbi_1.30.1.tar.gz	.tar.gz	cefd8d389e71e9b0002cdca78b8d4ae39a950248aaefcf647faaeaa13a2643bb	True
 ARB	6.1.16228	src	all	http://bugs.arb-home.de/browser/trunk?rev=16228&format=zip	.zip	680a56cdfe8c867e1c1438f622f6f51329c5e4789496e1eb9ae0acfdf57a719e	True
 asn2gb	18.2	linux	x64	ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/asn2gb/linux64.asn2gb.gz	.gz	4b6ac3831061bc8f8c8adb011fe58c8741402a9c21c95af395aa98154c9ab775	False
-asn2gb	18.2	darwin	x64	ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/asn2gb/mac.asn2gb.gz	.gz	4b6ac3831061bc8f8c8adb011fe58c8741402a9c21c95af395aa98154c9ab775	False
+asn2gb	18.2	darwin	x64	ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/asn2gb/mac.asn2gb.gz	.gz	e2751199333312c43ac46eece268b11ce53bb34acb576f98f00c4962015fffd4	False
 Atlas2	1.4.1	src	all	http://depot.galaxyproject.org/package/sourceforge/Atlas2_v1.4.1.zip	.zip	e4501a95fa14383d00cd9c90831bbe56e8e32ceee27ff86b425aeeef5cbe5376	True
 BBmisc	1.8	src	all	http://depot.galaxyproject.org/package/noarch/BBmisc_1.8.tar.gz	.tar.gz	a90e50e892be327a6a05ba9a61359b9fcfe5f661d89fc34b02aa59760bb988c0	True
 BBmisc	1.9	src	all	http://depot.galaxyproject.org/package/noarch/BBmisc_1.9.tar.gz	.tar.gz	4b7fd5c6c1358a7e4c32c10237aa6f3f5279585afef83b0ffa1b3fc74c5f3006	True

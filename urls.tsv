@@ -64,6 +64,7 @@ DESeq2	1.8.2	src	all	https://github.com/bgruening/download_store/raw/master/DESe
 DEXSeq	1.14.2	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/DEXSeq_1.14.2.tar.gz	.tar.gz	0ebbb867fa39ae28f37f2438a03532a09c3788d39330c6165f1ff8cbb0ec3a26	True
 Data-Stag	0.14	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Data-Stag-0.14.tar.gz	.tar.gz	4ab122508d2fb86d171a15f4006e5cf896d5facfa65219c0b243a89906258e59	True
 Date-Manip	6.48	src	all	http://pkgs.fedoraproject.org/repo/pkgs/perl-Date-Manip/Date-Manip-6.48.tar.gz/fc1629f119072fa723ff89133d6f9a2d/Date-Manip-6.48.tar.gz	.tar.gz	4d6eb2707729313fd10658468741eb9337853f0fe0e6e594a219dc0d3029b4d6	True
+deepsig	1.0	linux	x64	http://biocomp.unibo.it/savojard/deepsig-1.0.tar.gz	.tar.gz	bdd66d7cf44946163d09cd879e64221b486efc6fa71e1ff9d4b768e71947fe92	True
 Devel-Size	0.80	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Devel-Size-0.80.tar.gz	.tar.gz	ca3a089cb263ab6b9751df777cf6d3df3ba470d471d300a8076e4be6e288d057	True
 Devel-Size	0.8	src	all	https://cpan.metacpan.org/authors/id/N/NW/NWCLARK/Devel-Size-0.80.tar.gz	.tar.gz	ca3a089cb263ab6b9751df777cf6d3df3ba470d471d300a8076e4be6e288d057	True
 Devel-StackTrace	2.00	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Devel-StackTrace-2.00.tar.gz	.tar.gz	1debe7273099a60e1386e0da5edbed7334db3cf3ed8e3b4106b087100b8ec5e4	True

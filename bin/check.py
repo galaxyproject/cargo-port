@@ -24,7 +24,7 @@ def main(galaxy_package_file):
                         log.error("[%s] Empty %s", lineno, x)
                         retcode = 1
 
-                if ld['platform'] not in ('linux', 'windows', 'darwin', 'src'):
+                if ld['platform'] not in ('linux', 'windows', 'darwin', 'src', 'all'):
                     log.error("[%s] Unknown platform %s", lineno, ld['platform'])
                     retcode = 1
 

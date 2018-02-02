@@ -720,7 +720,7 @@ osra	2.0.0	src	all	http://depot.galaxyproject.org/package/sourceforge/osra-2.0.0
 pal_finder	0.02.04	src	all	http://depot.galaxyproject.org/package/sourceforge/pal_finder_v0.02.04.tar.gz	.tar.gz	b9c578a4e7b1f6f03b9d05cd47876d057c4f304c42ae34c7c19ca9207403ad3b	True
 paml	4.9	src	all	http://abacus.gene.ucl.ac.uk/software/paml4.9c.tgz	.tar.gz	92009a3138bdddf1c99f4756ded74c33618214450ad5ada497870e210ea141a1	True
 packaging	16.8	src	all	https://pypi.python.org/packages/c6/70/bb32913de251017e266c5114d0a645f262fb10ebc9bf6de894966d124e35/packaging-16.8.tar.gz	.tar.gz	5d50835fdf0a7edf0b55e311b7c887786504efea1177abd7e69329a8e5ea619e	True
-packaging	16.8	py2.py3	all	https://pypi.python.org/packages/87/1b/c39b7c65b5612812b83d6cab7ef2885eac9f6beb0b7b8a7071a186aea3b1/packaging-16.8-py2.py3-none-any.whl	.whl	99276dc6e3a7851f32027a68f1095cd3f77c148091b092ea867a351811cfe388	True
+packaging	16.8	src	all	https://pypi.python.org/packages/87/1b/c39b7c65b5612812b83d6cab7ef2885eac9f6beb0b7b8a7071a186aea3b1/packaging-16.8-py2.py3-none-any.whl	.whl	99276dc6e3a7851f32027a68f1095cd3f77c148091b092ea867a351811cfe388	True
 pandas	0.14	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.14.1.tar.gz	.tar.gz	8d36f69e63f4c36999d142d60e476a6359c77069ad0ed1e4aa16a7005884dd21	True
 pandas	0.16	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.16.2.tar.gz	.tar.gz	e01853dfe111f3aea005315573400b7216ddbabbf1f28d482a71217d67ae4f81	True
 parent	0.232	src	all	https://cpan.metacpan.org/authors/id/C/CO/CORION/parent-0.232.tar.gz	.tar.gz	1f8f5c928fd6699a25ead67c23e1159482e7088ce684fbc084b3bcef115e1fc3	True

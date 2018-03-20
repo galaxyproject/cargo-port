@@ -411,6 +411,7 @@ cairo	1.12.14	src	all	http://depot.galaxyproject.org/package/source/cairo/cairo-
 cairo	1.14.2	src	all	https://github.com/bgruening/download_store/raw/master/cairo/cairo-1.14.2.tar.bz2	.tar.bz2	0772ce92cabbcc18d4c699430d7eb89e56d5c0659de64e92cb88ec1496e8e18e	True
 car	2.0-19	src	all	https://github.com/bgruening/download_store/raw/master/r_statistic_tools/car_2.0-19.tar.gz	.tar.gz	8c411a21210b18bae4e6559fa6c461ab12f29cb82112bd18129e2d9fce47735b	True
 ccat	3.0	src	all	http://cmb.gis.a-star.edu.sg/ChIPSeq/tools/CCAT3.0.tar.gz	.tar.gz	d8944465c8327bec22eb41059ba73f780fcdcedf4470507bfdae5a54c59a9b07	True
+cfm-id	2.4	src	all	https://www.dropbox.com/s/1mc3ar3hsieqfvy/cfm_id_2.4.tar.gz	.tar.gz	12ab643ad3fcabf4bb36ba5edaf484d3f6b233114298579fdc9a736995a88bd7	False
 cgatools	1.6.0.43	darwin	x64	http://depot.galaxyproject.org/package/sourceforge/cgatools-1.6.0.43-MacOSX_binary-x86_64.tar.gz	.tar.gz	9f4ea0351351da89952738bb4bdd2bcfc501bd377d4cc543b971675c7bed50d2	True
 cgatools	1.7.1.5	linux	x64	http://depot.galaxyproject.org/package/sourceforge/cgatools-1.7.1.5-linux_binary-x86_64.tar.gz	.tar.gz	2f5be17f94cb8222afced860ae92b42f8392c9adc142deea273f1e7d62cc9bc5	True
 cgview	1.0	src	all	http://wishart.biology.ualberta.ca/cgview/application/cgview.zip	.zip	fc5a2a2fd75b2b419da18d2ff88d6f75053102fb8d8e0fbab1b7ce740ebcf4d6	True

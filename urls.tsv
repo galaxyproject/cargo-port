@@ -246,6 +246,7 @@ Test	1.26	src	all	https://cpan.metacpan.org/authors/id/J/JE/JESSE/Test-1.26.tar.
 Text-Diff	1.41	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Text-Diff-1.41.tar.gz	.tar.gz	a67f50a48e313c1680cc662109ce5f913ea71454db355d0cf4db87ac89d2d2fa	True
 Text-Tabs+Wrap	2013.0523	src	all	https://cpan.metacpan.org/authors/id/M/MU/MUIR/modules/Text-Tabs+Wrap-2013.0523.tar.gz	.tar.gz	b9cb056fffb737b9c12862099b952bf4ab4b1f599fd34935356ae57dab6f655f	True
 toolshed	0.4.6	src	all	https://pypi.python.org/packages/08/bd/d6259c8d882f6783fdfe69bfaed628afb1ddd291f8a1ac6176d27c62860c/toolshed-0.4.6.tar.gz	.tar.gz	23a31c177bf84244b30a9f12c7a8a17a66a2d63043ead0460c31b9ff42f9fb93	True
+Trinotate_resources	3	src	all	https://data.broadinstitute.org/Trinity/__deprecated_trinotate_resources/Trinotate_v3_RESOURCES/Trinotate_v3.sqlite.gz	.gz	3f136f084db691459f7bbec9d50b0231f52e7ca8ce7ce3bd6b755ebae45f4454	True
 URI	1.65	src	all	http://pkgs.fedoraproject.org/repo/pkgs/perl-URI/URI-1.65.tar.gz/12c5d612a20ddd42041a5aa426f66269/URI-1.65.tar.gz	.tar.gz	93dec3e8dc2fe6ababb0cdd53f8b529e89595fe56cd691d2c57b1c04d6df2b91	True
 URI	1.67	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/URI-1.67.tar.gz	.tar.gz	7088d43d5f4902becfa5e0627751f5e6d0e0bdd1637b2d39e70ce807068a274e	True
 VGAM	0.9-3	src	all	https://github.com/bgruening/download_store/raw/master/miclip/VGAM_0.9-3.tar.gz	.tar.gz	be32fd77c21456e8b85e990a7461b7650342ae67bb02c491ba5bb183e0073cbc	True

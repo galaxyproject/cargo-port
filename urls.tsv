@@ -584,6 +584,7 @@ infernal	1.1	src	all	http://eddylab.org/software/infernal/infernal-1.1.tar.gz	.t
 infernal	1.1rc4	src	all	http://eddylab.org/software/infernal/infernal-1.1rc4.tar.gz	.tar.gz	8891822c7935bdfb4fc9a28e6a563584a0564c17745a54984ef3242af704b3f8	True
 inputproto	2.2	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/inputproto-2.2.tar.bz2	.tar.bz2	de7516ab25c299740da46c0f1af02f1831c5aa93b7283f512c0f35edaac2bcb0	True
 irlba	1.0.3	src	all	https://github.com/bgruening/download_store/raw/master/monocle/irlba_1.0.3.tar.gz	.tar.gz	deaf82b5670f91bc65a0ff31a2f03c540e210539251c5e0e10b2a707d3ac5ec0	True
+isa-rwval 0.10.1  src all https://files.pythonhosted.org/packages/d1/05/0f9db1882d95d5ff9c50faffe071ab313ce7920cedb6601ef688c1989a70/isa-rwval-0.10.1.tar.gz  .tar.gz 232d20ae7f47a94da28e99e5cbb6934ea23a8268ff75ad14296c2c3f7b16f428 True
 iterators	1.0.7	src	all	http://depot.galaxyproject.org/package/noarch/bg/iterators_1.0.7.tar.gz	.tar.gz	1bf74e5a5603b2b2d3deecb801ca1796e2b2c3f08c488c497725c5cb205798ff	True
 jbrowse	1.11.6	src	all	http://jbrowse.org/wordpress/wp-content/plugins/download-monitor/download.php?id=99&amp;fmt=.zip	.zip	4beb1bf53d1843a96e326b71f814c0d55081a63b7204bf75e9c28b8b0e93cf4b	True
 jellyfish	1.1.11	src	all	http://www.cbcb.umd.edu/software/jellyfish/jellyfish-1.1.11.tar.gz	.tar.gz	496645d96b08ba35db1f856d857a159798c73cbc1eccb852ef1b253d1678c8e2	True

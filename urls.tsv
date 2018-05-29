@@ -7,7 +7,10 @@ AnnotationDbi	1.22.6	src	all	https://github.com/bgruening/download_store/raw/mas
 AnnotationDbi	1.24.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_2_10/AnnotationDbi_1.24.0.tar.gz	.tar.gz	132777be015a3ce8f1c97abba1b628622bcc0bef5ce49d22eec29a7a90a66ac5	True
 AnnotationDbi	1.28.1	src	all	http://depot.galaxyproject.org/package/noarch/AnnotationDbi_1.28.1.tar.gz	.tar.gz	214a293286af854001ce46b9d866ea5b3fbc4e6b8383be0952f63491e4f6171c	True
 AnnotationDbi	1.30.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/AnnotationDbi_1.30.1.tar.gz	.tar.gz	cefd8d389e71e9b0002cdca78b8d4ae39a950248aaefcf647faaeaa13a2643bb	True
+Ant-Apache-BCEL	1.8.1	src	all	http://central.maven.org/maven2/org/apache/ant/ant-apache-bcel/1.8.1/ant-apache-bcel-1.8.1.jar	.jar	389b33831a33b2e45fcab6e43409e094c88feaa218100c09c44090d247b97baf	True
 ARB	6.1.16228	src	all	http://bugs.arb-home.de/browser/trunk?rev=16228&format=zip	.zip	680a56cdfe8c867e1c1438f622f6f51329c5e4789496e1eb9ae0acfdf57a719e	True
+asn2gb	18.2	linux	x64	ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/asn2gb/linux64.asn2gb.gz	.gz	4b6ac3831061bc8f8c8adb011fe58c8741402a9c21c95af395aa98154c9ab775	False
+asn2gb	18.2	darwin	x64	ftp://ftp.ncbi.nih.gov/toolbox/ncbi_tools/converters/by_program/asn2gb/mac.asn2gb.gz	.gz	e2751199333312c43ac46eece268b11ce53bb34acb576f98f00c4962015fffd4	False
 Atlas2	1.4.1	src	all	http://depot.galaxyproject.org/package/sourceforge/Atlas2_v1.4.1.zip	.zip	e4501a95fa14383d00cd9c90831bbe56e8e32ceee27ff86b425aeeef5cbe5376	True
 BBmisc	1.8	src	all	http://depot.galaxyproject.org/package/noarch/BBmisc_1.8.tar.gz	.tar.gz	a90e50e892be327a6a05ba9a61359b9fcfe5f661d89fc34b02aa59760bb988c0	True
 BBmisc	1.9	src	all	http://depot.galaxyproject.org/package/noarch/BBmisc_1.9.tar.gz	.tar.gz	4b7fd5c6c1358a7e4c32c10237aa6f3f5279585afef83b0ffa1b3fc74c5f3006	True
@@ -61,6 +64,7 @@ DESeq2	1.8.2	src	all	https://github.com/bgruening/download_store/raw/master/DESe
 DEXSeq	1.14.2	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/DEXSeq_1.14.2.tar.gz	.tar.gz	0ebbb867fa39ae28f37f2438a03532a09c3788d39330c6165f1ff8cbb0ec3a26	True
 Data-Stag	0.14	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Data-Stag-0.14.tar.gz	.tar.gz	4ab122508d2fb86d171a15f4006e5cf896d5facfa65219c0b243a89906258e59	True
 Date-Manip	6.48	src	all	http://pkgs.fedoraproject.org/repo/pkgs/perl-Date-Manip/Date-Manip-6.48.tar.gz/fc1629f119072fa723ff89133d6f9a2d/Date-Manip-6.48.tar.gz	.tar.gz	4d6eb2707729313fd10658468741eb9337853f0fe0e6e594a219dc0d3029b4d6	True
+deepsig	1.0	linux	x64	http://biocomp.unibo.it/savojard/deepsig-1.0.tar.gz	.tar.gz	bdd66d7cf44946163d09cd879e64221b486efc6fa71e1ff9d4b768e71947fe92	True
 Devel-Size	0.80	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Devel-Size-0.80.tar.gz	.tar.gz	ca3a089cb263ab6b9751df777cf6d3df3ba470d471d300a8076e4be6e288d057	True
 Devel-Size	0.8	src	all	https://cpan.metacpan.org/authors/id/N/NW/NWCLARK/Devel-Size-0.80.tar.gz	.tar.gz	ca3a089cb263ab6b9751df777cf6d3df3ba470d471d300a8076e4be6e288d057	True
 Devel-StackTrace	2.00	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Devel-StackTrace-2.00.tar.gz	.tar.gz	1debe7273099a60e1386e0da5edbed7334db3cf3ed8e3b4106b087100b8ec5e4	True
@@ -242,6 +246,7 @@ Test	1.26	src	all	https://cpan.metacpan.org/authors/id/J/JE/JESSE/Test-1.26.tar.
 Text-Diff	1.41	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Text-Diff-1.41.tar.gz	.tar.gz	a67f50a48e313c1680cc662109ce5f913ea71454db355d0cf4db87ac89d2d2fa	True
 Text-Tabs+Wrap	2013.0523	src	all	https://cpan.metacpan.org/authors/id/M/MU/MUIR/modules/Text-Tabs+Wrap-2013.0523.tar.gz	.tar.gz	b9cb056fffb737b9c12862099b952bf4ab4b1f599fd34935356ae57dab6f655f	True
 toolshed	0.4.6	src	all	https://pypi.python.org/packages/08/bd/d6259c8d882f6783fdfe69bfaed628afb1ddd291f8a1ac6176d27c62860c/toolshed-0.4.6.tar.gz	.tar.gz	23a31c177bf84244b30a9f12c7a8a17a66a2d63043ead0460c31b9ff42f9fb93	True
+Trinotate_resources	3	src	all	https://data.broadinstitute.org/Trinity/__deprecated_trinotate_resources/Trinotate_v3_RESOURCES/Trinotate_v3.sqlite.gz	.gz	3f136f084db691459f7bbec9d50b0231f52e7ca8ce7ce3bd6b755ebae45f4454	True
 URI	1.65	src	all	http://pkgs.fedoraproject.org/repo/pkgs/perl-URI/URI-1.65.tar.gz/12c5d612a20ddd42041a5aa426f66269/URI-1.65.tar.gz	.tar.gz	93dec3e8dc2fe6ababb0cdd53f8b529e89595fe56cd691d2c57b1c04d6df2b91	True
 URI	1.67	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/URI-1.67.tar.gz	.tar.gz	7088d43d5f4902becfa5e0627751f5e6d0e0bdd1637b2d39e70ce807068a274e	True
 VGAM	0.9-3	src	all	https://github.com/bgruening/download_store/raw/master/miclip/VGAM_0.9-3.tar.gz	.tar.gz	be32fd77c21456e8b85e990a7461b7650342ae67bb02c491ba5bb183e0073cbc	True
@@ -407,6 +412,7 @@ cairo	1.12.14	src	all	http://depot.galaxyproject.org/package/source/cairo/cairo-
 cairo	1.14.2	src	all	https://github.com/bgruening/download_store/raw/master/cairo/cairo-1.14.2.tar.bz2	.tar.bz2	0772ce92cabbcc18d4c699430d7eb89e56d5c0659de64e92cb88ec1496e8e18e	True
 car	2.0-19	src	all	https://github.com/bgruening/download_store/raw/master/r_statistic_tools/car_2.0-19.tar.gz	.tar.gz	8c411a21210b18bae4e6559fa6c461ab12f29cb82112bd18129e2d9fce47735b	True
 ccat	3.0	src	all	http://cmb.gis.a-star.edu.sg/ChIPSeq/tools/CCAT3.0.tar.gz	.tar.gz	d8944465c8327bec22eb41059ba73f780fcdcedf4470507bfdae5a54c59a9b07	True
+cfm-id	2.4	src	all	https://www.dropbox.com/s/1mc3ar3hsieqfvy/cfm_id_2.4.tar.gz	.tar.gz	12ab643ad3fcabf4bb36ba5edaf484d3f6b233114298579fdc9a736995a88bd7	False
 cgatools	1.6.0.43	darwin	x64	http://depot.galaxyproject.org/package/sourceforge/cgatools-1.6.0.43-MacOSX_binary-x86_64.tar.gz	.tar.gz	9f4ea0351351da89952738bb4bdd2bcfc501bd377d4cc543b971675c7bed50d2	True
 cgatools	1.7.1.5	linux	x64	http://depot.galaxyproject.org/package/sourceforge/cgatools-1.7.1.5-linux_binary-x86_64.tar.gz	.tar.gz	2f5be17f94cb8222afced860ae92b42f8392c9adc142deea273f1e7d62cc9bc5	True
 cgview	1.0	src	all	http://wishart.biology.ualberta.ca/cgview/application/cgview.zip	.zip	fc5a2a2fd75b2b419da18d2ff88d6f75053102fb8d8e0fbab1b7ce740ebcf4d6	True
@@ -578,6 +584,7 @@ infernal	1.1	src	all	http://eddylab.org/software/infernal/infernal-1.1.tar.gz	.t
 infernal	1.1rc4	src	all	http://eddylab.org/software/infernal/infernal-1.1rc4.tar.gz	.tar.gz	8891822c7935bdfb4fc9a28e6a563584a0564c17745a54984ef3242af704b3f8	True
 inputproto	2.2	src	all	ftp://ftp.x.org/pub/X11R7.7/src/proto/inputproto-2.2.tar.bz2	.tar.bz2	de7516ab25c299740da46c0f1af02f1831c5aa93b7283f512c0f35edaac2bcb0	True
 irlba	1.0.3	src	all	https://github.com/bgruening/download_store/raw/master/monocle/irlba_1.0.3.tar.gz	.tar.gz	deaf82b5670f91bc65a0ff31a2f03c540e210539251c5e0e10b2a707d3ac5ec0	True
+isa-rwval	0.10.1	src	all	https://files.pythonhosted.org/packages/d1/05/0f9db1882d95d5ff9c50faffe071ab313ce7920cedb6601ef688c1989a70/isa-rwval-0.10.1.tar.gz	.tar.gz	232d20ae7f47a94da28e99e5cbb6934ea23a8268ff75ad14296c2c3f7b16f428	True
 iterators	1.0.7	src	all	http://depot.galaxyproject.org/package/noarch/bg/iterators_1.0.7.tar.gz	.tar.gz	1bf74e5a5603b2b2d3deecb801ca1796e2b2c3f08c488c497725c5cb205798ff	True
 jbrowse	1.11.6	src	all	http://jbrowse.org/wordpress/wp-content/plugins/download-monitor/download.php?id=99&amp;fmt=.zip	.zip	4beb1bf53d1843a96e326b71f814c0d55081a63b7204bf75e9c28b8b0e93cf4b	True
 jellyfish	1.1.11	src	all	http://www.cbcb.umd.edu/software/jellyfish/jellyfish-1.1.11.tar.gz	.tar.gz	496645d96b08ba35db1f856d857a159798c73cbc1eccb852ef1b253d1678c8e2	True
@@ -715,6 +722,8 @@ osra	1.4.0	src	all	http://depot.galaxyproject.org/package/sourceforge/osra-1.4.0
 osra	2.0.0	src	all	http://depot.galaxyproject.org/package/sourceforge/osra-2.0.0.tgz	.tar.gz	197a7705616df7b01363ca86e990c5a961258ff31a5074e6c57670ce5f3e3ead	True
 pal_finder	0.02.04	src	all	http://depot.galaxyproject.org/package/sourceforge/pal_finder_v0.02.04.tar.gz	.tar.gz	b9c578a4e7b1f6f03b9d05cd47876d057c4f304c42ae34c7c19ca9207403ad3b	True
 paml	4.9	src	all	http://abacus.gene.ucl.ac.uk/software/paml4.9c.tgz	.tar.gz	92009a3138bdddf1c99f4756ded74c33618214450ad5ada497870e210ea141a1	True
+packaging	16.8	src	all	https://pypi.python.org/packages/c6/70/bb32913de251017e266c5114d0a645f262fb10ebc9bf6de894966d124e35/packaging-16.8.tar.gz	.tar.gz	5d50835fdf0a7edf0b55e311b7c887786504efea1177abd7e69329a8e5ea619e	True
+packaging	16.8	all	all	https://pypi.python.org/packages/87/1b/c39b7c65b5612812b83d6cab7ef2885eac9f6beb0b7b8a7071a186aea3b1/packaging-16.8-py2.py3-none-any.whl	.whl	99276dc6e3a7851f32027a68f1095cd3f77c148091b092ea867a351811cfe388	True
 pandas	0.14	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.14.1.tar.gz	.tar.gz	8d36f69e63f4c36999d142d60e476a6359c77069ad0ed1e4aa16a7005884dd21	True
 pandas	0.16	src	all	https://pypi.python.org/packages/source/p/pandas/pandas-0.16.2.tar.gz	.tar.gz	e01853dfe111f3aea005315573400b7216ddbabbf1f28d482a71217d67ae4f81	True
 parent	0.232	src	all	https://cpan.metacpan.org/authors/id/C/CO/CORION/parent-0.232.tar.gz	.tar.gz	1f8f5c928fd6699a25ead67c23e1159482e7088ce684fbc084b3bcef115e1fc3	True
@@ -759,9 +768,9 @@ pysam	0.7.5	src	all	https://pysam.googlecode.com/files/pysam-0.7.5.tar.gz	.tar.g
 pysam	0.7.6	src	all	https://pypi.python.org/packages/source/p/pysam/pysam-0.7.6.tar.gz	.tar.gz	d082ee3c8d7f105968719170956456d3660ef3a199bf53f9667f959ca4d11200	True
 pysam	0.7.7	src	all	https://pypi.python.org/packages/source/p/pysam/pysam-0.7.7.tar.gz	.tar.gz	c9f3018482eec99ee199dda3fdef2aa7424dde6574672a4c0d209a10985755cc	True
 pysam	0.8.3	src	all	https://pypi.python.org/packages/source/p/pysam/pysam-0.8.3.tar.gz	.tar.gz	343e91a1882278455ef9a5f3c9fc4921c37964341785bf22432381d18e6d115e	True
-pysam	0.12.0.1	src	all	https://pypi.python.org/packages/b9/98/d98b250f98a6b91df71a03083219bec786cdda5408f77997f8ad81d06058/pysam-0.12.0.1.tar.gz	.tar.gz	04837bf0b1313e57d50076f228463262b9982c410b973eb184c033528f83d523	True
-pysam	0.12.0.1-cp27m	linux	x64	https://pypi.python.org/packages/be/3c/9c0d31f4baa506057e781641325f52f709ca4fe777065e39be08e690752b/pysam-0.12-cp27-cp27m-manylinux1_x86_64.whl	.whl	dcd17f2dbe7b9e0742856cd23fd4ae7d6ecc9c48e3baa91bf019b63d935fa1e9	True
-pysam	0.12.0.1-cp27mu	linux	x64	https://pypi.python.org/packages/5e/f1/28f7e3df4941ac01c2c1794b1009000fad81cf026da6c04e223e5e86e6ad/pysam-0.12-cp27-cp27mu-manylinux1_x86_64.whl	.whl	e8205678d96c33f122caa1e12dcb41a2db20d9147ef02c4f4f9c76b98a6362d8	True
+pysam	0.13	src	all	https://pypi.python.org/packages/31/17/31d317006a74941d2caddac97c5106601fe4da467653d0f061702e9ead95/pysam-0.13.tar.gz	.tar.gz	1829035f58bddf26b0cb6867968178701c2a243518ea697dcedeebff487979af	True
+pysam	0.13-cp27m	linux	x64	https://pypi.python.org/packages/14/cd/676a08a4bd77fd21716add76f946235780a5673c75c7408b2449db2dde5a/pysam-0.13-cp27-cp27m-manylinux1_x86_64.whl	.whl	a87d86c69c4007b898e1c0256da1eef6f9c67d8bfaa2208591e7e43b02c8ee92	True
+pysam	0.13-cp27mu	linux	x64	https://pypi.python.org/packages/59/7e/55048651e80ca7ebbed41489ec53da863a500d536fbff5884175e81b40c1/pysam-0.13-cp27-cp27mu-manylinux1_x86_64.whl	.whl	d977b0cfed87ae9fc0fcac1b03a676f95ce9b6f574105311d7f1e106826d8256	True
 python	2.7	src	all	https://www.python.org/ftp/python/2.7.10/Python-2.7.10.tgz	.tar.gz	eda8ce6eec03e74991abb5384170e7c65fcd7522e409b8e83d7e6372add0f12a	True
 python	3.4	src	all	https://www.python.org/ftp/python/3.4.3/Python-3.4.3.tgz	.tar.gz	8b743f56e9e50bf0923b9e9c45dd927c071d7aa56cd46569d8818add8cf01147	True
 qt	4.8	src	all	http://download.qt-project.org/official_releases/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz	.tar.gz	8b14dd91b52862e09b8e6a963507b74bc2580787d171feda197badfa7034032c	True

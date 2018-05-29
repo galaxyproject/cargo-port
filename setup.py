@@ -8,7 +8,7 @@ setup(
     version='1.0',
     description='Python Distribution Utilities',
     author='Intergalactic Utilities Commission',
-    maintainer='Eric Rasche',
+    maintainer='Helena Rasche',
     url='https://github.com/erasche/community-package-cache',
     packages=['cargoport'],
     scripts=list(glob.glob("bin/galaxy*")),

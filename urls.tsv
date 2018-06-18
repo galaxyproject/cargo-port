@@ -619,8 +619,11 @@ libfann	2.2.0	src	all	https://github.com/libfann/fann/archive/2.2.0.tar.gz	.tar.
 libffi	3.0	src	all	ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz	.tar.gz	1dddde1400c3bcb7749d398071af88c3e4754058d2d4c0b3696c2f82dc5cf11c	True
 libgd	2.1.0	src	all	https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.0.tar.bz2	.tar.bz2	f3e1bc472bd81ee976a739436659fe752a14727a964c64530fde68531ddeee91	True
 libgd	2.1	src	all	https://bitbucket.org/libgd/gd-libgd/downloads/libgd-2.1.0.tar.gz	.tar.gz	3ceef69d5454a392e8793ae90b5f0d632dd3e20879c12856aa1d1d3d063a51c8	True
+libgenome	1.3.1	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-libGenome.zip	.zip	d15d2aaea3c5fbb741c172eeac6862757a480063da02a16e1eaa3874c69d395c	True
 libgtextutils	0.6	src	all	http://depot.galaxyproject.org/package/source/fastx_toolkit/libgtextutils-0.6.tar.bz2	.tar.bz2	5c8a795a80134f0f8bdc62a92b5baf32eb689e40c9fc685c491c648eff5a30ba	True
 libmagic	5.25	src	all	ftp://ftp.astron.com/pub/file/file-5.25.tar.gz	.tar.gz	3735381563f69fb4239470b8c51b876a80425348b8285a7cded8b61d6b890eca	True
+libmems	1.6.0	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-libMems.zip	.zip	8a3b0cd3dc952575c228460f6c53d2a814c791103d7f53df1bcd736ac03f28b2	True
+libmuscle	3.7	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-muscle-trunk.zip	.zip	8de85a2f79e1cec32bb5bf2a5f233c972cf9c62b3ce7e21bdb5213d006fdb769	True
 libpng	1.2.51	src	all	http://depot.galaxyproject.org/package/sourceforge/libpng-1.2.51.tar.gz	.tar.gz	2ff1b671b89b04e9288b7282a33f69afcd1db07bf0c16e80c7bbdf2b56056fda	True
 libpng	1.2	src	all	http://download.sourceforge.net/libpng/libpng-1.2.51.tar.gz	.tar.gz	2ff1b671b89b04e9288b7282a33f69afcd1db07bf0c16e80c7bbdf2b56056fda	True
 libpng	1.6.7	src	all	http://depot.galaxyproject.org/package/sourceforge/libpng-1.6.7.tar.gz	.tar.gz	5d3be409d4ed4425923ad8677fc45497abb43c6b9cfd5beafe7dfc6f2a94f24b	True
@@ -659,6 +662,8 @@ matplotlib	1.4	src	all	https://pypi.python.org/packages/source/m/matplotlib/matp
 matrixStats	0.12.2	src	all	http://depot.galaxyproject.org/package/noarch/matrixStats_0.12.2.tar.gz	.tar.gz	d7a29f983705d2d9bc0a046d8d725c6e5ddaf0f6f4cd6dfa5e3d7cbf920d5f2a	True
 matrixStats	0.14.0	src	all	https://github.com/bgruening/download_store/raw/master/monocle/matrixStats_0.14.0.tar.gz	.tar.gz	3ada7006d13f72462dd0d93ba30f7336d254a477663abbf5a0cb30d20c1c95be	True
 mauve	2.4.0	linux	all	http://darlinglab.org/mauve/downloads/mauve_linux_2.4.0.tar.gz	.tar.gz	66ba3c359b6534ca8498dab079b5e582acfece036067478a289fe363a74fd27b	True
+mauve	2.4.0	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-mauve-trunk.zip	.zip	98aa1c7bfeef0dac68f7cedbee81dae424192c5cd7a22960d63efe6e943645aa	True
+mauveAligner	1.2.0	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-mauveAligner-trunk.zip	.zip	0d0cf5dd560cf062d4bfb01b121b38865f3a7fae6312d4169eb696add82cefc7	True
 mcl	12.135	src	all	http://micans.org/mcl/src/mcl-12-135.tar.gz	.tar.gz	3f5e0e7ad1074c7c4ef0139aa3318f92971fede7292dc3571eca2fd1da20a283	True
 meme	4.10.0.4	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057	True
 meme	4.10.0.4	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/meme/meme-4.10.0_4-Linux-x86_64.tgz	.tar.gz	742700a1473f3e5dc049f2426cb556c69a4fc575f208184e8fcdc0b27b3a08d8	True
@@ -811,6 +816,7 @@ rdkit	2012.12	src	all	http://downloads.sourceforge.net/project/rdkit/rdkit/Q4_20
 rdkit	2013.03	src	all	http://rdkit.googlecode.com/files/RDKit_2013_03_2.tgz	.tar.gz	72264d5955c7c8d683a93cccdf56b8d2993ef54caf3f81b1c8cd1563fb582abd	True
 readline	6.2	src	all	ftp://ftp.gnu.org/gnu/readline/readline-6.2.tar.gz	.tar.gz	79a696070a058c233c72dd6ac697021cc64abd5ed51e59db867d66d196a89381	True
 readline	6.3	src	all	ftp://ftp.gnu.org/gnu/readline/readline-6.3.tar.gz	.tar.gz	56ba6071b9462f980c5a72ab0023893b65ba6debb4eeb475d7a563dc65cafd43	True
+repeatoire	1.0.0	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-repeatoire-trunk.zip	.zip	112e1e326cfc7ecd932c2f82fe8a59b08299fc478fda6de6a5f8ec236a5c9018	True
 reportlab	3.1.44	src	all	https://pypi.python.org/packages/source/r/reportlab/reportlab-3.1.44.tar.gz	.tar.gz	f6c22e4afefd1aed0e85f1c1216eee5e74d2eb77d53963feab0172b321b636d5	True
 reprof	1.0.1	src	all	https://github.com/Rostlab/reprof/archive/160ebbeebaf188414eb330d29089b2f43540ed8a.zip	.zip	e77d41b4c19efe050d71e2ae95c1752da6cf083ac3a649cb4e8bbfdefe23264d	True
 reshape2	1.2.2	src	all	https://github.com/bgruening/download_store/raw/master/blockclust/r-packages/reshape2_1.2.2.tar.gz	.tar.gz	9131025b8f684e1629ab3e2748d4cf2b907b7c89cfbff667c925bc0fb5dfc103	True
@@ -880,6 +886,7 @@ sendmailR	1.2-1	src	all	http://depot.galaxyproject.org/package/noarch/bg/sendmai
 setuptools	18.2	src	all	https://bitbucket.org/pypa/setuptools/get/18.2.tar.bz2	.tar.bz2	7b2a76ec3aeb6dc95ae66eab173e7b46e26436c5ba4ee94744f2360bce493b25	True
 setuptools	5.2	src	all	https://bitbucket.org/pypa/setuptools/get/5.2.tar.bz2	.tar.bz2	beb3445cfc3a0f9a36df7de6489d2a488a5ac113c471c448e46e6d9c47cb7840	True
 setuptools	6.1	src	all	https://bitbucket.org/pypa/setuptools/get/6.1.tar.bz2	.tar.bz2	12c9998cf649d4738de16e4ff952119ca060c3e0bc2a6be44a502b6f4e6a9bbc	True
+sgevolver	0.7.1	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-sgEvolver-trunk.zip	.zip	4851f87ab5c3c3f739efd56574c53d0d838cc8bf4ce4a84b0ce0b8c6cc348956	True
 sicer	1.1	src	all	http://home.gwu.edu/~wpeng/SICER_V1.1.tgz	.tar.gz	1749c1e382629376f1d9db12978b9733fd5d9b9a896a2d127194c42b600c84c9	True
 simplejson	3.7.3	src	all	https://pypi.python.org/packages/source/s/simplejson/simplejson-3.7.3.tar.gz	.tar.gz	63d7f7b14a20f29f74325a69e6db45925eaf6e3a003eab46c0234fd050a8c93f	True
 six	1.9.0	src	all	https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz	.tar.gz	e24052411fc4fbd1f672635537c3fc2330d9481b18c0317695b46259512c91d5	True

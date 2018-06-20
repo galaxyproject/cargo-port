@@ -71,6 +71,7 @@ Devel-StackTrace	2.00	src	all	https://github.com/bgruening/download_store/raw/ma
 Devel-StackTrace	2	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Devel-StackTrace-2.00.tar.gz	.tar.gz	1debe7273099a60e1386e0da5edbed7334db3cf3ed8e3b4106b087100b8ec5e4	True
 DiffBind	1.8.3	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/DiffBind_1.8.3.tar.gz	.tar.gz	dc561e796d00940f3ece3eeb1ace6894143ffad74660e5a9cc30853fa4ed1b1f	True
 Digest-Crc32	0.01	src	all	https://cpan.metacpan.org/authors/id/F/FA/FAYS/Digest-Crc32-0.01.tar.gz	.tar.gz	219b8a97164efc2b46985e9178234683d675c2eec2b90fa925844680144c12a1	True
+DMwR	0.4.1	src	all	https://cran.r-project.org/src/contrib/DMwR_0.4.1.tar.gz	.tar.gz	8ead6a21194e165d516196259c2d5f3b4d587b2e3dc6001023f5edf6139d3ee3	True
 DomClust	1.2.8a	src	all	http://mbgd.genome.ad.jp/domclust/domclust.tgz	.tar.gz	34b3724b05f42ec072c1e24a05a369e6c8a56ff51cd40a06002129fcd2b6a859	False
 DomClust	1.2.8	src	all	ftp://biftp.informatik.uni-freiburg.de/pub/DomClust_1.2.8_src_all.tar.gz	.tar.gz	ffe3dac8dee1ccd621556ed7e5818299ed167853dd4dcd9e42cde43eec4c40b2	False
 DomClust	1.2.7j	src	all	ftp://biftp.informatik.uni-freiburg.de/pub/domclust_v1.2.7j.tgz	.tar.gz	cbd0ed55eb722f01cfce11f02f77f23be9c702c647fbd6c88a48882f0b9558a2	False
@@ -445,6 +446,7 @@ cummeRbund	2.8.2	src	all	http://depot.galaxyproject.org/package/noarch/cummeRbun
 cutadapt	1.8	src	all	https://pypi.python.org/packages/source/c/cutadapt/cutadapt-1.8.tar.gz	.tar.gz	b72e55b36d319567ecc586b99db91cc8b3240e1e5fcd8237ad0e22d69ea317b8	True
 cython	0.20.1	src	all	https://pypi.python.org/packages/source/C/Cython/Cython-0.20.1.tar.gz	.tar.gz	31a563744a21d7b10355f25a3bca96b37ec5d32bdecfc75e93d65a5f7e62766c	True
 cython	0.23.1	src	all	https://pypi.python.org/packages/source/C/Cython/Cython-0.23.1.tar.gz	.tar.gz	bdfd12d6a2a2e34b9a1bbc1af5a772cabdeedc3851703d249a52dcda8378018a	True
+data.table	1.11.4	src	all	https://cran.r-project.org/src/contrib/data.table_1.11.4.tar.gz	.tar.gz	fdccf1dec3f38bb344163163decf3ffa0c0f8e2c70daa1bec8aac422716e81d5	True
 datamash	1.0.6	src	all	http://ftp.gnu.org/gnu/datamash/datamash-1.0.6.tar.gz	.tar.gz	0154c25c45b5506b6d618ca8e18d0ef093dac47946ac0df464fb21e77b504118	True
 deeptools	1.5.10	src	all	https://github.com/fidelram/deepTools/archive/1.5.10.tar.gz	.tar.gz	b5a1e3dd28f4c1365e67b7bcda435588315f1cb0303e12caab15054a30307336	True
 deeptools	1.5.11	src	all	https://github.com/fidelram/deepTools/archive/1.5.11.tar.gz	.tar.gz	20c885c2cdf68f5644d12a84d9fe48907b4f59ef5e4a88e579ec7a0e3f3ca339	True
@@ -549,6 +551,7 @@ gplots	2.12.1	src	all	https://github.com/bgruening/download_store/raw/master/Dif
 gplots	2.14.2	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/gplots_2.14.2.tar.gz	.tar.gz	8cb2ef4309f44eb049f0a8761d3b2aaf636e0ec2323942ec0c27fd8b4912abf9	True
 graph	1.44.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/graph_1.44.0.tar.gz	.tar.gz	beba1882b4bb29777ed87470313a377e42e2880f5498019d5f7f84677283f618	True
 grep	2.14	src	all	https://github.com/bgruening/download_store/raw/master/GNU/grep-2.14.tar.bz2	.tar.bz2	abff7acabf664fc7c25a29c9ae8b3b5b44a84e95a553810f275019e568f7c6e3	True
+grid	0.7-4	src	all	https://cran.r-project.org/src/contrib/Archive/grid/grid_0.7-4.tar.gz	.tar.gz	1bd572ee70654e5d20a6d721855460d233848fd0cd68733cef1bf68d14567215	True
 gridExtra	2.0.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/gridExtra_2.0.0.tar.gz	.tar.gz	27dc76f75eb08f99a4ab0f629a016250722368528ca6b515edb0b0339acbdea7	True
 gsl	1.16	src	all	http://ftp.u-tx.net/gnu/gsl/gsl-1.16.tar.gz	.tar.gz	73bc2f51b90d2a780e6d266d43e487b3dbd78945dd0b04b14ca5980fe28d2f53	True
 gtable	0.1.2	src	all	http://depot.galaxyproject.org/package/noarch/gtable_0.1.2.tar.gz	.tar.gz	b08ba8e62e0ce05e7a4c07ba3ffa67719161db62438b04f14343f8928d74304d	True

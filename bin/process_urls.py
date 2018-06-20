@@ -1,9 +1,16 @@
 #!/usr/bin/env python
-import os
-import sys
+from __future__ import print_function
+
 import json
-import subprocess
 import logging
+import os
+import subprocess
+import sys
+# Conditional import to ensure we can run without non-stdlib on py2k.
+if sys.version_info.major > 2:
+    from builtins import str
+    from builtins import zip
+    from builtins import object
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
 ALLOWED_PROTOCOLS = ('http://', 'https://', 'ftp://')
@@ -25,7 +32,7 @@ def yield_packages(handle, meta=False, retcode=None):
                 yield ld, lineno, line, retcode
             else:
                 yield ld
-        except Exception, e:
+        except Exception as e:
             log.error(str(e))
 
 
@@ -82,15 +89,16 @@ class XUnitReportBuilder(object):
 
 
 def verify_file(path, sha):
-    if len(sha) == 0:
-        log.warn("No hash was provided, but we will not treat this as an error since you clearly meant it to get through validation")
-        return None
+    # If no hash provided then this is a bioconda package.
+    if 0 == len(sha.strip()):
+        log.warning("Unvalidated file download (bioconda) %s", path)
+        return
     try:
         filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
         if filehash.lower() != sha.lower():
             excstr = "Bad hash, %s != %s in %s" % (filehash.lower(), sha.lower(), path)
             raise Exception(excstr)
-    except Exception, cpe:
+    except Exception as cpe:
         log.error("File has bad hash! Refusing to serve this to end users.")
         os.unlink(path)
         return str(cpe)
@@ -106,7 +114,7 @@ def download_url(url, output):
 
         args += [url, '-o', output]
         subprocess.check_call(args)
-    except subprocess.CalledProcessError, cpe:
+    except subprocess.CalledProcessError as cpe:
         log.error("File not found")
         return str(cpe)
 
@@ -116,7 +124,7 @@ def symlink_depot(url, output):
         args = ['ln', '-s', url, output]
         log.info(' '.join(args))
         log.info(subprocess.check_call(args))
-    except subprocess.CalledProcessError, cpe:
+    except subprocess.CalledProcessError as cpe:
         log.error("Unable to symlink")
         return str(cpe)
 
@@ -126,7 +134,7 @@ def cleanup_file(sha):
         os.unlink(sha)
         if os.path.exists(sha + '.sha256sum'):
             os.unlink(sha + '.sha256sum')
-    except Exception, e:
+    except Exception as e:
         log.error("Unable to remove files: %s", str(e))
 
 
@@ -188,8 +196,9 @@ def main(galaxy_package_file):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 
-        print json.dumps(api_data, indent=2)
+        print(json.dumps(api_data, indent=2))
     sys.exit(retcode)
+
 
 if __name__ == '__main__':
     main(sys.argv[1])

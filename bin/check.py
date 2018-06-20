@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 import sys
 import logging
 import click
@@ -24,7 +24,7 @@ def main(galaxy_package_file):
                         log.error("[%s] Empty %s", lineno, x)
                         retcode = 1
 
-                if ld['platform'] not in ('linux', 'windows', 'darwin', 'src'):
+                if ld['platform'] not in ('linux', 'windows', 'darwin', 'src', 'all'):
                     log.error("[%s] Unknown platform %s", lineno, ld['platform'])
                     retcode = 1
 
@@ -58,7 +58,7 @@ def main(galaxy_package_file):
                     retcode = 1
                 else:
                     identifiers.add(platform_id)
-            except Exception, e:
+            except Exception as e:
                 log.error("[%s] Line (probably) not tabbed properly: %s", lineno, e)
                 retcode = 1
         sys.exit(retcode)

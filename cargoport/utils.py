@@ -1,4 +1,9 @@
 #!/usr/bin/env python
+import sys
+# Conditional import to ensure we can run without non-stdlib on py2k.
+if sys.version_info.major > 2:
+    from builtins import str
+    from builtins import zip
 import subprocess
 import logging
 logging.basicConfig(level=logging.INFO)
@@ -24,7 +29,7 @@ def yield_packages(handle, meta=False, retcode=None):
                 yield ld, lineno, line, retcode
             else:
                 yield ld
-        except Exception, e:
+        except Exception as e:
             log.error(str(e))
 
 
@@ -50,7 +55,7 @@ def download_url(url, output):
         args += [url, '-o', output]
         subprocess.check_call(args)
         return None
-    except subprocess.CalledProcessError, cpe:
+    except subprocess.CalledProcessError as cpe:
         log.error("File not found")
         return str(cpe)
 
@@ -68,6 +73,6 @@ def verify_file(path, sha):
             raise Exception(excstr)
         log.info("Verified, %s == %s", filehash.lower(), sha.lower())
         return None
-    except Exception, cpe:
+    except Exception as cpe:
         log.error("File has bad hash! %s", cpe)
         return str(cpe)

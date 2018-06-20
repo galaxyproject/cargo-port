@@ -17,7 +17,7 @@ allowing them to rely on URLs being permanently available.
 
 ## Contributing
 
-Please make PRs adding new lines to the `urls.tsv` file with your package, the
+Please make pull requests (PRs) adding new lines to the `urls.tsv` file with your package, the
 expected sha256sum, and optionally a comment. If you don't need to make
 sweeping changes to `urls.tsv` honestly your best choice for editing it is
 probably going to be a spreadsheet tool like libreoffice. If you do need to
@@ -48,7 +48,7 @@ Column | Name          | Meaning
 5      | Upstream URL  | Upstream's URL for the download. This only necessarily exist before the Community Package Cacher downloads is the first time. After that the URL may disappear and we will retain our copy
 6      | Extension     | File extension, used in downloads/nicer access for end-users
 7      | sha256sum     | sha256sum of the correct file.
-8      | Use upstream  | A boolean True or False on whether we should request upstream first, or use depot's download. Useful is upstream has requested that we stop making so many downloads to their old releases.
+8      | Use upstream  | A boolean True or False on whether we should request upstream first, or use depot's download. Useful if upstream has requested that we stop making so many downloads to their old releases, or if the upstream URL is no longer available.
 
 ## Using TCP
 

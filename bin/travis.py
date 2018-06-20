@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import print_function
 import sys
 import logging
 from cargoport.utils import yield_packages, download_url, package_to_path, verify_file
@@ -12,7 +13,7 @@ def main():
         # For piped in diff, header can appear as +# Id ...
         if package['id'].startswith("+#"):
             continue
-        print package
+        print(package)
         # Remove the '+' at the beginning
         package['id'] = package['id'][1:]
 

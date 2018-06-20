@@ -6,4 +6,4 @@ git remote add origin2 $GIT_REMOTE
 # Fetch from it
 git fetch --quiet origin2
 # And diff against that
-git diff origin2/master urls.tsv | grep -v '^+++' | grep '^+' | galaxy-cachefile-external-validator
+git diff origin2/master urls.tsv | grep -v '^+++' | grep '^+' | bin/galaxy-cachefile-external-validator

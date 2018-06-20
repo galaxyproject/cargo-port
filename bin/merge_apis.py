@@ -1,5 +1,8 @@
 #!/usr/bin/env python
 import sys
+# Conditional import to ensure we can run without non-stdlib on py2k.
+if sys.version_info.major > 2:
+    from builtins import zip
 import json
 import logging
 logging.basicConfig(level=logging.INFO)

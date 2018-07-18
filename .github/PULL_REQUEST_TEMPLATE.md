@@ -1,2 +1,2 @@
-- [ ] This software or dataset's license allows us to distribute it. (We need you to link to license here)
+- [ ] This software or dataset's license allows us to distribute it. (Insert link to link to license here)
 - [ ] This software or dataset is related to the biological sciences, galaxy, or similar areas.

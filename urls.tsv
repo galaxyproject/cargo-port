@@ -817,6 +817,7 @@ rcpp	0.9.15	src	all	https://github.com/bgruening/download_store/raw/master/gatk2
 rcpp	0.9.9	src	all	https://github.com/bgruening/download_store/raw/master/gatk2_R_deps/rcpp_0.9.9.tar.gz	.tar.gz	3ba2016a69fa7c5ffe01e0a513605b80d212a680b949f51d106bb09cfc170a95	True
 rdkit	2012.12	src	all	http://downloads.sourceforge.net/project/rdkit/rdkit/Q4_2012/RDKit_2012_12_1.tgz	.tar.gz	8393fbab30890a94cdcd976d66f4f0ee99679915e85f5f3c26338d2dd506e009	True
 rdkit	2013.03	src	all	http://rdkit.googlecode.com/files/RDKit_2013_03_2.tgz	.tar.gz	72264d5955c7c8d683a93cccdf56b8d2993ef54caf3f81b1c8cd1563fb582abd	True
+readfq	2015.08.30	src	all	https://github.com/billzt/readfq/archive/a25bfa9a686dc5912f32ca66638f6781c5d94540.zip	.zip	8c60804947c16e425c6febe76a3cadb05b10bd4ce984e1734cf724ea1aad03e8	True
 readline	6.2	src	all	ftp://ftp.gnu.org/gnu/readline/readline-6.2.tar.gz	.tar.gz	79a696070a058c233c72dd6ac697021cc64abd5ed51e59db867d66d196a89381	True
 readline	6.3	src	all	ftp://ftp.gnu.org/gnu/readline/readline-6.3.tar.gz	.tar.gz	56ba6071b9462f980c5a72ab0023893b65ba6debb4eeb475d7a563dc65cafd43	True
 repeatoire	1.0.0	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-repeatoire-trunk.zip	.zip	112e1e326cfc7ecd932c2f82fe8a59b08299fc478fda6de6a5f8ec236a5c9018	True

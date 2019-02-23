@@ -413,7 +413,9 @@ cairo	1.12.14	src	all	http://depot.galaxyproject.org/package/source/cairo/cairo-
 cairo	1.14.2	src	all	https://github.com/bgruening/download_store/raw/master/cairo/cairo-1.14.2.tar.bz2	.tar.bz2	0772ce92cabbcc18d4c699430d7eb89e56d5c0659de64e92cb88ec1496e8e18e	True
 car	2.0-19	src	all	https://github.com/bgruening/download_store/raw/master/r_statistic_tools/car_2.0-19.tar.gz	.tar.gz	8c411a21210b18bae4e6559fa6c461ab12f29cb82112bd18129e2d9fce47735b	True
 ccat	3.0	src	all	http://cmb.gis.a-star.edu.sg/ChIPSeq/tools/CCAT3.0.tar.gz	.tar.gz	d8944465c8327bec22eb41059ba73f780fcdcedf4470507bfdae5a54c59a9b07	True
+cfm	r33	src	all	https://sourceforge.net/code-snapshots/svn/c/cf/cfm-id/code/cfm-id-code-r33-cfm.zip	.zip	6518e70d2acf995d95d610312b234b5a69ee13ba0eed4836235ce32d73e32e35	False
 cfm-id	2.4	src	all	https://www.dropbox.com/s/1mc3ar3hsieqfvy/cfm_id_2.4.tar.gz	.tar.gz	12ab643ad3fcabf4bb36ba5edaf484d3f6b233114298579fdc9a736995a88bd7	False
+cfm-train-example	r33	src	all	https://sourceforge.net/code-snapshots/svn/c/cf/cfm-id/code/cfm-id-code-r33-supplementary_material-cfm-train_example-train_example.zip	.zip	248f4b67b29690779e6aaee0a3dbe73d90945a88fe7cdb0cc93f9b65be09ef2d	False
 cgatools	1.6.0.43	darwin	x64	http://depot.galaxyproject.org/package/sourceforge/cgatools-1.6.0.43-MacOSX_binary-x86_64.tar.gz	.tar.gz	9f4ea0351351da89952738bb4bdd2bcfc501bd377d4cc543b971675c7bed50d2	True
 cgatools	1.7.1.5	linux	x64	http://depot.galaxyproject.org/package/sourceforge/cgatools-1.7.1.5-linux_binary-x86_64.tar.gz	.tar.gz	2f5be17f94cb8222afced860ae92b42f8392c9adc142deea273f1e7d62cc9bc5	True
 cgview	1.0	src	all	http://wishart.biology.ualberta.ca/cgview/application/cgview.zip	.zip	fc5a2a2fd75b2b419da18d2ff88d6f75053102fb8d8e0fbab1b7ce740ebcf4d6	True
@@ -1006,4 +1008,3 @@ metaphlan2	2.6.0	src	all	https://framadrive.org/s/HVGlw5S6n2Wjdgy/download	.tar.
 ngsplotdb-hg19	3.00	src	all	https://drive.google.com/uc?export=download&id=0B5hDZ2BucCI6SURYWW5XdUxnbW8	.tar.gz	a3ad6daceec383f88faf3d3ee899f2bef37b3be2658ee9afa01e86404c0c92bd	False
 ngsplotdb-hg38	3.00	src	all	https://drive.google.com/uc?export=download&id=0B5hDZ2BucCI6S3E4dVprdlF2YW8	.tar.gz	9ea25efb76920419ef036ea4207521d76edc4b2716597360c8bae38ddf4b8c15	False
 ngsplotdb-mm10	3.00	src	all	https://drive.google.com/uc?export=download&id=0B5hDZ2BucCI6NXNzNjZveXdadU0	.tar.gz	19b5165215433ba2d813e0407653fcf29401d073e65f1373359b4c12cce9058a	False
-cfm	r33	src	all	https://sourceforge.net/code-snapshots/svn/c/cf/cfm-id/code/cfm-id-code-r33-cfm.zip	.zip	6518e70d2acf995d95d610312b234b5a69ee13ba0eed4836235ce32d73e32e35	False

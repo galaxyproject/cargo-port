@@ -75,10 +75,6 @@ galaxy-package-locator --package_id samtools --package_version "1.2"
 The cargo port is available via rsync from [rsync://depot.galaxyproject.org/software](rsync://depot.galaxyproject.org/software
 )
 
-Here are some available mirrors for the cargoport:
-
-- https://cpt.tamu.edu/cargoport/ [![Build Status](https://cpt.tamu.edu/jenkins/buildStatus/icon?job=cargoport-backup)](https://cpt.tamu.edu/jenkins/job/cargoport-backup/)
-
 If you are willing to mirror the cargo port, please go ahead and do so, and pull request this file with your URL.
 
 

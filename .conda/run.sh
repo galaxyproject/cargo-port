@@ -1,8 +1,9 @@
 #!/bin/bash
 set -ex
-CONDA_INSTALLATION_PATH=/tmp/anaconda
-export CONDA_INSTALLATION_PATH
+
+export CONDA_INSTALLATION_PATH=/tmp/anaconda
 export PATH=$CONDA_INSTALLATION_PATH/bin:$PATH
+export CONDA_VERSION_TO_INSTALL=Miniconda2-4.2.12
 
 ./.conda/install.sh
 ./.conda/get_meta.sh | sort -u > meta_files.list

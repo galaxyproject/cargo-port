@@ -53,6 +53,8 @@ Capture-Tiny	0.3	src	all	https://github.com/bgruening/download_store/raw/master/
 Carp	1.36	src	all	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/Carp-1.36.tar.gz	.tar.gz	dcc789935126461c80df0653f98c1d8d0b936dcc3d04174287cb02767eca123c	True
 Class-Data-Inheritable	0.08	src	all	https://github.com/bgruening/download_store/raw/master/jbrowse/Class-Data-Inheritable-0.08.tar.gz	.tar.gz	9967feceea15227e442ec818723163eb6d73b8947e31f16ab806f6e2391af14a	True
 Clone	0.38	src	all	https://cpan.metacpan.org/authors/id/G/GA/GARU/Clone-0.38.tar.gz	.tar.gz	9fb0534bb7ef6ca1f6cc1dc3f29750d6d424394d14c40efdc77832fad3cebde8	True
+Colombo	3.8	linux	all	https://github.com/brinkmanlab/colombo/releases/download/v3.8/Colombo.zip	.zip	302b1060077578490f44007a1426609e7a2da9351ccb9eeb61880f97583d55a9	False
+Colombo	4.0	linux	all	https://github.com/brinkmanlab/colombo/releases/download/v4.0/Colombo.zip	.zip	0f3e2ecb62897b7ea38e77f8b5c5cfab562f3af8f49ce5cf30172b8844b278fe	False
 CrossMap	0.1.8	src	all	http://depot.galaxyproject.org/package/sourceforge/CrossMap-0.1.8.tar.gz	.tar.gz	c4586d8ac2b2cc3910eea07b6f65b5d62d335b741ad91afb63f14cde22b3706f	True
 DBI	0.2-7	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/DBI_0.2-7.tar.gz	.tar.gz	e90a988740f99060d5c4aacb1f2b148b0eb81c5b468bafeadf3aaeccf563b5e3	True
 DBI	0.3.1	src	all	http://depot.galaxyproject.org/package/noarch/DBI_0.3.1.tar.gz	.tar.gz	1c26535720f146fae8cc9ef6e190619967abf296706a5b5a1e8242cbbb5a4576	True

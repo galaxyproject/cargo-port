@@ -670,6 +670,7 @@ matrixStats	0.12.2	src	all	http://depot.galaxyproject.org/package/noarch/matrixS
 matrixStats	0.14.0	src	all	https://github.com/bgruening/download_store/raw/master/monocle/matrixStats_0.14.0.tar.gz	.tar.gz	3ada7006d13f72462dd0d93ba30f7336d254a477663abbf5a0cb30d20c1c95be	True
 mauve	2.4.0	linux	all	http://darlinglab.org/mauve/downloads/mauve_linux_2.4.0.tar.gz	.tar.gz	66ba3c359b6534ca8498dab079b5e582acfece036067478a289fe363a74fd27b	True
 mauve	2.4.0	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-mauve-trunk.zip	.zip	98aa1c7bfeef0dac68f7cedbee81dae424192c5cd7a22960d63efe6e943645aa	True
+mauve 2.4.0-snapshot_2015_02_13 linux all http://darlinglab.org/mauve/snapshots/2015/2015-02-13/linux-x64/mauve_linux_snapshot_2015-02-13.tar.gz .tar.gz d85212937e4cb89405950c0a0dca16192db4e5d4ec654e2c44bb3cd40eca7076 True
 mauveAligner	1.2.0	src	all	https://sourceforge.net/code-snapshots/svn/m/ma/mauve/code/mauve-code-r4736-mauveAligner-trunk.zip	.zip	0d0cf5dd560cf062d4bfb01b121b38865f3a7fae6312d4169eb696add82cefc7	True
 mcl	12.135	src	all	http://micans.org/mcl/src/mcl-12-135.tar.gz	.tar.gz	3f5e0e7ad1074c7c4ef0139aa3318f92971fede7292dc3571eca2fd1da20a283	True
 meme	4.10.0.4	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/meme/meme-4.10.0_4-Darwin-x86_64.tgz	.tar.gz	1828367166f8c00182bda05e310ef2b7f562e74e2d589f5f4c92caf556546057	True

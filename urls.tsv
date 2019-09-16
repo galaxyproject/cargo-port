@@ -56,6 +56,8 @@ Clone	0.38	src	all	https://cpan.metacpan.org/authors/id/G/GA/GARU/Clone-0.38.tar
 Colombo	3.8	linux	all	https://github.com/brinkmanlab/colombo/releases/download/v3.8/Colombo.zip	.zip	302b1060077578490f44007a1426609e7a2da9351ccb9eeb61880f97583d55a9	False
 Colombo	4.0	linux	all	https://github.com/brinkmanlab/colombo/releases/download/v4.0/Colombo.zip	.zip	0f3e2ecb62897b7ea38e77f8b5c5cfab562f3af8f49ce5cf30172b8844b278fe	False
 CrossMap	0.1.8	src	all	http://depot.galaxyproject.org/package/sourceforge/CrossMap-0.1.8.tar.gz	.tar.gz	c4586d8ac2b2cc3910eea07b6f65b5d62d335b741ad91afb63f14cde22b3706f	True
+sirius-csifingerid	4.0.1-9	linux	x64	https://bio.informatik.uni-jena.de/repository/dist-release-local/de/unijena/bioinf/ms/sirius/4.0.1/sirius-4.0.1-linux64.zip	.zip	d1e7ca15e6c8050dada78fb183bea341507a7e8ab9e1e7cecfaadee088e98c10	True
+sirius-csifingerid	4.0.1-9	darwin	x64	https://bio.informatik.uni-jena.de/repository/dist-release-local/de/unijena/bioinf/ms/sirius/4.0.1/sirius-4.0.1-osx64.zip	.zip	ee0629fa9578c7f34f490b784aeb96cda879f5bbb6d64ee32718cae540a1bced	True
 DBI	0.2-7	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/DBI_0.2-7.tar.gz	.tar.gz	e90a988740f99060d5c4aacb1f2b148b0eb81c5b468bafeadf3aaeccf563b5e3	True
 DBI	0.3.1	src	all	http://depot.galaxyproject.org/package/noarch/DBI_0.3.1.tar.gz	.tar.gz	1c26535720f146fae8cc9ef6e190619967abf296706a5b5a1e8242cbbb5a4576	True
 DESeq2	1.0.18	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/DESeq2_1.0.18.tar.gz	.tar.gz	ea44ee3f6ea47024efe47ab42a55afe37e0d35172ce6c71e78256b2c5bf5ba58	True

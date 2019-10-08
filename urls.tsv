@@ -529,6 +529,7 @@ genefilter	1.50.0	src	all	https://github.com/bgruening/download_store/raw/master
 geneplotter	1.44.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/geneplotter_1.44.0.tar.gz	.tar.gz	b6f6813dd4c79b0cf0cbf60d72e22909f403986fb6a09d855c3c72a585595a8d	True
 geneplotter	1.46.0+gx0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/geneplotter_1.46.0.tar.gz	.tar.gz	ba930931a39ffbe5aa243b0886844921afdf7028ab904fd50aa4edcb63e1d257	True
 geneplotter	1.46.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.2/geneplotter_1.46.0.tar.gz	.tar.gz	04a6bfdf1a9591261d24a74620912ed923d9e5e0d1911d4a6260df442196eb6c	True
+molgen_manual	1.0.1.5	src	all	https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.212.9041&rep=rep1&type=pdf	.pdf	7492859255aa79383951f8094cce5c45b3fd490a4049a5397b0d178325840bdc	False
 genform	r8	src	all	https://sourceforge.net/code-snapshots/svn/g/ge/genform/code/genform-code-r8-trunk.zip	.zip	d9199aa9c13c6aa68025b15e4d30a4e445a265ce828b3314103307dc7b6c13b5	False
 gengetopt	2.22.6	src	all	ftp://ftp.gnu.org/gnu/gengetopt/gengetopt-2.22.6.tar.gz	.tar.gz	30b05a88604d71ef2a42a2ef26cd26df242b41f5b011ad03083143a31d9b01f7	True
 genometools	1.5.7	src	all	http://genometools.org/pub/genometools-1.5.7.tar.gz	.tar.gz	b84a2eab9e7b8fb3e7acb5a1b9df40e8d07394d18357b4bb85c5a9004f3339e5	True

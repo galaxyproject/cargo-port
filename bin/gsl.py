@@ -1,13 +1,15 @@
 #!/usr/bin/env python
+
 from future import standard_library
 standard_library.install_aliases()
 from builtins import str
-import urllib.request, urllib.parse, urllib.error
-import urllib.request, urllib.error, urllib.parse
 import click
-import os
 import hashlib
+from io import StringIO
 import logging
+import os
+import urllib.request, urllib.parse, urllib.error
+
 from cargoport.utils import yield_packages, package_name, PACKAGE_SERVER, get_url
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
@@ -27,7 +29,8 @@ def get(package_id, package_version, urls, download_location):
 
     handle = None
     if '://' in urls:
-        handle = urllib.request.urlopen(urls)
+        with urllib.request.urlopen(urls) as uf:
+            handle = StringIO(uf.read())
     elif os.path.exists(urls):
         handle = open(urls, 'r')
     else:

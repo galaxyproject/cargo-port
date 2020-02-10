@@ -520,6 +520,7 @@ gb_taxonomy	8d245994d7	src	all	https://github.com/spond/gb_taxonomy_tools/archiv
 gdata	2.13.2	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/gdata_2.13.2.tar.gz	.tar.gz	176700fa1c23d6f734a683061f31b0bfa863e2b8bbdaadb8c43076a28e2810a4	True
 gdata	2.13.3	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_6_1/gdata_2.13.3.tar.gz	.tar.gz	554c973955a5d768359f56556effff6a7acd9e859d98ab13fa010df01fa16516	True
 gdbm	1.11	src	all	ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.11.tar.gz	.tar.gz	8d912f44f05d0b15a4a5d96a76f852e905d051bb88022fcdfd98b43be093e3c3	True
+gem-library	pre-release3	linux	x64	https://sourceforge.net/projects/gemlibrary/files/gem-library/Binary%20pre-release%203/GEM-binaries-Linux-x86_64-core_i3-20130406-045632.tbz2/download	tbz2	d1dee31fa79f7ede907f582a3b6507bb2bc87938fbe4c556187f4d0fb082d225	False
 gemini-install	0.1	src	all	https://raw.githubusercontent.com/arq5x/gemini/746dc004622b1f0b43f5245a7f25f92723fea527/gemini/scripts/gemini_install.py	.py	0e9a482c3f2b12a055fb73191b4d99c1e43a210471d16e539d85695b83ff3fc5	True
 genefilter	1.42.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/genefilter_1.42.0.tar.gz	.tar.gz	2e4ff4ba02e85796bb0bc6546d429e367801c625aeae9c3f21b67b18aa6d023e	True
 genefilter	1.44.0	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_2_10/genefilter_1.44.0.tar.gz	.tar.gz	09cc9121e1905adb7b44365288e1b972dbf1b78345886b6305e4de2ded41c48b	True

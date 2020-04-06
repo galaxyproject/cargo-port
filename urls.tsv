@@ -664,6 +664,7 @@ lncPro	0.0	src	all	https://github.com/bgruening/download_store/raw/master/lncPro
 locfit	1.5-9.1	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_0_18/locfit_1.5-9.1.tar.gz	.tar.gz	f524148fdb29aac3a178618f88718d3d4ac91283014091aa11a01f1c70cd4e51	True
 lockfile	0.10.2	src	all	https://github.com/bgruening/download_store/raw/master/qiime/lockfile-0.10.2.tar.gz	.tar.gz	04440b3f1e34f525080f228689fc9c4cd5e630e9c5fb364d8cbeb2394f38cc8d	True
 luciphor2	2018-06-28	all	all	https://downloads.sourceforge.net/project/luciphor2/luciphor2.jar	.jar	79adf33ff629ce80f0010ead773e2cd5e855304d0685625f4921a4ba72990435	False
+luciphor2.1	2020-04-03	all	all	https://downloads.sourceforge.net/project/luciphor2/luciphor2_1.jar	.jar	c4aa1f6bcfe08c2d6d6a0eaa6f7d945f7b57cfb4b713a98c7501deb4c8578405	False
 mafft	7.221+ext	src	all	https://github.com/bgruening/download_store/raw/master/MAFFT/mafft-7.221-with-extensions-src.tgz	.tar.gz	0bc78111966d9b00ddfa14fa217fa5bb0c593a558674a13f02dca7bcd51f7fcf	True
 magrittr	1.5	src	all	https://github.com/bgruening/download_store/raw/master/DESeq2-1_8_1/magrittr_1.5.tar.gz	.tar.gz	05c45943ada9443134caa0ab24db4a962b629f00b755ccf039a2a2a7b2c92ae8	True
 matplotlib	1.2.1	src	all	http://depot.galaxyproject.org/package/sourceforge/matplotlib-1.2.1.tar.gz	.tar.gz	52e18972aed85f30b05cef41778ec77685df6012f0598cd216e996de9b9ea29b	True

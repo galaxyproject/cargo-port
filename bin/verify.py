@@ -48,7 +48,7 @@ def main(galaxy_package_file, dryrun=False):
                 cleanup_file(output_package_path)
                 xunit.failure(nice_name, "EmptyFile", "%s was found to be empty" % output_package_path)
 
-            err = verify_file(output_package_path, ld['sha'].strip(), dryrun=dryrun)
+            err = verify_file(output_package_path, ld['sha256sum'].strip(), dryrun=dryrun)
             if err is not None:
                 xunit.failure(nice_name, "ValidationError", err)
 

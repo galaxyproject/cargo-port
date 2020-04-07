@@ -23,11 +23,11 @@ bash .conda/run.sh
 rsync -avr urls-bioconda.tsv $CPC_HOST:$CPC_DIR/urls-bioconda.tsv
 
 # Process URLs and copy back report
-ssh $CPC_HOST "cd $CPC_DIR && python bin/process_urls.py urls-bioconda.tsv > api-bioconda.json"
+ssh $CPC_HOST "cd $CPC_DIR && PYTHONPATH=. python bin/process_urls.py urls-bioconda.tsv > api-bioconda.json"
 rsync $CPC_HOST:$CPC_DIR/report.xml report-bioconda.xml
 
 # Merge the APIs on the remote end. Allows us to see both TCP + bioconda packages together.
-ssh $CPC_HOST "cd $CPC_DIR && python bin/merge_apis.py api-tcp.json tcp api-bioconda.json bioconda > api.json"
+ssh $CPC_HOST "cd $CPC_DIR && PYTHONPATH=. python bin/merge_apis.py api-tcp.json tcp api-bioconda.json bioconda > api.json"
 
 # Lastly, do a dry-run verification
 ssh $CPC_HOST "cd $CPC_DIR && python bin/verify.py urls.tsv dryrun"

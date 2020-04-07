@@ -30,7 +30,7 @@ rsync $CPC_HOST:$CPC_DIR/report.xml report-bioconda.xml
 ssh $CPC_HOST "cd $CPC_DIR && PYTHONPATH=. python bin/merge_apis.py api-tcp.json tcp api-bioconda.json bioconda > api.json"
 
 # Lastly, do a dry-run verification
-ssh $CPC_HOST "cd $CPC_DIR && python bin/verify.py urls.tsv dryrun"
+ssh $CPC_HOST "cd $CPC_DIR && PYTHONPATH=. python bin/verify.py urls.tsv dryrun"
 rsync $CPC_HOST:$CPC_DIR/report.xml report-tcp-verify.xml
 #ssh $CPC_HOST "cd $CPC_DIR && python bin/verify.py urls-bioconda.tsv dryrun"
 #rsync $CPC_HOST:$CPC_DIR/report.xml report-bio-verify.xml

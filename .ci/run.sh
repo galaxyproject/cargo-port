@@ -14,7 +14,7 @@ rsync -avr --exclude bioconda-recipes --exclude .git . $CPC_HOST:$CPC_DIR/
 ssh $CPC_HOST "cd $CPC_DIR && sh upgrade.sh"
 
 # Process URLs and copy back report
-ssh $CPC_HOST "cd $CPC_DIR && python bin/process_urls.py urls.tsv > api-tcp.json"
+ssh $CPC_HOST "cd $CPC_DIR && PYTHONPATH=. python bin/process_urls.py urls.tsv > api-tcp.json"
 rsync $CPC_HOST:$CPC_DIR/report.xml report-tcp.xml
 
 # Run conda

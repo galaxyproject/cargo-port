@@ -13,6 +13,7 @@ if sys.version_info.major > 2:
     from builtins import object
 
 from cargoport.utils import (download_url, 
+    package_hash_type,
     package_to_path, 
     symlink_depot, 
     verify_file, 
@@ -76,11 +77,15 @@ def main(galaxy_package_file):
                     continue
 
                 # Check sha256sum of download
-                err = verify_file(output_package_path, ld['sha256sum'].strip())
-                if err is not None:
-                    xunit.error(nice_name, "Sha256sumError", err)
-                    cleanup_file(output_package_path)
-                    continue
+                hash_type, hash_value = package_hash_type(ld)
+                if hash_type is not None:
+                    err = verify_file(output_package_path, hash_value, hash_type=hash_type)
+                    if err is not None:
+                        xunit.error(nice_name, "Sha256sumError", err)
+                        cleanup_file(output_package_path)
+                        continue
+                else:
+                    log.warning("No hash provided for package %s", nice_name)
 
                 xunit.ok(nice_name)
 

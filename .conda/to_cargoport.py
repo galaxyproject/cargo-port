@@ -2,6 +2,9 @@
 import sys
 import yaml
 
+DEFAULT_HASH_TYPE = 'sha256'
+HASH_TYPE_ORDER = ('sha256', 'md5')
+
 
 def pickOne(url):
     # Pick one
@@ -41,6 +44,14 @@ for element in sorted(yaml.load(sys.stdin), key=lambda el: el['name']):
     elif platform == 'linux-64':
         platform = 'linux'
 
+    hash_value = ''
+    for hash_type in HASH_TYPE_ORDER:
+        if element.get(hash_type):
+            if hash_type == DEFAULT_HASH_TYPE:
+                hash_value = element[hash_type]
+            else:
+                hash_value = '%ssum:%s' % (hash_type, element[hash_type])
+
     print '\t'.join([
         element['name'],
         element['version'],
@@ -48,6 +59,6 @@ for element in sorted(yaml.load(sys.stdin), key=lambda el: el['name']):
         arch,
         pickOne(element['url']),
         extDetect(element['url']),
-        "",
+        hash_value,
         "True"
     ])

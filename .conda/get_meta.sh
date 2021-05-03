@@ -11,6 +11,17 @@ else
     cd bioconda-recipes
 fi
 
+# Set $RECIPE to only get meta for a specific recipe, useful for testing/development.
+if [ -n "$RECIPE" ]; then
+    meta="recipes/${RECIPE}/meta.yaml"
+    if [ -f "$meta" ]; then
+        echo "$meta"
+        exit 0
+    fi
+    echo "ERROR: no meta.yaml for ${RECIPE}" >&2
+    exit 1
+fi
+
 # We are not running regularly enough to do this.
 # Were we running this more regularly it (will?) make sense.
 #git log --name-only --pretty="" --since="2 months ago" | grep -E '^recipes/.*/meta.yaml'

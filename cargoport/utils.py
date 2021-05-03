@@ -9,8 +9,13 @@ import logging
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
 
+# For backwards compatibility the hash field defaults to sha256 but can be other hash algorithms if prefixed to the hash
+# value and separated by a colon.
 HEADER_KEYS = ['id', 'version', 'platform', 'arch', 'url', 'ext', 'sha256sum', 'upstream_first']
 PACKAGE_SERVER = 'https://depot.galaxyproject.org/software/'
+DEFAULT_HASH_TYPE = 'sha256sum'
+# for convenience these also match the command line program names that will be used to compute hashes
+HASH_TYPE_ORDER = ('sha256sum', 'md5sum')
 
 
 class XUnitReportBuilder(object):
@@ -65,6 +70,17 @@ class XUnitReportBuilder(object):
         return self.XUNIT_TPL.format(**self.xunit_data)
 
 
+def fix_package_hash_type(ld):
+    hash_type = DEFAULT_HASH_TYPE
+    if ':' in ld[DEFAULT_HASH_TYPE]:
+        hash_type, hash_value = ld[DEFAULT_HASH_TYPE].split(':')
+        if hash_type != DEFAULT_HASH_TYPE:
+            ld[DEFAULT_HASH_TYPE] = None
+        ld[hash_type] = hash_value
+    elif ld[DEFAULT_HASH_TYPE] == '':
+        ld[DEFAULT_HASH_TYPE] = None
+
+
 def yield_packages(handle, meta=False, retcode=None):
     for lineno, line in enumerate(handle):
         if line.startswith('#'):
@@ -76,6 +92,7 @@ def yield_packages(handle, meta=False, retcode=None):
                 retcode = 1
 
             ld = {k: v for (k, v) in zip(HEADER_KEYS, data)}
+            fix_package_hash_type(ld)
 
             if meta:
                 yield ld, lineno, line, retcode
@@ -87,6 +104,13 @@ def yield_packages(handle, meta=False, retcode=None):
 
 def package_name(ld):
     return '_'.join(ld[key] for key in HEADER_KEYS[0:4]) + ld['ext']
+
+
+def package_hash_type(ld):
+    for hash_type in HASH_TYPE_ORDER:
+        if hash_type in ld and ld[hash_type] is not None:
+            return hash_type, ld[hash_type].strip()
+    return None, None
 
 
 def depot_url(ld):
@@ -125,14 +149,15 @@ def symlink_depot(url, output):
         log.error("Unable to symlink")
 
 
-def verify_file(path, sha):
+def verify_file(path, hash_value, hash_type=DEFAULT_HASH_TYPE):
     try:
-        filehash = subprocess.check_output(['sha256sum', path])[0:64].strip()
+        # We assume the first column is the hash
+        filehash = subprocess.check_output([hash_type, path]).split()[0]
         log.info("File hash %s", filehash.lower())
-        if filehash.lower() != sha.lower():
-            excstr = "%s != %s in %s" % (filehash.lower(), sha.lower(), path)
+        if filehash.lower() != hash_value.lower():
+            excstr = "%s != %s in %s" % (filehash.lower(), hash_value.lower(), path)
             raise Exception(excstr)
-        log.info("Verified, %s == %s", filehash.lower(), sha.lower())
+        log.info("Verified, %s == %s", filehash.lower(), hash_value.lower())
         return None
     except Exception as cpe:
         log.error("File has bad hash! %s", cpe)

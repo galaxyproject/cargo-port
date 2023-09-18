@@ -1012,8 +1012,8 @@ zlibbioc	1.12.0	src	all	http://bioarchive.galaxyproject.org/zlibbioc_1.12.0.tar.
 zlibbioc	1.14.0	src	all	https://github.com/bgruening/download_store/raw/master/DEXSeq_1.14.1/zlibbioc_1.14.0.tar.gz	.tar.gz	213cec750b14254df25e160463e28f3857ba703df1f3f43f7082dece8cfbf08b	True
 zlibbioc	1.8.0	src	all	https://github.com/bgruening/download_store/raw/master/DiffBind-1_8_3/zlibbioc_1.8.0.tar.gz	.tar.gz	bd32f4f110f9e030bdf7110f29356c1d632dfd0f160e33364e5668ab3c2cbd47	True
 fold-grammars	0.1	src	all	https://raw.githubusercontent.com/bgruening/download_store/master/fold-grammar/fold-grammars.tar.gz	.tar.gz	47c04f7c03ca34b311a75b23b27339ce4629ae3ca13663ac2cfe6b65fa68b835	True
+maxquant	2.4.2.0	src	all	https://drive.google.com/file/d/1LI9QdjYt5w6M2EVSPsF2i7OwiQsJZoEp/view?usp=drive_link	.zip	03d8acc28ff8d71772d72d3da493e508553bd30f52f09c979bb9fcdb090e7799	False
 metaphlan2	2.6.0	src	all	https://framadrive.org/s/HVGlw5S6n2Wjdgy/download	.tar.gz	737a50297aa8d3d0d2276a4296b3453f75140f732de949d8a46ddc379b881dc6	False
 ngsplotdb-hg19	3.00	src	all	https://drive.google.com/uc?export=download&id=0B5hDZ2BucCI6SURYWW5XdUxnbW8	.tar.gz	a3ad6daceec383f88faf3d3ee899f2bef37b3be2658ee9afa01e86404c0c92bd	False
 ngsplotdb-hg38	3.00	src	all	https://drive.google.com/uc?export=download&id=0B5hDZ2BucCI6S3E4dVprdlF2YW8	.tar.gz	9ea25efb76920419ef036ea4207521d76edc4b2716597360c8bae38ddf4b8c15	False
 ngsplotdb-mm10	3.00	src	all	https://drive.google.com/uc?export=download&id=0B5hDZ2BucCI6NXNzNjZveXdadU0	.tar.gz	19b5165215433ba2d813e0407653fcf29401d073e65f1373359b4c12cce9058a	False
-maxquant	2.4.2.0	src	all	https://drive.google.com/file/d/1LI9QdjYt5w6M2EVSPsF2i7OwiQsJZoEp/view?usp=drive_link	.zip	03d8acc28ff8d71772d72d3da493e508553bd30f52f09c979bb9fcdb090e7799	False

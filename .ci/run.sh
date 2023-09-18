@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-CPC_HOST=depot@rochefort.galaxyproject.org
+CPC_HOST=depot@depot.galaxyproject.org
 CPC_DIR=/srv/nginx/depot.galaxyproject.org/root/software
 rm -f report*.xml
 

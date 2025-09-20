@@ -915,11 +915,14 @@ snpEff	3.5.core	src	all	http://depot.galaxyproject.org/package/sourceforge/snpEf
 snpEff	3.6.core	src	all	http://depot.galaxyproject.org/package/sourceforge/snpEff_v3_6_core.zip	.zip	56acd33a7dd201381022c2ecbac07fe367e8d297acf8c5833df1e2e5facf27c2	True
 snpEff	4.0.core	src	all	http://depot.galaxyproject.org/package/sourceforge/snpEff_v4_0_core.zip	.zip	e5c4c555b9ba5546ae885d2645b070ae81a1e30f3de96d298837ec40c45a9ffc	True
 snpEff	4.1.core	src	all	http://depot.galaxyproject.org/package/sourceforge/snpEff_v4_1_core.zip	.zip	6b8a71863ff8a7121e1a1c619673bf17f559300a3001ff59345c4ba694914fee	True
-snpEff_latest_core	latest	src	all	http://depot.galaxyproject.org/package/sourceforge/snpEff_latest_core.zip	.zip	c8528928f5f206d5bb6003f0ef12e50c40d84cd69d3c2dff21df9f93704e2ca0	True
 snpeff	3.4	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v3_4_core.zip	.zip	57769d7cc21e2c93891de7250a09e9715383d392e5cffb6e55359148bb8c9b0c	True
 snpeff	3.6	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v3_6_core.zip	.zip	56acd33a7dd201381022c2ecbac07fe367e8d297acf8c5833df1e2e5facf27c2	True
 snpeff	4.0	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v4_0_core.zip	.zip	e5c4c555b9ba5546ae885d2645b070ae81a1e30f3de96d298837ec40c45a9ffc	True
 snpeff	4.1	src	all	https://downloads.sourceforge.net/project/snpeff/snpEff_v4_1_core.zip	.zip	6b8a71863ff8a7121e1a1c619673bf17f559300a3001ff59345c4ba694914fee	True
+snpeff	5.0e	src	all	https://snpeff.odsp.astrazeneca.com/versions/snpEff_v5_0e_core.zip	.zip	85d907b5dd9e9008a0cf245956e3c9077a31e45f21a1b580d9b98a53fd8dcb9d	True
+snpeff	5.1d	src	all	https://snpeff.odsp.astrazeneca.com/versions/snpEff_v5_1d_core.zip	.zip	919e0595c08e86d1dd82279723c83cb872070244ee4ce0cb3167bde2b272893b	True
+snpeff	5.2	src	all	https://snpeff.odsp.astrazeneca.com/versions/snpEff_v5_2_core.zip	.zip	60ad2eec66c4f086b8cc7812e5654dce2dd500dd218774da490326e6a4e585f7	True
+snpeff	5.3a	src	all	https://snpeff.odsp.astrazeneca.com/versions/snpEff_v5_3a_core.zip	.zip	da8f5f2a412b42c2794a3706548b9ad26e2f9582850eac3ef47ecdd9cc38dd17	True
 sparsehash	2.0.2	src	all	https://sparsehash.googlecode.com/files/sparsehash-2.0.2.tar.gz	.tar.gz	2ed639a7155607c097c2029af5f4287296595080b2e5dd2e2ebd9bbb7450b87c	True
 sputnik	1.0	darwin	x64	http://depot.galaxyproject.org/package/darwin/x86_64/sputnik/sputnik-1.0-Darwin-x86_64.tgz	.tar.gz	3d752f22c171509da2752aed26b749a7eab21a80f5f9506eccdc8b290dbc62ba	True
 sputnik	1.0	linux	x64	http://depot.galaxyproject.org/package/linux/x86_64/sputnik/sputnik-1.0-Linux-x86_64.tgz	.tar.gz	92e9b5ecc3460063ace1972b09527b0a049a1cafd3e4cb08fc4c95c0d5a5dfaa	True

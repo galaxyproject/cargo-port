@@ -152,7 +152,7 @@ def symlink_depot(url, output):
 def verify_file(path, hash_value, hash_type=DEFAULT_HASH_TYPE):
     try:
         # We assume the first column is the hash
-        filehash = subprocess.check_output([hash_type, path]).split()[0]
+        filehash = subprocess.check_output([hash_type, path], universal_newlines=True).split()[0]
         log.info("File hash %s", filehash.lower())
         if filehash.lower() != hash_value.lower():
             excstr = "%s != %s in %s" % (filehash.lower(), hash_value.lower(), path)
@@ -165,7 +165,7 @@ def verify_file(path, hash_value, hash_type=DEFAULT_HASH_TYPE):
 
 
 def verify_filetype(path, ext, dryrun=False):
-    mimetype = subprocess.check_output(['file', path]).strip()
+    mimetype = subprocess.check_output(['file', path], universal_newlines=True).strip()
     log.info("Mimetype of %s is %s", path, mimetype)
     # Currently just passing on without error.
     return

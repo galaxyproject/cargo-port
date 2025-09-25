@@ -39,7 +39,7 @@ def get(package_id, package_version, urls, download_location):
     for ld in yield_packages(handle):
         # TODO: check platform/architecture, failover to all if available?
         # iid, version, platform, architecture, upstream_url, checksum, alternate_url = line.split('\t')
-        if ld['id'] == package_id.strip() and (package_version == None or ld['version'] == package_version):
+        if ld['id'] == package_id.strip() and (package_version is None or ld['version'] == package_version):
             package_found = True
             # I worry about this being unreliable. TODO: add target filename column?
             pkg_name = package_name(ld)
@@ -48,14 +48,15 @@ def get(package_id, package_version, urls, download_location):
             urllib.request.urlretrieve(url, storage_path)
             download_checksum = hashlib.sha256(open(storage_path, 'rb').read()).hexdigest()
             if ld['sha256sum'] != download_checksum:
-                log.error('Checksum does not match, something seems to be wrong.\n'
-                       '{expected}\t(expected)\n{actual}\t(downloaded)').format(
-                           expected=ld['sha256sum'],
-                           actual=download_checksum)
+                log.error(
+                    'Checksum does not match, something seems to be wrong.\n'
+                    '{expected}\t(expected)\n{actual}\t(downloaded)'
+                ).format(expected=ld['sha256sum'], actual=download_checksum)
             else:
                 log.info('Download successful for %s.' % (pkg_name))
     if not package_found:
         log.warning('Package (%s) could not be found in this server.' % (package_id))
+
 
 if __name__ == '__main__':
     get()

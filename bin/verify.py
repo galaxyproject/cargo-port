@@ -1,21 +1,15 @@
 #!/usr/bin/env python
+import logging
 import os
 import sys
-# Conditional import to ensure we can run without non-stdlib on py2k.
-if sys.version_info.major > 2:
-    from builtins import str
-    from builtins import zip
-    from builtins import object
-import json
-import subprocess
-import logging
 
-from cargoport.utils import (package_to_path,
-    symlink_depot, 
-    verify_file, 
-    verify_filetype, 
+from cargoport.utils import (
+    package_to_path,
+    verify_file,
+    verify_filetype,
     XUnitReportBuilder,
-    yield_packages)
+    yield_packages
+)
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
@@ -23,21 +17,17 @@ log = logging.getLogger()
 
 def main(galaxy_package_file, dryrun=False):
     visited_paths = []
-    api_data = {'data': []}
 
     with open(galaxy_package_file, 'r') as handle:
         retcode = 0
         xunit = XUnitReportBuilder()
         xunit.ok("I.Am.Alive")
-
         for ld in yield_packages(handle):
             nice_name = package_to_path(**ld)
-
             if not os.path.exists(ld['id']):
                 continue
 
             output_package_path = os.path.join(ld['id'], nice_name) + ld['ext']
-
             if not os.path.exists(output_package_path):
                 continue
 
@@ -59,6 +49,7 @@ def main(galaxy_package_file, dryrun=False):
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
     sys.exit(retcode)
+
 
 if __name__ == '__main__':
     main(sys.argv[1], dryrun=(False if len(sys.argv) <= 2 else True))

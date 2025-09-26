@@ -11,15 +11,13 @@ import os
 import sys
 import yaml
 
-# needs to be before the conda_build import
-url_file = open(sys.argv[1], 'r')
-platform = sys.argv[2]
-
-sys.stderr.write('CWD: %s\n' % os.getcwd())
-import conda.config as cc
-cc.subdir = platform
-
+from conda.base.context import context
 from conda_build.metadata import MetaData
+
+platform = context.subdir
+
+sys.stderr.write('CWD: %s\nCONDA_SUBDIR: %s\n' % (os.getcwd(), platform))
+url_file = open(sys.argv[1], 'r')
 
 
 res = list()
@@ -29,8 +27,6 @@ for meta_path in url_file:
         try:
             package = dict()
             package['arch'] = platform
-            # set the architechture before parsing the metadata
-            cc.subdir = platform
 
             recipe_meta = MetaData(input_dir)
             package['name'] = recipe_meta.get_value('package/name')

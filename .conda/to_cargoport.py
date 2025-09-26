@@ -32,7 +32,7 @@ def extDetect(url):
         return guess
 
 
-for element in sorted(yaml.load(sys.stdin), key=lambda el: el['name']):
+for element in sorted(yaml.safe_load(sys.stdin), key=lambda el: el['name']):
     {'url': 'https://github.com/arq5x/lumpy-sv/66c83c8.tar.gz', 'version': '0.2.12', 'arch': 'linux-64', 'name': 'lumpy-sv'}
     # Id	Version	Platform	Architecture	Upstream Url	Extension	sha256sum	Use upstream
     platform = element['arch']
@@ -52,13 +52,15 @@ for element in sorted(yaml.load(sys.stdin), key=lambda el: el['name']):
             else:
                 hash_value = '%ssum:%s' % (hash_type, element[hash_type])
 
-    print '\t'.join([
-        element['name'],
-        element['version'],
-        platform,
-        arch,
-        pickOne(element['url']),
-        extDetect(element['url']),
-        hash_value,
-        "True"
-    ])
+    print(
+        '\t'.join([
+            element['name'],
+            element['version'],
+            platform,
+            arch,
+            pickOne(element['url']),
+            extDetect(element['url']),
+            hash_value,
+            "True"
+        ])
+    )

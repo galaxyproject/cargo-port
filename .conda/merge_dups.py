@@ -2,8 +2,8 @@
 
 import yaml
 
-linux = yaml.load(open('data_linux-64.yml', 'r'))
-res = yaml.load(open('data_osx-.yml', 'r'))
+linux = yaml.safe_load(open('data_linux-64.yml', 'r'))
+res = yaml.safe_load(open('data_osx-.yml', 'r'))
 res.extend(linux)
 
 # Remove duplicates

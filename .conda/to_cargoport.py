@@ -33,16 +33,14 @@ def extDetect(url):
 
 
 for element in sorted(yaml.safe_load(sys.stdin), key=lambda el: el['name']):
-    {'url': 'https://github.com/arq5x/lumpy-sv/66c83c8.tar.gz', 'version': '0.2.12', 'arch': 'linux-64', 'name': 'lumpy-sv'}
+    # example element
+    # {'url': 'https://github.com/arq5x/lumpy-sv/66c83c8.tar.gz', 'version': '0.2.12', 'arch': 'linux-64', 'name': 'lumpy-sv'}
     # Id	Version	Platform	Architecture	Upstream Url	Extension	sha256sum	Use upstream
-    platform = element['arch']
-    arch = 'x64'
-    if platform == 'src':
-        arch = 'all'
-    elif platform == 'osx-':
+    platform, arch = element['arch'].split('-')
+    if platform == 'osx':
         platform = 'darwin'
-    elif platform == 'linux-64':
-        platform = 'linux'
+    if arch == '64':
+        arch = 'x86_64'
 
     hash_value = ''
     for hash_type in HASH_TYPE_ORDER:

@@ -10,8 +10,8 @@ cat index.html.tpl | sed "s|BUILD_TAG_GOES_HERE|Build <a href='${BUILD_URL}'>#${
 # Copy over all changed files to the target
 rsync -avr --exclude bioconda-recipes --exclude .git --exclude Miniforge3.sh . $CPC_HOST:$CPC_DIR/
 
-# Any one-time upgrades
-ssh $CPC_HOST "cd $CPC_DIR && sh upgrade.sh"
+# Updating SHA256SUM.txt files now done as part of process_urls.py
+# ssh $CPC_HOST "cd $CPC_DIR && sh upgrade.sh"
 
 # Process URLs and copy back report
 ssh $CPC_HOST "cd $CPC_DIR && PYTHONPATH=. python bin/process_urls.py urls.tsv > api-tcp.json"

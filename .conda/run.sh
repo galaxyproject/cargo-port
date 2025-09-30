@@ -7,8 +7,10 @@ export CONDA_VERSION_TO_INSTALL=25.3.1-0
 
 ./.conda/install.sh
 ./.conda/get_meta.sh | sort -u > meta_files.list
-CONDA_SUBDIR=linux-64 python ./.conda/get_urls.py meta_files.list linux-64
-CONDA_SUBDIR=osx- python ./.conda/get_urls.py meta_files.list osx-
+CONDA_SUBDIR=linux-64 python ./.conda/get_urls.py meta_files.list
+CONDA_SUBDIR=linux-aarch64 python ./.conda/get_urls.py meta_files.list
+CONDA_SUBDIR=osx-64 python ./.conda/get_urls.py meta_files.list
+CONDA_SUBDIR=osx-arm64 python ./.conda/get_urls.py meta_files.list
 python ./.conda/merge_dups.py
 
 python ./.conda/to_cargoport.py < data.yml > urls-bioconda.tsv

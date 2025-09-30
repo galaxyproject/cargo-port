@@ -53,7 +53,9 @@ def main(galaxy_package_file):
             if os.path.isfile(checksum_file):
                 with open(checksum_file) as checksums:
                     for line in checksums:
-                        checksums_data.append(line.strip().split())
+                        package_checksum_data = line.strip().split()
+                        if package_checksum_data not in checksums_data:
+                            checksums_data.append(package_checksum_data)
 
             for ld in package_data:
                 nice_name = package_to_path(**ld)

@@ -37,9 +37,14 @@ def cleanup_file(sha):
         log.error("Unable to remove files: %s", str(e))
 
 
-def main(galaxy_package_file):
+def main(galaxy_package_file, ignore_file):
     visited_paths = []
     api_data = {'data': []}
+
+    ignored_downloads = set()
+    with open(ignore_file, 'r') as handle:
+        for line in handle:
+            ignored_downloads.add(line.split('\t')[0])
 
     with open(galaxy_package_file, 'r') as handle:
         retcode = 0
@@ -59,8 +64,12 @@ def main(galaxy_package_file):
 
             for ld in package_data:
                 nice_name = package_to_path(**ld)
+                file_name = nice_name + ld['ext']
 
-                output_package_path = os.path.join(ld['id'], nice_name) + ld['ext']
+                if file_name in ignored_downloads:
+                    continue
+
+                output_package_path = os.path.join(ld['id'], file_name)
                 visited_paths.append(os.path.abspath(output_package_path))
 
                 tmpld = {}
@@ -102,7 +111,7 @@ def main(galaxy_package_file):
                         cleanup_file(output_package_path)
                         continue
 
-                    package_checksum_data = [hash_value, nice_name + ld['ext']]
+                    package_checksum_data = [hash_value, file_name]
                     if package_checksum_data not in checksums_data:
                         checksums_data.append(package_checksum_data)
 
@@ -120,4 +129,4 @@ def main(galaxy_package_file):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main(sys.argv[1], sys.argv[2])

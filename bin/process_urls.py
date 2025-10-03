@@ -37,14 +37,15 @@ def cleanup_file(sha):
         log.error("Unable to remove files: %s", str(e))
 
 
-def main(galaxy_package_file, ignore_file):
+def main(galaxy_package_file, ignore_file=None):
     visited_paths = []
     api_data = {'data': []}
 
     ignored_downloads = set()
-    with open(ignore_file, 'r') as handle:
-        for line in handle:
-            ignored_downloads.add(line.split('\t')[0])
+    if ignore_file:
+        with open(ignore_file, 'r') as handle:
+            for line in handle:
+                ignored_downloads.add(line.split('\t')[0])
 
     with open(galaxy_package_file, 'r') as handle:
         retcode = 0
@@ -129,4 +130,5 @@ def main(galaxy_package_file, ignore_file):
 
 
 if __name__ == '__main__':
-    main(sys.argv[1], sys.argv[2])
+    # pass 1 or 2 arguments to main function
+    main(*sys.argv[1:3])

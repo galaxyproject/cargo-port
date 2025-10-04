@@ -67,9 +67,6 @@ def main(galaxy_package_file, ignore_file=None):
                 nice_name = package_to_path(**ld)
                 file_name = nice_name + ld['ext']
 
-                if file_name in ignored_downloads:
-                    continue
-
                 output_package_path = os.path.join(ld['id'], file_name)
                 visited_paths.append(os.path.abspath(output_package_path))
 
@@ -77,6 +74,9 @@ def main(galaxy_package_file, ignore_file=None):
                 tmpld.update(ld)
                 tmpld['_gen'] = output_package_path
                 api_data['data'].append(tmpld)
+
+                if file_name in ignored_downloads:
+                    continue
 
                 if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:
                     log.error("Empty download, removing %s %s", ld['url'], output_package_path)

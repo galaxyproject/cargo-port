@@ -50,7 +50,7 @@ for element in sorted(yaml.safe_load(sys.stdin), key=lambda el: el['name']):
             else:
                 hash_value = '%ssum:%s' % (hash_type, element[hash_type])
 
-    urls = element['url'] if isinstance(list, element['url']) else [element['url']]
+    urls = element['url'] if isinstance(element['url'], list) else [element['url']]
     for url in urls:
         print(
             '\t'.join([

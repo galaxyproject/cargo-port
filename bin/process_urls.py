@@ -15,13 +15,17 @@ if sys.version_info.major > 2:
     from builtins import zip
     from builtins import object
 
-from cargoport.utils import (download_url, 
+from cargoport.utils import (
+    download_url,
+    DEFAULT_HASH_TYPE,
     package_hash_type,
-    package_to_path, 
-    symlink_depot, 
-    verify_file, 
+    package_to_path,
+    symlink_depot,
+    calculate_hash,
+    verify_file,
     XUnitReportBuilder,
-    yield_packages) 
+    yield_packages
+)
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
@@ -54,7 +58,7 @@ def main(galaxy_package_file, ignore_file=None):
         for package_id, package_data in groupby(yield_packages(handle), key=lambda x: x['id']):
             if not os.path.exists(package_id):
                 os.makedirs(package_id)
-            checksum_file = os.path.join(package_id, 'SHA256SUM.txt')
+            checksum_file = os.path.join(package_id, DEFAULT_HASH_TYPE.upper() + '.txt')
             checksums_data = []
             if os.path.isfile(checksum_file):
                 with open(checksum_file) as checksums:
@@ -104,14 +108,17 @@ def main(galaxy_package_file, ignore_file=None):
                         cleanup_file(output_package_path)
                         continue
 
-                    # Check sha256sum of download
+                    # Check hash of download
                     err = verify_file(output_package_path, hash_value, hash_type=hash_type)
 
                     if err is not None:
-                        xunit.error(nice_name, "Sha256sumError", err)
+                        xunit.error(nice_name, hash_type.capitalize() + "Error", err)
                         cleanup_file(output_package_path)
                         continue
 
+                    if hash_type != 'DEFAULT_HASH_TYPE':
+                        # need to calculate the correct type of hash to store:
+                        hash_value = calculate_hash(output_package_path)
                     package_checksum_data = [hash_value, file_name]
                     if package_checksum_data not in checksums_data:
                         checksums_data.append(package_checksum_data)

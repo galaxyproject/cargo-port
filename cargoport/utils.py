@@ -149,15 +149,20 @@ def symlink_depot(url, output):
         log.error("Unable to symlink")
 
 
+def calculate_hash(path, hash_type=DEFAULT_HASH_TYPE):
+    return subprocess.check_output([hash_type, path], universal_newlines=True).split()[0].lower()
+
+
 def verify_file(path, hash_value, hash_type=DEFAULT_HASH_TYPE):
     try:
         # We assume the first column is the hash
-        filehash = subprocess.check_output([hash_type, path], universal_newlines=True).split()[0]
-        log.info("File hash %s", filehash.lower())
-        if filehash.lower() != hash_value.lower():
-            excstr = "%s != %s in %s" % (filehash.lower(), hash_value.lower(), path)
+        filehash = calculate_hash(path, hash_type)
+        log.info("File hash %s", filehash)
+        hash_value = hash_value.lower()
+        if filehash != hash_value:
+            excstr = "%s != %s in %s" % (filehash, hash_value, path)
             raise Exception(excstr)
-        log.info("Verified, %s == %s", filehash.lower(), hash_value.lower())
+        log.info("Verified, %s == %s", filehash, hash_value)
         return None
     except Exception as cpe:
         log.error("File has bad hash! %s", cpe)

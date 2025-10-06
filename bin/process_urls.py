@@ -42,7 +42,7 @@ def cleanup_file(sha):
 
 
 def main(galaxy_package_file, ignore_file=None):
-    visited_paths = []
+    visited_paths = set()
     api_data = {'data': []}
 
     ignored_downloads = set()
@@ -72,14 +72,30 @@ def main(galaxy_package_file, ignore_file=None):
                 file_name = nice_name + ld['ext']
 
                 output_package_path = os.path.join(ld['id'], file_name)
-                visited_paths.append(os.path.abspath(output_package_path))
+                if output_package_path not in visited_paths:
+                    # Only add one record per exact package path to the api data.
+                    # This means we will still get multiple records per package
+                    # if there are different sources for different platforms,
+                    # but we will not generate multiple records just because we needed
+                    # to check multiple urls for a given source.
+                    visited_paths.add(output_package_path)
+                    tmpld = {}
+                    tmpld.update(ld)
+                    tmpld['_gen'] = output_package_path
+                    api_data['data'].append(tmpld)
 
-                tmpld = {}
-                tmpld.update(ld)
-                tmpld['_gen'] = output_package_path
-                api_data['data'].append(tmpld)
-
+                skip_processing = False
                 if file_name in ignored_downloads:
+                    skip_processing = True
+                for self_link in [
+                    'https://bioarchive.galaxyproject.org/',
+                    'https://depot.galaxyproject.org/software/'
+                ]:
+                    if ld['url'].startswith(self_link):
+                        # We do not download packages that we already have anyway,
+                        # so we can safely skip these links.
+                        skip_processing = True
+                if skip_processing:
                     continue
 
                 if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:

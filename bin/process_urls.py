@@ -96,6 +96,7 @@ def main(galaxy_package_file, ignore_file=None):
                         # so we can safely skip these links.
                         skip_processing = True
                 if skip_processing:
+                    xunit.skip(nice_name)
                     continue
 
                 if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:

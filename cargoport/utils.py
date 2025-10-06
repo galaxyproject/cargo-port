@@ -47,11 +47,13 @@ class XUnitReportBuilder(object):
         self.__add_test(test_name, errors="")
 
     def error(self, test_name, errorName, errorMessage):
+        self.xunit_data['errors'] += 1
         self.xunit_data['total'] += 1
         self.__add_test(test_name, errors=self.ERROR_TPL.format(
             errorName=errorName, errorMessage=errorMessage))
 
     def failure(self, test_name, errorName, errorMessage):
+        self.xunit_data['failures'] += 1
         self.xunit_data['total'] += 1
         self.__add_test(test_name, errors=self.ERROR_TPL.format(
             errorName=errorName, errorMessage=errorMessage))

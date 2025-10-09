@@ -42,7 +42,7 @@ def cleanup_file(sha):
 
 
 def main(galaxy_package_file, ignore_file=None):
-    visited_paths = set()
+    package_outcomes = {}
     api_data = {'data': []}
 
     ignored_downloads = set()
@@ -72,13 +72,13 @@ def main(galaxy_package_file, ignore_file=None):
                 file_name = nice_name + ld['ext']
 
                 output_package_path = os.path.join(ld['id'], file_name)
-                if output_package_path not in visited_paths:
+                if output_package_path not in package_outcomes:
                     # Only add one record per exact package path to the api data.
                     # This means we will still get multiple records per package
                     # if there are different sources for different platforms,
                     # but we will not generate multiple records just because we needed
                     # to check multiple urls for a given source.
-                    visited_paths.add(output_package_path)
+                    package_outcomes[output_package_path] = xunit.skip, nice_name
                     tmpld = {}
                     tmpld.update(ld)
                     tmpld['_gen'] = output_package_path
@@ -96,7 +96,6 @@ def main(galaxy_package_file, ignore_file=None):
                         # so we can safely skip these links.
                         skip_processing = True
                 if skip_processing:
-                    xunit.skip(nice_name)
                     continue
 
                 if os.path.exists(output_package_path) and os.path.getsize(output_package_path) == 0:
@@ -107,11 +106,10 @@ def main(galaxy_package_file, ignore_file=None):
 
                 if os.path.exists(output_package_path):
                     log.debug("URL exists %s", ld['url'])
-                    xunit.skip(nice_name)
                 elif hash_type is None:
                     err = "No hash provided for '%s', package will not be downloaded" % nice_name
                     log.error(err)
-                    xunit.error(nice_name, "Sha256sumError", err)
+                    package_outcomes[output_package_path] = xunit.error, nice_name, "Sha256sumError", err
                 else:
                     log.info("URL missing, downloading %s to %s", ld['url'], output_package_path)
 
@@ -121,7 +119,7 @@ def main(galaxy_package_file, ignore_file=None):
                         err = download_url(ld['url'], output_package_path)
 
                     if err is not None:
-                        xunit.failure(nice_name, "DownloadError", err)
+                        package_outcomes[output_package_path] = xunit.failure, nice_name, "DownloadError", err
                         cleanup_file(output_package_path)
                         continue
 
@@ -129,7 +127,7 @@ def main(galaxy_package_file, ignore_file=None):
                     err = verify_file(output_package_path, hash_value, hash_type=hash_type)
 
                     if err is not None:
-                        xunit.error(nice_name, hash_type.capitalize() + "Error", err)
+                        package_outcomes[output_package_path] = xunit.error, nice_name, hash_type.capitalize() + "Error", err
                         cleanup_file(output_package_path)
                         continue
 
@@ -140,12 +138,15 @@ def main(galaxy_package_file, ignore_file=None):
                     if package_checksum_data not in checksums_data:
                         checksums_data.append(package_checksum_data)
 
-                    xunit.ok(nice_name)
+                    package_outcomes[output_package_path] = xunit.ok, nice_name
 
             with open(checksum_file, 'w') as checksums:
                 for package_checksum_data in sorted(checksums_data, key=lambda x: x[1]):
                     checksums.write('\t'.join(package_checksum_data) + '\n')
 
+        # xunit report generation
+        for package_outcome in sorted(package_outcomes.values(), key=lambda x: x[1]):
+            package_outcome[0](*package_outcome[1:])
         with open('report.xml', 'w') as xunit_handle:
             xunit_handle.write(xunit.serialize())
 

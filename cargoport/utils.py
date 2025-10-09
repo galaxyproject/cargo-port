@@ -61,7 +61,7 @@ class XUnitReportBuilder(object):
     def skip(self, test_name):
         self.xunit_data['skips'] += 1
         self.xunit_data['total'] += 1
-        self.__add_test(test_name, errors="")
+        self.__add_test(test_name, errors="<skipped/>")
 
     def __add_test(self, name, errors):
         self.test_cases.append(
